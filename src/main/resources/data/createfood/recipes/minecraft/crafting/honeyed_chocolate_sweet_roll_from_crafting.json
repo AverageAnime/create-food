@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:chocolate_sweet_roll_base"
+    }
+  ],
+  "result": {
+      "item": "createfood:honeyed_chocolate_sweet_roll"
+    }
+}

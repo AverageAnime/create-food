@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:cheese_and_sausage_biscuit_sandwich"
+  },
+  "result": "createfood:hot_cheese_and_sausage_biscuit_sandwich",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,117 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:flowing_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_glow_berry_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chorus_fruit_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_cacao_butter",
+      "required": false
+    },
+    {
+      "id": "createfood:cacao_butter",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_berry_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_caramel",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chocolate_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chocolate_milk",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milk",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_hot_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_hot_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_hot_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_cacao_mass",
+      "required": false
+    },
+    {
+      "id": "createfood:cacao_mass",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate",
+      "required": false
+    }
+  ]
+}

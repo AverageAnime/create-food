@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createfood:bar_of_white_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "createfood:white_chocolate_chips"
+    }
+  ]
+}

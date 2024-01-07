@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":81000,
+      "fluid":"createfood:cacao_mass"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "item":"minecraft:bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:hot_dark_chocolate_bucket"
+    }
+  ]
+}

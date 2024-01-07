@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "beachparty"
+      ]
+    }
+  ],
+  "type": "beachparty:tiki_bar_mixing",
+  "ingredients": [
+    {
+      "tag": "c:cocoa_powder"
+    },
+    {
+      "tag": "c:milk"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_milk_bottle"
+  }
+}

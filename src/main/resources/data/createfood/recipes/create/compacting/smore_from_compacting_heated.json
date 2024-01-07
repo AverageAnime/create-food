@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {"tag":"c:graham_cracker"},
+    {"tag":"c:hollow_chocolate"},
+    {"tag":"c:marshmallow"},
+    {"tag":"c:graham_cracker"}
+  ],
+  "results":[
+    {
+      "item":"createfood:smore"
+    }
+  ]
+}

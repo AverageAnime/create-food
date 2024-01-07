@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cheese_and_chicken_bun"
+    },
+    {
+      "tag": "c:bun"
+    }
+  ],
+  "result": {
+    "item": "createfood:chicken_cheeseburger"
+  }
+}

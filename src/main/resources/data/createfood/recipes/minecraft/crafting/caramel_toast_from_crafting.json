@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:caramel"
+    },
+    {
+      "tag": "c:toast"
+    }
+  ],
+  "result": {
+    "item": "createfood:caramel_toast"
+  }
+}

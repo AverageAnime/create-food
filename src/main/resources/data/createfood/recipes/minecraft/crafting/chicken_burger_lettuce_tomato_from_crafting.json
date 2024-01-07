@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight",
+        "croptopia"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bun"
+    },
+    {
+      "tag": "c:chicken_bun_lettuce_tomato"
+    }
+  ],
+  "result": {
+    "item": "createfood:chicken_burger_lettuce_tomato"
+  }
+}

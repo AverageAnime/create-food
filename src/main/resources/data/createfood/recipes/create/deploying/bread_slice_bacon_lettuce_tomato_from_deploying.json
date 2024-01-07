@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight",
+        "croptopia"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:bread_slice_lettuce_tomato"},
+    {"tag": "c:cooked_pork"}
+  ],
+  "results":[
+    {"item":"createfood:bread_slice_bacon_lettuce_tomato"}
+  ]
+}

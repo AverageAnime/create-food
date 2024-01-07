@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:white_chocolate_bottle"
+  },
+  "result": "createfood:hot_white_chocolate_bottle"
+}

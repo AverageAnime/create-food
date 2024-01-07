@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:bun",
+      "required": false
+    },
+    {
+      "id": "bakery:bun",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:hot_sausage_biscuit_sandwich",
+      "required": false
+    }
+  ]
+}

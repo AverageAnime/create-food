@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:caramel"
+    },
+    {
+      "tag": "c:hollow_dark_chocolate"
+    }
+  ],
+  "result": {
+    "item": "createfood:caramel_dark_chocolate"
+  }
+}

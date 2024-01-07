@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "farmersdelight",
+          "create"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bar_of_dark_chocolate"
+    }
+  ],
+  "result": {
+    "count":8,
+    "item": "createfood:dark_chocolate_chips"
+  }
+}

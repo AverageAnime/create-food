@@ -1,0 +1,19 @@
+{
+  "type": "candlelight:pan_cooking",
+  "ingredients": [
+    {
+      "tag": "c:pressed_cocoa"
+    },
+    {
+      "item": "createfood:cacao_mass_bucket"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:bar_of_dark_chocolate",
+    "count": 1,
+    "experience": 0.75
+  }
+}

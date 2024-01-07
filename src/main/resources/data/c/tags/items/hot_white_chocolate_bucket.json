@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:hot_white_chocolate_bucket",
+      "required": false
+    }
+  ]
+}

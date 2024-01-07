@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:meatball_stick_1",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_2",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_3",
+      "required": false
+    }
+  ]
+}

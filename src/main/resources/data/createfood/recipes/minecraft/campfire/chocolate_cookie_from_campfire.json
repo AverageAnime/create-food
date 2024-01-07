@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:raw_chocolate_cookie"
+  },
+  "result": "createfood:chocolate_cookie",
+  "experience": 0.1,
+  "cookingtime": 200
+}

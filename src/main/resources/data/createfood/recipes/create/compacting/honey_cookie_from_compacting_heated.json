@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount": 20250,
+      "fluid": "create:honey"
+    },
+    {"tag":"c:sweet_dough"}
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"farmersdelight:honey_cookie"
+    }
+  ]
+}

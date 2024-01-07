@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:biscuit"
+    }
+  ],
+  "result": {
+    "item": "createfood:honeyed_biscuit"
+  }
+}

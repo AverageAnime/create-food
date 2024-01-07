@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {"tag":"c:butter"},
+    {"tag":"c:dough"},
+    {"amount":20250,"fluid":"create:honey"},
+    {"amount":10125,"fluidTag":"c:milk"}
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:graham_cracker"
+    }
+  ]
+}

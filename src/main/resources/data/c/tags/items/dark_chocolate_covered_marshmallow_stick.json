@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:dark_chocolate_covered_marshmallow_stick",
+      "required": false
+    }
+  ]
+}

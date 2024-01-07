@@ -1,0 +1,19 @@
+{
+  "type": "candlelight:pan_cooking",
+  "ingredients": [
+    {
+      "tag": "c:cacao_butter"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:bar_of_white_chocolate",
+    "count": 1,
+    "experience": 0.75
+  }
+}

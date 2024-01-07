@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:salt",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:ground_salt",
+      "required": false
+    },
+    {
+      "id": "meadow:alpine_salt",
+      "required": false
+    }
+  ]
+}

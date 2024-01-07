@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {"item": "minecraft:bread"}
+  ],
+  "tool":
+    {"tag": "c:tools/knives"},
+  "result":
+  [
+    {
+      "item": "createfood:bread_slice",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:meatball"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+      "item": "createfood:meatball_stick_1"
+    }
+}

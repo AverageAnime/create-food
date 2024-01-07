@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":81000,
+      "fluidTag":"c:milk"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,
+      "fluid":"createfood:cream_frosting"
+    }
+  ]
+}

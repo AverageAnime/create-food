@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:cocoa_powder"
+    },
+    {
+      "tag": "c:cocoa_powder"
+    },
+    {
+      "item": "createfood:cocoa_powder"
+    },
+    {
+      "item": "createfood:cocoa_powder"
+    }
+  ],
+  "result": {
+      "item": "createfood:chocolate_cream_frosting_bucket"
+    }
+}

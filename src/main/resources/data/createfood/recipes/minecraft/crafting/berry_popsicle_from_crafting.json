@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    },
+    "b": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ib ",
+    "-i "
+  ],
+  "result": {
+    "item": "createfood:berry_popsicle"
+  }
+}

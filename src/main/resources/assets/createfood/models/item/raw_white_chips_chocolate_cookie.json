@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+  "layer0": "createfood:item/raw_white_chips_chocolate_cookie"
+  }
+}

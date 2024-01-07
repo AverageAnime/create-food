@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_cake_base"
+    },
+    {
+      "tag": "c:raw_cake_base"
+    },
+    {
+      "tag": "c:raw_cake_base"
+    }
+  ],
+  "item": "createfood:cake_base",
+  "count": 3,
+  "experience": 0.50
+}

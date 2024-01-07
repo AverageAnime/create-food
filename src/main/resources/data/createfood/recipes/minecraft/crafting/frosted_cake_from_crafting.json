@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cream_frosting"
+    },
+    {
+      "tag": "c:cake_base"
+    }
+  ],
+  "result":
+    {
+      "item": "createfood:frosted_cake"
+    }
+}

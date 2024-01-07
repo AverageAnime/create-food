@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_filled_mini_graham_cracker_pie_crust"
+    },
+    {
+      "tag": "c:marshmallow"
+    }
+  ],
+  "result": {
+    "item": "createfood:mini_smores_pie"
+  }
+}

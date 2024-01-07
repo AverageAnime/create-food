@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "tag": "c:marshmallow_stick"
+    },
+    {
+      "tag": "c:dark_chocolate_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:dark_chocolate_covered_marshmallow_stick"
+  }
+}

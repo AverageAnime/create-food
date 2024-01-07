@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {"amount":20250,"fluidTag":"c:milk"},
+    {"tag":"c:eggs"},
+    {"tag":"c:toast"},
+    {"tag":"c:unbreaded_chicken_patty"},
+    {"tag":"c:unbreaded_chicken_patty"}
+  ],
+  "results":[
+    {
+      "item":"createfood:chicken_patty"
+    },
+    {
+      "item":"createfood:chicken_patty"
+    }
+  ]
+}

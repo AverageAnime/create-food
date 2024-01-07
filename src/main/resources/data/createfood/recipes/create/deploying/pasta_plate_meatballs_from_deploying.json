@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:pasta_plate"
+    },
+    {
+      "tag":"c:small_meatballs"
+    }
+  ],
+  "results":[
+    {"item":"delightfulcreators:incomplete_pasta_with_meatballs"}
+  ]
+}

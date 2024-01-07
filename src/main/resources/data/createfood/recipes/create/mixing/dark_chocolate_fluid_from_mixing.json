@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":20250,
+      "fluid":"createfood:cacao_mass"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    }
+  ],
+  "results":[
+    {
+      "amount":20250,
+      "fluid":"createfood:dark_chocolate"
+    }
+  ]
+}

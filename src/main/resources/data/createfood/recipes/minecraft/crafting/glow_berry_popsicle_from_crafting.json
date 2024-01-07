@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    },
+    "b": {
+      "item": "minecraft:glow_berries"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ib ",
+    "-i "
+  ],
+  "result": {
+    "item": "createfood:glow_berry_popsicle"
+  }
+}

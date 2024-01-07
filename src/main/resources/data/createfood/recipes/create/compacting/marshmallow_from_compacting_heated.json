@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "amount":6750,
+      "fluid":"minecraft:water"
+    },
+    {
+      "tag": "c:gelatin"
+    }
+  ],
+  "results":[
+    {"item":"createfood:marshmallow"}
+  ]
+}

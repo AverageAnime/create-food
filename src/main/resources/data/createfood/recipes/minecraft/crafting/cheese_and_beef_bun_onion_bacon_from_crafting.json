@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cooked_pork"
+    },
+    {
+      "tag": "c:cheese_and_beef_bun_onion"
+    }
+  ],
+  "result": {
+    "item": "createfood:cheese_and_beef_bun_onion_bacon"
+  }
+}

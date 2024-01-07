@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chocolate_cookie",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:chocolate_cookie",
+      "required": false
+    }
+  ]
+}

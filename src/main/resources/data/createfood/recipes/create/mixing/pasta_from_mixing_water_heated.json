@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "item":"farmersdelight:raw_pasta"
+    },
+    {
+      "amount":10125,
+      "fluid":"minecraft:water"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:pasta"
+    },
+    {
+      "amount":6750,
+      "fluid":"minecraft:water"
+    }
+  ]
+}

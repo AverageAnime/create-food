@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:caramel_glazed_sweet_roll",
+      "required": false
+    }
+  ]
+}

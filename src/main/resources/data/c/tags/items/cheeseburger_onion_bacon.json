@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:cheeseburger_onion_bacon",
+      "required": false
+    }
+  ]
+}

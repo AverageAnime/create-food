@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":20250,
+      "fluid":"createfood:hot_chocolate"
+    }
+  ],
+  "results":[
+    {
+      "amount":20250,
+      "fluid":"create:chocolate"
+    }
+  ]
+}

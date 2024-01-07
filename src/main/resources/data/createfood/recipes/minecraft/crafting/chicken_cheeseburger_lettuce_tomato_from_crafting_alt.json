@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bun"
+    },
+    {
+      "tag": "c:tomato"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:cheeses"
+    },
+    {
+      "tag": "c:chicken_patty"
+    },
+    {
+      "tag": "c:bun"
+    }
+  ],
+  "result": {
+    "item": "createfood:chicken_cheeseburger_lettuce_tomato"
+  }
+}

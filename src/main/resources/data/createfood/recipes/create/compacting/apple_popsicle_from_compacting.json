@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:ice"
+    },
+    {
+      "item":"minecraft:ice"
+    },
+    {
+      "item":"minecraft:apple"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:apple_popsicle"
+    }
+  ]
+}

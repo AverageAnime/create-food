@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:beef_bun_onion"},
+    {"tag":"c:bun"}
+  ],
+  "results":[
+    {"item":"createfood:hamburger_onion"}
+  ]
+}

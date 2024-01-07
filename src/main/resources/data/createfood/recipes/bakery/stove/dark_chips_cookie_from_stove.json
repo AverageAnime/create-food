@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_dark_chips_cookie"
+    },
+    {
+      "tag": "c:raw_dark_chips_cookie"
+    },
+    {
+      "tag": "c:raw_dark_chips_cookie"
+    }
+  ],
+  "item": "createfood:dark_chips_cookie",
+  "count": 3,
+  "experience": 0.45
+}

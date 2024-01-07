@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "amount": 20250,
+      "fluid": "create:honey"
+    },
+    {"tag":"c:sweet_dough"}
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:raw_honey_cookie"
+    }
+  ]
+}

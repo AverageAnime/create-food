@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight",
+        "croptopia"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:chicken_bun_lettuce_tomato"},
+    {"tag":"c:bun"}
+  ],
+  "results":[
+    {"item":"createfood:chicken_burger_lettuce_tomato"}
+  ]
+}

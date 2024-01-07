@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_bottle",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":81000,
+      "fluidTag":"c:milk"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:glow_berry_cream_frosting_bucket"
+    }
+  ]
+}

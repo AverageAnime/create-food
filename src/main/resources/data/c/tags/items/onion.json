@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:diced_onion",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onion",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:butter_dough"
+    },
+    {
+      "tag": "c:butter_dough"
+    },
+    {
+      "tag": "c:butter_dough"
+    }
+  ],
+  "item": "createfood:biscuit",
+  "count": 3,
+  "experience": 0.15
+}

@@ -1,0 +1,16 @@
+{
+  "type": "candlelight:pan_cooking",
+  "ingredients": [
+    {
+      "tag": "c:raw_meatball"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:meatball",
+    "count": 1,
+    "experience": 0.45
+  }
+}

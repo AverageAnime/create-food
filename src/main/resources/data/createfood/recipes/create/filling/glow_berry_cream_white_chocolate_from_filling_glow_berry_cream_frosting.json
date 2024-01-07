@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {"tag":"c:hollow_white_chocolate"},
+    {"amount":10125,"fluid":"createfood:glow_berry_cream_frosting"}
+  ],
+  "results":[
+    {"item":"createfood:glow_berry_cream_white_chocolate"}
+  ]
+}

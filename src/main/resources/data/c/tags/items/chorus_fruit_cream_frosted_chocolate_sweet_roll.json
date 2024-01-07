@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    }
+  ]
+}

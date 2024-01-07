@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cooked_bacon"
+    },
+    {
+      "tag": "c:chicken_bun_lettuce"
+    }
+  ],
+  "result": {
+    "item": "createfood:chicken_bun_bacon_lettuce"
+  }
+}

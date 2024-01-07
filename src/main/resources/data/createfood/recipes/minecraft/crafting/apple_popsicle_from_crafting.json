@@ -1,0 +1,23 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ia ",
+    "-i "
+  ],
+  "result": {
+    "item": "createfood:apple_popsicle"
+  }
+}

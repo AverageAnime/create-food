@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dark_chocolate_chips"
+    },
+    {
+      "tag": "c:dark_chocolate_chips"
+    },
+    {
+      "tag": "c:dark_chocolate_chips"
+    },
+    {
+      "tag": "c:dark_chocolate_chips"
+    }
+  ],
+  "result": {
+    "item": "createfood:hollow_dark_chocolate"
+  }
+}

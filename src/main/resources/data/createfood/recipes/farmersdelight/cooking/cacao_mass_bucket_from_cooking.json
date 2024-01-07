@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:cacao_nibs"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    }
+  ],
+  "result": {
+    "item": "createfood:cacao_mass_bucket"
+  }
+}

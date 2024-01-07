@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chorus_fruit_cream_frosting"
+    },
+    {
+      "tag": "c:hollow_white_chocolate"
+    }
+  ],
+  "result": {
+    "item": "createfood:chorus_fruit_cream_white_chocolate"
+  }
+}

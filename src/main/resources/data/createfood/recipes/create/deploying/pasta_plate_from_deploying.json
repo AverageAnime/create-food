@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"item":"minecraft:bowl"},
+    {"tag":"c:cooked_pasta"}
+  ],
+  "results":[
+    {"item":"createfood:pasta_plate"}
+  ]
+}

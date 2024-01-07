@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:cooked_pasta"
+    },
+    {
+      "item":"minecraft:bowl"
+    },
+    {
+      "tag":"c:cooked_mutton"
+    },
+    {
+      "amount":20250,
+      "fluid":"delightfulcreators:tomato_sauce"
+    }
+  ],
+  "results":[
+    {
+      "item":"farmersdelight:pasta_with_mutton_chop"
+    }
+  ]
+}

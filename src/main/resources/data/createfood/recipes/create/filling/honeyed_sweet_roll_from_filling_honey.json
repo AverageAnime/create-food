@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {"item":"createfood:sweet_roll_base"},
+    {"amount":27000,"fluid":"create:honey"}
+  ],
+  "results":[
+    {"item":"createfood:honeyed_sweet_roll"}
+  ]
+}

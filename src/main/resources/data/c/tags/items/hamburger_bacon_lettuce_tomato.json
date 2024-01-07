@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:hamburger_bacon_lettuce_tomato",
+      "required": false
+    }
+  ]
+}

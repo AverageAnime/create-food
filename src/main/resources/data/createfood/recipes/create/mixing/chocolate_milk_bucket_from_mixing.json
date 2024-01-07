@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":81000,
+      "fluidTag":"c:milk"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    },
+    {
+      "item":"minecraft:bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:chocolate_milk_bucket"
+    }
+  ]
+}

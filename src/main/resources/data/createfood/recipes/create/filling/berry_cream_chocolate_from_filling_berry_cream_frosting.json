@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {"tag":"c:hollow_chocolate"},
+    {"amount":10125,"fluid":"createfood:berry_cream_frosting"}
+  ],
+  "results":[
+    {"item":"createfood:berry_cream_chocolate"}
+  ]
+}

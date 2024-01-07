@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chocolate_filled_mini_graham_cracker_pie_crust",
+      "required": false
+    }
+  ]
+}

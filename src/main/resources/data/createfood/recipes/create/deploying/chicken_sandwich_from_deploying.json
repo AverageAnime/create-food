@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight",
+        "croptopia"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:bread_lettuce_carrot"},
+    {"tag": "c:cooked_chicken"}
+  ],
+  "results":[
+    {"item":"farmersdelight:chicken_sandwich"}
+  ]
+}

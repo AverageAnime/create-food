@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:caramel_bucket"
+    }
+  ]
+}

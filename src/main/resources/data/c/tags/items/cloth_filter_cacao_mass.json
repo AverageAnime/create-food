@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:cloth_filter_cacao_mass",
+      "required": false
+    }
+  ]
+}

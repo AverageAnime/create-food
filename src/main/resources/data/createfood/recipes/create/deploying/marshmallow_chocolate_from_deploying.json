@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:hollow_chocolate"},
+    {"tag":"c:marshmallow"}
+  ],
+  "results":[
+    {"item":"createfood:marshmallow_chocolate"}
+  ]
+}

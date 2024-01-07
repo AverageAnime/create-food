@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chocolate_milk_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_popsicle",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_popsicle",
+      "required": false
+    }
+  ]
+}

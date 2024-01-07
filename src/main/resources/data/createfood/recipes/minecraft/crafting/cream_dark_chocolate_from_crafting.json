@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cream_frosting"
+    },
+    {
+      "tag": "c:hollow_dark_chocolate"
+    }
+  ],
+  "result": {
+    "item": "createfood:cream_dark_chocolate"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:cake_base",
+      "required": false
+    },
+    {
+      "id": "createadditions:cake_base_baked",
+      "required": false
+    },
+    {
+      "id": "bakery:blank_cake",
+      "required": false
+    }
+  ]
+}

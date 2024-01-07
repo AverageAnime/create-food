@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {"tag": "c:sausage_meat"}
+  ],
+  "tool":
+    {"tag": "c:tools/knives"},
+  "result":
+  [
+    {
+      "item": "createfood:raw_sausage_patty",
+      "count": 2
+    }
+  ]
+}

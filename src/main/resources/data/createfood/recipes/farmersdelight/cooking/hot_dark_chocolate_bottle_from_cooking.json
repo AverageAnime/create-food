@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 25,
+  "experience": 0.25,
+  "ingredients": [
+    {
+      "tag": "c:dark_chocolate_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:hot_dark_chocolate_bottle"
+  }
+}

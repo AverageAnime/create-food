@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create",
+          "farmersdelight"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cacao_mass_bucket"
+    },
+    {
+      "tag": "c:pressed_cocoa"
+    }
+  ],
+  "result": {
+    "item": "createfood:bar_of_dark_chocolate"
+  }
+}

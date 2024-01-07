@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "croptopia:knife",
+      "required": false
+    },
+    {
+      "id": "#c:tools/knives",
+      "required": false
+    }
+  ]
+}

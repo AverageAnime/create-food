@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "farmersdelight",
+          "create"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:cacao_butter"
+    },
+    {
+      "tag": "c:cacao_butter"
+    },
+    {
+      "tag": "c:cacao_butter"
+    }
+  ],
+  "result": {
+    "item": "createfood:cacao_butter_bucket"
+  }
+}

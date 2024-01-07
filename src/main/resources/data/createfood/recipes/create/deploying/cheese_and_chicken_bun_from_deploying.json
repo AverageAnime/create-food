@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:chicken_bun"},
+    {"tag":"c:cheeses"}
+  ],
+  "results":[
+    {"item":"createfood:cheese_and_chicken_bun"}
+  ]
+}

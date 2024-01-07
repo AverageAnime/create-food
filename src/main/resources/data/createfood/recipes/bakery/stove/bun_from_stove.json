@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:salt_dough"
+    },
+    {
+      "tag": "c:salt_dough"
+    },
+    {
+      "tag": "c:salt_dough"
+    }
+  ],
+  "item": "createfood:bun",
+  "count": 3,
+  "experience": 0.10
+}

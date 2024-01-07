@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:raw_white_chips_cookie"
+  },
+  "result": "createfood:white_chips_cookie"
+}

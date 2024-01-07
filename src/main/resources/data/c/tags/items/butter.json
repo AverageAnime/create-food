@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:butter",
+      "required": false
+    },
+    {
+      "id": "candlelight:butter",
+      "required": false
+    },
+    {
+      "id": "croptopia:butter",
+      "required": false
+    }
+  ]
+}

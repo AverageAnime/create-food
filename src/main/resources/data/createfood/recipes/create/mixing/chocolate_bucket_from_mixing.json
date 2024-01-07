@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":40500,
+      "fluidTag":"c:milk"
+    },
+    {
+      "amount":40500,
+      "fluid":"createfood:cacao_mass"
+    },
+    {
+      "item":"minecraft:bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"create:chocolate_bucket"
+    }
+  ]
+}

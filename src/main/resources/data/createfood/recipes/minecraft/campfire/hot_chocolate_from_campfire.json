@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:chocolate_bottle"
+  },
+  "result": "createfood:hot_chocolate_bottle",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "candlelight"
+      ]
+    }
+  ],
+  "type": "candlelight:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_bottle"
+    }
+  ],
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "item": "createfood:hot_chocolate_bottle"
+  }
+}

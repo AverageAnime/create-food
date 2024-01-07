@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_cookie"
+    },
+    {
+      "tag": "c:raw_cookie"
+    },
+    {
+      "tag": "c:raw_cookie"
+    }
+  ],
+  "item": "minecraft:cookie",
+  "count": 3,
+  "experience": 0.45
+}

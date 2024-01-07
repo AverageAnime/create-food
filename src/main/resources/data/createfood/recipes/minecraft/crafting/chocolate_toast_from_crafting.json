@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_bottle"
+    },
+    {
+      "tag": "c:toast"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_toast"
+  }
+}

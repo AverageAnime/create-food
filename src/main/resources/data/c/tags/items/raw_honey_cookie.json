@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:raw_honey_cookie",
+      "required": false
+    }
+  ]
+}

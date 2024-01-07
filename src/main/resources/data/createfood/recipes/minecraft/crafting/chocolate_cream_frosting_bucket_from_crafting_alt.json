@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:chocolate_cream_frosting"
+    },
+    {
+      "tag": "c:chocolate_cream_frosting"
+    },
+    {
+      "tag": "c:chocolate_cream_frosting"
+    },
+    {
+      "tag": "c:chocolate_cream_frosting"
+    }
+  ],
+  "result": {
+      "item": "createfood:chocolate_cream_frosting_bucket"
+    }
+}

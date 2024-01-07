@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:cheese_and_beef_bun_bacon_lettuce"},
+    {"tag":"c:bun"}
+  ],
+  "results":[
+    {"item":"createfood:cheeseburger_bacon_lettuce"}
+  ]
+}

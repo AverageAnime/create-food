@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create",
+          "farmersdelight"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    },
+    {
+      "tag": "c:cacao_nibs"
+    }
+  ],
+  "result": {
+    "item": "createfood:cacao_mass_bucket"
+  }
+}

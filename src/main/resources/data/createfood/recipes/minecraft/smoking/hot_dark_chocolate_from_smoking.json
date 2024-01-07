@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:dark_chocolate_bottle"
+  },
+  "result": "createfood:hot_dark_chocolate_bottle"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_white_chips_chocolate_cookie"
+    },
+    {
+      "tag": "c:raw_white_chips_chocolate_cookie"
+    },
+    {
+      "tag": "c:raw_white_chips_chocolate_cookie"
+    }
+  ],
+  "item": "createfood:white_chips_chocolate_cookie",
+  "count": 3,
+  "experience": 0.45
+}

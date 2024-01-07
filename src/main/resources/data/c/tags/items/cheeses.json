@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+    "id": "createfood:cheese_slice",
+    "required": false
+    },
+    {
+      "id": "brewinandchewin:flaxen_cheese_wedge",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:cheese_slice",
+      "required": false
+    },
+    {
+      "id": "meadow:cheese",
+      "required": false
+    },
+    {
+      "id": "casualness_delight:cheese_wheel_slice",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_chocolate_sweet_roll_base"
+    },
+    {
+      "tag": "c:raw_chocolate_sweet_roll_base"
+    },
+    {
+      "tag": "c:raw_chocolate_sweet_roll_base"
+    }
+  ],
+  "item": "createfood:chocolate_sweet_roll_base",
+  "count": 3,
+  "experience": 0.30
+}

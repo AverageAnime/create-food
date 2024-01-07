@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:dark_chocolate_bottle"
+    },
+    {
+      "tag": "c:dark_chocolate_bottle"
+    },
+    {
+      "tag": "c:dark_chocolate_bottle"
+    },
+    {
+      "tag": "c:dark_chocolate_bottle"
+    }
+  ],
+  "result": {
+      "item": "createfood:dark_chocolate_bucket"
+    }
+}

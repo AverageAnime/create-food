@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight",
+        "croptopia",
+        "expandeddelight",
+        "brewinandchewin",
+        "meadow"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:beef_bun"},
+    {"tag": "c:cheeses"}
+  ],
+  "results":[
+    {"item":"createfood:cheese_and_beef_bun"}
+  ]
+}

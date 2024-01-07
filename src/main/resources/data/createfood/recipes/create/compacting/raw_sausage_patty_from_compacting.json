@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {"tag":"c:sausage_meat"}
+  ],
+  "results":[
+    {
+      "count": 2,
+      "item":"createfood:raw_sausage_patty"
+    }
+  ]
+}

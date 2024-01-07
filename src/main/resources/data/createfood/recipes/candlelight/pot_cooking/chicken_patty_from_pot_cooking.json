@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "candlelight"
+      ]
+    }
+  ],
+  "type": "candlelight:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:toast_slice"
+    },
+    {
+      "tag": "c:toast_slice"
+    },
+    {
+      "tag": "c:unbreaded_chicken_patty"
+    },
+    {
+      "tag": "c:unbreaded_chicken_patty"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:chicken_patty",
+    "count": 2
+  }
+}

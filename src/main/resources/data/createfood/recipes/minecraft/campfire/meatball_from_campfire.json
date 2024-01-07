@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:raw_meatball"
+  },
+  "result": "createfood:meatball",
+  "experience": 0.1,
+  "cookingtime": 200
+}

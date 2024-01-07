@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:bar_of_dark_chocolate"
+    }
+  ],
+  "results":[
+    {
+      "amount":27000,
+      "fluid":"createfood:dark_chocolate"
+    }
+  ]
+}
