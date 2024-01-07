@@ -1,0 +1,41 @@
+![logo](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/473ed31f-67ad-406f-9ea4-e633aa76f49f)
+### **About:**
+
+Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) based on expanding food content found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric), [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric), and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods, but can also be used stand-alone.
+
+### **Current Content:**
+* New recipes for chocolate & chocolate types (incl. new fluids). 
+* 200+ new food-related items. Enable/disable in the config according to preference.
+* All recipes use tags where possible.
+* Animated textures for hot drinks.
+* Remainder items implemented where applicable (i.e. sticks for popsicles).
+* Numerous tag additions to enhance mod compatibility.
+* Full recipe support for [satisfy’s [Let’s Do]](https://www.curseforge.com/members/satisfy/projects) mods.
+
+### **Item Preview:**
+![itempreview](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/3f33721d-9bcc-4028-9fd9-74c1ec3e375d)
+### **Configuration:**
+
+You might have noticed multiple items featured in this mod can also be found in mods you are already using. I included these items mainly to avoid requiring such mods as dependencies for certain recipes. Therefore, every item/fluid added by this mod can be disabled/enabled through the config, and it is recommended you do so if you are using other mods. The config itself has additional suggestions on which items to disable when using other mods. 
+
+Any mod that uses the supported tags can be used. For example, various items found under Farmer’s Delight category in the config can also be crafted with either Croptopia or Candlelight installed. 
+
+When disabling items that are the result of smoking/smelting/campfire recipes, these recipes must be removed manually to avoid errors when loading.  
+
+### **Mod Recommendations:**
+
+* [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified)
+* [Diet](https://www.curseforge.com/minecraft/mc-mods/diet)
+* [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
+
+### **Required Dependencies:**
+
+Although this mod is intended for use with both mods, [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) and [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) are not required dependencies. 
+* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+
+### **Credits:**
+
+* Base code is from [Tutorials By Kaupenjoe](https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.20.X).
+* Fluid code is from [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) by [Flomik](https://www.curseforge.com/members/flomik).
+* Various item textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) and [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric).
+* Fluid textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric).
