@@ -17,7 +17,7 @@ Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge
 
 Although this mod is intended for use with both mods, [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) and [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) are not required dependencies.
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-* [Cloth Config](https://legacy.curseforge.com/minecraft/mc-mods/cloth-config)
+* [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
 
 ### **Mod Recommendations:**
 
