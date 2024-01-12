@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0.2.1 (FabricMC 53fa44c9).
- */
 package net.averageanime.createfood.item;
 
 import com.google.common.collect.Lists;
@@ -18,42 +15,44 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectUtil;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsage;
-import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
-import net.minecraft.util.Hand;
-import net.minecraft.util.TypedActionResult;
-import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 import java.util.Map;
 
-public class BowlFood
-        extends EffectFood {
+public class EffectFood extends Item {
+
+    public static final int BRIEF_DURATION = 600;    // 30 seconds
+    public static final int SHORT_DURATION = 1200;    // 1 minute
+    public static final int MEDIUM_DURATION = 3600;    // 3 minutes
+    public static final int LONG_DURATION = 6000;    // 5 minutes
+
     private static final MutableText NO_EFFECTS = (Text.translatable("effect.none")).formatted(Formatting.GRAY);
+
     private final boolean hasFoodEffectTooltip;
     private final boolean hasCustomTooltip;
-    private static final int MAX_USE_TIME = 40;
 
-    public BowlFood(Settings settings) {
+    public EffectFood(Settings settings) {
         super(settings);
         this.hasFoodEffectTooltip = false;
         this.hasCustomTooltip = false;
     }
-    public BowlFood(Settings settings, boolean hasFoodEffectTooltip) {
+
+    public EffectFood(Settings settings, boolean hasFoodEffectTooltip) {
         super(settings);
         this.hasFoodEffectTooltip = hasFoodEffectTooltip;
         this.hasCustomTooltip = false;
     }
 
-    public BowlFood(Settings settings, boolean hasFoodEffectTooltip, boolean hasCustomTooltip) {
+    public EffectFood(Settings settings, boolean hasFoodEffectTooltip, boolean hasCustomTooltip) {
         super(settings);
         this.hasFoodEffectTooltip = hasFoodEffectTooltip;
         this.hasCustomTooltip = hasCustomTooltip;
@@ -61,37 +60,37 @@ public class BowlFood
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-        super.finishUsing(stack, world, user);
-        if (user instanceof ServerPlayerEntity serverPlayerEntity) {
-            Criteria.CONSUME_ITEM.trigger(serverPlayerEntity, stack);
-            serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
+        if (!world.isClient()) {
+            affectConsumer(stack, world, user);
         }
-        if (stack.isEmpty()) {
-            return new ItemStack(Items.BOWL);
-        }
-        if (user instanceof PlayerEntity playerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-            ItemStack itemStack = new ItemStack(Items.BOWL);
-            if (!playerEntity.getInventory().insertStack(itemStack)) {
-                playerEntity.dropItem(itemStack, false);
+
+        ItemStack container = stack.getRecipeRemainder();
+
+        if (stack.isFood()) {
+            super.finishUsing(stack, world, user);
+        } else if (user instanceof PlayerEntity player) {
+            if (player instanceof ServerPlayerEntity serverPlayer) {
+                Criteria.CONSUME_ITEM.trigger(serverPlayer, stack);
+            }
+            player.incrementStat(Stats.USED.getOrCreateStat(this));
+            if (!player.getAbilities().creativeMode) {
+                stack.decrement(1);
             }
         }
-        return stack;
+
+        if (stack.isEmpty()) {
+            return container;
+        } else {
+            if (user instanceof PlayerEntity player && !player.getAbilities().creativeMode && !player.getInventory().insertStack(container)) {
+                player.dropItem(container, false);
+            }
+
+            return stack;
+        }
     }
 
-    @Override
-    public int getMaxUseTime(ItemStack stack) {
-        return 40;
-    }
-
-    @Override
-    public UseAction getUseAction(ItemStack stack) {
-        return UseAction.EAT;
-    }
-
-
-    @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        return ItemUsage.consumeHeldItem(world, user, hand);
+    public void affectConsumer(ItemStack stack, World world, LivingEntity user) {
+        // Do nothing for basic consumable item
     }
 
     @Override
@@ -166,6 +165,7 @@ public class BowlFood
                 }
             }
         }
-    }
-}
 
+    }
+
+}

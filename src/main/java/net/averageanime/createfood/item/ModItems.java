@@ -8,7 +8,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+
     public static final Item ICON = registerItem("icon", new Item(new FabricItemSettings()));
+
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CreateFood.MOD_ID, name), item);
