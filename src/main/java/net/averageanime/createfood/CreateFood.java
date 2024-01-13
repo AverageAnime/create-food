@@ -250,10 +250,18 @@ public class CreateFood implements ModInitializer {
 		}
 // Breakfast Sausages
 		if (CONFIG.isBreakfastSausagesEnabled) {
-			final Item BREAKFASTSAUSAGES = registerItem("breakfast_sausages", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(BREAKFASTSAUSAGES);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item BREAKFASTSAUSAGES = registerItem("breakfast_sausages", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(BREAKFASTSAUSAGES);
+				});
+			} else {
+				final Item BREAKFASTSAUSAGES = registerItem("breakfast_sausages", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(BREAKFASTSAUSAGES);
+				});
+			}
 		}
 // Bun
 		if (CONFIG.isBunEnabled) {
@@ -524,7 +532,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item CHEESEANDSAUSAGEBISCUITSANDWICH = registerItem("cheese_and_sausage_biscuit_sandwich", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(21).saturationModifier(0.5f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.BRIEF_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(CHEESEANDSAUSAGEBISCUITSANDWICH);
 				});
@@ -546,80 +554,168 @@ public class CreateFood implements ModInitializer {
 		}
 // Cheeseburger
 		if (CONFIG.isCheeseburgerEnabled) {
-			final Item CHEESEBURGER = registerItem("cheeseburger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.7f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGER);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGER = registerItem("cheeseburger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.7f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGER);
+				});
+			} else {
+				final Item CHEESEBURGER = registerItem("cheeseburger", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.7f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGER);
+				});
+			}
 		}
 // Cheeseburger (Bacon)
 		if (CONFIG.isCheeseburgerBaconEnabled) {
-			final Item CHEESEBURGERBACON = registerItem("cheeseburger_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.7f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERBACON);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERBACON = registerItem("cheeseburger_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.7f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERBACON);
+				});
+			} else {
+				final Item CHEESEBURGERBACON = registerItem("cheeseburger_bacon", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.7f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERBACON);
+				});
+			}
 		}
 // Cheeseburger (Bacon, Lettuce)
 		if (CONFIG.isCheeseburgerBaconLettuceEnabled) {
-			final Item CHEESEBURGERBACONLETTUCE = registerItem("cheeseburger_bacon_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERBACONLETTUCE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERBACONLETTUCE = registerItem("cheeseburger_bacon_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.8f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERBACONLETTUCE);
+				});
+			} else {
+				final Item CHEESEBURGERBACONLETTUCE = registerItem("cheeseburger_bacon_lettuce", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.8f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERBACONLETTUCE);
+				});
+			}
 		}
 // Cheeseburger (Onion)
 		if (CONFIG.isCheeseburgerOnionEnabled) {
-			final Item CHEESEBURGERONION = registerItem("cheeseburger_onion", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERONION);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERONION= registerItem("cheeseburger_onion", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.8f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONION);
+				});
+			} else {
+				final Item CHEESEBURGERONION = registerItem("cheeseburger_onion", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.8f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONION);
+				});
+			}
 		}
 // Cheeseburger (Onion, Bacon)
 		if (CONFIG.isCheeseburgerOnionBaconEnabled) {
-			final Item CHEESEBURGERONIONBACON = registerItem("cheeseburger_onion_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERONIONBACON);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERONIONBACON = registerItem("cheeseburger_onion_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.8f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONBACON);
+				});
+			} else {
+				final Item CHEESEBURGERONIONBACON = registerItem("cheeseburger_onion_bacon", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.8f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONBACON);
+				});
+			}
 		}
 // Cheeseburger (Onion, Lettuce)
 		if (CONFIG.isCheeseburgerOnionLettuceEnabled) {
-			final Item CHEESEBURGERONIONLETTUCE = registerItem("cheeseburger_onion_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.9f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERONIONLETTUCE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERONIONLETTUCE = registerItem("cheeseburger_onion_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.9f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONLETTUCE);
+				});
+			} else {
+				final Item CHEESEBURGERONIONLETTUCE = registerItem("cheeseburger_onion_lettuce", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.9f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONLETTUCE);
+				});
+			}
 		}
 // Cheeseburger (Onion, Bacon, Lettuce)
 		if (CONFIG.isCheeseburgerOnionBaconLettuceEnabled) {
-			final Item CHEESEBURGERONIONBACONLETTUCE = registerItem("cheeseburger_onion_bacon_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.9f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERONIONBACONLETTUCE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERONIONBACONLETTUCE = registerItem("cheeseburger_onion_bacon_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.9f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONBACONLETTUCE);
+				});
+			} else {
+				final Item CHEESEBURGERONIONBACONLETTUCE = registerItem("cheeseburger_onion_bacon_lettuce", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.9f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.LONG_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONBACONLETTUCE);
+				});
+			}
 		}
 // Cheeseburger (Bacon, Lettuce, Tomato)
 		if (CONFIG.isCheeseburgerBaconLettuceTomatoEnabled) {
-			final Item CHEESEBURGERBACONLETTUCETOMATO = registerItem("cheeseburger_bacon_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.9f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERBACONLETTUCETOMATO);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERBACONLETTUCETOMATO = registerItem("cheeseburger_bacon_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.9f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERBACONLETTUCETOMATO);
+				});
+			} else {
+				final Item CHEESEBURGERBACONLETTUCETOMATO = registerItem("cheeseburger_bacon_lettuce_tomato", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(13).saturationModifier(0.9f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.LONG_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERBACONLETTUCETOMATO);
+				});
+			}
 		}
 // Cheeseburger (Lettuce)
 		if (CONFIG.isCheeseburgerLettuceEnabled) {
-			final Item CHEESEBURGERLETTUCE = registerItem("cheeseburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERLETTUCE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERLETTUCE= registerItem("cheeseburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.8f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERLETTUCE);
+				});
+			} else {
+				final Item CHEESEBURGERLETTUCE = registerItem("cheeseburger_lettuce", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.8f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERLETTUCE);
+				});
+			}
 		}
 // Cheeseburger (Lettuce, Tomato)
 		if (CONFIG.isCheeseburgerLettuceTomatoEnabled) {
-			final Item CHEESEBURGERLETTUCETOMATO = registerItem("cheeseburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.9f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERLETTUCETOMATO);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERLETTUCETOMATO = registerItem("cheeseburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.9f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERLETTUCETOMATO);
+				});
+			} else {
+				final Item CHEESEBURGERLETTUCETOMATO = registerItem("cheeseburger_lettuce_tomato", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.9f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERLETTUCETOMATO);
+				});
+			}
 		}
 // Cheeseburger (Onion, Lettuce, Tomato)
 		if (CONFIG.isCheeseburgerOnionLettuceTomatoEnabled) {
-			final Item CHEESEBURGERONIONLETTUCETOMATO = registerItem("cheeseburger_onion_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.0f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHEESEBURGERONIONLETTUCETOMATO);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHEESEBURGERONIONLETTUCETOMATO = registerItem("cheeseburger_onion_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.0f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONLETTUCETOMATO);
+				});
+			} else {
+				final Item CHEESEBURGERONIONLETTUCETOMATO = registerItem("cheeseburger_onion_lettuce_tomato", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.0f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.LONG_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHEESEBURGERONIONLETTUCETOMATO);
+				});
+			}
 		}
 // Chicken Bun
 		if (CONFIG.isChickenBunEnabled) {
@@ -665,10 +761,18 @@ public class CreateFood implements ModInitializer {
 		}
 // Chicken Burger (Lettuce)
 		if (CONFIG.isChickenBurgerLettuceEnabled) {
-			final Item CHICKENBURGERLETTUCE = registerItem("chicken_burger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.6f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHICKENBURGERLETTUCE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHICKENBURGERLETTUCE = registerItem("chicken_burger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.6f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHICKENBURGERLETTUCE);
+				});
+			} else {
+				final Item CHICKENBURGERLETTUCE = registerItem("chicken_burger_lettuce", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.6f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.BRIEF_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHICKENBURGERLETTUCE);
+				});
+			}
 		}
 // Chicken Burger (Lettuce, Tomato)
 		if (CONFIG.isChickenBurgerLettuceTomatoEnabled) {
@@ -686,7 +790,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item CHICKENCHEESEBURGER = registerItem("chicken_cheeseburger", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.8f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(CHICKENCHEESEBURGER);
 				});
@@ -701,7 +805,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item CHICKENCHEESEBURGERBACONLETTUCE = registerItem("chicken_cheeseburger_bacon_lettuce", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(15).saturationModifier(0.8f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.LONG_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(CHICKENCHEESEBURGERBACONLETTUCE);
 				});
@@ -731,7 +835,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item CHICKENCHEESEBURGERLETTUCETOMATO = registerItem("chicken_cheeseburger_lettuce_tomato", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.8f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), EffectFood.LONG_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(CHICKENCHEESEBURGERLETTUCETOMATO);
 				});
@@ -849,15 +953,15 @@ public class CreateFood implements ModInitializer {
 // Chocolate Milk Bottle
 		if (CONFIG.isChocolateMilkBottleEnabled) {
 			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
-				final Item CHOCOLATEMILK = registerItem("chocolate_milk", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build())));
+				final Item CHOCOLATEMILKBOTTLE = registerItem("chocolate_milk_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build())));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-					entries.add(CHOCOLATEMILK);
+					entries.add(CHOCOLATEMILKBOTTLE);
 				});
 			} else {
-				final Item CHOCOLATEMILK = registerItem("chocolate_milk", new BottleDrink((new Item.Settings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f)
+				final Item CHOCOLATEMILKBOTTLE = registerItem("chocolate_milk_bottle", new BottleDrink((new Item.Settings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f)
 						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.BRIEF_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-					entries.add(CHOCOLATEMILK);
+					entries.add(CHOCOLATEMILKBOTTLE);
 				});
 			}
 		}
@@ -928,24 +1032,48 @@ public class CreateFood implements ModInitializer {
 		}
 // Chorus Fruit Cream Chocolate
 		if (CONFIG.isChorusFruitCreamChocolateEnabled) {
-			final Item CHORUSFRUITCREAMCHOCOLATE = registerItem("chorus_fruit_cream_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.5f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHORUSFRUITCREAMCHOCOLATE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHORUSFRUITCREAMCHOCOLATE = registerItem("chorus_fruit_cream_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.5f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHORUSFRUITCREAMCHOCOLATE);
+				});
+			} else {
+				final Item CHORUSFRUITCREAMCHOCOLATE = registerItem("chorus_fruit_cream_chocolate", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.5f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.LONG_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHORUSFRUITCREAMCHOCOLATE);
+				});
+			}
 		}
 // Chorus Fruit Cream Dark Chocolate
 		if (CONFIG.isChorusFruitCreamDarkChocolateEnabled) {
-			final Item CHORUSFRUITCREAMDARKCHOCOLATE = registerItem("chorus_fruit_cream_dark_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.4f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHORUSFRUITCREAMDARKCHOCOLATE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHORUSFRUITCREAMDARKCHOCOLATE = registerItem("chorus_fruit_cream_dark_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.4f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHORUSFRUITCREAMDARKCHOCOLATE);
+				});
+			} else {
+				final Item CHORUSFRUITCREAMDARKCHOCOLATE = registerItem("chorus_fruit_cream_dark_chocolate", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.4f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.LONG_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHORUSFRUITCREAMDARKCHOCOLATE);
+				});
+			}
 		}
 // Chorus Fruit Cream White Chocolate
 		if (CONFIG.isChorusFruitCreamWhiteChocolateEnabled) {
-			final Item CHORUSFRUITCREAMWHITECHOCOLATE = registerItem("chorus_fruit_cream_white_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CHORUSFRUITCREAMWHITECHOCOLATE);
-			});
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item CHORUSFRUITCREAMWHITECHOCOLATE = registerItem("chorus_fruit_cream_white_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHORUSFRUITCREAMWHITECHOCOLATE);
+				});
+			} else {
+				final Item CHORUSFRUITCREAMWHITECHOCOLATE = registerItem("chorus_fruit_cream_white_chocolate", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.LONG_DURATION), 1).build())), true));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(CHORUSFRUITCREAMWHITECHOCOLATE);
+				});
+			}
 		}
 // Chorus Fruit Cream Frosting Bottle
 		if (CONFIG.isChorusFruitCreamFrostingBottleEnabled) {
@@ -1519,7 +1647,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item MEATBALLSTICK2 = registerItem("meatball_stick_2", new StickFood((new Item.Settings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.6f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.BRIEF_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.SHORT_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(MEATBALLSTICK2);
 				});
@@ -1533,7 +1661,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item MEATBALLSTICK3 = registerItem("meatball_stick_3", new StickFood((new Item.Settings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.BRIEF_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(MEATBALLSTICK3);
 				});
@@ -1555,7 +1683,7 @@ public class CreateFood implements ModInitializer {
 				});
 			} else {
 				final Item MINISMORESPIE = registerItem("mini_smores_pie", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.5f)
-						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.MEDIUM_DURATION), 1).build())), true));
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.LONG_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(MINISMORESPIE);
 				});
@@ -1784,12 +1912,20 @@ public class CreateFood implements ModInitializer {
 				});
 			}
 // Small Meatballs
-			if (CONFIG.isSmallMeatballsEnabled) {
-				final Item SMALLMEATBALLS = registerItem("small_meatballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+		if (CONFIG.isSmallMeatballsEnabled) {
+			if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {
+				final Item SMALLMEATBALLS = registerItem("small_meatballs", new EffectFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+					entries.add(SMALLMEATBALLS);
+				});
+			} else {
+				final Item SMALLMEATBALLS = registerItem("small_meatballs", new EffectFood((new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f)
+						.statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), EffectFood.BRIEF_DURATION), 1).build())), true));
 				ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 					entries.add(SMALLMEATBALLS);
 				});
 			}
+		}
 // Sugar Dough
 			if (CONFIG.isSugarDoughEnabled) {
 				final Item SUGARDOUGH = registerItem("sugar_dough", new Item(new FabricItemSettings()));

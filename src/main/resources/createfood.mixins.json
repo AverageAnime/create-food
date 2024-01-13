@@ -3,6 +3,8 @@
 	"package": "net.averageanime.createfood.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
+	],
+	"client": [
 		"BackgroundRendererMixin"
 	],
 	"injectors": {
