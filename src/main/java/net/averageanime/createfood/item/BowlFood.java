@@ -5,9 +5,9 @@ package net.averageanime.createfood.item;
 
 import com.google.common.collect.Lists;
 import com.mojang.datafixers.util.Pair;
-import com.nhoryzon.mc.farmersdelight.FarmersDelightMod;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
@@ -39,24 +39,14 @@ public class BowlFood
         extends EffectFood {
     private static final MutableText NO_EFFECTS = (Text.translatable("effect.none")).formatted(Formatting.GRAY);
     private final boolean hasFoodEffectTooltip;
-    private final boolean hasCustomTooltip;
-    private static final int MAX_USE_TIME = 40;
 
     public BowlFood(Settings settings) {
         super(settings);
         this.hasFoodEffectTooltip = false;
-        this.hasCustomTooltip = false;
     }
     public BowlFood(Settings settings, boolean hasFoodEffectTooltip) {
         super(settings);
         this.hasFoodEffectTooltip = hasFoodEffectTooltip;
-        this.hasCustomTooltip = false;
-    }
-
-    public BowlFood(Settings settings, boolean hasFoodEffectTooltip, boolean hasCustomTooltip) {
-        super(settings);
-        this.hasFoodEffectTooltip = hasFoodEffectTooltip;
-        this.hasCustomTooltip = hasCustomTooltip;
     }
 
     @Override
@@ -98,10 +88,7 @@ public class BowlFood
     @Environment(value= EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
-        if (FarmersDelightMod.CONFIG.isFoodEffectTooltip()) {
-            if (hasCustomTooltip) {
-                tooltip.add(FarmersDelightMod.i18n("tooltip." + this).formatted(Formatting.BLUE));
-            }
+        if (FabricLoader.getInstance().isModLoaded("farmersdelight")){
             if (hasFoodEffectTooltip) {
                 addFoodEffectTooltip(stack, tooltip, 1.f);
             }

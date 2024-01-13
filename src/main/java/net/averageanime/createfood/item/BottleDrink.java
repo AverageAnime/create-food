@@ -5,9 +5,9 @@ package net.averageanime.createfood.item;
 
 import com.google.common.collect.Lists;
 import com.mojang.datafixers.util.Pair;
-import com.nhoryzon.mc.farmersdelight.FarmersDelightMod;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
@@ -17,7 +17,10 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectUtil;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.*;
+import net.minecraft.item.FoodComponent;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemUsage;
+import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -38,24 +41,14 @@ public class BottleDrink
         extends EffectFood {
     private static final MutableText NO_EFFECTS = (Text.translatable("effect.none")).formatted(Formatting.GRAY);
     private final boolean hasFoodEffectTooltip;
-    private final boolean hasCustomTooltip;
-    private static final int MAX_USE_TIME = 40;
 
     public BottleDrink(Settings settings) {
         super(settings);
         this.hasFoodEffectTooltip = false;
-        this.hasCustomTooltip = false;
     }
     public BottleDrink(Settings settings, boolean hasFoodEffectTooltip) {
         super(settings);
         this.hasFoodEffectTooltip = hasFoodEffectTooltip;
-        this.hasCustomTooltip = false;
-    }
-
-    public BottleDrink(Settings settings, boolean hasFoodEffectTooltip, boolean hasCustomTooltip) {
-        super(settings);
-        this.hasFoodEffectTooltip = hasFoodEffectTooltip;
-        this.hasCustomTooltip = hasCustomTooltip;
     }
 
     @Override
@@ -106,10 +99,7 @@ public class BottleDrink
     @Environment(value= EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
-        if (FarmersDelightMod.CONFIG.isFoodEffectTooltip()) {
-            if (hasCustomTooltip) {
-                tooltip.add(FarmersDelightMod.i18n("tooltip." + this).formatted(Formatting.BLUE));
-            }
+        if (FabricLoader.getInstance().isModLoaded("farmersdelight")){
             if (hasFoodEffectTooltip) {
                 addFoodEffectTooltip(stack, tooltip, 1.f);
             }
