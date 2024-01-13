@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:berry_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_covered_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_glazed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_glazed_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_covered_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_glazed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_covered_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_glazed_berries",
+      "required": false
+    }
+  ]
+}

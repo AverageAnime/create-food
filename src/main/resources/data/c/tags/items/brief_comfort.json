@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:caramel_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milk_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:small_meatballs",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_toast",
+      "required": false
+    }
+  ]
+}

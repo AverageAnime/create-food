@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:caramel_glazed_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_glazed_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_glazed_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_glazed_apple",
+      "required": false
+    }
+  ]
+}

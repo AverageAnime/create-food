@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:cheese_and_sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_onion",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_2",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_tomato_sauce",
+      "required": false
+    },
+    {
+      "id": "createfood:breakfast_sausages",
+      "required": false
+    }
+  ]
+}

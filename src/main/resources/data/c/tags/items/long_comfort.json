@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chorus_fruit_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_dark_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_white_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:smore",
+      "required": false
+    },
+    {
+      "id": "createfood:mini_smores_pie",
+      "required": false
+    }
+  ]
+}

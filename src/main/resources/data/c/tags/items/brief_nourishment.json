@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chicken_burger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_nuggets",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_cheese_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_1",
+      "required": false
+    },
+    {
+      "id": "createfood:sausage_biscuit_sandwich",
+      "required": false
+    }
+  ]
+}
