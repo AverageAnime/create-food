@@ -1,37 +1,41 @@
 package net.averageanime.createfood;
 
-import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import net.averageanime.createfood.block.ModBlocks;
 import net.averageanime.createfood.config.ModConfig;
-import net.averageanime.createfood.item.*;
+import net.averageanime.createfood.fluid.ModFluids;
+import net.averageanime.createfood.item.BottleDrink;
+import net.averageanime.createfood.item.BowlFood;
+import net.averageanime.createfood.item.ModItems;
+import net.averageanime.createfood.item.StickFood;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffectUtil;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.*;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+import static net.minecraft.block.Blocks.SLIME_BLOCK;
+import static net.averageanime.createfood.block.ModBlocks.registerBlock;
 import static net.averageanime.createfood.fluid.ModFluids.register;
 import static net.averageanime.createfood.item.ModItems.registerItem;
 
 public class CreateFood implements ModInitializer {
 	public static final String MOD_ID = "createfood";
 	public static ModConfig CONFIG;
+
 	public static final Logger LOGGER = LoggerFactory.getLogger("createfood");
 
 	public static final RegistryKey<ItemGroup> GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MOD_ID, "group"));
@@ -936,6 +940,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(GELATIN);
 					});
 				}
+// Gelatin Dessert Slice
+		if (CONFIG.isGelatinDessertSliceEnabled) {
+			final Item GELATINDESSERTSLICE = registerItem("gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GELATINDESSERTSLICE);
+			});
+		}
 // Glow Berry Cream Chocolate
 				if (CONFIG.isGlowBerryCreamChocolateEnabled) {
 					final Item GLOWBERRYCREAMCHOCOLATE = registerItem("glow_berry_cream_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.4f).build())));
@@ -1536,14 +1547,18 @@ public class CreateFood implements ModInitializer {
 						entries.add(WHITECHOCOLATETOAST);
 					});
 				}
+
+
 				Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
 						.displayName(Text.translatable("itemgroup.createfood"))
 						.icon(() -> new ItemStack(ModItems.ICON))
 						.entries(((displayContext, entries) -> {
 						}))
 						.build());
-				ModItems.registerModItems();
-				register();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		register();
 	}
 }
 

@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:gelatin_mix",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_cream_frosting",
       "required": false
     },

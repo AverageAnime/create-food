@@ -6,19 +6,38 @@ import net.averageanime.createfood.item.ModTags;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.block.Block;
+import net.minecraft.block.SlimeBlock;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectUtil;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import static net.averageanime.createfood.CreateFood.CONFIG;
+import static net.averageanime.createfood.block.ModBlocks.registerBlock;
+import static net.minecraft.block.Blocks.SLIME_BLOCK;
+
 @Environment(value= EnvType.CLIENT)
 public class CreateFoodClient implements ClientModInitializer {
+
     @Override
     public void onInitializeClient() {
+
+        // Gelatin Dessert Block
+        if (CONFIG.isGelatinDessertBlockEnabled) {
+            final Block GELATIN_DESSERT = registerBlock("gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
 
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
             if (FabricLoader.getInstance().isModLoaded("farmersdelight")) {
@@ -29,6 +48,7 @@ public class CreateFoodClient implements ClientModInitializer {
                                             new StatusEffectInstance(effect, 600), 1))
                             .formatted(effect.getCategory().getFormatting()));
                 }
+
                 if (stack.isIn(ModTags.SHORT_COMFORT)) {
                     StatusEffect effect = EffectsRegistry.COMFORT.get();
                     lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
@@ -81,6 +101,12 @@ public class CreateFoodClient implements ClientModInitializer {
                 }
             }
         });
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xdfdfdf
+        ));
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CREAM_FROSTING, ModFluids.FLOWING_CREAM_FROSTING, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/cream_frosting_still"),

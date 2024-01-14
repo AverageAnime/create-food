@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:gelatin_dessert_slice",
+      "required": false
+    },
+    {
       "id": "create:chocolate_berries",
       "required": false
     },

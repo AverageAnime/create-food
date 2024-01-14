@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create",
+          "farmersdelight"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    }
+  ],
+  "result": {
+    "item": "createfood:gelatin_mix_bucket"
+  }
+}
