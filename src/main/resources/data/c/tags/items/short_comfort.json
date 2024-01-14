@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "create:chocolate_berries",
+      "required": false
+    },
+    {
       "id": "createfood:berry_cream_frosted_chocolate_sweet_roll",
       "required": false
     },

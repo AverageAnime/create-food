@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "create:honeyed_apple",
+      "required": false
+    },
+    {
       "id": "createfood:caramel_glazed_apple",
       "required": false
     },
