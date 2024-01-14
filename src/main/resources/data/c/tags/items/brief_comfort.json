@@ -6,7 +6,19 @@
       "required": false
     },
     {
+      "id": "createfood:berry_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_glazed_sweet_roll",
+      "required": false
+    },
+    {
       "id": "createfood:caramel_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_frosted_sweet_roll",
       "required": false
     },
     {
@@ -22,15 +34,19 @@
       "required": false
     },
     {
+      "id": "createfood:glow_berry_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
       "id": "createfood:honeyed_toast",
       "required": false
     },
     {
-      "id": "createfood:marshmallow_stick",
+      "id": "createfood:honeyed_sweet_roll",
       "required": false
     },
     {
-      "id": "createfood:small_meatballs",
+      "id": "createfood:marshmallow_stick",
       "required": false
     },
     {

@@ -14,6 +14,10 @@
       "required": false
     },
     {
+      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
       "id": "createfood:dark_chocolate_glazed_apple",
       "required": false
     },

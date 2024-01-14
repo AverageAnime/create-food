@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:hamburger",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_onion",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_lettuce",
+      "required": false
+    },
+    {
       "id": "createfood:chicken_burger_lettuce",
       "required": false
     },
@@ -19,6 +35,10 @@
     },
     {
       "id": "createfood:sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:small_meatballs",
       "required": false
     }
   ]

@@ -34,7 +34,7 @@
       "required": false
     },
     {
-      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll",
+      "id": "createfood:chorus_fruit_cream_frosted_sweet_roll",
       "required": false
     },
     {
@@ -47,6 +47,10 @@
     },
     {
       "id": "createfood:glow_berry_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_biscuit",
       "required": false
     },
     {
