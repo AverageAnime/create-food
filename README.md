@@ -5,7 +5,7 @@ Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge
 
 ### **Current Content:**
 * 200+ new food-related items. Enable/disable in the config according to preference.
-* 14 new fluids. Enable/disable in the config according to preference.
+* 14+ new fluids. Enable/disable in the config according to preference.
 * New recipes for chocolate & chocolate types.
 * All recipes use tags where possible.
 * Numerous tag additions to enhance mod compatibility.
