@@ -5,8 +5,7 @@
       "value": {
         "condition": "fabric:any_mod_loaded",
         "values": [
-          "create",
-          "farmersdelight"
+          "create"
           ]
       }
     }
@@ -14,22 +13,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:gelatin"
+      "tag": "c:red_gelatin_mix_bucket"
     },
     {
-      "tag": "c:gelatin"
+      "item": "minecraft:ice"
     },
     {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:ice"
     }
   ],
   "result": {
-    "item": "createfood:gelatin_mix_bucket"
+    "item": "createfood:red_gelatin_dessert_block"
   }
 }

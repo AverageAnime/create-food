@@ -25,9 +25,12 @@
     },
     {
       "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:red_dyes"
     }
   ],
   "result": {
-    "item": "createfood:gelatin_mix_bucket"
+    "item": "createfood:red_gelatin_mix_bucket"
   }
 }

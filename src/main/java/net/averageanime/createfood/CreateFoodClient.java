@@ -31,14 +31,6 @@ public class CreateFoodClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-
-        // Gelatin Dessert Block
-        if (CONFIG.isGelatinDessertBlockEnabled) {
-            final Block GELATIN_DESSERT = registerBlock("gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
             if (FabricLoader.getInstance().isModLoaded("farmersdelight")) {
                 if (stack.isIn(ModTags.BRIEF_COMFORT)) {
@@ -101,6 +93,24 @@ public class CreateFoodClient implements ClientModInitializer {
                 }
             }
         });
+// Red Gelatin Dessert Block
+        if (CONFIG.isRedGelatinDessertBlockEnabled) {
+            final Block RED_GELATIN_DESSERT = registerBlock("red_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RED_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(RED_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+// Gelatin Dessert Block
+        if (CONFIG.isGelatinDessertBlockEnabled) {
+            final Block GELATIN_DESSERT = registerBlock("gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xe35555
+        ));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX);
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX, new SimpleFluidRenderHandler(
                 new Identifier("minecraft:block/water_still"),

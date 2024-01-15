@@ -711,7 +711,7 @@ public class CreateFood implements ModInitializer {
 		}
 // Chocolate Filled Mini Graham Cracker Pie Crust
 		if (CONFIG.isChocolateFilledMiniGrahamCrackerPieCrustEnabled) {
-			final Item CHOCOLATEFILLEDMINIGRAHAMCRACKERPIECRUST = registerItem("chocolate_filled_mini_graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).build())));
+			final Item CHOCOLATEFILLEDMINIGRAHAMCRACKERPIECRUST = registerItem("chocolate_filled_mini_graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(CHOCOLATEFILLEDMINIGRAHAMCRACKERPIECRUST);
 			});
@@ -945,6 +945,13 @@ public class CreateFood implements ModInitializer {
 			final Item GELATINDESSERTSLICE = registerItem("gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(GELATINDESSERTSLICE);
+			});
+		}
+// Red Gelatin Dessert Slice
+		if (CONFIG.isRedGelatinDessertSliceEnabled) {
+			final Item REDGELATINDESSERTSLICE = registerItem("red_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(REDGELATINDESSERTSLICE);
 			});
 		}
 // Glow Berry Cream Chocolate
@@ -1255,14 +1262,14 @@ public class CreateFood implements ModInitializer {
 				}
 // Mini Graham Cracker Pie Crust
 				if (CONFIG.isMiniGrahamCrackerPieCrustEnabled) {
-					final Item MINIGRAHAMCRACKERPIECRUST = registerItem("mini_graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).build())));
+					final Item MINIGRAHAMCRACKERPIECRUST = registerItem("mini_graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).build())));
 					ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 						entries.add(MINIGRAHAMCRACKERPIECRUST);
 					});
 				}
 // Mini S'mores Pie
 				if (CONFIG.isMiniSmoresPieEnabled) {
-					final Item MINISMORESPIE = registerItem("mini_smores_pie", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.5f).build())));
+					final Item MINISMORESPIE = registerItem("mini_smores_pie", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.7f).build())));
 					ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 						entries.add(MINISMORESPIE);
 					});

@@ -1,10 +1,10 @@
 {
     "parent": "block/block",
     "textures": {
-        "particle": "createfood:block/gelatin_dessert_block",
-        "down": "createfood:block/gelatin_dessert_block",
-        "up": "createfood:block/gelatin_dessert_block",
-        "side": "createfood:block/gelatin_dessert_block"
+        "particle": "createfood:block/red_gelatin_dessert_block",
+        "down": "createfood:block/red_gelatin_dessert_block",
+        "up": "createfood:block/red_gelatin_dessert_block",
+        "side": "createfood:block/red_gelatin_dessert_block"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

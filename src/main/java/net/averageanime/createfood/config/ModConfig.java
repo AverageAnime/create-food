@@ -568,6 +568,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawWhiteChipsCookieEnabled = true;
+    @Comment("Enable Red Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRedGelatinDessertSliceEnabled = true;
     @Comment("Enable S'more.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -654,10 +658,15 @@ public class ModConfig implements ConfigData
     public boolean isWhiteChocolateToastEnabled = true;
 
 //Blocks
+
     @Comment("Enable Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGelatinDessertBlockEnabled = true;
+    @Comment("Enable Red Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRedGelatinDessertBlockEnabled = true;
 
 
 // Fluids
@@ -697,6 +706,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGelatinMixFluidEnabled = true;
+    @Comment("Enable Red Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRedGelatinMixFluidEnabled = true;
     @Comment("Enable Glow Berry Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

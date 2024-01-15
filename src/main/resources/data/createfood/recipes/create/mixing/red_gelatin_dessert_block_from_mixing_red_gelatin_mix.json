@@ -8,24 +8,21 @@
     }
   ],
   "type":"create:mixing",
-  "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag": "c:gelatin"
+      "amount":81000,
+      "fluid":"createfood:red_gelatin_mix"
     },
     {
-      "tag": "c:gelatin"
+      "item":"minecraft:ice"
     },
     {
-      "tag": "c:gelatin"
-    },
-    {
-      "item": "minecraft:water_bucket"
+      "item":"minecraft:ice"
     }
   ],
   "results":[
     {
-      "item":"createfood:gelatin_mix_bucket"
+      "item":"createfood:red_gelatin_dessert_block"
     }
   ]
 }

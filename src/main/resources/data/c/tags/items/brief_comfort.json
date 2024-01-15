@@ -1,8 +1,21 @@
 {
   "replace": false,
   "values": [
+
     {
       "id": "create:sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_white_chocolate",
       "required": false
     },
     {

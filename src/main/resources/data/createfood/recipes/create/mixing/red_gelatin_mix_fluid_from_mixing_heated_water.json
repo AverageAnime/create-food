@@ -11,7 +11,8 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag": "c:gelatin"
+      "amount":81000,
+      "fluid":"minecraft:water"
     },
     {
       "tag": "c:gelatin"
@@ -20,12 +21,16 @@
       "tag": "c:gelatin"
     },
     {
-      "item": "minecraft:water_bucket"
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:red_dyes"
     }
   ],
   "results":[
     {
-      "item":"createfood:gelatin_mix_bucket"
+      "amount":81000,
+      "fluid":"createfood:red_gelatin_mix"
     }
   ]
 }

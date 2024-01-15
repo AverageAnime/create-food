@@ -3,17 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "farmersdelight"
+        "create"
       ]
     }
   ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 150,
-  "experience": 0.1,
-  "ingredients": [
-    {
-      "tag": "c:gelatin"
-    },
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
     {
       "tag": "c:gelatin"
     },
@@ -25,9 +21,14 @@
     },
     {
       "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:red_dyes"
     }
   ],
-  "result": {
-    "item": "createfood:gelatin_mix_bucket"
-  }
+  "results":[
+    {
+      "item":"createfood:red_gelatin_mix_bucket"
+    }
+  ]
 }

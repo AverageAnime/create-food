@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:caramel_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_white_chocolate",
+      "required": false
+    },
+    {
       "id": "create:honeyed_apple",
       "required": false
     },

@@ -2,6 +2,34 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:glow_berry_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:red_gelatin_dessert_slice",
+      "required": false
+    },
+    {
       "id": "createfood:gelatin_dessert_slice",
       "required": false
     },
