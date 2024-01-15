@@ -12,7 +12,7 @@ Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge
 * Animated textures for hot drinks.
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
 * Full recipe support for [satisfy’s [Let’s Do]](https://www.curseforge.com/members/satisfy/projects) mods.
-* New tag-based system to apply Farmer's Delight food effects. You can now add Comfort and Nourishment to any item with the appropriate tag. Example: 'create:sweet_roll' has been added to the tag 'c:brief_comfort', giving 30 seconds of Comfort.
+* Tag-based system to apply Farmer's Delight food effects. You can now add Comfort and Nourishment to any item with the appropriate tag. Example: 'create:sweet_roll' has been added to the tag 'c:brief_comfort', giving 30 seconds of Comfort.
 
 ### **Required Dependencies:**
 
