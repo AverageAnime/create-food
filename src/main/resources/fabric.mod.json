@@ -8,8 +8,8 @@
 		"average_anime"
 	],
 	"contact": {
-		"homepage": "https://curseforge.com/members/average_anime/projects",
-		"sources": "https://curseforge.com/members/average_anime/projects"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/create-food-fabric",
+		"sources": "https://github.com/AverageAnime/create-food-1.20.1"
 	},
 	"license": "GPLv3",
 	"icon": "assets/createfood/icon.png",
