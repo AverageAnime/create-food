@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:light_gray_gelatin_dessert_block",
+      "required": false
+    }
+  ]
+}

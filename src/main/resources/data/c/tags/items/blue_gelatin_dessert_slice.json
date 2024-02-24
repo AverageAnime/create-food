@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:blue_gelatin_dessert_slice",
+      "required": false
+    }
+  ]
+}

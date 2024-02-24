@@ -10,9 +10,106 @@
       "required": false
     },
     {
+      "id": "createfood:flowing_black_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:black_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_blue_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:blue_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_brown_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:brown_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_cyan_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:cyan_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_gray_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:gray_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_green_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:green_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_light_gray_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:light_gray_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_lime_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:lime_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_orange_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:orange_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_pink_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:pink_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_purple_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:purple_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_yellow_gelatin_mix",
+      "required": false
+    },
+    {
+      "id": "createfood:yellow_gelatin_mix",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_gelatin_mix",
       "required": false
     },
+
     {
       "id": "createfood:gelatin_mix",
       "required": false

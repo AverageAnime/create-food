@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+  "layer0": "createfood:item/gray_gelatin_mix_bucket"
+  }
+}

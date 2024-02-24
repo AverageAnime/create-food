@@ -4,6 +4,62 @@
     {
       "id": "createfood:gelatin_mix_bucket",
       "required": false
+    },
+    {
+      "id": "createfood:black_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:blue_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:brown_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:cyan_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:gray_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:green_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:light_gray_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:lime_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:magenta_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:orange_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:pink_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:purple_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:red_gelatin_mix_bucket",
+      "required": false
+    },
+    {
+      "id": "createfood:yellow_gelatin_mix_bucket",
+      "required": false
     }
   ]
 }

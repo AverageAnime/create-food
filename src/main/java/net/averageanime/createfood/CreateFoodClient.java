@@ -93,23 +93,169 @@ public class CreateFoodClient implements ClientModInitializer {
                 }
             }
         });
-// Red Gelatin Dessert Block
+
+// Gelatin Dessert Block
+
         if (CONFIG.isRedGelatinDessertBlockEnabled) {
             final Block RED_GELATIN_DESSERT = registerBlock("red_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RED_GELATIN_DESSERT));
             BlockRenderLayerMap.INSTANCE.putBlock(RED_GELATIN_DESSERT, RenderLayer.getTranslucent());
         }
-// Gelatin Dessert Block
+        if (CONFIG.isBlackGelatinDessertBlockEnabled) {
+            final Block BLACK_GELATIN_DESSERT = registerBlock("black_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLACK_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(BLACK_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isBlueGelatinDessertBlockEnabled) {
+            final Block BLUE_GELATIN_DESSERT = registerBlock("blue_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLUE_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isBrownGelatinDessertBlockEnabled) {
+            final Block BROWN_GELATIN_DESSERT = registerBlock("brown_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BROWN_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(BROWN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isCyanGelatinDessertBlockEnabled) {
+            final Block CYAN_GELATIN_DESSERT = registerBlock("cyan_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CYAN_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(CYAN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
         if (CONFIG.isGelatinDessertBlockEnabled) {
             final Block GELATIN_DESSERT = registerBlock("gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GELATIN_DESSERT));
             BlockRenderLayerMap.INSTANCE.putBlock(GELATIN_DESSERT, RenderLayer.getTranslucent());
         }
+        if (CONFIG.isGrayGelatinDessertBlockEnabled) {
+            final Block GRAY_GELATIN_DESSERT = registerBlock("gray_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GRAY_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isGreenGelatinDessertBlockEnabled) {
+            final Block GREEN_GELATIN_DESSERT = registerBlock("green_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GREEN_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(GREEN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isLightGrayGelatinDessertBlockEnabled) {
+            final Block LIGHT_GRAY_GELATIN_DESSERT = registerBlock("light_gray_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_GRAY_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(LIGHT_GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isLimeGelatinDessertBlockEnabled) {
+            final Block LIME_GELATIN_DESSERT = registerBlock("lime_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIME_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(LIME_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isMagentaGelatinDessertBlockEnabled) {
+            final Block MAGENTA_GELATIN_DESSERT = registerBlock("magenta_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MAGENTA_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(MAGENTA_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isOrangeGelatinDessertBlockEnabled) {
+            final Block ORANGE_GELATIN_DESSERT = registerBlock("orange_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ORANGE_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(ORANGE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isPinkGelatinDessertBlockEnabled) {
+            final Block PINK_GELATIN_DESSERT = registerBlock("pink_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PINK_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(PINK_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isPurpleGelatinDessertBlockEnabled) {
+            final Block PURPLE_GELATIN_DESSERT = registerBlock("purple_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PURPLE_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(PURPLE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isYellowGelatinDessertBlockEnabled) {
+            final Block YELLOW_GELATIN_DESSERT = registerBlock("yellow_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(YELLOW_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(YELLOW_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+
+// Fluids
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x1D1D21
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLUE_GELATIN_MIX, ModFluids.FLOWING_BLUE_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLUE_GELATIN_MIX, ModFluids.FLOWING_BLUE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x3C44AA
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BROWN_GELATIN_MIX, ModFluids.FLOWING_BROWN_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BROWN_GELATIN_MIX, ModFluids.FLOWING_BROWN_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x835432
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_CYAN_GELATIN_MIX, ModFluids.FLOWING_CYAN_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CYAN_GELATIN_MIX, ModFluids.FLOWING_CYAN_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x169C9C
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GRAY_GELATIN_MIX, ModFluids.FLOWING_GRAY_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GRAY_GELATIN_MIX, ModFluids.FLOWING_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x474F52
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GREEN_GELATIN_MIX, ModFluids.FLOWING_GREEN_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GREEN_GELATIN_MIX, ModFluids.FLOWING_GREEN_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x5E7C16
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x9D9D97
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIME_GELATIN_MIX, ModFluids.FLOWING_LIME_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIME_GELATIN_MIX, ModFluids.FLOWING_LIME_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x80C71F
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_MAGENTA_GELATIN_MIX, ModFluids.FLOWING_MAGENTA_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MAGENTA_GELATIN_MIX, ModFluids.FLOWING_MAGENTA_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xC74EBD
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_ORANGE_GELATIN_MIX, ModFluids.FLOWING_ORANGE_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_ORANGE_GELATIN_MIX, ModFluids.FLOWING_ORANGE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xF9801D
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_PINK_GELATIN_MIX, ModFluids.FLOWING_PINK_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PINK_GELATIN_MIX, ModFluids.FLOWING_PINK_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xF38BAA
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_PURPLE_GELATIN_MIX, ModFluids.FLOWING_PURPLE_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PURPLE_GELATIN_MIX, ModFluids.FLOWING_PURPLE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x8932B8
+        ));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX);
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX, new SimpleFluidRenderHandler(
                 new Identifier("minecraft:block/water_still"),
                 new Identifier("minecraft:block/water_flow"),
-                0xe35555
+                0xb02e26
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_YELLOW_GELATIN_MIX, ModFluids.FLOWING_YELLOW_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_YELLOW_GELATIN_MIX, ModFluids.FLOWING_YELLOW_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xFED83D
         ));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX);
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX, new SimpleFluidRenderHandler(

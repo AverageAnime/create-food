@@ -64,6 +64,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBiscuitEnabled = true;
+    @Comment("Enable Black Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlackGelatinDessertSliceEnabled = true;
+    @Comment("Enable BlueGelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlueGelatinDessertSliceEnabled = true;
+    @Comment("Enable Brown Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBrownGelatinDessertSliceEnabled = true;
     @Comment("Enable Bread (Lettuce).")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -320,6 +332,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCreamFrostingBottleEnabled = true;
+    @Comment("Enable Cyan Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCyanGelatinDessertSliceEnabled = true;
     @Comment("Enable Dark Chips Chocolate Cookie. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -400,6 +416,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGrahamCrackerCrumbsEnabled = true;
+    @Comment("Enable Gray Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrayGelatinDessertSliceEnabled = true;
+    @Comment("Enable Green Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGreenGelatinDessertSliceEnabled = true;
     @Comment("Enable Ground Beef.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -468,6 +492,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotWhiteChocolateBottleEnabled = true;
+    @Comment("Enable Light Gray Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLightGrayGelatinDessertSliceEnabled = true;
+    @Comment("Enable Lime Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLimeGelatinDessertSliceEnabled = true;
+    @Comment("Enable Magenta Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMagentaGelatinDessertSliceEnabled = true;
     @Comment("Enable Marshmallow.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -508,6 +544,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMiniSmoresPieEnabled = true;
+    @Comment("Enable Orange Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isOrangeGelatinDessertSliceEnabled = true;
     @Comment("Enable Pasta.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -520,6 +560,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateButterEnabled = true;
+    @Comment("Enable Pink Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPinkGelatinDessertSliceEnabled = true;
+    @Comment("Enable Purple Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPurpleGelatinDessertSliceEnabled = true;
     @Comment("Enable Pressed Cocoa.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -656,20 +704,89 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateToastEnabled = true;
+    @Comment("Enable Yellow Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isYellowGelatinDessertSliceEnabled = true;
 
 //Blocks
 
+    @Comment("Enable Black Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlackGelatinDessertBlockEnabled = true;
+    @Comment("Enable Blue Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlueGelatinDessertBlockEnabled = true;
+    @Comment("Enable Brown Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBrownGelatinDessertBlockEnabled = true;
+    @Comment("Enable Cyan Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCyanGelatinDessertBlockEnabled = true;
     @Comment("Enable Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGelatinDessertBlockEnabled = true;
+    @Comment("Enable Gray Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrayGelatinDessertBlockEnabled = true;
+    @Comment("Enable Green Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGreenGelatinDessertBlockEnabled = true;
+    @Comment("Enable Light Gray Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLightGrayGelatinDessertBlockEnabled = true;
+    @Comment("Enable Lime Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLimeGelatinDessertBlockEnabled = true;
+    @Comment("Enable Magenta Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMagentaGelatinDessertBlockEnabled = true;
+    @Comment("Enable Orange Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isOrangeGelatinDessertBlockEnabled = true;
+    @Comment("Enable Pink Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPinkGelatinDessertBlockEnabled = true;
+    @Comment("Enable Purple Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPurpleGelatinDessertBlockEnabled = true;
     @Comment("Enable Red Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRedGelatinDessertBlockEnabled = true;
+    @Comment("Enable Yellow Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isYellowGelatinDessertBlockEnabled = true;
 
 
 // Fluids
+
+    @Comment("Enable Black Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlackGelatinMixFluidEnabled = true;
+    @Comment("Enable Blue Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlueGelatinMixFluidEnabled = true;
+    @Comment("Enable Brown Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBrownGelatinMixFluidEnabled = true;
     @Comment("Enable Berry Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -698,6 +815,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateMilkFluidEnabled = true;
+    @Comment("Enable Cream Frosting Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamFrostingFluidEnabled = true;
+    @Comment("Enable Cyan Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCyanGelatinMixFluidEnabled = true;
     @Comment("Enable Dark Chocolate Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -706,6 +831,38 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGelatinMixFluidEnabled = true;
+    @Comment("Enable Gray Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrayGelatinMixFluidEnabled = true;
+    @Comment("Enable Green Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGreenGelatinMixFluidEnabled = true;
+    @Comment("Enable Light Gray Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLightGrayGelatinMixFluidEnabled = true;
+    @Comment("Enable Lime Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLimeGelatinMixFluidEnabled = true;
+    @Comment("Enable Magenta Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMagentaGelatinMixFluidEnabled = true;
+    @Comment("Enable Orange Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isOrangeGelatinMixFluidEnabled = true;
+    @Comment("Enable Pink Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPinkGelatinMixFluidEnabled = true;
+    @Comment("Enable Purple Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPurpleGelatinMixFluidEnabled = true;
     @Comment("Enable Red Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -730,12 +887,12 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateFluidEnabled = true;
-    @Comment("Enable Cream Frosting Fluid.")
+    @Comment("Enable Yellow Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isCreamFrostingFluidEnabled = true;
+    public boolean isYellowGelatinMixFluidEnabled = true;
 
-// Farmer's Delight
+    // Farmer's Delight
     @Comment("Enable Beef Bun (Bacon, Lettuce).")
     @ConfigEntry.Category("Farmer'sDelight")
     @ConfigEntry.Gui.RequiresRestart

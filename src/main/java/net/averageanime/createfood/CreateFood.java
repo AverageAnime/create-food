@@ -947,13 +947,91 @@ public class CreateFood implements ModInitializer {
 				entries.add(GELATINDESSERTSLICE);
 			});
 		}
-// Red Gelatin Dessert Slice
+		if (CONFIG.isBlackGelatinDessertSliceEnabled) {
+			final Item BLACKGELATINDESSERTSLICE = registerItem("black_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BLACKGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isBlueGelatinDessertSliceEnabled) {
+			final Item BLUEGELATINDESSERTSLICE = registerItem("blue_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BLUEGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isBrownGelatinDessertSliceEnabled) {
+			final Item BROWNGELATINDESSERTSLICE = registerItem("brown_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BROWNGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isCyanGelatinDessertSliceEnabled) {
+			final Item CYANGELATINDESSERTSLICE = registerItem("cyan_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CYANGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isGrayGelatinDessertSliceEnabled) {
+			final Item GRAYGELATINDESSERTSLICE = registerItem("gray_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GRAYGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isGreenGelatinDessertSliceEnabled) {
+			final Item GREENGELATINDESSERTSLICE = registerItem("green_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GREENGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isLightGrayGelatinDessertSliceEnabled) {
+			final Item LIGHTGRAYGELATINDESSERTSLICE = registerItem("light_gray_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(LIGHTGRAYGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isLimeGelatinDessertSliceEnabled) {
+			final Item LIMEGELATINDESSERTSLICE = registerItem("lime_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(LIMEGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isMagentaGelatinDessertSliceEnabled) {
+			final Item MAGENTAGELATINDESSERTSLICE = registerItem("magenta_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(MAGENTAGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isOrangeGelatinDessertSliceEnabled) {
+			final Item ORANGEGELATINDESSERTSLICE = registerItem("orange_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(ORANGEGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isPinkGelatinDessertSliceEnabled) {
+			final Item PINKGELATINDESSERTSLICE = registerItem("pink_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(PINKGELATINDESSERTSLICE);
+			});
+		}
+		if (CONFIG.isPurpleGelatinDessertSliceEnabled) {
+			final Item PURPLEGELATINDESSERTSLICE = registerItem("purple_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(PURPLEGELATINDESSERTSLICE);
+			});
+		}
 		if (CONFIG.isRedGelatinDessertSliceEnabled) {
 			final Item REDGELATINDESSERTSLICE = registerItem("red_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(REDGELATINDESSERTSLICE);
 			});
 		}
+		if (CONFIG.isYellowGelatinDessertSliceEnabled) {
+			final Item YELLOWGELATINDESSERTSLICE = registerItem("yellow_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(YELLOWGELATINDESSERTSLICE);
+			});
+		}
+
 // Glow Berry Cream Chocolate
 				if (CONFIG.isGlowBerryCreamChocolateEnabled) {
 					final Item GLOWBERRYCREAMCHOCOLATE = registerItem("glow_berry_cream_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.4f).build())));
