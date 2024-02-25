@@ -324,7 +324,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolatePastryBarBaseEnabled = true;
-    @Comment("Enable Chocolate Pastry Base.")
+    @Comment("Enable Chocolate Pastry Base. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolatePastryBaseEnabled = true;
@@ -472,6 +472,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isFrostingPastryEnabled = true;
+    @Comment("Enable Glazed Chocolate Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlazedChocolateDonutEnabled = true;
     @Comment("Enable Glazed Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -700,7 +704,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastryBarBaseEnabled = true;
-    @Comment("Enable Pastry Base.")
+    @Comment("Enable Pastry Base. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastryBaseEnabled = true;
@@ -911,6 +915,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGreenGelatinDessertBlockEnabled = true;
+    @Comment("Enable Light Blue Gelatin Dessert Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLightBlueGelatinDessertBlockEnabled = true;
     @Comment("Enable Light Gray Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1011,6 +1019,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGreenGelatinMixFluidEnabled = true;
+    @Comment("Enable Light Blue Gelatin Mix Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLightBlueGelatinMixFluidEnabled = true;
     @Comment("Enable Light Gray Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
