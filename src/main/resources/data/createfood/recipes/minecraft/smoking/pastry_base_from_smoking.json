@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.55,
+  "ingredient": {
+    "tag": "c:raw_pastry_base"
+  },
+  "result": "createfood:pastry_base"
+
+}

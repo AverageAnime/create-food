@@ -758,6 +758,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHOCOLATEMILKBOTTLE);
 			});
 		}
+// Chocolate Pastry Base
+		if (CONFIG.isChocolatePastryBaseEnabled) {
+			final Item CHOCOLATEPASTRYBASE = registerItem("chocolate_pastry_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEPASTRYBASE);
+			});
+		}
 // Chocolate Sugar Dough
 		if (CONFIG.isChocolateSugarDoughEnabled) {
 			final Item CHOCOLATESUGARDOUGH = registerItem("chocolate_sugar_dough", new Item(new FabricItemSettings()));
@@ -1422,6 +1429,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(PASTAPLATETOMATOSAUCE);
 					});
 				}
+// Pastry Base
+		if (CONFIG.isPastryBaseEnabled) {
+			final Item PASTRYBASE = registerItem("pastry_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(PASTRYBASE);
+			});
+		}
 // Potato Chips
 		if (CONFIG.isPotatoChipsEnabled) {
 			final Item POTATOCHIPS = registerItem("potato_chips", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())));
@@ -1450,6 +1464,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(RAWCHOCOLATECOOKIE);
 					});
 				}
+// Raw Chocolate Pastry Base
+		if (CONFIG.isRawChocolatePastryBaseEnabled) {
+			final Item RAWCHOCOLATEPASTRYBASE = registerItem("raw_chocolate_pastry_base", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWCHOCOLATEPASTRYBASE);
+			});
+		}
 // Raw Chocolate Sweet Roll Base
 				if (CONFIG.isRawChocolateSweetRollBaseEnabled) {
 					final Item RAWCHOCOLATESWEETROLLBASE = registerItem("raw_chocolate_sweet_roll_base", new Item(new FabricItemSettings()));
@@ -1492,6 +1513,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(RAWMEATBALL);
 					});
 				}
+// Raw Pastry Base
+		if (CONFIG.isRawPastryBaseEnabled) {
+			final Item RAWPASTRYBASE = registerItem("raw_pastry_base", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWPASTRYBASE);
+			});
+		}
 // Raw Sausage Patty
 				if (CONFIG.isRawSausagePattyEnabled) {
 					final Item RAWSAUSAGEPATTY = registerItem("raw_sausage_patty", new Item(new FabricItemSettings()));
