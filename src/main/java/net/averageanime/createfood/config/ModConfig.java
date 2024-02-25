@@ -36,10 +36,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryCreamChocolateEnabled = true;
+    @Comment("Enable Berry Cream Filled Chocolate Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamChocolatePastryBarEnabled = true;
     @Comment("Enable Berry Cream Filled Dark Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryCreamDarkChocolateEnabled = true;
+    @Comment("Enable Berry Cream Filled Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamPastryBarEnabled = true;
     @Comment("Enable Berry Cream Filled White Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -52,10 +60,26 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryCreamFrostedChocolateSweetRollEnabled = true;
+    @Comment("Enable Berry Cream Frosted Chocolate Sweet Roll (Sweet Berry).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamFrostedChocolateSweetRollSweetBerryEnabled = true;
     @Comment("Enable Berry Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryCreamFrostedSweetRollEnabled = true;
+    @Comment("Enable Berry Cream Frosted Sweet Roll (Sweet Berry).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamFrostedSweetRollSweetBerryEnabled = true;
+    @Comment("Enable Berry Cream Glazed Chocolate Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamGlazedChocolateDonutEnabled = true;
+    @Comment("Enable Berry Cream Glazed Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamGlazedDonutEnabled = true;
     @Comment("Enable Berry Popsicle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -68,7 +92,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBlackGelatinDessertSliceEnabled = true;
-    @Comment("Enable BlueGelatin Dessert Slice.")
+    @Comment("Enable Blue Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBlueGelatinDessertSliceEnabled = true;
@@ -140,6 +164,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCaramelDarkChocolateEnabled = true;
+    @Comment("Enable Caramel Filled Chocolate Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelChocolatePastryEnabled = true;
+    @Comment("Enable Caramel Filled Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelPastryEnabled = true;
     @Comment("Enable Caramel Filled White Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -244,6 +276,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateCreamFrostingBottleEnabled = true;
+    @Comment("Enable Chocolate Donut Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateDonutBaseEnabled = true;
+    @Comment("Enable Chocolate Donut Hole.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateDonutHoleEnabled = true;
+    @Comment("Enable Chocolate Donut Hole (Sugar).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateDonutHoleSugarEnabled = true;
     @Comment("Enable Chocolate Filled Mini Graham Cracker Pie Crust.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -256,14 +300,34 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateFrostedSweetRollEnabled = true;
+    @Comment("Enable Chocolate Frosting Filled Chocolate Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateFrostingChocolatePastryBarEnabled = true;
     @Comment("Enable Chocolate Glazed Apple.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateGlazedAppleEnabled = true;
+    @Comment("Enable Chocolate Glazed Chocolate Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGlazedChocolateDonutEnabled = true;
+    @Comment("Enable Chocolate Glazed Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGlazedDonutEnabled = true;
     @Comment("Enable Chocolate Milk Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateMilkBottleEnabled = true;
+    @Comment("Enable Chocolate Pastry Bar Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolatePastryBarBaseEnabled = true;
+    @Comment("Enable Chocolate Pastry Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolatePastryBaseEnabled = true;
     @Comment("Enable Chocolate Sugar Dough.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -312,10 +376,26 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitCreamFrostedChocolateSweetRollEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Frosted Chocolate Sweet Roll (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamFrostedChocolateSweetRollChorusFruitEnabled = true;
     @Comment("Enable Chorus Fruit Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitCreamFrostedSweetRollEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Frosted Sweet Roll (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamFrostedSweetRollChorusFruitEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Glazed Chocolate Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamGlazedChocolateDonutEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Glazed Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamGlazedDonutEnabled = true;
     @Comment("Enable Cream Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -368,10 +448,34 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChocolateToastEnabled = true;
+    @Comment("Enable Donut Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDonutBaseEnabled = true;
+    @Comment("Enable Donut Hole.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDonutHoleEnabled = true;
+    @Comment("Enable Donut Hole (Sugar).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDonutHoleSugarEnabled = true;
     @Comment("Enable Frosted Cake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isFrostedCakeEnabled = true;
+    @Comment("Enable Frosting Filled Chocolate Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFrostingChocolatePastryEnabled = true;
+    @Comment("Enable Frosting Filled Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFrostingPastryEnabled = true;
+    @Comment("Enable Glazed Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlazedDonutEnabled = true;
     @Comment("Enable Gelatin.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -400,10 +504,26 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryCreamFrostedChocolateSweetRollEnabled = true;
+    @Comment("Enable Glow Berry Cream Frosted Chocolate Sweet Roll (Glow Berry).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamFrostedChocolateSweetRollGlowBerryEnabled = true;
     @Comment("Enable Glow Berry Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryCreamFrostedSweetRollEnabled = true;
+    @Comment("Enable Glow Berry Cream Frosted Sweet Roll (Glow Berry).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamFrostedSweetRollGlowBerryEnabled = true;
+    @Comment("Enable Glow Berry Cream Glazed Chocolate Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamGlazedChocolateDonutEnabled = true;
+    @Comment("Enable Glow Berry Cream Glazed Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamGlazedDonutEnabled = true;
     @Comment("Enable Glow Berry Popsicle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -456,10 +576,26 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHoneyedBiscuitEnabled = true;
+    @Comment("Enable Honeyed Chocolate Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHoneyedChocolatePastryBarEnabled = true;
     @Comment("Enable Honeyed Chocolate Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHoneyedChocolateSweetRollEnabled = true;
+    @Comment("Enable Honeyed Chocolate Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHoneyedChocolateDonutEnabled = true;
+    @Comment("Enable Honeyed Donut.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHoneyedDonutEnabled = true;
+    @Comment("Enable Honeyed Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHoneyedPastryBarEnabled = true;
     @Comment("Enable Honey Glazed Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -560,10 +696,22 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateButterEnabled = true;
+    @Comment("Enable Pastry Bar Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastryBarBaseEnabled = true;
+    @Comment("Enable Pastry Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastryBaseEnabled = true;
     @Comment("Enable Pink Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPinkGelatinDessertSliceEnabled = true;
+    @Comment("Enable Potato Chips.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPotatoChipsEnabled = true;
     @Comment("Enable Purple Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -580,6 +728,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawChocolateCookieEnabled = true;
+    @Comment("Enable Raw Chocolate Pastry Bar Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChocolatePastryBarBaseEnabled = true;
+    @Comment("Enable Raw Chocolate Pastry Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChocolatePastryBaseEnabled = true;
     @Comment("Enable Raw Chocolate Sweet Roll Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -600,6 +756,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawMeatballEnabled = true;
+    @Comment("Enable Raw Pastry Bar Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawPastryBarBaseEnabled = true;
+    @Comment("Enable Raw Pastry Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawPastryBaseEnabled = true;
     @Comment("Enable Raw Sausage Patty.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -652,6 +816,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isShreddedChickenEnabled = true;
+    @Comment("Enable Sliced Potato.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSlicedPotatoEnabled = true;
+    @Comment("Enable Sliced Carrot.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSlicedCarrotEnabled = true;
     @Comment("Enable Small Meatballs.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
