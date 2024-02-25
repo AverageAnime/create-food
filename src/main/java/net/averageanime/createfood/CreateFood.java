@@ -1387,6 +1387,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(PASTAPLATETOMATOSAUCE);
 					});
 				}
+// Potato Chips
+		if (CONFIG.isPotatoChipsEnabled) {
+			final Item POTATOCHIPS = registerItem("potato_chips", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(POTATOCHIPS);
+			});
+		}
 // Pressed Cocoa
 				if (CONFIG.isPressedCocoaEnabled) {
 					final Item PRESSEDCOCOA = registerItem("pressed_cocoa", new Item(new FabricItemSettings()));
