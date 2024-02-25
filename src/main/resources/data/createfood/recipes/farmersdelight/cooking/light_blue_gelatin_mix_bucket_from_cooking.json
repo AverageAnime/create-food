@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:light_blue_dyes"
+    }
+  ],
+  "result": {
+    "item": "createfood:light_blue_gelatin_mix_bucket"
+  }
+}

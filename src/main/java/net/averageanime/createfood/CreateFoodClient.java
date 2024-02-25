@@ -136,6 +136,11 @@ public class CreateFoodClient implements ClientModInitializer {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GREEN_GELATIN_DESSERT));
             BlockRenderLayerMap.INSTANCE.putBlock(GREEN_GELATIN_DESSERT, RenderLayer.getTranslucent());
         }
+        if (CONFIG.isLightBlueGelatinDessertBlockEnabled) {
+            final Block LIGHT_BLUE_GELATIN_DESSERT = registerBlock("light_blue_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_BLUE_GELATIN_DESSERT));
+            BlockRenderLayerMap.INSTANCE.putBlock(LIGHT_BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
         if (CONFIG.isLightGrayGelatinDessertBlockEnabled) {
             final Block LIGHT_GRAY_GELATIN_DESSERT = registerBlock("light_gray_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_GRAY_GELATIN_DESSERT));
@@ -208,6 +213,12 @@ public class CreateFoodClient implements ClientModInitializer {
                 new Identifier("minecraft:block/water_still"),
                 new Identifier("minecraft:block/water_flow"),
                 0x5E7C16
+        ));
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, ModFluids.FLOWING_LIGHT_BLUE_GELATIN_MIX);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, ModFluids.FLOWING_LIGHT_BLUE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0x3AB3DA
         ));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX);
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(

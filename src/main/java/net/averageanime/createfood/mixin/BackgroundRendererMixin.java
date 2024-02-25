@@ -63,6 +63,11 @@ public abstract class BackgroundRendererMixin {
             green = (float) 124 / 255;
             blue = (float) 22 / 255;
         }
+        if (ModFluids.isLightBlueGelatinMix(state)) {
+            red = (float) 58 / 255;
+            green = (float) 179 / 255;
+            blue = (float) 218 / 255;
+        }
         if (ModFluids.isLightGrayGelatinMix(state)) {
             red = (float) 157 / 255;
             green = (float) 157 / 255;
@@ -211,6 +216,11 @@ public abstract class BackgroundRendererMixin {
             ci.cancel();
         }
         if (ModFluids.isGreenGelatinMix(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isLightBlueGelatinMix(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
