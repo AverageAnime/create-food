@@ -10,7 +10,7 @@
   "type":"create:deploying",
   "ingredients":[
     {"tag":"c:glow_berry_cream_frosted_chocolate_sweet_roll"},
-    {"item":"minecraft:glow_berry"}
+    {"item":"minecraft:glow_berries"}
   ],
   "results":[
     {"item":"createfood:glow_berry_cream_frosted_chocolate_sweet_roll_glow_berry"}

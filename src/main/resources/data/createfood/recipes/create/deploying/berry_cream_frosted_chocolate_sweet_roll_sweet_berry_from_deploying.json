@@ -10,7 +10,7 @@
   "type":"create:deploying",
   "ingredients":[
     {"tag":"c:berry_cream_frosted_chocolate_sweet_roll"},
-    {"item":"minecraft:sweet_berry"}
+    {"item":"minecraft:sweet_berries"}
   ],
   "results":[
     {"item":"createfood:berry_cream_frosted_chocolate_sweet_roll_sweet_berry"}

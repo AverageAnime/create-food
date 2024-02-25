@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {"tag":"c:glow_berry_cream_frosted_sweet_roll"},
-    {"item":"minecraft:glow_berry"}
+    {"item":"minecraft:glow_berries"}
   ],
   "result": {
     "item": "createfood:glow_berry_cream_frosted_sweet_roll_glow_berry"
