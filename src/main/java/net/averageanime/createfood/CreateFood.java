@@ -991,7 +991,7 @@ public class CreateFood implements ModInitializer {
 		}
 // Donut Base
 		if (CONFIG.isDonutBaseEnabled) {
-			final Item DONUTBASE = registerItem("donut_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(1.0f).build())));
+			final Item DONUTBASE = registerItem("donut_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(1.1f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(DONUTBASE);
 			});
