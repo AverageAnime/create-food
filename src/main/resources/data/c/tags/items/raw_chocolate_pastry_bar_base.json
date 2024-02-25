@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:raw_chocolate_pastry_bar_base",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_chocolate_pastry_bar_base"
+    },
+    {
+      "tag": "c:raw_chocolate_pastry_bar_base"
+    },
+    {
+      "tag": "c:raw_chocolate_pastry_bar_base"
+    }
+  ],
+  "item": "createfood:chocolate_pastry_bar_base",
+  "count": 3,
+  "experience": 0.15
+}

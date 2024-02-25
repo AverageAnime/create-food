@@ -34,8 +34,6 @@ You might have noticed multiple items featured in this mod can also be found in 
 
 Any mod that uses the supported tags can be used. For example, various items found under Farmer’s Delight category in the config can also be crafted with either Croptopia or Candlelight installed.
 
-When disabling items that are the result of smoking/smelting/campfire recipes, these recipes must be removed manually to avoid errors when loading.
-
 ### **Credits:**
 
 * Base code is from [Tutorials By Kaupenjoe](https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.20.X).

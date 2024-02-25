@@ -324,6 +324,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateMilkBottleEnabled = true;
+    @Comment("Enable Chocolate Pastry Bar Base.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolatePastryBarBaseEnabled = true;
     @Comment("Enable Chocolate Pastry Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart

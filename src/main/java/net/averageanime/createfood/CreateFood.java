@@ -758,6 +758,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHOCOLATEMILKBOTTLE);
 			});
 		}
+// Chocolate Pastry Bar Base
+		if (CONFIG.isChocolatePastryBarBaseEnabled) {
+			final Item CHOCOLATEPASTRYBARBASE = registerItem("chocolate_pastry_bar_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEPASTRYBARBASE);
+			});
+		}
 // Chocolate Pastry Base
 		if (CONFIG.isChocolatePastryBaseEnabled) {
 			final Item CHOCOLATEPASTRYBASE = registerItem("chocolate_pastry_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
@@ -1429,6 +1436,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(PASTAPLATETOMATOSAUCE);
 					});
 				}
+// Pastry Bar Base
+		if (CONFIG.isPastryBarBaseEnabled) {
+			final Item PASTRYBARBASE = registerItem("pastry_bar_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(PASTRYBARBASE);
+			});
+		}
 // Pastry Base
 		if (CONFIG.isPastryBaseEnabled) {
 			final Item PASTRYBASE = registerItem("pastry_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.8f).build())));
@@ -1464,6 +1478,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(RAWCHOCOLATECOOKIE);
 					});
 				}
+// Raw Chocolate Pastry Bar Base
+		if (CONFIG.isRawChocolatePastryBarBaseEnabled) {
+			final Item RAWCHOCOLATEPASTRYBARBASE = registerItem("raw_chocolate_pastry_bar_base", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWCHOCOLATEPASTRYBARBASE);
+			});
+		}
 // Raw Chocolate Pastry Base
 		if (CONFIG.isRawChocolatePastryBaseEnabled) {
 			final Item RAWCHOCOLATEPASTRYBASE = registerItem("raw_chocolate_pastry_base", new Item(new FabricItemSettings()));
@@ -1513,6 +1534,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(RAWMEATBALL);
 					});
 				}
+// Raw Pastry Bar Base
+		if (CONFIG.isRawPastryBarBaseEnabled) {
+			final Item RAWPASTRYBARBASE = registerItem("raw_pastry_bar_base", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWPASTRYBARBASE);
+			});
+		}
 // Raw Pastry Base
 		if (CONFIG.isRawPastryBaseEnabled) {
 			final Item RAWPASTRYBASE = registerItem("raw_pastry_base", new Item(new FabricItemSettings()));

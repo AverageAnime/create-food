@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_chocolate_pastry_base"
+    }
+  ],
+  "result": {
+      "item": "createfood:raw_chocolate_pastry_bar_base"
+    }
+}

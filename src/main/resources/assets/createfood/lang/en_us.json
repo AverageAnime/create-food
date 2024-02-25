@@ -98,8 +98,11 @@
   "item.createfood.chorus_fruit_cream_frosted_sweet_roll_chorus_fruit": "Chorus Fruit Cream Frosted Sweet Roll (Chorus Fruit)",
   "item.createfood.raw_pastry_base": "Raw Pastry Base",
   "item.createfood.pastry_base": "Pastry Base",
+  "item.createfood.pastry_bar_base": "Pastry Bar Base",
+  "item.createfood.raw_pastry_bar_base": "Raw Pastry Bar Base",
   "item.createfood.raw_chocolate_pastry_base": "Raw Chocolate Pastry Base",
-  "item.createfood.chocolate_pastry_base": "Chocolate Pastry Base",
+  "item.createfood.chocolate_pastry_bar_base": "Chocolate Pastry Bar Base",
+  "item.createfood.raw_chocolate_pastry_bar_base": "Raw Chocolate Pastry Bar Base",
 
 
 
