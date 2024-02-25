@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gelatin_dessert_block"
+    },
+    {
+      "tag": "c:white_dyes"
+    }
+  ],
+  "result": {
+    "item": "createfood:gelatin_dessert_block"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create",
+          "farmersdelight"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "c:gelatin_mix_bucket"
+    },
+    {
+      "tag": "c:lime_dyes"
+    }
+  ],
+  "result": {
+    "item": "createfood:lime_gelatin_mix_bucket"
+  }
+}

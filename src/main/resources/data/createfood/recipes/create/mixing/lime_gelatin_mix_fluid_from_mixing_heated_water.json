@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":81000,
+      "fluid":"minecraft:water"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:lime_dyes"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,
+      "fluid":"createfood:lime_gelatin_mix"
+    }
+  ]
+}

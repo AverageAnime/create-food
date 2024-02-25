@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":81000,
+      "fluid":"createfood:lime_gelatin_mix"
+    },
+    {
+      "item":"minecraft:ice"
+    },
+    {
+      "item":"minecraft:ice"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:lime_gelatin_dessert_block"
+    }
+  ]
+}

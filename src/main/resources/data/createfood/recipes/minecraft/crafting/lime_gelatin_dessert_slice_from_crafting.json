@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "farmersdelight"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:lime_gelatin_dessert_block"
+    }
+  ],
+  "result": {
+    "count":8,
+    "item": "createfood:lime_gelatin_dessert_slice"
+  }
+}

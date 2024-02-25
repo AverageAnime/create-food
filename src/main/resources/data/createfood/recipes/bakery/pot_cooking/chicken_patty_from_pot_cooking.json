@@ -1,0 +1,47 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "candlelight"
+        ]
+      }
+    },
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:toast_slice"
+    },
+    {
+      "tag": "c:toast_slice"
+    },
+    {
+      "tag": "c:unbreaded_chicken_patty"
+    },
+    {
+      "tag": "c:unbreaded_chicken_patty"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:chicken_patty",
+    "count": 2
+  }
+}

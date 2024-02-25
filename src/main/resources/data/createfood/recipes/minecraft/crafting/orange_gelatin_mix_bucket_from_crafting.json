@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create",
+          "farmersdelight"
+          ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:orange_dyes"
+    }
+  ],
+  "result": {
+    "item": "createfood:orange_gelatin_mix_bucket"
+  }
+}
