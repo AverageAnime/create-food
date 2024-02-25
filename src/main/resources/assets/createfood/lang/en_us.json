@@ -104,6 +104,13 @@
   "item.createfood.chocolate_pastry_bar_base": "Chocolate Pastry Bar Base",
   "item.createfood.raw_chocolate_pastry_bar_base": "Raw Chocolate Pastry Bar Base",
 
+  "item.createfood.donut_base": "Donut Base",
+  "item.createfood.donut_hole": "Donut Hole",
+  "item.createfood.donut_hole_sugar": "Donut Hole (Sugar)",
+  "item.createfood.chocolate_donut_base": "Chocolate Donut Base",
+  "item.createfood.chocolate_donut_hole": "Chocolate Donut Hole",
+  "item.createfood.chocolate_donut_hole_sugar": "Chocolate Donut Hole (Sugar)",
+
 
 
   "item.createfood.apple_popsicle": "Apple Popsicle",

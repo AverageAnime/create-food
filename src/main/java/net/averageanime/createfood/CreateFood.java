@@ -723,6 +723,27 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHOCOLATECREAMFROSTINGBOTTLE);
 			});
 		}
+// Chocolate Donut Base
+		if (CONFIG.isChocolateDonutBaseEnabled) {
+			final Item CHOCOLATEDONUTBASE = registerItem("chocolate_donut_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEDONUTBASE);
+			});
+		}
+// Chocolate Donut Hole
+		if (CONFIG.isChocolateDonutHoleEnabled) {
+			final Item CHOCOLATEDONUTHOLE = registerItem("chocolate_donut_hole", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEDONUTHOLE);
+			});
+		}
+// Chocolate Donut Hole (Sugar)
+		if (CONFIG.isChocolateDonutHoleSugarEnabled) {
+			final Item CHOCOLATEDONUTHOLESUGAR = registerItem("chocolate_donut_hole_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEDONUTHOLESUGAR);
+			});
+		}
 // Chocolate Filled Mini Graham Cracker Pie Crust
 		if (CONFIG.isChocolateFilledMiniGrahamCrackerPieCrustEnabled) {
 			final Item CHOCOLATEFILLEDMINIGRAHAMCRACKERPIECRUST = registerItem("chocolate_filled_mini_graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
@@ -967,6 +988,27 @@ public class CreateFood implements ModInitializer {
 					ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 						entries.add(DICEDONION);
 					});
+		}
+// Donut Base
+		if (CONFIG.isDonutBaseEnabled) {
+			final Item DONUTBASE = registerItem("donut_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(1.0f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(DONUTBASE);
+			});
+		}
+// Donut Hole
+		if (CONFIG.isDonutHoleEnabled) {
+			final Item DONUTHOLE = registerItem("donut_hole", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(DONUTHOLE);
+			});
+		}
+// Donut Hole (Sugar)
+		if (CONFIG.isDonutHoleSugarEnabled) {
+			final Item DONUTHOLESUGAR = registerItem("donut_hole_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(DONUTHOLESUGAR);
+			});
 		}
 // Frosted Cake
 				if (CONFIG.isFrostedCakeEnabled) {
