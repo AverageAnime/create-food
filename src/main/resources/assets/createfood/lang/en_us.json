@@ -102,7 +102,11 @@
   "item.createfood.raw_pastry_bar_base": "Raw Pastry Bar Base",
   "item.createfood.raw_chocolate_pastry_base": "Raw Chocolate Pastry Base",
   "item.createfood.chocolate_pastry_bar_base": "Chocolate Pastry Bar Base",
+  "item.createfood.chocolate_pastry_base": "Chocolate Pastry Base",
   "item.createfood.raw_chocolate_pastry_bar_base": "Raw Chocolate Pastry Bar Base",
+
+  "item.createfood.sliced_carrot": "Sliced Carrot",
+  "item.createfood.sliced_potato": "Sliced Potato",
 
   "item.createfood.donut_base": "Donut Base",
   "item.createfood.donut_hole": "Donut Hole",
