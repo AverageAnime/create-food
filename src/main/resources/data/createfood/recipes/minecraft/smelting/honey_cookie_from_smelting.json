@@ -5,7 +5,13 @@
       "values": [
         "farmersdelight"
       ]
-    }
+    },
+      {
+        "condition": "fabric:tags_populated",
+        "values": [
+          "c:honey_cookie"
+        ]
+      }
   ],
   "type": "minecraft:smelting",
   "cookingtime": 200,

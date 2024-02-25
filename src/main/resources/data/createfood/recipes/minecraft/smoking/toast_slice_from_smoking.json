@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast_slice"
+      ]
+    }
+  ],
   "type": "minecraft:smoking",
   "cookingtime": 100,
   "experience": 0.35,

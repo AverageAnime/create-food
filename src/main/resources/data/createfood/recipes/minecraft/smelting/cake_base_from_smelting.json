@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cake_base"
+      ]
+    }
+  ],
   "type": "minecraft:smelting",
   "cookingtime": 200,
   "experience": 0.35,

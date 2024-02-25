@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sausage_patty"
+      ]
+    }
+  ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {
     "tag": "c:raw_sausage_patty"

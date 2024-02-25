@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:honey_cookie"
+      ]
     }
   ],
   "type": "minecraft:campfire_cooking",

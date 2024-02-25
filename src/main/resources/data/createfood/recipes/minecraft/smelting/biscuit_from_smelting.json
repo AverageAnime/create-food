@@ -1,9 +1,9 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "createfood"
+        "c:biscuit"
       ]
     }
   ],
@@ -13,5 +13,7 @@
   "ingredient": {
     "tag": "c:butter_dough"
   },
-  "result": "createfood:biscuit"
+  "result": {
+    "item": "createfood:biscuit"
+  }
 }

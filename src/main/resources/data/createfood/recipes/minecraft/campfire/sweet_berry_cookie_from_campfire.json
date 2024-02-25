@@ -5,7 +5,13 @@
       "values": [
         "farmersdelight"
       ]
-    }
+    },
+      {
+        "condition": "fabric:tags_populated",
+        "values": [
+          "c:sweet_berry_cookie"
+        ]
+      }
   ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {

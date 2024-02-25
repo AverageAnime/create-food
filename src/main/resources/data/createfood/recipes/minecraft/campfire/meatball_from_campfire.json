@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:meatball"
+      ]
+    }
+  ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {
     "tag": "c:raw_meatball"

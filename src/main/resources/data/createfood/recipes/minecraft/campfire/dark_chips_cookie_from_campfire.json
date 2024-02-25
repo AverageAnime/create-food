@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chips_cookie"
+      ]
+    }
+  ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {
     "tag": "c:raw_dark_chips_cookie"

@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_nibs"
+      ]
+    }
+  ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {
     "item": "minecraft:cocoa_beans"

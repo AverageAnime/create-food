@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hot_white_chocolate_bottle"
+      ]
+    }
+  ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {
     "tag": "c:white_chocolate_bottle"

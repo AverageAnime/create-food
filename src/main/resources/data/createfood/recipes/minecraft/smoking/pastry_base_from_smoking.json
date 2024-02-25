@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pastry_base"
+      ]
+    }
+  ],
   "type": "minecraft:smoking",
   "cookingtime": 100,
   "experience": 0.55,

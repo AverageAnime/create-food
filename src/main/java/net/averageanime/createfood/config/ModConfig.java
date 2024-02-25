@@ -84,7 +84,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryPopsicleEnabled = true;
-    @Comment("Enable Biscuit. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Biscuit.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBiscuitEnabled = true;
@@ -128,7 +128,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBreakfastSausagesEnabled = true;
-    @Comment("Enable Bun. Recommend 'disable' with Bakery installed. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Bun. Recommend 'disable' with Bakery installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBunEnabled = true;
@@ -144,11 +144,11 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCacaoButterEnabled = true;
-    @Comment("Enable Cacao Nibs. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Cacao Nibs.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCacaoNibsEnabled = true;
-    @Comment("Enable Cake Base.  Recommend 'disable' if Create Additions or Bakery installed. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Cake Base.  Recommend 'disable' if Create Additions or Bakery installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCakeBaseEnabled = true;
@@ -264,7 +264,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateChipsEnabled = true;
-    @Comment("Enable Chocolate Cookie. Recommend 'disable' with Expanded Delight installed. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Chocolate Cookie. Recommend 'disable' with Expanded Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateCookieEnabled = true;
@@ -324,7 +324,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateMilkBottleEnabled = true;
-    @Comment("Enable Chocolate Pastry Base. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Chocolate Pastry Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolatePastryBaseEnabled = true;
@@ -336,7 +336,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateSweetRollEnabled = true;
-    @Comment("Enable Chocolate Sweet Roll Base. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Chocolate Sweet Roll Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateSweetRollBaseEnabled = true;
@@ -424,11 +424,11 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCyanGelatinDessertSliceEnabled = true;
-    @Comment("Enable Dark Chips Chocolate Cookie. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Dark Chips Chocolate Cookie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChipsChocolateCookieEnabled = true;
-    @Comment("Enable Dark Chips Cookie. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Dark Chips Cookie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChipsCookieEnabled = true;
@@ -600,27 +600,27 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHoneyedToastEnabled = true;
-    @Comment("Enable Hot Cheese & Sausage Biscuit Sandwich. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Hot Cheese & Sausage Biscuit Sandwich.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotCheeseAndSausageBiscuitSandwichEnabled = true;
-    @Comment("Enable Hot Cheese Biscuit Sandwich. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Hot Cheese Biscuit Sandwich.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotCheeseBiscuitSandwichEnabled = true;
-    @Comment("Enable Hot Chocolate Bottle. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Hot Chocolate Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotChocolateBottleEnabled = true;
-    @Comment("Enable Hot Dark Chocolate Bottle. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Hot Dark Chocolate Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotDarkChocolateBottleEnabled = true;
-    @Comment("Enable Hot Sausage Biscuit Sandwich. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Hot Sausage Biscuit Sandwich.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotSausageBiscuitSandwichEnabled = true;
-    @Comment("Enable Hot White Chocolate Bottle. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Hot White Chocolate Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotWhiteChocolateBottleEnabled = true;
@@ -656,7 +656,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMarshmallowStickEnabled = true;
-    @Comment("Enable Meatball. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Meatball.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMeatballEnabled = true;
@@ -696,7 +696,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastryBarBaseEnabled = true;
-    @Comment("Enable Pastry Base. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Pastry Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastryBaseEnabled = true;
@@ -804,7 +804,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSausageMeatEnabled = true;
-    @Comment("Enable Sausage Patty. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Sausage Patty.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSausagePattyEnabled = true;
@@ -828,11 +828,11 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSugarDoughEnabled = true;
-    @Comment("Enable Sweet Roll Base. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Sweet Roll Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSweetRollBaseEnabled = true;
-    @Comment("Enable Toast Slice. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable Toast Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isToastSliceEnabled = true;
@@ -840,11 +840,11 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isUnbreadedChickenPattyEnabled = true;
-    @Comment("Enable White Chips Chocolate Cookie. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable White Chips Chocolate Cookie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChipsChocolateCookieEnabled = true;
-    @Comment("Enable White Chips Cookie. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable White Chips Cookie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChipsCookieEnabled = true;
@@ -852,7 +852,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateBottleEnabled = true;
-    @Comment("Enable White Chocolate Chips. Requires manual removal of smelting/smoking/campfire recipes if disabled.")
+    @Comment("Enable White Chocolate Chips.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateChipsEnabled = true;
