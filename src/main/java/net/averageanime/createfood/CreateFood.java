@@ -180,6 +180,13 @@ public class CreateFood implements ModInitializer {
 					entries.add(BERRYCREAMFROSTEDCHOCOLATESWEETROLL);
 				});
 		}
+// Berry Cream Frosted Chocolate Sweet Roll (Sweet Berry)
+		if (CONFIG.isBerryCreamFrostedChocolateSweetRollSweetBerryEnabled) {
+			final Item BERRYCREAMFROSTEDCHOCOLATESWEETROLLSWEETBERRY = registerItem("berry_cream_frosted_chocolate_sweet_roll_sweet_berry", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BERRYCREAMFROSTEDCHOCOLATESWEETROLLSWEETBERRY);
+			});
+		}
 // Berry Cream Frosted Sweet Roll
 		if (CONFIG.isBerryCreamFrostedSweetRollEnabled) {
 			final Item BERRYCREAMFROSTEDSWEETROLL = registerItem("berry_cream_frosted_sweet_roll", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
@@ -1562,6 +1569,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(TOASTSLICE);
 					});
 				}
+// Sliced Potato
+		if (CONFIG.isSlicedPotatoEnabled) {
+			final Item SLICEDPOTATO = registerItem("sliced_potato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(SLICEDPOTATO);
+			});
+		}
 // Sliced Tomato
 				if (CONFIG.isSlicedTomatoEnabled) {
 					final Item SLICEDTOMATO = registerItem("sliced_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
