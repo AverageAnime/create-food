@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit",
+      "required": false
+    },
+    {
       "id": "createfood:caramel_chocolate",
       "required": false
     },
