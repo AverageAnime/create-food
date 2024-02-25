@@ -16,4 +16,44 @@ public class ModTags {
     public static final TagKey<Item> MEDIUM_NOURISHMENT = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_nourishment");
     public static final TagKey<Item> LONG_NOURISHMENT = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_nourishment");
 
+    public static final TagKey<Item> BRIEF_GLOWING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_glowing");
+    public static final TagKey<Item> SHORT_GLOWING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_glowing");
+    public static final TagKey<Item> MEDIUM_GLOWING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_glowing");
+    public static final TagKey<Item> LONG_GLOWING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_glowing");
+
+    public static final TagKey<Item> BRIEF_NIGHT_VISION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_night_vision");
+    public static final TagKey<Item> SHORT_NIGHT_VISION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_night_vision");
+    public static final TagKey<Item> MEDIUM_NIGHT_VISION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_night_vision");
+    public static final TagKey<Item> LONG_NIGHT_VISION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_night_vision");
+
+    public static final TagKey<Item> BRIEF_SLOW_FALLING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_slow_falling");
+    public static final TagKey<Item> SHORT_SLOW_FALLING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_slow_falling");
+    public static final TagKey<Item> MEDIUM_SLOW_FALLING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_slow_falling");
+    public static final TagKey<Item> LONG_SLOW_FALLING = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_slow_falling");
+
+    public static final TagKey<Item> BRIEF_JUMP_BOOST = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_jump_boost");
+    public static final TagKey<Item> SHORT_JUMP_BOOST = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_jump_boost");
+    public static final TagKey<Item> MEDIUM_JUMP_BOOST = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_jump_boost");
+    public static final TagKey<Item> LONG_JUMP_BOOST = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_jump_boost");
+
+    public static final TagKey<Item> BRIEF_SPEED = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_speed");
+    public static final TagKey<Item> SHORT_SPEED = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_speed");
+    public static final TagKey<Item> MEDIUM_SPEED = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_speed");
+    public static final TagKey<Item> LONG_SPEED = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_speed");
+
+    public static final TagKey<Item> BRIEF_HASTE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_haste");
+    public static final TagKey<Item> SHORT_HASTE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_haste");
+    public static final TagKey<Item> MEDIUM_HASTE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_haste");
+    public static final TagKey<Item> LONG_HASTE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_haste");
+
+    public static final TagKey<Item> BRIEF_STRENGTH = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_strength");
+    public static final TagKey<Item> SHORT_STRENGTH = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_strength");
+    public static final TagKey<Item> MEDIUM_STRENGTH = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_strength");
+    public static final TagKey<Item> LONG_STRENGTH = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_strength");
+
+    public static final TagKey<Item> BRIEF_LUCK = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_luck");
+    public static final TagKey<Item> SHORT_LUCK = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_luck");
+    public static final TagKey<Item> MEDIUM_LUCK = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_luck");
+    public static final TagKey<Item> LONG_LUCK = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_luck");
+
 }

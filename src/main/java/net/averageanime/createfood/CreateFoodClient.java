@@ -19,6 +19,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectUtil;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -32,6 +33,230 @@ public class CreateFoodClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
+            if (stack.isIn(ModTags.BRIEF_GLOWING)) {
+                StatusEffect effect = StatusEffects.GLOWING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_GLOWING)) {
+                StatusEffect effect = StatusEffects.GLOWING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_GLOWING)) {
+                StatusEffect effect = StatusEffects.GLOWING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_GLOWING)) {
+                StatusEffect effect = StatusEffects.GLOWING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_NIGHT_VISION)) {
+                StatusEffect effect = StatusEffects.NIGHT_VISION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_NIGHT_VISION)) {
+                StatusEffect effect = StatusEffects.NIGHT_VISION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_NIGHT_VISION)) {
+                StatusEffect effect = StatusEffects.NIGHT_VISION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_NIGHT_VISION)) {
+                StatusEffect effect = StatusEffects.NIGHT_VISION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_SLOW_FALLING)) {
+                StatusEffect effect = StatusEffects.SLOW_FALLING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_SLOW_FALLING)) {
+                StatusEffect effect = StatusEffects.SLOW_FALLING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_SLOW_FALLING)) {
+                StatusEffect effect = StatusEffects.SLOW_FALLING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_SLOW_FALLING)) {
+                StatusEffect effect = StatusEffects.SLOW_FALLING;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_JUMP_BOOST)) {
+                StatusEffect effect = StatusEffects.JUMP_BOOST;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_JUMP_BOOST)) {
+                StatusEffect effect = StatusEffects.JUMP_BOOST;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_JUMP_BOOST)) {
+                StatusEffect effect = StatusEffects.JUMP_BOOST;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_JUMP_BOOST)) {
+                StatusEffect effect = StatusEffects.JUMP_BOOST;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_SPEED)) {
+                StatusEffect effect = StatusEffects.SPEED;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_SPEED)) {
+                StatusEffect effect = StatusEffects.SPEED;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_SPEED)) {
+                StatusEffect effect = StatusEffects.SPEED;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_SPEED)) {
+                StatusEffect effect = StatusEffects.SPEED;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_HASTE)) {
+                StatusEffect effect = StatusEffects.HASTE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_HASTE)) {
+                StatusEffect effect = StatusEffects.HASTE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_HASTE)) {
+                StatusEffect effect = StatusEffects.HASTE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_HASTE)) {
+                StatusEffect effect = StatusEffects.HASTE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_STRENGTH)) {
+                StatusEffect effect = StatusEffects.STRENGTH;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_STRENGTH)) {
+                StatusEffect effect = StatusEffects.STRENGTH;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_STRENGTH)) {
+                StatusEffect effect = StatusEffects.STRENGTH;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_STRENGTH)) {
+                StatusEffect effect = StatusEffects.STRENGTH;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.BRIEF_LUCK)) {
+                StatusEffect effect = StatusEffects.LUCK;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_LUCK)) {
+                StatusEffect effect = StatusEffects.LUCK;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_LUCK)) {
+                StatusEffect effect = StatusEffects.LUCK;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_LUCK)) {
+                StatusEffect effect = StatusEffects.LUCK;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
             if (FabricLoader.getInstance().isModLoaded("farmersdelight")) {
                 if (stack.isIn(ModTags.BRIEF_COMFORT)) {
                     StatusEffect effect = EffectsRegistry.COMFORT.get();

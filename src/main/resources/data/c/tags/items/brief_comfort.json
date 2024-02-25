@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-
+    {
+      "id": "createfood:berry_cream_frosted_sweet_roll_sweet_berry",
+      "required": false
+    },
     {
       "id": "create:sweet_roll",
       "required": false
