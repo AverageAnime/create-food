@@ -1569,6 +1569,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(TOASTSLICE);
 					});
 				}
+// Sliced Carrot
+		if (CONFIG.isSlicedCarrotEnabled) {
+			final Item SLICEDCARROT = registerItem("sliced_carrot", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(SLICEDCARROT);
+			});
+		}
 // Sliced Potato
 		if (CONFIG.isSlicedPotatoEnabled) {
 			final Item SLICEDPOTATO = registerItem("sliced_potato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
