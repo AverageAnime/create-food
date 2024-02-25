@@ -404,6 +404,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCreamDarkChocolateEnabled = true;
+    @Comment("Enable Cream Filled Chocolate Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamChocolatePastryEnabled = true;
+    @Comment("Enable Cream Filled Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamPastryEnabled = true;
     @Comment("Enable Cream White Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -464,14 +472,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isFrostedCakeEnabled = true;
-    @Comment("Enable Frosting Filled Chocolate Pastry.")
-    @ConfigEntry.Category("CreateFood")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isFrostingChocolatePastryEnabled = true;
-    @Comment("Enable Frosting Filled Pastry.")
-    @ConfigEntry.Category("CreateFood")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isFrostingPastryEnabled = true;
     @Comment("Enable Glazed Chocolate Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
