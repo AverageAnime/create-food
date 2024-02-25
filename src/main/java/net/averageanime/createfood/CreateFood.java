@@ -194,6 +194,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(BERRYCREAMFROSTEDSWEETROLL);
 			});
 		}
+// Berry Cream Frosted Sweet Roll (Sweet Berry)
+		if (CONFIG.isBerryCreamFrostedSweetRollSweetBerryEnabled) {
+			final Item BERRYCREAMFROSTEDSWEETROLLSWEETBERRY = registerItem("berry_cream_frosted_sweet_roll_sweet_berry", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BERRYCREAMFROSTEDSWEETROLLSWEETBERRY);
+			});
+		}
 // Berry Popsicle
 		if (CONFIG.isBerryPopsicleEnabled) {
 			final Item BERRYPOPSICLE = registerItem("berry_popsicle", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.5f).build())));
@@ -835,11 +842,25 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHORUSFRUITCREAMFROSTEDCHOCOLATESWEETROLL);
 			});
 		}
+// Chorus Fruit Cream Frosted Chocolate Sweet Roll (Chorus Fruit)
+		if (CONFIG.isChorusFruitCreamFrostedChocolateSweetRollChorusFruitEnabled) {
+			final Item CHORUSFRUITCREAMFROSTEDCHOCOLATESWEETROLLCHORUSFRUIT = registerItem("chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHORUSFRUITCREAMFROSTEDCHOCOLATESWEETROLLCHORUSFRUIT);
+			});
+		}
 // Chorus Fruit Cream Frosted Sweet Roll
 		if (CONFIG.isChorusFruitCreamFrostedSweetRollEnabled) {
 			final Item CHORUSFRUITCREAMFROSTEDSWEETROLL = registerItem("chorus_fruit_cream_frosted_sweet_roll", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.7f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(CHORUSFRUITCREAMFROSTEDSWEETROLL);
+			});
+		}
+// Chorus Fruit Cream Frosted Sweet Roll (Chorus Fruit)
+		if (CONFIG.isChorusFruitCreamFrostedSweetRollChorusFruitEnabled) {
+			final Item CHORUSFRUITCREAMFROSTEDSWEETROLLCHORUSFRUIT = registerItem("chorus_fruit_cream_frosted_sweet_roll_chorus_fruit", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHORUSFRUITCREAMFROSTEDSWEETROLLCHORUSFRUIT);
 			});
 		}
 // Cream Filled Chocolate
@@ -1074,6 +1095,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(GLOWBERRYCREAMFROSTEDCHOCOLATESWEETROLL);
 					});
 				}
+// Glow Berry Cream Frosted Chocolate Sweet Roll (Glow Berry)
+		if (CONFIG.isGlowBerryCreamFrostedChocolateSweetRollGlowBerryEnabled) {
+			final Item GLOWBERRYCREAMFROSTEDCHOCOLATESWEETROLLGLOWBERRY = registerItem("glow_berry_cream_frosted_chocolate_sweet_roll_glow_berry", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GLOWBERRYCREAMFROSTEDCHOCOLATESWEETROLLGLOWBERRY);
+			});
+		}
 // Glow Berry Cream Frosted Sweet Roll
 				if (CONFIG.isGlowBerryCreamFrostedSweetRollEnabled) {
 					final Item GLOWBERRYCREAMFROSTEDSWEETROLL = registerItem("glow_berry_cream_frosted_sweet_roll", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
@@ -1081,6 +1109,13 @@ public class CreateFood implements ModInitializer {
 						entries.add(GLOWBERRYCREAMFROSTEDSWEETROLL);
 					});
 				}
+// Glow Berry Cream Frosted Sweet Roll (Glow Berry)
+		if (CONFIG.isGlowBerryCreamFrostedSweetRollGlowBerryEnabled) {
+			final Item GLOWBERRYCREAMFROSTEDSWEETROLLGLOWBERRY = registerItem("glow_berry_cream_frosted_sweet_roll_glow_berry", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GLOWBERRYCREAMFROSTEDSWEETROLLGLOWBERRY);
+			});
+		}
 // Glow Berry Popsicle
 				if (CONFIG.isGlowBerryPopsicleEnabled) {
 					final Item GLOWBERRYPOPSICLE = registerItem("glow_berry_popsicle", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.5f).build())));
