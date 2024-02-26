@@ -5,10 +5,10 @@
       "item": "createfood:gelatin_dessert_block"
     },
     {
-      "tag": "c:red_dyes"
+      "tag": "c:orange_dyes"
     }
   ],
   "result": {
-    "item": "createfood:red_gelatin_dessert_block"
+    "item": "createfood:orange_gelatin_dessert_block"
   }
 }
