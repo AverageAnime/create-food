@@ -10,7 +10,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "c:gelatin_dessert_block"
+      "item": "createfood:gelatin_dessert_block"
     }
   ],
   "tool":

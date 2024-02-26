@@ -4,10 +4,6 @@
     {
       "id": "createfood:sliced_potato",
       "required": false
-    },
-    {
-      "id": "minecraft:potato",
-      "required": false
     }
   ]
 }

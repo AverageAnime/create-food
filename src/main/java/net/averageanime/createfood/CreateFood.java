@@ -201,6 +201,20 @@ public class CreateFood implements ModInitializer {
 				entries.add(BERRYCREAMFROSTEDSWEETROLLSWEETBERRY);
 			});
 		}
+// Berry Cream Glazed Chocolate Donut
+		if (CONFIG.isBerryCreamGlazedChocolateDonutEnabled) {
+			final Item BERRYCREAMGLAZEDCHOCOLATEDONUT = registerItem("berry_cream_glazed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BERRYCREAMGLAZEDCHOCOLATEDONUT);
+			});
+		}
+// Berry Cream Glazed Donut
+		if (CONFIG.isBerryCreamGlazedDonutEnabled) {
+			final Item BERRYCREAMGLAZEDDONUT = registerItem("berry_cream_glazed_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BERRYCREAMGLAZEDDONUT);
+			});
+		}
 // Berry Popsicle
 		if (CONFIG.isBerryPopsicleEnabled) {
 			final Item BERRYPOPSICLE = registerItem("berry_popsicle", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.5f).build())));
@@ -772,6 +786,20 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHOCOLATEGLAZEDAPPLE);
 			});
 		}
+// Chocolate Glazed Chocolate Donut
+		if (CONFIG.isChocolateGlazedChocolateDonutEnabled) {
+			final Item CHOCOLATEGLAZEDCHOCOLATEDONUT = registerItem("chocolate_glazed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEGLAZEDCHOCOLATEDONUT);
+			});
+		}
+// Chocolate Glazed Donut
+		if (CONFIG.isChocolateGlazedDonutEnabled) {
+			final Item CHOCOLATEGLAZEDDONUT = registerItem("chocolate_glazed_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHOCOLATEGLAZEDDONUT);
+			});
+		}
 // Chocolate Milk Bottle
 		if (CONFIG.isChocolateMilkBottleEnabled) {
 			final Item CHOCOLATEMILKBOTTLE = registerItem("chocolate_milk_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build())));
@@ -856,6 +884,20 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHORUSFRUITCREAMDARKCHOCOLATE);
 			});
 		}
+// Chorus Fruit Cream Glazed Chocolate Donut
+		if (CONFIG.isChorusFruitCreamGlazedChocolateDonutEnabled) {
+			final Item CHORUSFRUITCREAMGLAZEDCHOCOLATEDONUT = registerItem("chorus_fruit_cream_glazed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHORUSFRUITCREAMGLAZEDCHOCOLATEDONUT);
+			});
+		}
+// Chorus Fruit Cream Glazed Donut
+		if (CONFIG.isChorusFruitCreamGlazedDonutEnabled) {
+			final Item CHORUSFRUITCREAMGLAZEDDONUT = registerItem("chorus_fruit_cream_glazed_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CHORUSFRUITCREAMGLAZEDDONUT);
+			});
+		}
 // Chorus Fruit Cream White Chocolate
 		if (CONFIG.isChorusFruitCreamWhiteChocolateEnabled) {
 			final Item CHORUSFRUITCREAMWHITECHOCOLATE = registerItem("chorus_fruit_cream_white_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).build())));
@@ -924,6 +966,20 @@ public class CreateFood implements ModInitializer {
 			final Item CREAMFROSTINGBOTTLE = registerItem("cream_frosting_bottle", new BottleDrink(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).build()).maxCount(64)));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(CREAMFROSTINGBOTTLE);
+			});
+		}
+// Cream Glazed Chocolate Donut
+		if (CONFIG.isCreamGlazedChocolateDonutEnabled) {
+			final Item CREAMGLAZEDCHOCOLATEDONUT = registerItem("cream_glazed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CREAMGLAZEDCHOCOLATEDONUT);
+			});
+		}
+// Cream Glazed Donut
+		if (CONFIG.isCreamGlazedDonutEnabled) {
+			final Item CREAMGLAZEDDONUT = registerItem("cream_glazed_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CREAMGLAZEDDONUT);
 			});
 		}
 // Dark Chips Chocolate Cookie
@@ -1067,6 +1123,12 @@ public class CreateFood implements ModInitializer {
 				entries.add(GREENGELATINDESSERTSLICE);
 			});
 		}
+		if (CONFIG.isLightBlueGelatinDessertSliceEnabled) {
+			final Item LIGHTBLUEGELATINDESSERTSLICE = registerItem("light_blue_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(LIGHTBLUEGELATINDESSERTSLICE);
+			});
+		}
 		if (CONFIG.isLightGrayGelatinDessertSliceEnabled) {
 			final Item LIGHTGRAYGELATINDESSERTSLICE = registerItem("light_gray_gelatin_dessert_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
@@ -1170,6 +1232,20 @@ public class CreateFood implements ModInitializer {
 			final Item GLOWBERRYCREAMFROSTEDSWEETROLLGLOWBERRY = registerItem("glow_berry_cream_frosted_sweet_roll_glow_berry", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(GLOWBERRYCREAMFROSTEDSWEETROLLGLOWBERRY);
+			});
+		}
+// Glow Berry Cream Glazed Chocolate Donut
+		if (CONFIG.isGlowBerryCreamGlazedChocolateDonutEnabled) {
+			final Item GLOWBERRYCREAMGLAZEDCHOCOLATEDONUT = registerItem("glow_berry_cream_glazed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GLOWBERRYCREAMGLAZEDCHOCOLATEDONUT);
+			});
+		}
+// Glow Berry Cream Glazed Donut
+		if (CONFIG.isGlowBerryCreamGlazedDonutEnabled) {
+			final Item GLOWBERRYCREAMGLAZEDDONUT = registerItem("glow_berry_cream_glazed_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(GLOWBERRYCREAMGLAZEDDONUT);
 			});
 		}
 // Glow Berry Popsicle
@@ -1312,6 +1388,20 @@ public class CreateFood implements ModInitializer {
 						entries.add(HONEYEDCHOCOLATESWEETROLL);
 					});
 				}
+// Honeyed Chocolate Donut
+		if (CONFIG.isHoneyedChocolateDonutEnabled) {
+			final Item HONEYEDCHOCOLATEDONUT = registerItem("honeyed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(HONEYEDCHOCOLATEDONUT);
+			});
+		}
+// Honeyed Donut
+		if (CONFIG.isHoneyedDonutEnabled) {
+			final Item HONEYEDDONUT = registerItem("honeyed_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(HONEYEDDONUT);
+			});
+		}
 // Honeyed Sweet Roll
 				if (CONFIG.isHoneyedSweetRollEnabled) {
 					final Item HONEYEDSWEETROLL = registerItem("honeyed_sweet_roll", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.7f).build())));

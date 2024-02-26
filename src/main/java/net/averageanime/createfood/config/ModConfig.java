@@ -479,11 +479,11 @@ public class ModConfig implements ConfigData
     @Comment("Enable Glazed Chocolate Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isGlazedChocolateDonutEnabled = true;
+    public boolean isCreamGlazedChocolateDonutEnabled = true;
     @Comment("Enable Glazed Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isGlazedDonutEnabled = true;
+    public boolean isCreamGlazedDonutEnabled = true;
     @Comment("Enable Gelatin.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -628,6 +628,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotWhiteChocolateBottleEnabled = true;
+    @Comment("Enable Light Blue Gelatin Dessert Slice.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isLightBlueGelatinDessertSliceEnabled = true;
     @Comment("Enable Light Gray Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart

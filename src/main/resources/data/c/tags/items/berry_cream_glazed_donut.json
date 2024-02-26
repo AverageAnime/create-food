@@ -2,10 +2,6 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:berry_cream_frosted_chocolate_sweet_roll_sweet_berry",
-      "required": false
-    },
-    {
       "id": "createfood:berry_cream_glazed_donut",
       "required": false
     }

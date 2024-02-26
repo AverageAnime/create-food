@@ -51,7 +51,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.GLOWING;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_GLOWING)) {
@@ -79,7 +79,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.NIGHT_VISION;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_NIGHT_VISION)) {
@@ -107,7 +107,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.SLOW_FALLING;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_SLOW_FALLING)) {
@@ -135,7 +135,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.JUMP_BOOST;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_JUMP_BOOST)) {
@@ -163,7 +163,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.SPEED;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_SPEED)) {
@@ -191,7 +191,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.HASTE;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_HASTE)) {
@@ -219,7 +219,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.STRENGTH;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_STRENGTH)) {
@@ -247,7 +247,7 @@ public class CreateFoodClient implements ClientModInitializer {
                 StatusEffect effect = StatusEffects.LUCK;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
                                 StatusEffectUtil.getDurationText(
-                                        new StatusEffectInstance(effect, 3200), 1))
+                                        new StatusEffectInstance(effect, 3600), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
             if (stack.isIn(ModTags.LONG_LUCK)) {
