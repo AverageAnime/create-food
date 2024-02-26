@@ -33,6 +33,9 @@
   "block.createfood.hot_white_chocolate_block": "Hot White Chocolate Fluid",
   "block.createfood.white_chocolate_block": "White Chocolate Fluid",
 
+  "item.createfood.vegetable_oil_block": "Vegetable Oil Fluid",
+  "item.createfood.vegetable_oil_bucket": "Vegetable Oil Bucket",
+
   "block.createfood.black_gelatin_dessert_block": "Black Gelatin Dessert Block",
   "block.createfood.black_gelatin_mix_block": "Black Gelatin Mix Fluid",
   "item.createfood.black_gelatin_dessert_slice": "Black Gelatin Dessert Slice",

@@ -1,0 +1,23 @@
+{
+  "type": "create_bic_bit:deep_frying",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_pastry_base"
+    },
+    {
+      "amount": 10125,
+      "fluid": "create_bic_bit:frying_oil"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "createfood:chocolate_donut_base"
+    },
+    {
+      "amount": 6750,
+      "fluid": "create_bic_bit:frying_oil"
+    }
+  ]
+}

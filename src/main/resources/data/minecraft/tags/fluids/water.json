@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_vegetable_oil",
+      "required": false
+    },
+    {
+      "id": "createfood:vegetable_oil",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_red_gelatin_mix",
       "required": false
     },

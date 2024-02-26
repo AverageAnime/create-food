@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create_bic_bit"
+        ]
+      }
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag": "c:potato"
+    },
+    {
+      "amount": 10125,
+      "fluid": "createfood:vegetable_oil"
+    }
+  ],
+  "results":[
+    {
+      "item": "createfood:potato_chips"
+    },
+    {
+      "amount": 6750,
+      "fluid": "createfood:vegetable_oil"
+    }
+  ]
+}

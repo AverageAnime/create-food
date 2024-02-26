@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":40500,
+      "fluid":"minecraft:water"
+    },
+    {
+      "tag": "c:carrot"
+    },
+    {
+      "tag": "c:potato"
+    },
+    {
+      "tag": "c:vegetables"
+    }
+  ],
+  "results":[
+    {
+      "amount": 40500,
+      "fluid": "createfood:vegetable_oil"
+    }
+  ]
+}

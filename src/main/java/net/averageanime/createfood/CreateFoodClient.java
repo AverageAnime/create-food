@@ -403,6 +403,12 @@ public class CreateFoodClient implements ClientModInitializer {
         }
 
 // Fluids
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL, new SimpleFluidRenderHandler(
+                new Identifier("minecraft:block/water_still"),
+                new Identifier("minecraft:block/water_flow"),
+                0xaca875
+        ));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX);
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX, new SimpleFluidRenderHandler(
                 new Identifier("minecraft:block/water_still"),

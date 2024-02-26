@@ -1099,6 +1099,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotWhiteChocolateFluidEnabled = true;
+    @Comment("Enable Vegetable Oil Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isVegetableOilFluidEnabled = true;
     @Comment("Enable White Chocolate Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

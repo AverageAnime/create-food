@@ -33,6 +33,11 @@ public abstract class BackgroundRendererMixin {
     @ModifyArgs(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false))
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
+        if (ModFluids.isVegetableOil(state)) {
+            red = (float) 172 / 255;
+            green = (float) 168 / 255;
+            blue = (float) 117 / 255;
+        }
         if (ModFluids.isBlackGelatinMix(state)) {
             red = (float) 29 / 255;
             green = (float) 29 / 255;
@@ -190,6 +195,11 @@ public abstract class BackgroundRendererMixin {
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+        if (ModFluids.isVegetableOil(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isBlackGelatinMix(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
