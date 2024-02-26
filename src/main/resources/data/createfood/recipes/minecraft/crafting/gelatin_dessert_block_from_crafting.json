@@ -13,7 +13,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:gelatin_mix_bucket"
+      "item": "createfood:gelatin_mix_bucket"
     },
     {
       "item": "minecraft:ice"

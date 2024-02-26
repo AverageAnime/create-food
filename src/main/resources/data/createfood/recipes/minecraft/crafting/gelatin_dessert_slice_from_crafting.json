@@ -13,7 +13,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:gelatin_dessert_block"
+      "item": "createfood:gelatin_dessert_block"
     }
   ],
   "result": {
