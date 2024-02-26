@@ -13,7 +13,5 @@
   "ingredient": {
     "tag": "c:butter_dough"
   },
-  "result": {
-    "item": "createfood:biscuit"
-  }
+  "result": "createfood:biscuit"
 }

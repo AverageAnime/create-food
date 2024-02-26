@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {"tag":"c:chocolate_donut_base"},
+    {"amount":20250,"fluid":"createfood:cream_frosting"}
+  ],
+  "results":[
+    {"item":"createfood:cream_glazed_chocolate_donut"}
+  ]
+}

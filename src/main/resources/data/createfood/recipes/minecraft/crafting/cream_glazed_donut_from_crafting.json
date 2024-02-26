@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:donut_base"
+    },
+    {
+      "tag": "c:cream_frosting"
+    }
+  ],
+  "result": {
+      "item": "createfood:cream_glazed_donut"
+    }
+}

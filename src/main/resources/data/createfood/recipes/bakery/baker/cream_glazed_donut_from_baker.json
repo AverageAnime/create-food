@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "tag": "c:donut_base"
+    },
+    {
+      "tag": "c:cream_frosting"
+    }
+  ],
+  "result": {
+    "item": "createfood:cream_glazed_donut"
+  }
+}

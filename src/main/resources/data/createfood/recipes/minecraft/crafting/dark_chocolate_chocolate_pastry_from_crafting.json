@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_pastry_base"
+    },
+    {
+      "tag": "c:dark_chocolate_bottle"
+    }
+  ],
+  "result": {
+      "item": "createfood:dark_chocolate_chocolate_pastry"
+    }
+}

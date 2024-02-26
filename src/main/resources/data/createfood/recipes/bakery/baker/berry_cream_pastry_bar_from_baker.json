@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "tag": "c:pastry_bar_base"
+    },
+    {
+      "tag": "c:berry_cream_frosting"
+    }
+  ],
+  "result": {
+    "item": "createfood:berry_cream_pastry_bar"
+  }
+}

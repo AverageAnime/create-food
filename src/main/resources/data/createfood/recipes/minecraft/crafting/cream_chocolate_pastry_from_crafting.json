@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_pastry_base"
+    },
+    {
+      "tag": "c:cream_frosting"
+    }
+  ],
+  "result": {
+      "item": "createfood:cream_chocolate_pastry"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {"tag":"c:chocolate_pastry_bar_base"},
+    {"amount":20250,"fluid":"createfood:caramel"}
+  ],
+  "results":[
+    {"item":"createfood:caramel_chocolate_pastry_bar"}
+  ]
+}

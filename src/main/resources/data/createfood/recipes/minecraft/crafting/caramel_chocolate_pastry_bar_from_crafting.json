@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_pastry_bar_base"
+    },
+    {
+      "tag": "c:caramel"
+    }
+  ],
+  "result": {
+      "item": "createfood:caramel_chocolate_pastry_bar"
+    }
+}

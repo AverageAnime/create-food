@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {"tag":"c:donut_base"},
+    {"amount":20250,"fluid":"create:honey"}
+  ],
+  "results":[
+    {"item":"createfood:honeyed_donut"}
+  ]
+}
