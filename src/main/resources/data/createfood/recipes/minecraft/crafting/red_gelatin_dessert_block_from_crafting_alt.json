@@ -13,13 +13,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:gelatin_dessert_block"
+      "item": "createfood:gelatin_dessert_block"
     },
     {
-      "tag": "c:white_dyes"
+      "tag": "c:red_dyes"
     }
   ],
   "result": {
-    "item": "createfood:gelatin_dessert_block"
+    "item": "createfood:red_gelatin_dessert_block"
   }
 }
