@@ -1,18 +1,18 @@
 ![logo](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/473ed31f-67ad-406f-9ea4-e633aa76f49f)
 ### **About:**
 
-Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) based on expanding food content found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric), [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric), and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods, but can also be used stand-alone.
+Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) based on expanding food content found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric), [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric), and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
 
 ### **Current Content:**
-* 200+ new food-related items. Enable/disable in the config according to preference.
-* 14+ new fluids. Enable/disable in the config according to preference.
+* 250+ new food-related items. Enable/disable in the config according to preference.
+* 30+ new fluids. Enable/disable in the config according to preference.
 * New recipes for chocolate & chocolate types.
 * All recipes use tags where possible.
 * Numerous tag additions to enhance mod compatibility.
 * Animated textures for hot drinks.
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
 * Full recipe support for [satisfy’s [Let’s Do]](https://www.curseforge.com/members/satisfy/projects) mods.
-* Tag-based system to apply Farmer's Delight food effects. You can now add Comfort and Nourishment to any item with the appropriate tag. Example: 'create:sweet_roll' has been added to the tag 'c:brief_comfort', giving 30 seconds of Comfort.
+* Tag-based system to apply Farmer's Delight food effects and vanilla status effects. Add Comfort, Nourishment, Night Vision & more to any item with the appropriate tag. Example: 'create:sweet_roll' has been added to the tag 'c:brief_comfort', giving 30 seconds of Comfort.
 
 ### **Required Dependencies:**
 
