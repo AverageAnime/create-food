@@ -372,6 +372,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitCreamWhiteChocolateEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Filled Chocolate Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamChocolatePastryBarEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Filled Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamPastryBarEnabled = true;
     @Comment("Enable Chorus Fruit Cream Frosting Jar.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -448,6 +456,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChocolateCoveredMarshmallowStickEnabled = true;
+    @Comment("Enable Dark Chocolate Filled Chocolate Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDarkChocolateChocolatePastryEnabled = true;
+    @Comment("Enable Dark Chocolate Filled Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDarkChocolatePastryEnabled = true;
     @Comment("Enable Dark Chocolate Glazed Apple.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -504,6 +520,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryCreamWhiteChocolateEnabled = true;
+    @Comment("Enable Glow Berry Cream Filled Chocolate Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamChocolatePastryBarEnabled = true;
+    @Comment("Enable Glow Berry Cream Filled Pastry Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamPastryBarEnabled = true;
     @Comment("Enable Glow Berry Cream Frosting Jar.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -868,6 +892,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateCoveredMarshmallowStickEnabled = true;
+    @Comment("Enable White Chocolate Filled Chocolate Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWhiteChocolateChocolatePastryEnabled = true;
+    @Comment("Enable White Chocolate Filled Pastry.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWhiteChocolatePastryEnabled = true;
     @Comment("Enable White Chocolate Glazed Apple.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
