@@ -25,9 +25,6 @@ Create: Food [Fabric] is an add-on for [Farmer's Delight](https://www.curseforge
 * [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified)
 * [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
 
-### **Item Preview:**
-![itempreview](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/3f33721d-9bcc-4028-9fd9-74c1ec3e375d)
-View the full item list on the [Wiki](https://github.com/AverageAnime/create-food-1.20.1/wiki/Item-List).
 ### **Configuration:**
 
 You might have noticed multiple items featured in this mod can also be found in mods you are already using. I included these items mainly to avoid requiring such mods as dependencies for certain recipes. Therefore, every item/fluid added by this mod can be disabled/enabled through the config, and it is recommended you do so if you are using other mods. The config itself has additional suggestions on which items to disable when using other mods.
@@ -40,3 +37,7 @@ Any mod that uses the supported tags can be used. For example, various items fou
 * Fluid code is from [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) by [Flomik](https://www.curseforge.com/members/flomik).
 * Various item textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) and [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric).
 * Fluid textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric).
+
+### **Item Preview:**
+![foodpreview](https://github.com/AverageAnime/create-food/assets/150550990/48e5a633-1c01-486a-8163-d3d3959f1a13)
+View the full item list on the [Wiki](https://github.com/AverageAnime/create-food-1.20.1/wiki/Item-List).
