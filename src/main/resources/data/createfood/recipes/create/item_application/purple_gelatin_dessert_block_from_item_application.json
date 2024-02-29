@@ -9,7 +9,7 @@
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"createfood:gelatin_dessert_block"},
+    {"tag":"c:gelatin_dessert_block"},
     {"tag":"c:purple_dyes"}
   ],
   "results":[
