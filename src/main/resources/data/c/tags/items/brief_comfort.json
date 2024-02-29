@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:caramel_pastry_bar",
+      "required": false
+    },
+    {
       "id": "createfood:potato_chips",
       "required": false
     },

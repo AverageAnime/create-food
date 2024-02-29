@@ -2,6 +2,46 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:glow_berry_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_pastry_bar",
+      "required": false
+    },
+    {
       "id": "createfood:berry_cream_frosted_chocolate_sweet_roll_sweet_berry",
       "required": false
     },

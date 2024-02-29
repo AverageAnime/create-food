@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:caramel_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_donut_hole_sugar",
+      "required": false
+    }
+  ]
+}
