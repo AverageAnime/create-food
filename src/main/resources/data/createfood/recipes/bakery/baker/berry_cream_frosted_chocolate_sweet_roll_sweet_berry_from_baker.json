@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baker",
+  "ingredients": [
+    {
+      "tag": "c:berry_cream_frosted_chocolate_sweet_roll"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "item": "createfood:berry_cream_frosted_chocolate_sweet_roll_sweet_berry"
+  }
+}
