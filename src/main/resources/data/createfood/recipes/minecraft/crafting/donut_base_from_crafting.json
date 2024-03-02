@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:pastry_base"
+    },
+    {
+      "tag": "c:vegetable_oil_bucket"
+    }
+  ],
+  "result": {
+      "item": "createfood:donut_base"
+    }
+}

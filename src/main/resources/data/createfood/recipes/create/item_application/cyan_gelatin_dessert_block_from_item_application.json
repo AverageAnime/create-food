@@ -7,7 +7,7 @@
       ]
     }
   ],
-  "type":"create:filling",
+  "type":"create:item_application",
   "ingredients":[
     {"tag":"c:gelatin_dessert_block"},
     {"tag":"c:cyan_dyes"}

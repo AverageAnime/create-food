@@ -16,8 +16,7 @@
       "item": "createfood:donut_base"
     },
     {
-      "amount": 6750,
-      "fluid": "create_bic_bit:frying_oil"
+      "item": "createfood:donut_base"
     }
   ]
 }
