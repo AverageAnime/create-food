@@ -21,10 +21,6 @@
   "results":[
     {
       "item": "createfood:potato_chips"
-    },
-    {
-      "amount": 6750,
-      "fluid": "create_bic_bit:frying_oil"
     }
   ]
 }

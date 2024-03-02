@@ -24,10 +24,6 @@
   "results":[
     {
       "item": "createfood:potato_chips"
-    },
-    {
-      "amount": 6750,
-      "fluid": "createfood:vegetable_oil"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:chocolate_donut_hole"},
+    {"tag":"c:sugar"}
+  ],
+  "results":[
+    {"item":"createfood:chocolate_donut_hole_sugar"}
+  ]
+}
