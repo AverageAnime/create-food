@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:spicy_chicken_nuggets",
+      "required": false
+    },
+    {
       "id": "createfood:hamburger_lettuce_tomato",
       "required": false
     },

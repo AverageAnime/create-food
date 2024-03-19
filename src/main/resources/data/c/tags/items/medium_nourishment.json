@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:spicy_breakfast_sausages",
+      "required": false
+    },
+    {
       "id": "farmersdelight:hamburger",
       "required": false
     },
