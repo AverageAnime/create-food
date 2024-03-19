@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery",
+        "expandeddelight"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_honey_cookie"
+    },
+    {
+      "tag": "c:raw_honey_cookie"
+    },
+    {
+      "tag": "c:raw_honey_cookie"
+    }
+  ],
+  "item": "farmersdelight:honey_cookie",
+  "count": 3,
+  "experience": 0.45
+}
