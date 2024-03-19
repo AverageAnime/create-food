@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cinnamon_sweet_roll_base"
+      ]
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:raw_cinnamon_sweet_roll_base"
+  },
+  "result": "createfood:cinnamon_sweet_roll_base",
+  "experience": 0.1,
+  "cookingtime": 200
+}

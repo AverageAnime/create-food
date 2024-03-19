@@ -1322,5 +1322,32 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSlicedTomatoEnabled = true;
 
+    // Expanded Delight
+
+    @Comment("Enable Raw Sugar Cookie.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSugarCookieEnabled = true;
+    @Comment("Enable Raw Snickerdoodle.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSnickerdoodleEnabled = true;
+    @Comment("Enable Raw Cinnamon Sweet Roll Base.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawCinnamonSweetRollBaseEnabled = true;
+    @Comment("Enable Cinnamon Sweet Roll Base.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCinnamonSweetRollBaseEnabled = true;
+    @Comment("Enable Spicy Breakfast Sausages.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSpicyBreakfastSausagesEnabled = true;
+    @Comment("Enable Spicy Chicken Nuggets.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSpicyChickenNuggetsEnabled = true;
+
 
 }

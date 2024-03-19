@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sweet_dough"
+    },
+    {
+      "tag":"c:ground_cinnamon"
+    }
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:raw_snickerdoodle"
+    }
+  ]
+}

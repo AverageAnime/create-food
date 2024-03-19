@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:breakfast_sausages"
+    },
+    {
+      "tag": "c:chili_peppers"
+    }
+  ],
+  "result": {
+      "item": "createfood:spicy_breakfast_sausages"
+    }
+}
