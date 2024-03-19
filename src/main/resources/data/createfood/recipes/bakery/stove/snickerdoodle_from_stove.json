@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery",
+        "expandeddelight"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_snickerdoodle"
+    },
+    {
+      "tag": "c:raw_snickerdoodle"
+    },
+    {
+      "tag": "c:raw_snickerdoodle"
+    }
+  ],
+  "item": "expandeddelight:snickerdoodle",
+  "count": 3,
+  "experience": 0.45
+}
