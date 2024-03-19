@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:raw_sugar_cookie",
+      "required": false
+    }
+  ]
+}

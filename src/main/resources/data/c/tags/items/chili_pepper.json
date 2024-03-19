@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "expandeddelight:chili_pepper",
+      "required": false
+    }
+  ]
+}
