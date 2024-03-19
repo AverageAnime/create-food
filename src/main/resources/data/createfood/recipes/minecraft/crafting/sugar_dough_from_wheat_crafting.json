@@ -11,7 +11,7 @@
       "item": "minecraft:wheat"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "item": "minecraft:water_bucket"
