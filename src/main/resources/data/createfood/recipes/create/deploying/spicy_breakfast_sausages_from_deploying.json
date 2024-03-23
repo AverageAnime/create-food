@@ -10,15 +10,15 @@
   "type":"create:deploying",
   "ingredients":[
     {
-      "tag":"c:donut_hole"
+      "tag":"c:breakfast_sausages"
     },
     {
-      "tag":"c:sugar"
+      "tag":"c:paprika"
     }
   ],
   "results":[
     {
-      "item":"createfood:donut_hole_sugar"
+      "item":"createfood:spicy_breakfast_sausages"
     }
   ]
 }

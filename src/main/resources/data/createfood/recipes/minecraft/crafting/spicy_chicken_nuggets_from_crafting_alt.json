@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:breakfast_sausages"
+      "tag": "c:chicken_nuggets"
     },
     {
-      "tag": "c:paprika"
+      "tag": "c:chili_pepper"
     }
   ],
   "result": {
-      "item": "createfood:spicy_breakfast_sausages"
+      "item": "createfood:spicy_chicken_nuggets"
     }
 }

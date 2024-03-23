@@ -10,15 +10,15 @@
   "type":"create:deploying",
   "ingredients":[
     {
-      "tag":"c:donut_hole"
+      "tag":"c:chicken_nuggets"
     },
     {
-      "tag":"c:sugar"
+      "tag":"c:paprika"
     }
   ],
   "results":[
     {
-      "item":"createfood:donut_hole_sugar"
+      "item":"createfood:spicy_chicken_nuggets"
     }
   ]
 }
