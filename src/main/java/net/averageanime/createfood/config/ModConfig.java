@@ -1324,22 +1324,26 @@ public class ModConfig implements ConfigData
 
     // Expanded Delight
 
-    @Comment("Enable Raw Sugar Cookie.")
-    @ConfigEntry.Category("ExpandedDelight")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isRawSugarCookieEnabled = true;
-    @Comment("Enable Raw Snickerdoodle.")
-    @ConfigEntry.Category("ExpandedDelight")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isRawSnickerdoodleEnabled = true;
-    @Comment("Enable Raw Cinnamon Sweet Roll Base.")
-    @ConfigEntry.Category("ExpandedDelight")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isRawCinnamonSweetRollBaseEnabled = true;
     @Comment("Enable Cinnamon Sweet Roll Base.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCinnamonSweetRollBaseEnabled = true;
+    @Comment("Enable Paprika.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPaprikaEnabled = true;
+    @Comment("Enable Raw Cinnamon Sweet Roll Base.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawCinnamonSweetRollBaseEnabled = true;
+    @Comment("Enable Raw Snickerdoodle.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSnickerdoodleEnabled = true;
+    @Comment("Enable Raw Sugar Cookie.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSugarCookieEnabled = true;
     @Comment("Enable Spicy Breakfast Sausages.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
@@ -1348,10 +1352,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSpicyChickenNuggetsEnabled = true;
-    @Comment("Enable Paprika.")
-    @ConfigEntry.Category("ExpandedDelight")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isPaprikaEnabled = true;
+
 
 
 }

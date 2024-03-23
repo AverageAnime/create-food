@@ -45,59 +45,6 @@ public class CreateFood implements ModInitializer {
 
 		AutoConfig.register(ModConfig.class, JanksonConfigSerializer::new);
 		CONFIG = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
-// Expanded Delight
-
-// Raw Sugar Cookie
-		if (CONFIG.isRawSugarCookieEnabled) {
-			final Item RAWSUGARCOOKIE = registerItem("raw_sugar_cookie", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(RAWSUGARCOOKIE);
-			});
-		}
-// Raw Snickerdoodle
-		if (CONFIG.isRawSnickerdoodleEnabled) {
-			final Item RAWSNICKERDOODLE = registerItem("raw_snickerdoodle", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(RAWSNICKERDOODLE);
-			});
-		}
-// Raw Cinnamon Sweet Roll Base
-		if (CONFIG.isRawCinnamonSweetRollBaseEnabled) {
-			final Item RAWCINNAMONSWEETROLLBASE = registerItem("raw_cinnamon_sweet_roll_base", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(RAWCINNAMONSWEETROLLBASE);
-			});
-		}
-// Cinnamon Sweet Roll Base
-		if (CONFIG.isCinnamonSweetRollBaseEnabled) {
-			final Item CINNAMONSWEETROLLBASE = registerItem("cinnamon_sweet_roll_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.6f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CINNAMONSWEETROLLBASE);
-			});
-		}
-// Spicy Chicken Nuggets
-		if (CONFIG.isSpicyChickenNuggetsEnabled) {
-			final Item SPICYCHICKENNUGGETS = registerItem("spicy_chicken_nuggets", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.1f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(SPICYCHICKENNUGGETS);
-			});
-		}
-// Spicy Breakfast Sausages
-		if (CONFIG.isSpicyBreakfastSausagesEnabled) {
-			final Item SPICYBREAKFASTSAUSAGES = registerItem("spicy_breakfast_sausages", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(SPICYBREAKFASTSAUSAGES);
-			});
-		}
-// Paprika
-		if (CONFIG.isPaprikaEnabled) {
-			final Item PAPRIKA = registerItem("paprika", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(PAPRIKA);
-			});
-		}
-
-// Main
 
 // Apple Popsicle
 		if (CONFIG.isApplePopsicleEnabled) {
@@ -944,27 +891,6 @@ public class CreateFood implements ModInitializer {
 				entries.add(CHOCOLATETOAST);
 			});
 		}
-// Cloth Filter
-		if (CONFIG.isClothFilterEnabled) {
-			final Item CLOTHFILTER = registerItem("cloth_filter", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CLOTHFILTER);
-			});
-		}
-// Cloth Filter (Cacao Mass)
-		if (CONFIG.isClothFilterCacaoMassEnabled) {
-			final Item CLOTHFILTERCACAOMASS = registerItem("cloth_filter_cacao_mass", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(CLOTHFILTERCACAOMASS);
-			});
-		}
-// Cocoa Powder
-		if (CONFIG.isCocoaPowderEnabled) {
-			final Item COCOAPOWDER = registerItem("cocoa_powder", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(COCOAPOWDER);
-			});
-		}
 // Chorus Fruit Cream Chocolate
 		if (CONFIG.isChorusFruitCreamChocolateEnabled) {
 			final Item CHORUSFRUITCREAMCHOCOLATE = registerItem("chorus_fruit_cream_chocolate", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.5f).build())));
@@ -1047,6 +973,34 @@ public class CreateFood implements ModInitializer {
 			final Item CHORUSFRUITCREAMFROSTEDSWEETROLLCHORUSFRUIT = registerItem("chorus_fruit_cream_frosted_sweet_roll_chorus_fruit", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(CHORUSFRUITCREAMFROSTEDSWEETROLLCHORUSFRUIT);
+			});
+		}
+// Cinnamon Sweet Roll Base
+		if (CONFIG.isCinnamonSweetRollBaseEnabled) {
+			final Item CINNAMONSWEETROLLBASE = registerItem("cinnamon_sweet_roll_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.6f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CINNAMONSWEETROLLBASE);
+			});
+		}
+// Cloth Filter
+		if (CONFIG.isClothFilterEnabled) {
+			final Item CLOTHFILTER = registerItem("cloth_filter", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CLOTHFILTER);
+			});
+		}
+// Cloth Filter (Cacao Mass)
+		if (CONFIG.isClothFilterCacaoMassEnabled) {
+			final Item CLOTHFILTERCACAOMASS = registerItem("cloth_filter_cacao_mass", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(CLOTHFILTERCACAOMASS);
+			});
+		}
+// Cocoa Powder
+		if (CONFIG.isCocoaPowderEnabled) {
+			final Item COCOAPOWDER = registerItem("cocoa_powder", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(COCOAPOWDER);
 			});
 		}
 // Cream Filled Chocolate
@@ -1691,6 +1645,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(MINISMORESPIE);
 			});
 		}
+// Paprika
+		if (CONFIG.isPaprikaEnabled) {
+			final Item PAPRIKA = registerItem("paprika", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(PAPRIKA);
+			});
+		}
 // Pasta
 		if (CONFIG.isPastaEnabled) {
 			final Item PASTA = registerItem("pasta", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.8f).build())));
@@ -1782,6 +1743,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(RAWCHOCOLATESWEETROLLBASE);
 			});
 		}
+// Raw Cinnamon Sweet Roll Base
+		if (CONFIG.isRawCinnamonSweetRollBaseEnabled) {
+			final Item RAWCINNAMONSWEETROLLBASE = registerItem("raw_cinnamon_sweet_roll_base", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWCINNAMONSWEETROLLBASE);
+			});
+		}
 // Raw Cookie
 		if (CONFIG.isRawCookieEnabled) {
 			final Item RAWCOOKIE = registerItem("raw_cookie", new Item(new FabricItemSettings()));
@@ -1836,6 +1804,20 @@ public class CreateFood implements ModInitializer {
 			final Item RAWSAUSAGEPATTY = registerItem("raw_sausage_patty", new Item(new FabricItemSettings()));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(RAWSAUSAGEPATTY);
+			});
+		}
+// Raw Snickerdoodle
+		if (CONFIG.isRawSnickerdoodleEnabled) {
+			final Item RAWSNICKERDOODLE = registerItem("raw_snickerdoodle", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWSNICKERDOODLE);
+			});
+		}
+// Raw Sugar Cookie
+		if (CONFIG.isRawSugarCookieEnabled) {
+			final Item RAWSUGARCOOKIE = registerItem("raw_sugar_cookie", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(RAWSUGARCOOKIE);
 			});
 		}
 // Raw Sweet Berry Cookie
@@ -1927,6 +1909,20 @@ public class CreateFood implements ModInitializer {
 			final Item SMALLMEATBALLS = registerItem("small_meatballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
 				entries.add(SMALLMEATBALLS);
+			});
+		}
+// Spicy Breakfast Sausages
+		if (CONFIG.isSpicyBreakfastSausagesEnabled) {
+			final Item SPICYBREAKFASTSAUSAGES = registerItem("spicy_breakfast_sausages", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(SPICYBREAKFASTSAUSAGES);
+			});
+		}
+// Spicy Chicken Nuggets
+		if (CONFIG.isSpicyChickenNuggetsEnabled) {
+			final Item SPICYCHICKENNUGGETS = registerItem("spicy_chicken_nuggets", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.1f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(SPICYCHICKENNUGGETS);
 			});
 		}
 // Sugar Dough
