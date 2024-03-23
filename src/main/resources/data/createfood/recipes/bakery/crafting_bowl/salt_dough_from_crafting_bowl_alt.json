@@ -1,0 +1,18 @@
+{
+  "type": "bakery:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result": {
+    "item": "createfood:salt_dough",
+    "count": 6
+  }
+}

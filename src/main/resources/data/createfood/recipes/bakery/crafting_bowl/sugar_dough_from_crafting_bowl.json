@@ -1,0 +1,18 @@
+{
+  "type": "bakery:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:water_buckets"
+    }
+  ],
+  "result": {
+    "item": "createfood:sugar_dough",
+    "count": 3
+  }
+}
