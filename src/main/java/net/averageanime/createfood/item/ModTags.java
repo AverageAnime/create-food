@@ -56,4 +56,8 @@ public class ModTags {
     public static final TagKey<Item> MEDIUM_LUCK = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_luck");
     public static final TagKey<Item> LONG_LUCK = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_luck");
 
+    public static final TagKey<Item> BRIEF_FIRE_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_fire_resistance");
+    public static final TagKey<Item> SHORT_FIRE_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_fire_resistance");
+    public static final TagKey<Item> MEDIUM_FIRE_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_fire_resistance");
+    public static final TagKey<Item> LONG_FIRE_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_fire_resistance");
 }

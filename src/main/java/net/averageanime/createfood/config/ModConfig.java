@@ -1323,7 +1323,18 @@ public class ModConfig implements ConfigData
     public boolean isSlicedTomatoEnabled = true;
 
     // Expanded Delight
-
+    @Comment("Enable Beef Bun (Peanut Butter).")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBeefBunPeanutButterEnabled = true;
+    @Comment("Enable Beef Bun (Peanut Butter, Bacon).")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBeefBunPeanutButterBaconEnabled = true;
+    @Comment("Enable Hamburger (Peanut Butter, Bacon).")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHamburgerPeanutButterBaconEnabled = true;
     @Comment("Enable Cinnamon Sweet Roll Base.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart

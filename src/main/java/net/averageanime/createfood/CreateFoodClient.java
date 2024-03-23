@@ -316,6 +316,34 @@ public class CreateFoodClient implements ClientModInitializer {
                                             new StatusEffectInstance(effect, 6000), 1))
                             .formatted(effect.getCategory().getFormatting()));
                 }
+                if (stack.isIn(ModTags.BRIEF_FIRE_RESISTANCE)) {
+                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                    StatusEffectUtil.getDurationText(
+                                            new StatusEffectInstance(effect, 600), 1))
+                            .formatted(effect.getCategory().getFormatting()));
+                }
+                if (stack.isIn(ModTags.SHORT_FIRE_RESISTANCE)) {
+                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                    StatusEffectUtil.getDurationText(
+                                            new StatusEffectInstance(effect, 1200), 1))
+                            .formatted(effect.getCategory().getFormatting()));
+                }
+                if (stack.isIn(ModTags.MEDIUM_FIRE_RESISTANCE)) {
+                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                    StatusEffectUtil.getDurationText(
+                                            new StatusEffectInstance(effect, 3600), 1))
+                            .formatted(effect.getCategory().getFormatting()));
+                }
+                if (stack.isIn(ModTags.LONG_FIRE_RESISTANCE)) {
+                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                    StatusEffectUtil.getDurationText(
+                                            new StatusEffectInstance(effect, 3600), 1))
+                            .formatted(effect.getCategory().getFormatting()));
+                }
             }
         });
 

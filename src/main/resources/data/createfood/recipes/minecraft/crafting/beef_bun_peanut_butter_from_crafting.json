@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:peanut_butter"
+    },
+    {
+      "tag": "c:beef_bun"
+    }
+  ],
+  "result": {
+    "item": "createfood:beef_bun_peanut_butter"
+  }
+}

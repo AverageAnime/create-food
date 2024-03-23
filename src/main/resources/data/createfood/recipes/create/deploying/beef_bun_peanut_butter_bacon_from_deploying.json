@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {"tag":"c:beef_bun_peanut_butter"},
+    {"tag": "c:cooked_pork"}
+  ],
+  "results":[
+    {"item":"createfood:beef_bun_peanut_butter_bacon"}
+  ]
+}

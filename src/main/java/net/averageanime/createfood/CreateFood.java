@@ -103,6 +103,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(BEEFBUNLETTUCE);
 			});
 		}
+// Beef Bun (Lettuce, Tomato)
+		if (CONFIG.isBeefBunLettuceTomatoEnabled) {
+			final Item BEEFBUNLETTUCETOMATO = registerItem("beef_bun_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BEEFBUNLETTUCETOMATO);
+			});
+		}
 // Beef Bun (Onion)
 		if (CONFIG.isBeefBunOnionEnabled) {
 			final Item BEEFBUNONION = registerItem("beef_bun_onion", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
@@ -138,11 +145,18 @@ public class CreateFood implements ModInitializer {
 				entries.add(BEEFBUNONIONLETTUCETOMATO);
 			});
 		}
-// Beef Bun (Lettuce, Tomato)
-		if (CONFIG.isBeefBunLettuceTomatoEnabled) {
-			final Item BEEFBUNLETTUCETOMATO = registerItem("beef_bun_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
+// Beef Bun (Peanut Butter)
+		if (CONFIG.isBeefBunPeanutButterEnabled) {
+			final Item BEEFBUNPEANUTBUTTER = registerItem("beef_bun_peanut_butter", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.9f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(BEEFBUNLETTUCETOMATO);
+				entries.add(BEEFBUNPEANUTBUTTER);
+			});
+		}
+// Beef Bun (Peanut Butter, Bacon)
+		if (CONFIG.isBeefBunPeanutButterBaconEnabled) {
+			final Item BEEFBUNPEANUTBUTTERBACON = registerItem("beef_bun_peanut_butter_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.9f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(BEEFBUNPEANUTBUTTERBACON);
 			});
 		}
 // Berry Cream Chocolate
@@ -1388,20 +1402,6 @@ public class CreateFood implements ModInitializer {
 				entries.add(HAMBURGER);
 			});
 		}
-// Hamburger (Onion)
-		if (CONFIG.isHamburgerOnionEnabled) {
-			final Item HAMBURGERONION = registerItem("hamburger_onion", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(HAMBURGERONION);
-			});
-		}
-// Hamburger (Onion, Bacon)
-		if (CONFIG.isHamburgerOnionBaconEnabled) {
-			final Item HAMBURGERONIONBACON = registerItem("hamburger_onion_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.7f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(HAMBURGERONIONBACON);
-			});
-		}
 // Hamburger (Bacon)
 		if (CONFIG.isHamburgerBaconEnabled) {
 			final Item HAMBURGERBACON = registerItem("hamburger_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.6f).build())));
@@ -1423,6 +1423,34 @@ public class CreateFood implements ModInitializer {
 				entries.add(HAMBURGERBACONLETTUCETOMATO);
 			});
 		}
+// Hamburger (Lettuce)
+		if (CONFIG.isHamburgerLettuceEnabled) {
+			final Item HAMBURGERLETTUCE = registerItem("hamburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(HAMBURGERLETTUCE);
+			});
+		}
+// Hamburger (Lettuce, Tomato)
+		if (CONFIG.isHamburgerLettuceTomatoEnabled) {
+			final Item HAMBURGERLETTUCETOMATO = registerItem("hamburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(HAMBURGERLETTUCETOMATO);
+			});
+		}
+// Hamburger (Onion)
+		if (CONFIG.isHamburgerOnionEnabled) {
+			final Item HAMBURGERONION = registerItem("hamburger_onion", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(HAMBURGERONION);
+			});
+		}
+// Hamburger (Onion, Bacon)
+		if (CONFIG.isHamburgerOnionBaconEnabled) {
+			final Item HAMBURGERONIONBACON = registerItem("hamburger_onion_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.7f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(HAMBURGERONIONBACON);
+			});
+		}
 // Hamburger (Onion, Bacon, Lettuce)
 		if (CONFIG.isHamburgerOnionBaconLettuceEnabled) {
 			final Item HAMBURGERONIONBACONLETTUCE = registerItem("hamburger_onion_bacon_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.8f).build())));
@@ -1437,18 +1465,11 @@ public class CreateFood implements ModInitializer {
 				entries.add(HAMBURGERONIONLETTUCE);
 			});
 		}
-// Hamburger (Lettuce)
-		if (CONFIG.isHamburgerLettuceEnabled) {
-			final Item HAMBURGERLETTUCE = registerItem("hamburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.7f).build())));
+// Hamburger (Peanut Butter, Bacon)
+		if (CONFIG.isHamburgerPeanutButterBaconEnabled) {
+			final Item HAMBURGERPEANUTBUTTERBACON = registerItem("hamburger_peanut_butter_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(HAMBURGERLETTUCE);
-			});
-		}
-// Hamburger (Lettuce, Tomato)
-		if (CONFIG.isHamburgerLettuceTomatoEnabled) {
-			final Item HAMBURGERLETTUCETOMATO = registerItem("hamburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.8f).build())));
-			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-				entries.add(HAMBURGERLETTUCETOMATO);
+				entries.add(HAMBURGERPEANUTBUTTERBACON);
 			});
 		}
 // Hollow Chocolate
