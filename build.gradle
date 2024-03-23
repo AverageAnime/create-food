@@ -67,7 +67,7 @@ dependencies {
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 }
 
-def compat(DependencyHandler deps) {
+static def compat(DependencyHandler deps) {
 	deps.modCompileOnly("curse.maven:farmers-delight-fabric-482834:4939709")
 }
 
