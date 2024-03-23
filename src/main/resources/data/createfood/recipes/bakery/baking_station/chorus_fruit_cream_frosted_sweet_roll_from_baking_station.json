@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baking_station",
+  "ingredients": [
+    {
+      "tag": "c:sweet_roll_base"
+    },
+    {
+      "tag": "c:chorus_fruit_cream_frosting"
+    }
+  ],
+  "result": {
+    "item": "createfood:chorus_fruit_cream_frosted_sweet_roll"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baking_station",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_pastry_base"
+    },
+    {
+      "tag": "c:chocolate_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_chocolate_pastry"
+  }
+}

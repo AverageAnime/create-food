@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baking_station",
+  "ingredients": [
+    {
+      "tag": "c:mini_graham_cracker_pie_crust"
+    },
+    {
+      "tag": "c:chocolate_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_filled_mini_graham_cracker_pie_crust"
+  }
+}

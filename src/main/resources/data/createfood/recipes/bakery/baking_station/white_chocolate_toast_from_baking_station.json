@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baking_station",
+  "ingredients": [
+    {
+      "tag": "c:toast_slice"
+    },
+    {
+      "tag": "c:white_chocolate_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:white_chocolate_toast"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:baking_station",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_sweet_roll_base"
+    },
+    {
+      "tag": "c:berry_cream_frosting"
+    }
+  ],
+  "result": {
+    "item": "createfood:berry_cream_frosted_chocolate_sweet_roll"
+  }
+}
