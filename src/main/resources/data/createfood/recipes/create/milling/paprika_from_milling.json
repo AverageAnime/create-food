@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:chili_pepper"
+    }
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "count": 2,
+      "item": "createfood:paprika"
+    },
+    {
+      "chance": 0.50,
+      "item": "createfood:paprika"
+    }
+  ]
+}
