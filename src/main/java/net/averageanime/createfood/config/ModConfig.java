@@ -1348,6 +1348,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSpicyChickenNuggetsEnabled = true;
+    @Comment("Enable Paprika.")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPaprikaEnabled = true;
 
 
 }

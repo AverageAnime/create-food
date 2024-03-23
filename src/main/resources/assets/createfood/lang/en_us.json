@@ -383,6 +383,8 @@
   "text.autoconfig.createfood.category.CreateFoodFluid": "Create: Food - Fluids",
   "text.autoconfig.createfood.category.Farmer'sDelight": "Farmer's Delight",
   "text.autoconfig.createfood.category.ExpandedDelight": "Expanded Delight",
+  "item.createfood.paprika": "Paprika",
+  "text.autoconfig.createfood.option.isPaprikaEnabled": "Enable Paprika",
   "text.autoconfig.createfood.option.isRawSugarCookieEnabled": "Enable Raw Sugar Cookie",
   "text.autoconfig.createfood.option.isRawSnickerdoodleEnabled": "Enable Raw Snickerdoodle",
   "text.autoconfig.createfood.option.isRawCinnamonSweetRollBaseEnabled": "Enable Raw Cinnamon Sweet Roll Base",

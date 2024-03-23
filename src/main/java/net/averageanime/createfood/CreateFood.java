@@ -89,6 +89,13 @@ public class CreateFood implements ModInitializer {
 				entries.add(SPICYBREAKFASTSAUSAGES);
 			});
 		}
+// Paprika
+		if (CONFIG.isPaprikaEnabled) {
+			final Item PAPRIKA = registerItem("paprika", new Item(new FabricItemSettings()));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
+				entries.add(PAPRIKA);
+			});
+		}
 
 // Main
 
