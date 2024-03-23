@@ -12,6 +12,8 @@ import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlimeBlock;
@@ -29,9 +31,15 @@ import static net.minecraft.block.Blocks.SLIME_BLOCK;
 
 @Environment(value= EnvType.CLIENT)
 public class CreateFoodClient implements ClientModInitializer {
-
+    public static final String MOD_ID = "createfood";
     @Override
     public void onInitializeClient() {
+
+        FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(container -> {
+            ResourceManagerHelper.registerBuiltinResourcePack(asId("farmers_delight"), container, ResourcePackActivationType.NORMAL);
+            ResourceManagerHelper.registerBuiltinResourcePack(asId("expanded_delight"), container, ResourcePackActivationType.NORMAL);
+        });
+
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
             if (stack.isIn(ModTags.BRIEF_GLOWING)) {
                 StatusEffect effect = StatusEffects.GLOWING;
@@ -598,5 +606,8 @@ public class CreateFoodClient implements ClientModInitializer {
                 new Identifier("createfood:block/chorus_fruit_cream_frosting_still"),
                 new Identifier("createfood:block/chorus_fruit_cream_frosting_flow")
         ));
+    }
+    public static Identifier asId(String path) {
+        return new Identifier(MOD_ID, path);
     }
 }
