@@ -1,0 +1,15 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cream_frosting"
+    },
+    {
+      "tag": "c:cinnamon_sweet_roll_base"
+    }
+  ],
+  "result": {
+      "item": "expandeddelight:sweet_roll"
+    }
+}
