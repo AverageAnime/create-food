@@ -38,6 +38,7 @@ Any mod that uses the supported tags can be used. For example, various items fou
 * Various item textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) and [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric).
 * Fluid textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric).
 
-### **Item Preview:**
+### **Item Preview: Main**
 ![foodpreview](https://github.com/AverageAnime/create-food/assets/150550990/48e5a633-1c01-486a-8163-d3d3959f1a13)
-View the full item list on the [Wiki](https://github.com/AverageAnime/create-food-1.20.1/wiki/Item-List).
+### **Item Preview: Expanded Delight**
+![expandeddelightpreview](https://github.com/AverageAnime/create-food/assets/150550990/edd77810-f6fc-4434-b7f0-063e9b233828)
