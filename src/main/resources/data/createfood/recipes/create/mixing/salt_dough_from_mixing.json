@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:salt"
+    },
+    {
+      "tag":"c:eggs"
+    }
+  ],
+  "results":[
+    {
+      "count": 6,
+      "item":"createfood:salt_dough"
+    }
+  ]
+}
