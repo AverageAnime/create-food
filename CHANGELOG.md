@@ -2,7 +2,7 @@
 
 ![expandeddelightpreview](https://github.com/AverageAnime/create-food/assets/150550990/edd77810-f6fc-4434-b7f0-063e9b233828)
 * 10 new items for Expanded Delight content.
-* 2 built-in Resource Packs for visual consistency
+* 2 built-in Resource Packs for visual consistency:
 > Farmer's Delight Resource Pack includes an animated version of Farmer's Delight Hot Cocoa texture to match Create: Food.
 
 > Expanded Delight Resource Pack includes new Sweet Roll textures to match Create: Food. Also renames them.
@@ -13,17 +13,24 @@
 
 ***1.0.2***
 
-50+ new food items
-* Pastries
-* Pastry Bars
-* Donuts
-* Donut Holes
-* Berry Topped Sweet Rolls
-* Colored Gelatin Dessert
-* Sliced Potato & Sliced Carrot
-* Potato Chips
+* 50+ new food items:
+> Pastries
 
-Tags can now be used to apply the following status effects:
+> Pastry Bars
+
+> Donuts
+
+> Donut Holes
+
+> Berry Topped Sweet Rolls
+
+> Colored Gelatin Dessert
+
+> Sliced Potato & Sliced Carrot
+
+> Potato Chips
+
+* Tags can now be used to apply the following status effects:
 > Night Vision
 
 > Glowing
