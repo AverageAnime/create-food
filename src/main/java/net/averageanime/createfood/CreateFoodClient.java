@@ -40,6 +40,7 @@ public class CreateFoodClient implements ClientModInitializer {
             ResourceManagerHelper.registerBuiltinResourcePack(asId("expanded_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("farmers_respite"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("ends_delight"), container, ResourcePackActivationType.NORMAL);
+            ResourceManagerHelper.registerBuiltinResourcePack(asId("cultural_delight"), container, ResourcePackActivationType.NORMAL);
         });
 
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
