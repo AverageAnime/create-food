@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_sugar_cane_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:sugar_cane_juice",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_vegetable_oil",
       "required": false
     },

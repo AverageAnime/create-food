@@ -442,6 +442,11 @@ public class CreateFoodClient implements ClientModInitializer {
         }
 
 // Fluids
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SUGAR_CANE_JUICE, ModFluids.FLOWING_SUGAR_CANE_JUICE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/sugar_cane_juice_still"),
+                new Identifier("createfood:block/sugar_cane_juice_flow")
+
+        ));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL);
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL, new SimpleFluidRenderHandler(
                 new Identifier("minecraft:block/water_still"),

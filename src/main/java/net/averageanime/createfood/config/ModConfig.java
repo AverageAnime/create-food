@@ -1083,6 +1083,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRedGelatinMixFluidEnabled = true;
+    @Comment("Enable Sugar Cane Juice Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSugarCaneJuiceFluidEnabled = true;
     @Comment("Enable Glow Berry Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
