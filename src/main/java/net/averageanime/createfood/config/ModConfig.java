@@ -985,8 +985,19 @@ public class ModConfig implements ConfigData
     public boolean isYellowGelatinDessertBlockEnabled = true;
 
 
-// Fluids
-
+    // Fluids
+    @Comment("Enable Apple Cream Frosting Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isAppleCreamFrostingFluidEnabled = true;
+    @Comment("Enable Berry Cream Frosting Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamFrostingFluidEnabled = true;
+    @Comment("Enable Blackstrap Molasses Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBlackstrapMolassesFluidEnabled = true;
     @Comment("Enable Black Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -999,10 +1010,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBrownGelatinMixFluidEnabled = true;
-    @Comment("Enable Berry Cream Frosting Fluid.")
+    @Comment("Enable Butterscotch Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isBerryCreamFrostingFluidEnabled = true;
+    public boolean isButterscotchFluidEnabled = true;
+    @Comment("Enable Butterscotch Fudge Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isButterscotchFudgeFluidEnabled = true;
+    @Comment("Enable Butterscotch Pudding Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isButterscotchPuddingFluidEnabled = true;
     @Comment("Enable Cacao Butter Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1011,22 +1030,46 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCacaoMassFluidEnabled = true;
+    @Comment("Enable Cane Syrup Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaneSyrupFluidEnabled = true;
     @Comment("Enable Caramel Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCaramelFluidEnabled = true;
+    @Comment("Enable Caramel Pudding Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelPuddingFluidEnabled = true;
+    @Comment("Enable Caramel Fudge Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelFudgeFluidEnabled = true;
     @Comment("Enable Chocolate Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateCreamFrostingFluidEnabled = true;
+    @Comment("Enable Chocolate Pudding Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolatePuddingFluidEnabled = true;
     @Comment("Enable Chorus Fruit Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitCreamFrostingFluidEnabled = true;
+    @Comment("Enable Chocolate Fudge Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateFudgeFluidEnabled = true;
     @Comment("Enable Chocolate Milk Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateMilkFluidEnabled = true;
+    @Comment("Enable Condensed Milk Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCondensedMilkFluidEnabled = true;
     @Comment("Enable Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1039,10 +1082,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChocolateFluidEnabled = true;
+    @Comment("Enable Dark Chocolate Fudge Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDarkChocolateFudgeFluidEnabled = true;
     @Comment("Enable Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGelatinMixFluidEnabled = true;
+    @Comment("Enable Glow Berry Cream Frosting Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamFrostingFluidEnabled = true;
     @Comment("Enable Gray Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1051,6 +1102,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGreenGelatinMixFluidEnabled = true;
+    @Comment("Enable Hot Chocolate Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHotChocolateFluidEnabled = true;
+    @Comment("Enable Hot Dark Chocolate Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHotDarkChocolateFluidEnabled = true;
+    @Comment("Enable Hot White Chocolate Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHotWhiteChocolateFluidEnabled = true;
     @Comment("Enable Light Blue Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1067,6 +1130,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMagentaGelatinMixFluidEnabled = true;
+    @Comment("Enable Molasses Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMolassesFluidEnabled = true;
     @Comment("Enable Orange Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1087,22 +1154,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSugarCaneJuiceFluidEnabled = true;
-    @Comment("Enable Glow Berry Cream Frosting Fluid.")
+    @Comment("Enable Toffee Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isGlowBerryCreamFrostingFluidEnabled = true;
-    @Comment("Enable Hot Chocolate Fluid.")
+    public boolean isToffeeFluidEnabled = true;
+    @Comment("Enable Toffee Fudge Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isHotChocolateFluidEnabled = true;
-    @Comment("Enable Hot Dark Chocolate Fluid.")
-    @ConfigEntry.Category("CreateFoodFluid")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isHotDarkChocolateFluidEnabled = true;
-    @Comment("Enable Hot White Chocolate Fluid.")
-    @ConfigEntry.Category("CreateFoodFluid")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isHotWhiteChocolateFluidEnabled = true;
+    public boolean isToffeeFudgeFluidEnabled = true;
     @Comment("Enable Vegetable Oil Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1111,6 +1170,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateFluidEnabled = true;
+    @Comment("Enable White Chocolate Fudge Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWhiteChocolateFudgeFluidEnabled = true;
     @Comment("Enable Yellow Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

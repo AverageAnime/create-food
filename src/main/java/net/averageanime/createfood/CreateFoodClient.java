@@ -442,6 +442,86 @@ public class CreateFoodClient implements ClientModInitializer {
         }
 
 // Fluids
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_WHITE_CHOCOLATE_FUDGE, ModFluids.FLOWING_WHITE_CHOCOLATE_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/white_chocolate_fudge_still"),
+                new Identifier("createfood:block/white_chocolate_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_DARK_CHOCOLATE_FUDGE, ModFluids.FLOWING_DARK_CHOCOLATE_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/dark_chocolate_fudge_still"),
+                new Identifier("createfood:block/dark_chocolate_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHOCOLATE_FUDGE, ModFluids.FLOWING_CHOCOLATE_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chocolate_fudge_still"),
+                new Identifier("createfood:block/chocolate_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_TOFFEE_FUDGE, ModFluids.FLOWING_TOFFEE_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/toffee_fudge_still"),
+                new Identifier("createfood:block/toffee_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CARAMEL_FUDGE, ModFluids.FLOWING_CARAMEL_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/caramel_fudge_still"),
+                new Identifier("createfood:block/caramel_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BUTTERSCOTCH_FUDGE, ModFluids.FLOWING_BUTTERSCOTCH_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/butterscotch_fudge_still"),
+                new Identifier("createfood:block/butterscotch_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_CREAM_FROSTING, ModFluids.FLOWING_APPLE_CREAM_FROSTING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/apple_cream_frosting_still"),
+                new Identifier("createfood:block/apple_cream_frosting_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CONDENSED_MILK, ModFluids.FLOWING_CONDENSED_MILK, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/condensed_milk_still"),
+                new Identifier("createfood:block/condensed_milk_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHOCOLATE_PUDDING, ModFluids.FLOWING_CHOCOLATE_PUDDING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chocolate_pudding_still"),
+                new Identifier("createfood:block/chocolate_pudding_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CARAMEL_PUDDING, ModFluids.FLOWING_CARAMEL_PUDDING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/caramel_pudding_still"),
+                new Identifier("createfood:block/caramel_pudding_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BUTTERSCOTCH_PUDDING, ModFluids.FLOWING_BUTTERSCOTCH_PUDDING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/butterscotch_pudding_still"),
+                new Identifier("createfood:block/butterscotch_pudding_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BUTTERSCOTCH, ModFluids.FLOWING_BUTTERSCOTCH, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/butterscotch_still"),
+                new Identifier("createfood:block/butterscotch_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_TOFFEE, ModFluids.FLOWING_TOFFEE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/toffee_still"),
+                new Identifier("createfood:block/toffee_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLACKSTRAP_MOLASSES, ModFluids.FLOWING_BLACKSTRAP_MOLASSES, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/blackstrap_molasses_still"),
+                new Identifier("createfood:block/blackstrap_molasses_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLASSES, ModFluids.FLOWING_MOLASSES, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/molasses_still"),
+                new Identifier("createfood:block/molasses_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CANE_SYRUP, ModFluids.FLOWING_CANE_SYRUP, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/cane_syrup_still"),
+                new Identifier("createfood:block/cane_syrup_flow")
+
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SUGAR_CANE_JUICE, ModFluids.FLOWING_SUGAR_CANE_JUICE, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/sugar_cane_juice_still"),
                 new Identifier("createfood:block/sugar_cane_juice_flow")

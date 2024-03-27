@@ -33,6 +33,86 @@ public abstract class BackgroundRendererMixin {
     @ModifyArgs(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false))
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
+        if (ModFluids.isWhiteChocolateFudge(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isDarkChocolateFudge(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isChocolateFudge(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isToffeeFudge(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isCaramelFudge(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isButterscotchFudge(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isAppleCreamFrosting(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isCondensedMilk(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isChocolatePudding(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isCaramelPudding(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isButterscotchPudding(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isButterscotch(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isToffee(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isBlackstrapMolasses(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isMolasses(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isCaneSyrup(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
         if (ModFluids.isSugarCaneJuice(state)) {
             red = (float) 190 / 255;
             green = (float) 184 / 255;
@@ -200,6 +280,86 @@ public abstract class BackgroundRendererMixin {
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+        if (ModFluids.isWhiteChocolateFudge(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isDarkChocolateFudge(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isChocolateFudge(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isToffeeFudge(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isCaramelFudge(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isButterscotchFudge(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isAppleCreamFrosting(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isCondensedMilk(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isChocolatePudding(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isCaramelPudding(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isButterscotchPudding(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isButterscotch(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isToffee(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isBlackstrapMolasses(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMolasses(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isCaneSyrup(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isSugarCaneJuice(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);

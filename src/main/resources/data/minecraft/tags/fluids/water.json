@@ -2,6 +2,134 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_white_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_dark_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_caramel_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_toffee_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:toffee_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_butterscotch_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_apple_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_condensed_milk",
+      "required": false
+    },
+    {
+      "id": "createfood:condensed_milk",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chocolate_pudding",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_pudding",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_caramel_pudding",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_pudding",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_butterscotch_pudding",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch_pudding",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_butterscotch",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_toffee",
+      "required": false
+    },
+    {
+      "id": "createfood:toffee",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_blackstrap_molasses",
+      "required": false
+    },
+    {
+      "id": "createfood:blackstrap_molasses",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_molasses",
+      "required": false
+    },
+    {
+      "id": "createfood:molasses",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_cane_syrup",
+      "required": false
+    },
+    {
+      "id": "createfood:cane_syrup",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_sugar_cane_juice",
       "required": false
     },
