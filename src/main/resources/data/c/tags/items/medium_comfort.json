@@ -2,6 +2,38 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:apple_cream_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:toffee_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch_fudge",
+      "required": false
+    },
+    {
       "id": "createfood:glow_berry_cream_chocolate_pastry_bar",
       "required": false
     },

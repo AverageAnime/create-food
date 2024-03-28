@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:apple_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
       "id": "expandeddelight:glow_berry_sweet_roll",
       "required": false
     },

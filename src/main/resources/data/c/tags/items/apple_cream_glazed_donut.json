@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:apple_cream_glazed_donut",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:blackstrap_molasses_bottle",
+      "required": false
+    }
+  ]
+}

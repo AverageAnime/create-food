@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:marshmallow_caramel_fudge",
+      "required": false
+    }
+  ]
+}

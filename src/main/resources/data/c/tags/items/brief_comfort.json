@@ -10,6 +10,10 @@
       "required": false
     },
     {
+      "id": "createfood:apple_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
       "id": "createfood:berry_cream_frosted_sweet_roll_sweet_berry",
       "required": false
     },

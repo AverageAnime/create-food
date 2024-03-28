@@ -8,6 +8,10 @@
     {
       "id": "createfood:berry_cream_glazed_chocolate_donut",
       "required": false
+    },
+    {
+      "id": "createfood:butterscotch_fudge",
+      "required": false
     }
   ]
 }
