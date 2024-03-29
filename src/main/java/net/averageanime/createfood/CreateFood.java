@@ -98,7 +98,7 @@ public class CreateFood implements ModInitializer {
 		}
 // Apple Slice
 		if (CONFIG.isAppleSliceEnabled) {
-			final Item APPLESLICE = registerItem("apple_slice", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.5f).build())));
+			final Item APPLESLICE = registerItem("apple_slice", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.4f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLESLICE));
 		}
 // Bar of Dark Chocolate
@@ -354,7 +354,7 @@ public class CreateFood implements ModInitializer {
 		}
 // Caramel Apple Slice
 		if (CONFIG.isCaramelAppleSliceEnabled) {
-			final Item CARAMELAPPLESLICE = registerItem("caramel_apple_slice", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
+			final Item CARAMELAPPLESLICE = registerItem("caramel_apple_slice", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.6f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMELAPPLESLICE));
 		}
 // Caramel Chips
