@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:caramel_apple_slice",
+      "required": false
+    },
+    {
       "id": "createfood:caramel_pastry_bar",
       "required": false
     },
