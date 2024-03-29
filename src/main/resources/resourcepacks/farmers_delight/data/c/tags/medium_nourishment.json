@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:hamburger",
+      "required": false
+    }
+  ]
+}
