@@ -19,6 +19,9 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "item": "minecraft:wheat"
+    },
+    {
       "tag": "c:eggs"
     },
     {
