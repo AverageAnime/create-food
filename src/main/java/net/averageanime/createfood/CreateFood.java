@@ -41,6 +41,7 @@ public class CreateFood implements ModInitializer {
 
 		AutoConfig.register(ModConfig.class, JanksonConfigSerializer::new);
 		CONFIG = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
+
 // Apple Cream Glazed Chocolate Donut
 		if (CONFIG.isAppleCreamGlazedChocolateDonutEnabled) {
 			final Item APPLECREAMGLAZEDCHOCOLATEDONUT = registerItem("apple_cream_glazed_chocolate_donut", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
