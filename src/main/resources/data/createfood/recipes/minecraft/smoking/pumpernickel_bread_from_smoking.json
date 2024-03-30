@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pumpernickel_bread"
+      ]
+    }
+  ],
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:pumpernickel_dough"
+  },
+  "result": "createfood:pumpernickel_bread"
+}

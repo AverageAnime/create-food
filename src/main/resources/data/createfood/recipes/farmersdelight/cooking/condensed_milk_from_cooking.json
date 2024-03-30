@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "tag": "c:milk_bucket"
+    },
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "createfood:condensed_milk_bucket"
+  }
+}

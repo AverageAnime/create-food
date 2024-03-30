@@ -1,0 +1,21 @@
+{
+  "type": "bakery:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:cocoa_powder"
+    },
+    {
+      "tag": "c:molasses_bottle"
+    },
+    {
+      "tag": "c:water_buckets"
+    }
+  ],
+  "result": {
+    "item": "createfood:pumpernickel_dough",
+    "count": 3
+  }
+}

@@ -8,20 +8,18 @@
     }
   ],
   "type":"create:mixing",
+  "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":40500,"fluidTag":"c:milk"
+      "amount":81000,"fluidTag":"c:milk"
     },
     {
-      "tag":"c:peanut"
-    },
-    {
-      "tag":"c:peanut"
+      "item":"minecraft:sugar"
     }
   ],
   "results":[
     {
-      "item":"expandeddelight:peanut_butter"
+      "amount":40500,"fluid":"createfood:condensed_milk"
     }
   ]
 }

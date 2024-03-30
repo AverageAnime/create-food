@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":81000,"fluidTag":"c:milk"
+    }
+  ],
+  "results":[
+    {
+      "count": 2,
+      "item":"createfood:milk_powder"
+    }
+  ]
+}

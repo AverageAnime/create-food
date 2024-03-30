@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "amount":10125,"fluid":"createfood:molasses"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:brown_sugar"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:pumpernickel_dough"
+    },
+    {
+      "tag": "c:pumpernickel_dough"
+    },
+    {
+      "tag": "c:pumpernickel_dough"
+    }
+  ],
+  "item": "createfood:pumpernickel_bread",
+  "count": 3,
+  "experience": 0.10
+}

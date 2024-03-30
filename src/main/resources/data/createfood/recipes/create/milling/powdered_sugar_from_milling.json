@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "createfood:powdered_sugar"
+    },
+    {
+      "chance": 0.25,
+      "item": "createfood:powdered_sugar"
+    }
+  ]
+}

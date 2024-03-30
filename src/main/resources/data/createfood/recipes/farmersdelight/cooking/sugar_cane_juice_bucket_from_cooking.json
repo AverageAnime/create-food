@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "cookingtime": 50,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "tag": "c:sugar_cane"
+    },
+    {
+      "tag": "c:sugar_cane"
+    },
+    {
+      "tag": "c:sugar_cane"
+    }
+  ],
+  "result": {
+    "item": "createfood:sugar_cane_bucket"
+  }
+}
