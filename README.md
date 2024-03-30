@@ -43,7 +43,5 @@ Any mod that uses the supported tags can be used. For example, various items fou
 * [Create: Metalwork](https://www.curseforge.com/minecraft/mc-mods/create-metalwork-fabric)
 * [Stack Size Edit](https://www.curseforge.com/minecraft/mc-mods/stack-size-edit-fabric)
 
-### **Item Preview: Main**
-![foodpreview](https://github.com/AverageAnime/create-food/assets/150550990/48e5a633-1c01-486a-8163-d3d3959f1a13)
-### **Item Preview: Expanded Delight**
-![expandeddelightpreview](https://github.com/AverageAnime/create-food/assets/150550990/edd77810-f6fc-4434-b7f0-063e9b233828)
+### **Item Preview:**
+![foodpreviewfull](https://github.com/AverageAnime/create-food/assets/150550990/4eb0c458-d536-4ea3-9914-343a5daeb333)
