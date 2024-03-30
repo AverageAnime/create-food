@@ -483,21 +483,6 @@ public class CreateFoodClient implements ClientModInitializer {
                 new Identifier("createfood:block/condensed_milk_flow")
 
         ));
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHOCOLATE_PUDDING, ModFluids.FLOWING_CHOCOLATE_PUDDING, new SimpleFluidRenderHandler(
-                new Identifier("createfood:block/chocolate_pudding_still"),
-                new Identifier("createfood:block/chocolate_pudding_flow")
-
-        ));
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CARAMEL_PUDDING, ModFluids.FLOWING_CARAMEL_PUDDING, new SimpleFluidRenderHandler(
-                new Identifier("createfood:block/caramel_pudding_still"),
-                new Identifier("createfood:block/caramel_pudding_flow")
-
-        ));
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BUTTERSCOTCH_PUDDING, ModFluids.FLOWING_BUTTERSCOTCH_PUDDING, new SimpleFluidRenderHandler(
-                new Identifier("createfood:block/butterscotch_pudding_still"),
-                new Identifier("createfood:block/butterscotch_pudding_flow")
-
-        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BUTTERSCOTCH, ModFluids.FLOWING_BUTTERSCOTCH, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/butterscotch_still"),
                 new Identifier("createfood:block/butterscotch_flow")

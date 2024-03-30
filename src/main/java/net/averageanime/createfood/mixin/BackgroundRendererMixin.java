@@ -73,21 +73,6 @@ public abstract class BackgroundRendererMixin {
             green = (float) 184 / 255;
             blue = (float) 115 / 255;
         }
-        if (ModFluids.isChocolatePudding(state)) {
-            red = (float) 190 / 255;
-            green = (float) 184 / 255;
-            blue = (float) 115 / 255;
-        }
-        if (ModFluids.isCaramelPudding(state)) {
-            red = (float) 190 / 255;
-            green = (float) 184 / 255;
-            blue = (float) 115 / 255;
-        }
-        if (ModFluids.isButterscotchPudding(state)) {
-            red = (float) 190 / 255;
-            green = (float) 184 / 255;
-            blue = (float) 115 / 255;
-        }
         if (ModFluids.isButterscotch(state)) {
             red = (float) 190 / 255;
             green = (float) 184 / 255;
@@ -316,21 +301,6 @@ public abstract class BackgroundRendererMixin {
             ci.cancel();
         }
         if (ModFluids.isCondensedMilk(state)) {
-            RenderSystem.setShaderFogStart(-1);
-            RenderSystem.setShaderFogEnd(1);
-            ci.cancel();
-        }
-        if (ModFluids.isChocolatePudding(state)) {
-            RenderSystem.setShaderFogStart(-1);
-            RenderSystem.setShaderFogEnd(1);
-            ci.cancel();
-        }
-        if (ModFluids.isCaramelPudding(state)) {
-            RenderSystem.setShaderFogStart(-1);
-            RenderSystem.setShaderFogEnd(1);
-            ci.cancel();
-        }
-        if (ModFluids.isButterscotchPudding(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
