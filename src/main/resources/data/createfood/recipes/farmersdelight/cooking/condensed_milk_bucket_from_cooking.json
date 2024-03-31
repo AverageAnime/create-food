@@ -12,7 +12,7 @@
   "experience": 0.5,
   "ingredients": [
     {
-      "tag": "c:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
     {
       "item":"minecraft:sugar"

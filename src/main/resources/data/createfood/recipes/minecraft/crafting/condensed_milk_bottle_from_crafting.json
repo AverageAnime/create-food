@@ -5,8 +5,7 @@
       "value": {
         "condition": "fabric:any_mod_loaded",
         "values": [
-          "create",
-          "farmersdelight"
+          "create"
           ]
       }
     }
