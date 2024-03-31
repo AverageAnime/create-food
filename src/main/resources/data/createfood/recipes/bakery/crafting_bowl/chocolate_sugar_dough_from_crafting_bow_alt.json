@@ -16,17 +16,17 @@
       "tag": "c:wheat"
     },
     {
-      "tag": "c:cocoa_powder"
+      "tag": "c:sugar"
     },
     {
-      "tag": "c:molasses_bottle"
+      "tag": "c:cocoa_powder"
     },
     {
       "tag": "c:water_buckets"
     }
   ],
   "result": {
-    "item": "createfood:pumpernickel_dough",
+    "item": "createfood:chocolate_sugar_dough",
     "count": 3
   }
 }

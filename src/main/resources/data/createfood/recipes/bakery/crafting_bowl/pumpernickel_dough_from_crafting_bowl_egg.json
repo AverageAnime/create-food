@@ -1,12 +1,4 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    }
-  ],
   "type": "bakery:crafting_bowl",
   "ingredients": [
     {
@@ -19,7 +11,7 @@
       "tag": "c:molasses_bottle"
     },
     {
-      "tag": "c:water_buckets"
+      "tag": "c:eggs"
     }
   ],
   "result": {

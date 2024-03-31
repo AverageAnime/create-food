@@ -1,14 +1,25 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
   "type": "bakery:crafting_bowl",
   "ingredients": [
     {
-      "tag": "c:flour"
+      "tag": "c:wheat"
     },
     {
       "tag": "c:salt"
     },
     {
-      "tag": "c:eggs"
+      "tag": "c:water_buckets"
     }
   ],
   "result": {
