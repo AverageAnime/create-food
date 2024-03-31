@@ -15,16 +15,16 @@
   "experience": 0.5,
   "ingredients": [
     {
-      "tag": "c:sugar_cane"
+      "item": "minecraft:sugar_cane"
     },
     {
-      "tag": "c:sugar_cane"
+      "item": "minecraft:sugar_cane"
     },
     {
-      "tag": "c:sugar_cane"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {
-    "item": "createfood:sugar_cane_bucket"
+    "item": "createfood:sugar_cane_juice_bucket"
   }
 }
