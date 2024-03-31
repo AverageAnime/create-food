@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toffee_chips_cookie"
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:raw_toffee_chips_cookie"
+  },
+  "result": "createfood:toffee_chips_cookie"
+}

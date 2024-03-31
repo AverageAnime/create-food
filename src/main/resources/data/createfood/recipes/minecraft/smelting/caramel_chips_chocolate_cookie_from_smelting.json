@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_chips_chocolate_cookie"
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:raw_caramel_chips_chocolate_cookie"
+  },
+  "result": "createfood:caramel_chips_chocolate_cookie"
+}

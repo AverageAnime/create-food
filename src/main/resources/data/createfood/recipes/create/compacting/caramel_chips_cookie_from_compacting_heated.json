@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:caramel_chips"
+    },
+    {
+      "tag":"c:sweet_dough"
+    }
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:caramel_chips_cookie"
+    }
+  ]
+}

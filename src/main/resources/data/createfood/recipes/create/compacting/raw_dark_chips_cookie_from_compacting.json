@@ -9,8 +9,12 @@
   ],
   "type":"create:compacting",
   "ingredients":[
-    {"tag":"c:dark_chocolate_chips"},
-    {"tag":"c:sweet_dough"}
+    {
+      "tag":"c:dark_chocolate_chips"
+    },
+    {
+      "tag":"c:sweet_dough"
+    }
   ],
   "results":[
     {

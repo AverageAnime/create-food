@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_toffee_chips_chocolate_cookie"
+    },
+    {
+      "tag": "c:raw_toffee_chips_chocolate_cookie"
+    },
+    {
+      "tag": "c:raw_toffee_chips_chocolate_cookie"
+    }
+  ],
+  "item": "createfood:toffee_chips_chocolate_cookie",
+  "count": 3,
+  "experience": 0.45
+}

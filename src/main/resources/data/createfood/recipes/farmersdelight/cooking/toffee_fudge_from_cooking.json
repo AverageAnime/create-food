@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "tag": "c:condensed_milk"
+    },
+    {
+      "tag": "c:toffee_chips"
+    },
+    {
+      "tag": "c:butter"
+    }
+  ],
+  "result": {
+    "item": "createfood:toffee_fudge"
+  }
+}

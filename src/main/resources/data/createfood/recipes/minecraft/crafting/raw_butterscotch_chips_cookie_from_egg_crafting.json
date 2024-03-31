@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:butterscotch_chips"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "createfood:raw_butterscotch_chips_cookie"
+  }
+}

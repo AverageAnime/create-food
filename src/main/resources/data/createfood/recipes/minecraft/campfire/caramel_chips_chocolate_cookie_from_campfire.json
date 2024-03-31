@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_chips_chocolate_cookie"
+      ]
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:raw_caramel_chips_chocolate_cookie"
+  },
+  "result": "createfood:caramel_chips_chocolate_cookie",
+  "experience": 0.1,
+  "cookingtime": 200
+}

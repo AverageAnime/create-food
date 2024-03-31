@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:dark_chocolate_chips"
+    },
+    {
+      "tag":"c:butter"
+    },
+    {
+      "amount":20250,"fluid":"createfood:condensed_milk"
+    }
+  ],
+  "results": [
+    {
+      "item":"createfood:dark_chocolate_fudge"
+    }
+  ]
+}

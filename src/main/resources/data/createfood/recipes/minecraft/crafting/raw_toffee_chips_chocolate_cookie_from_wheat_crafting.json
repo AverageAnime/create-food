@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "c:cocoa_powder"
+    },
+    {
+      "tag": "c:toffee_chips"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "createfood:raw_toffee_chips_chocolate_cookie"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:apple_cream_frosting"
+    },
+    {
+      "tag": "c:apple_slice"
+    }
+  ],
+  "result": {
+    "item": "createfood:caramel_apple_slice"
+  }
+}
