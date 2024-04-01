@@ -1593,43 +1593,43 @@ public class ModConfig implements ConfigData
     @Comment("Enable Beef Bun (Peanut Butter).")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isBeefBunPeanutButterEnabled = true;
+    public boolean isBeefBunPeanutButterEnabled = false;
     @Comment("Enable Beef Bun (Peanut Butter, Bacon).")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isBeefBunPeanutButterBaconEnabled = true;
+    public boolean isBeefBunPeanutButterBaconEnabled = false;
     @Comment("Enable Hamburger (Peanut Butter, Bacon).")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isHamburgerPeanutButterBaconEnabled = true;
+    public boolean isHamburgerPeanutButterBaconEnabled = false;
     @Comment("Enable Cinnamon Sweet Roll Base.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isCinnamonSweetRollBaseEnabled = true;
+    public boolean isCinnamonSweetRollBaseEnabled = false;
     @Comment("Enable Paprika.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isPaprikaEnabled = true;
+    public boolean isPaprikaEnabled = false;
     @Comment("Enable Raw Cinnamon Sweet Roll Base.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isRawCinnamonSweetRollBaseEnabled = true;
+    public boolean isRawCinnamonSweetRollBaseEnabled = false;
     @Comment("Enable Raw Snickerdoodle.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isRawSnickerdoodleEnabled = true;
+    public boolean isRawSnickerdoodleEnabled = false;
     @Comment("Enable Raw Sugar Cookie.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isRawSugarCookieEnabled = true;
+    public boolean isRawSugarCookieEnabled = false;
     @Comment("Enable Spicy Breakfast Sausages.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isSpicyBreakfastSausagesEnabled = true;
+    public boolean isSpicyBreakfastSausagesEnabled = false;
     @Comment("Enable Spicy Chicken Nuggets.")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isSpicyChickenNuggetsEnabled = true;
+    public boolean isSpicyChickenNuggetsEnabled = false;
 
 
 
