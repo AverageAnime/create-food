@@ -4,6 +4,10 @@
     {
       "id": "createfood:brown_sugar",
       "required": false
+    },
+    {
+      "id": "ubesdelight:sugar_brown",
+      "required": false
     }
   ]
 }
