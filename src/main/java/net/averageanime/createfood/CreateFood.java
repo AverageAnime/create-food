@@ -1181,6 +1181,11 @@ public class CreateFood implements ModInitializer {
 			final Item HAMBURGERONIONLETTUCE = registerItem("hamburger_onion_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.7f).build())));
 			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HAMBURGERONIONLETTUCE));
 		}
+// Hamburger (Peanut Butter)
+		if (CONFIG.isHamburgerPeanutButterEnabled) {
+			final Item HAMBURGERPEANUTBUTTER = registerItem("hamburger_peanut_butter", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
+			ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HAMBURGERPEANUTBUTTER));
+		}
 // Hamburger (Peanut Butter, Bacon)
 		if (CONFIG.isHamburgerPeanutButterBaconEnabled) {
 			final Item HAMBURGERPEANUTBUTTERBACON = registerItem("hamburger_peanut_butter_bacon", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).build())));

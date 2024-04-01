@@ -1586,6 +1586,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBeefBunPeanutButterBaconEnabled = false;
+    @Comment("Enable Hamburger (Peanut Butter).")
+    @ConfigEntry.Category("ExpandedDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHamburgerPeanutButterEnabled = false;
     @Comment("Enable Hamburger (Peanut Butter, Bacon).")
     @ConfigEntry.Category("ExpandedDelight")
     @ConfigEntry.Gui.RequiresRestart

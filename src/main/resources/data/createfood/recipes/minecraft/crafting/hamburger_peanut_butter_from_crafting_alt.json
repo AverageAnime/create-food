@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:peanut_butter"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bun"
+    },
+    {
+      "tag": "c:peanut_butter"
+    },
+    {
+      "tag": "c:cooked_beef"
+    },
+    {
+      "tag": "c:bun"
+    }
+  ],
+  "result": {
+    "item": "createfood:hamburger_peanut_butter"
+  }
+}
