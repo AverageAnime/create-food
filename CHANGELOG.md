@@ -1,3 +1,11 @@
+### ***1.0.4***
+* 50 new food items & 15 new fluids.
+* New resource packs for Cultural Delight, End's Delight, & Farmer's Respite.
+* Some features related to Farmer's Delight & Expanded Delight have been moved to their respective resource pack. 
+* Various texture/tag/recipe updates & fixes.
+* Fixed some long effect tags not using the correct duration 
+* In the config, items from the Expanded Delight tab are now disabled by default.
+* 
 ### ***1.0.3***
 
 ![expandeddelightpreview](https://github.com/AverageAnime/create-food/assets/150550990/edd77810-f6fc-4434-b7f0-063e9b233828)
