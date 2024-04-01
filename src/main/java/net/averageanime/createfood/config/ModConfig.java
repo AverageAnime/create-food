@@ -1218,10 +1218,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isButterscotchFudgeFluidEnabled = true;
-    @Comment("Enable Butterscotch Pudding Fluid.")
-    @ConfigEntry.Category("CreateFoodFluid")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isButterscotchPuddingFluidEnabled = true;
     @Comment("Enable Cacao Butter Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1238,10 +1234,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCaramelFluidEnabled = true;
-    @Comment("Enable Caramel Pudding Fluid.")
-    @ConfigEntry.Category("CreateFoodFluid")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isCaramelPuddingFluidEnabled = true;
     @Comment("Enable Caramel Fudge Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1250,10 +1242,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateCreamFrostingFluidEnabled = true;
-    @Comment("Enable Chocolate Pudding Fluid.")
-    @ConfigEntry.Category("CreateFoodFluid")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isChocolatePuddingFluidEnabled = true;
     @Comment("Enable Chorus Fruit Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
