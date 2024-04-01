@@ -45,3 +45,4 @@ Any mod that uses the supported tags can be used. For example, various items fou
 
 ### **Item Preview:**
 ![foodpreviewfull](https://github.com/AverageAnime/create-food/assets/150550990/6e866288-4572-4915-a7c5-51854a16900f)
+[Full Item List](https://github.com/AverageAnime/create-food/wiki/Item-List)
