@@ -8,7 +8,13 @@
           "create_bic_bit"
         ]
       }
-    }
+    },
+      {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "create"
+        ]
+      }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
