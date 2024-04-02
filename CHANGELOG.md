@@ -5,7 +5,8 @@
 * Various texture/tag/recipe updates & fixes.
 * Fixed some long effect tags not using the correct duration 
 * In the config, items from the Expanded Delight tab are now disabled by default.
-
+>Note: [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
+) (2.0.10+) can be used with any version of Create: Food to satisfy the Farmer's Delight dependency.
 ### ***1.0.3***
 
 ![expandeddelightpreview](https://github.com/AverageAnime/create-food/assets/150550990/edd77810-f6fc-4434-b7f0-063e9b233828)
