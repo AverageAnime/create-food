@@ -23,9 +23,9 @@ Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food 
 * [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric)/[Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - View configuration options.
 ### **Configuration:**
 >#### **Food Effect Tags:**
-> _Farmer's Delight Effects: Comfort & Nourishment._
+> Farmer's Delight: Comfort & Nourishment.
 >
-> _Vanilla Effects: Fire Resistance, Glowing, Haste, Jump Boost, Luck, Night Vision, Slow Falling, Speed, & Strength._
+> Vanilla: Fire Resistance, Glowing, Haste, Jump Boost, Luck, Night Vision, Slow Falling, Speed, & Strength.
 >
 >  * 'c:brief_xxx' gives 30 seconds.
 >
