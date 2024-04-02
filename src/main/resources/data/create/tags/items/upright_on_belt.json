@@ -4,6 +4,1094 @@
     {
       "id": "createfood:apple_popsicle",
       "required": false
+    },
+    {
+      "id": "createfood:apple_cream_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_frosting_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:sweet_berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_bacon_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_onion",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_onion_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_onion_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_onion_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_onion_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_peanut_butter",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_peanut_butter_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_frosting_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_frosted_chocolate_sweet_roll_sweet_berry",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_cream_frosted_sweet_roll_sweet_berry",
+      "required": false
+    },
+    {
+      "id": "createfood:blackstrap_molasses_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:bread_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:bread_lettuce_carrot",
+      "required": false
+    },
+    {
+      "id": "createfood:bread_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:bread_slice_bacon_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:bread_slice_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:bread_slice_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:breakfast_sausages",
+      "required": false
+    },
+    {
+      "id": "createfood:brown_sugar",
+      "required": false
+    },
+    {
+      "id": "minecraft:sugar",
+      "required": false
+    },
+    {
+      "id": "createfood:bun",
+      "required": false
+    },
+    {
+      "id": "createfood:butter",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch",
+      "required": false
+    },
+    {
+      "id": "createfood:butter_dough",
+      "required": false
+    },
+    {
+      "id": "createfood:cacao_butter",
+      "required": false
+    },
+    {
+      "id": "createfood:cacao_nibs",
+      "required": false
+    },
+    {
+      "id": "createfood:cake_base",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_glazed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_block",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_bacon_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_onion_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_onion_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_onion",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_onion_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_beef_bun_onion_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_chicken_bun",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_chicken_bun_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_chicken_bun_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_chicken_bun_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_sausage_biscuit",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_and_sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_biscuit",
+      "required": false
+    },
+    {
+      "id": "createfood:cheese_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_onion",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_onion_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_onion_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_onion_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_bacon_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:cheeseburger_onion_lettuce_tomato",
+      "required": false
+    },
+{
+      "id": "createfood:chicken_bun",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_bun_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_bun_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_bun_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_burger",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_burger_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_burger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_burger_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_cheeseburger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_cheeseburger",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_cheeseburger_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_cheeseburger_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_nuggets",
+      "required": false
+    },
+    {
+      "id": "createfood:chicken_patty",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_covered_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_cream_frosting_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_donut_base",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_donut_hole",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_donut_hole_sugar",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_filled_mini_graham_cracker_pie_crust",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_frosted_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_glazed_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milk_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_pastry_bar_base",
+      "required": false
+    },
+    {
+      "id": "createfood:pastry_bar_base",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_sugar_dough",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosting_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_cream_frosted_sweet_roll_chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "createfood:cinnamon_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:cocoa_powder",
+      "required": false
+    },
+    {
+      "id": "createfood:condensed_milk_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_frosting_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_covered_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_glazed_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_glazed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:donut_base",
+      "required": false
+    },
+    {
+      "id": "createfood:donut_hole",
+      "required": false
+    },
+    {
+      "id": "createfood:donut_hole_sugar",
+      "required": false
+    },
+    {
+      "id": "createfood:frosted_cake",
+      "required": false
+    },
+    {
+      "id": "createfood:gelatin",
+      "required": false
+    },
+    {
+      "id": "createfood:gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:black_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:blue_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:brown_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:cyan_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:gray_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:green_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:light_blue_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:light_gray_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:lime_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:magenta_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:orange_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:pink_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:purple_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:red_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:yellow_gelatin_dessert_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_glazed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_glazed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_chocolate_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_pastry_bar",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosting_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosted_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosted_chocolate_sweet_roll_glow_berry",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosted_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_cream_frosted_sweet_roll_glow_berry",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "createfood:graham_cracker_crumbs",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_bacon_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_onion",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_onion_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_onion_bacon_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_onion_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_peanut_butter",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_peanut_butter_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:hollow_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:hollow_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:hollow_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_biscuit",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_chocolate_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_chocolate_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_donut",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_sweet_roll",
+      "required": false
+    },
+    {
+      "id": "createfood:honeyed_toast",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_cheese_and_sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_cheese_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_dark_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:hot_white_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_filled_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_filled_dark_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_filled_white_chocolate",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_1",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_2",
+      "required": false
+    },
+    {
+      "id": "createfood:meatball_stick_3",
+      "required": false
+    },
+    {
+      "id": "createfood:mini_graham_cracker_pie_crust",
+      "required": false
+    },
+    {
+      "id": "createfood:mini_smores_pie",
+      "required": false
+    },
+    {
+      "id": "createfood:milk_powder",
+      "required": false
+    },
+    {
+      "id": "createfood:molasses_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:paprika",
+      "required": false
+    },
+    {
+      "id": "createfood:pastry_bar_base",
+      "required": false
+    },
+    {
+      "id": "createfood:pastry_base",
+      "required": false
+    },
+    {
+      "id": "createfood:powdered_sugar",
+      "required": false
+    },
+    {
+      "id": "createfood:pressed_cocoa",
+      "required": false
+    },
+    {
+      "id": "createfood:pumpernickel_dough",
+      "required": false
+    },
+    {
+      "id": "createfood:pumpernickel_bread_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:pumpernickel_bread",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_chocolate_pastry_bar_base",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_chocolate_pastry_base",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_chocolate_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_cinnamon_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_meatball",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_pastry_bar_base",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_pastry_base",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:smore",
+      "required": false
+    },
+    {
+      "id": "createfood:salt",
+      "required": false
+    },
+    {
+      "id": "createfood:salt_dough",
+      "required": false
+    },
+    {
+      "id": "createfood:sausage_biscuit",
+      "required": false
+    },
+    {
+      "id": "createfood:sausage_biscuit_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:small_meatballs",
+      "required": false
+    },
+    {
+      "id": "createfood:spicy_breakfast_sausages",
+      "required": false
+    },
+    {
+      "id": "createfood:spicy_chicken_nuggets",
+      "required": false
+    },
+    {
+      "id": "createfood:sugar_dough",
+      "required": false
+    },
+    {
+      "id": "createfood:sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:toast_slice",
+      "required": false
+    },
+    {
+      "id": "createfood:toffee",
+      "required": false
+    },
+    {
+      "id": "createfood:unbreaded_chicken_patty",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_covered_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_pastry",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_glazed_apple",
+      "required": false
+    },
+    {
+      "id": "createfood:white_glazed_berries",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_toast",
+      "required": false
     }
   ]
 }

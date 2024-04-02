@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:blackstrap_molasses_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_cream_frosting_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:cream_frosting_bottle",
       "required": false
     },
