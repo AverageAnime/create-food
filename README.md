@@ -44,5 +44,5 @@ Any mod that uses the supported tags can be used. For example, various items fou
 * [Stack Size Edit](https://www.curseforge.com/minecraft/mc-mods/stack-size-edit-fabric)
 
 ### **Item Preview:**
-![foodpreviewfull](https://github.com/AverageAnime/create-food/assets/150550990/013a1a65-2bd3-49db-a3d4-0cb05340228d)
+![foodpreviewfull](https://github.com/AverageAnime/create-food/assets/150550990/478948b8-9274-4edd-9386-01b5f725417a)
 [Full Item List](https://github.com/AverageAnime/create-food/wiki/Item-List)
