@@ -1,4 +1,15 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "farmersdelight"
+        ]
+      }
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

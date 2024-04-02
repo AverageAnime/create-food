@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:white_chips_chocolate_cookie",
+      "required": false
+    }
+  ]
+}
