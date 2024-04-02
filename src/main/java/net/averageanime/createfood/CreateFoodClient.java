@@ -1,6 +1,7 @@
 package net.averageanime.createfood;
 
 import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
+// import vectorwing.farmersdelight.common.registry.ModEffects;
 import net.averageanime.createfood.fluid.ModFluids;
 import net.averageanime.createfood.item.ModTags;
 import net.fabricmc.api.ClientModInitializer;
@@ -44,6 +45,64 @@ public class CreateFoodClient implements ClientModInitializer {
         });
 
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
+            if (stack.isIn(ModTags.BRIEF_COMFORT)) {
+                StatusEffect effect = EffectsRegistry.COMFORT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+
+            if (stack.isIn(ModTags.SHORT_COMFORT)) {
+                StatusEffect effect = EffectsRegistry.COMFORT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_COMFORT)) {
+                StatusEffect effect = EffectsRegistry.COMFORT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_COMFORT)) {
+                StatusEffect effect = EffectsRegistry.COMFORT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 6000), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+
+            if (stack.isIn(ModTags.BRIEF_NOURISHMENT)) {
+                StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_NOURISHMENT)) {
+                StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_NOURISHMENT)) {
+                StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_NOURISHMENT)) {
+                StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 6000), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
             if (stack.isIn(ModTags.BRIEF_GLOWING)) {
                 StatusEffect effect = StatusEffects.GLOWING;
                 lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
@@ -268,95 +327,34 @@ public class CreateFoodClient implements ClientModInitializer {
                                         new StatusEffectInstance(effect, 6000), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
-            if (FabricLoader.getInstance().isModLoaded("farmersdelight")) {
-                if (stack.isIn(ModTags.BRIEF_COMFORT)) {
-                    StatusEffect effect = EffectsRegistry.COMFORT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 600), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-
-                if (stack.isIn(ModTags.SHORT_COMFORT)) {
-                    StatusEffect effect = EffectsRegistry.COMFORT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 1200), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.MEDIUM_COMFORT)) {
-                    StatusEffect effect = EffectsRegistry.COMFORT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 3600), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.LONG_COMFORT)) {
-                    StatusEffect effect = EffectsRegistry.COMFORT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 6000), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-
-                if (stack.isIn(ModTags.BRIEF_NOURISHMENT)) {
-                    StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 600), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.SHORT_NOURISHMENT)) {
-                    StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 1200), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.MEDIUM_NOURISHMENT)) {
-                    StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 3600), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.LONG_NOURISHMENT)) {
-                    StatusEffect effect = EffectsRegistry.NOURISHMENT.get();
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 6000), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
+            if (stack.isIn(ModTags.BRIEF_FIRE_RESISTANCE)) {
+                StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
             }
-
-                if (stack.isIn(ModTags.BRIEF_FIRE_RESISTANCE)) {
-                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 600), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.SHORT_FIRE_RESISTANCE)) {
-                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 1200), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.MEDIUM_FIRE_RESISTANCE)) {
-                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 3600), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
-                if (stack.isIn(ModTags.LONG_FIRE_RESISTANCE)) {
-                    StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
-                    lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
-                                    StatusEffectUtil.getDurationText(
-                                            new StatusEffectInstance(effect, 6000), 1))
-                            .formatted(effect.getCategory().getFormatting()));
-                }
+            if (stack.isIn(ModTags.SHORT_FIRE_RESISTANCE)) {
+                StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_FIRE_RESISTANCE)) {
+                StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_FIRE_RESISTANCE)) {
+                StatusEffect effect = StatusEffects.FIRE_RESISTANCE;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 6000), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
         });
 
 // Gelatin Dessert Block

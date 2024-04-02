@@ -19,6 +19,17 @@ repositories {
 	maven { url "https://maven.shedaniel.me/" }
 	maven { url "https://maven.terraformersmc.com/releases/" }
 	maven { url 'https://www.cursemaven.com' }
+	maven {
+		name = "Greenhouse Maven"
+		url = 'https://maven.greenhouseteam.dev/releases/'
+	}
+	maven { url = "https://mvn.devos.one/releases/" } // Porting Lib
+	maven {
+		url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
+		content {
+			includeGroup "com.jamieswhiteshirt"
+		}
+	}
 	}
 
 
@@ -57,7 +68,8 @@ dependencies {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
 	modApi "com.terraformersmc:modmenu:7.2.2"
-	modApi("curse.maven:farmers-delight-fabric-482834:4939709")
+	modImplementation("curse.maven:farmers-delight-fabric-482834:4939709")
+	// modImplementation "vectorwing:FarmersDelight-Refabricated:${fdrf_version}"
 }
 
 

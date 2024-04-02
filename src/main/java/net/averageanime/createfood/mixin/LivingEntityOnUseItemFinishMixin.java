@@ -1,6 +1,7 @@
 package net.averageanime.createfood.mixin;
 
 import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
+// import vectorwing.farmersdelight.common.registry.ModEffects;
 import net.averageanime.createfood.item.ModTags;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -53,6 +54,10 @@ public abstract class LivingEntityOnUseItemFinishMixin {
         if (entity.getActiveItem().isIn(ModTags.LONG_NOURISHMENT)) {
             entity.addStatusEffect(
                     new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 6000, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.BRIEF_GLOWING)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.GLOWING, 600, 0));
         }
         if (entity.getActiveItem().isIn(ModTags.BRIEF_GLOWING)) {
             entity.addStatusEffect(
