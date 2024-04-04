@@ -3,23 +3,26 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create"
+        "create",
+        "farmersdelight"
       ]
     }
   ],
   "type":"create:mixing",
-  "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":81000,"fluidTag":"c:milk"
+      "item":"minecraft:sugar"
     },
     {
-      "tag":"c:powdered_sugar"
+      "item":"minecraft:apple"
+    },
+    {
+      "item":"farmersdelight:milk_bottle"
     }
   ],
   "results":[
     {
-      "amount":40500,"fluid":"createfood:condensed_milk"
+      "item":"createfood:apple_cream_frosting_bottle"
     }
   ]
 }

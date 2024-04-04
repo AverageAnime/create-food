@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:brown_sugar"
+    },
+    {
+      "tag": "c:brown_sugar"
+    },
+    {
+      "tag": "c:brown_sugar"
+    },
+    {
+      "tag": "c:brown_sugar"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "result": {
+    "item": "createfood:butterscotch_bucket"
+  }
+}

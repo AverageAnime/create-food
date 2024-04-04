@@ -8,18 +8,24 @@
     }
   ],
   "type":"create:mixing",
-  "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":81000,"fluidTag":"c:milk"
+      "amount":20250,
+      "fluidTag":"c:milk"
     },
     {
-      "tag":"c:powdered_sugar"
+      "item":"minecraft:sugar"
+    },
+    {
+      "item":"minecraft:apple"
+    },
+    {
+      "item":"minecraft:glass_bottle"
     }
   ],
   "results":[
     {
-      "amount":40500,"fluid":"createfood:condensed_milk"
+      "item":"createfood:apple_cream_frosting_bottle"
     }
   ]
 }

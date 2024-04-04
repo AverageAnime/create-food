@@ -8,7 +8,6 @@
     }
   ],
   "type":"create:mixing",
-  "heatRequirement":"heated",
   "ingredients":[
     {
       "amount":10125,"fluid":"createfood:molasses"
