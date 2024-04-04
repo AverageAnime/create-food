@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:spicy_chicken_nuggets",
+      "required": false
+    },
+    {
+      "id": "createfood:spicy_breakfast_sausages",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_snickerdoodle",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_sugar_cookie",
+      "required": false
+    },
+    {
+      "id": "createfood:paprika",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_peanut_butter_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:hamburger_peanut_butter",
+      "required": false
+    },
+    {
+      "id": "createfood:raw_cinnamon_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:cinnamon_sweet_roll_base",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_peanut_butter_bacon",
+      "required": false
+    },
+    {
+      "id": "createfood:beef_bun_peanut_butter",
+      "required": false
+    }
+  ]
+}
