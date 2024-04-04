@@ -11,7 +11,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:caramel_chips"
+      "tag":"c:toffee_chips"
     },
     {
       "tag":"c:butter"
@@ -22,7 +22,7 @@
   ],
   "results": [
     {
-      "item":"createfood:caramel_fudge"
+      "amount":81000,"fluid":"createfood:toffee_fudge"
     }
   ]
 }

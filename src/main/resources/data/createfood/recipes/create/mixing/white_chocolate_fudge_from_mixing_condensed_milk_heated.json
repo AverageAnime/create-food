@@ -22,7 +22,7 @@
   ],
   "results": [
     {
-      "item":"createfood:white_chocolate_fudge"
+      "amount":81000,"fluid":"createfood:white_chocolate_fudge"
     }
   ]
 }

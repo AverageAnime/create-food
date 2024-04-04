@@ -11,7 +11,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:dark_chocolate_chips"
+      "tag":"c:butterscotch_chips"
     },
     {
       "tag":"c:butter"
@@ -22,7 +22,7 @@
   ],
   "results": [
     {
-      "item":"createfood:dark_chocolate_fudge"
+      "amount":81000,"fluid":"createfood:butterscotch_fudge"
     }
   ]
 }

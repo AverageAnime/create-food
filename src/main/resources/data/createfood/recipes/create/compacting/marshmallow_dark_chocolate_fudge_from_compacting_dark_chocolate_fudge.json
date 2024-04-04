@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 81000,
+      "fluid": "createfood:dark_chocolate_fudge"
+    },
+    {
+      "tag": "c:marshmallow"
+    }
+  ],
+  "results": [
+    {
+      "item": "createfood:dark_chocolate_fudge"
+    }
+  ]
+}
