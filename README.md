@@ -1,5 +1,4 @@
 ![logo](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/473ed31f-67ad-406f-9ea4-e633aa76f49f)
-![foodpreviewfull](https://github.com/AverageAnime/create-food/assets/150550990/478948b8-9274-4edd-9386-01b5f725417a)
 ### **About:**
 
 Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food content found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric), [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric), and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
@@ -18,9 +17,9 @@ Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food 
 
 ### **Mod Recommendations:**
 
-* [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Use to ensure all recipes are present regardless of whether you are using the items in this mod.
+* [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
 * [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) - View recipes and items.
-* [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric)/[Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - View configuration options.
+* [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric)/[Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
 ### **Configuration:**
 >#### **Food Effect Tags:**
 > Farmer's Delight: Comfort & Nourishment.
@@ -53,3 +52,6 @@ Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food 
 * Fluid code is from [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) by [Flomik](https://www.curseforge.com/members/flomik).
 * Various item textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) and [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric).
 * Fluid textures are based on assets found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric).
+
+### **Item Preview:**
+![foodpreviewfull](https://github.com/AverageAnime/create-food/assets/150550990/ec0cf5cb-9833-47c7-96dd-1fc51859b3b1)
