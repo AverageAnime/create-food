@@ -2,10 +2,6 @@
   "replace": false,
   "values": [
     {
-      "id": "expandeddelight:glow_berry_sweet_roll",
-      "required": false
-    },
-    {
       "id": "createfood:glow_berry_cream_pastry_bar",
       "required": false
     },
