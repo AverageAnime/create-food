@@ -1,5 +1,5 @@
 ### ***1.0.4***
-* 50 new food items & 15 new fluids.
+* 50 new food items & 14 new fluids.
 * New resource packs for Cultural Delight, End's Delight, & Farmer's Respite.
 * Some features related to Farmer's Delight & Expanded Delight have been moved to their respective resource pack. 
 * Various texture/tag/recipe updates & fixes.
