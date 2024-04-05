@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:milk_powder",
+      "required": false
+    },
+    {
+      "id": "ubesdelight:milk_powder",
+      "required": false
+    }
+  ]
+}

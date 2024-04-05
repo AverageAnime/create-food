@@ -10,7 +10,7 @@
   "type": "create:compacting",
   "ingredients": [
     {
-      "amount": 81000,
+      "amount": 40500,
       "fluid": "createfood:dark_chocolate_fudge"
     }
   ],
