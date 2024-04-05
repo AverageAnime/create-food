@@ -10,7 +10,7 @@ Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food 
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
 * Animated textures for hot drinks.
 ### **Required Dependencies:**
-* [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) or [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
+* [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) **or** [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
   )
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
