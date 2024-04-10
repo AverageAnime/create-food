@@ -26,10 +26,6 @@
       "required": false
     },
     {
-      "id": "create:sweet_roll",
-      "required": false
-    },
-    {
       "id": "createfood:cream_chocolate",
       "required": false
     },
