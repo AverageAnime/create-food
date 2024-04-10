@@ -4,7 +4,7 @@
 * New resource pack for Create. Also added dough texture from Create to Farmer's Delight resource pack for visual consistency.
 * Minor updates to directly support [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
   ).
-> Deprecated port will still work. There's no difference between the two ports in terms of what this mod does, but I still recommend switching to Refabricated.
+> Note: Deprecated port is still compatible. There's no difference between the two ports in terms of what this mod does, but I still recommend switching to Refabricated.
 ### ***1.0.4***
 * 50 new food items & 14 new fluids.
 * New resource packs for Cultural Delight, End's Delight, & Farmer's Respite.
