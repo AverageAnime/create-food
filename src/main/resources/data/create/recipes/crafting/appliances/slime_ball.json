@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:wheat_dough"
+      "tag": "c:dough"
     },
     {
       "tag": "c:lime_dyes"
