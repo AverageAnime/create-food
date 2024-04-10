@@ -1,7 +1,7 @@
 ![logo](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/473ed31f-67ad-406f-9ea4-e633aa76f49f)
 ### **About:**
 
-Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food content found in [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric), [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric), and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
+Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated) based on expanding food content found in Create, Farmer's Delight, and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
 
 ### **Current Content:**
 * 350+ new food-related items, including 30+ new fluids. Enable/disable in the config according to preference. View complete item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List).
@@ -10,13 +10,12 @@ Create: Food [Fabric] is an add-on for Farmer's Delight based on expanding food 
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
 * Animated textures for hot drinks.
 ### **Required Dependencies:**
-* [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) **or** [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
-  )
+* [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated)
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
 
 ### **Mod Recommendations:**
-
+* [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) - More recipes. 
 * [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
 * [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) - View recipes and items.
 * [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric)/[Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
