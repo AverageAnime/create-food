@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/toffee_block"
+    }
+  }
+}

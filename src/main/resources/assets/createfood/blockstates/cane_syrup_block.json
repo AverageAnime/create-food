@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/cane_syrup_block"
+    }
+  }
+}

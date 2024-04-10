@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/hot_chocolate_block"
+    }
+  }
+}

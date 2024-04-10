@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/condensed_milk_block"
+    }
+  }
+}

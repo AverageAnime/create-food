@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/sugar_cane_juice_block"
+    }
+  }
+}
