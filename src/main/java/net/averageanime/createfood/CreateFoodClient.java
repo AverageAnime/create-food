@@ -37,6 +37,7 @@ public class CreateFoodClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(container -> {
+            ResourceManagerHelper.registerBuiltinResourcePack(asId("create"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("farmers_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("expanded_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("farmers_respite"), container, ResourcePackActivationType.NORMAL);
