@@ -4,6 +4,10 @@
     {
       "id": "minecraft:cooked_beef",
       "required": false
+    },
+    {
+      "id": "farmersdelight:beef_patty",
+      "required": false
     }
   ]
 }
