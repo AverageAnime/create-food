@@ -1,5 +1,5 @@
 ### ***1.0.5***
-* Minor tag & recipe updates.
+* Minor tag & recipe fixes.
 * Fix to remove log spam related to fluids.
 * New resource pack for Create. Also added dough texture from Create to Farmer's Delight resource pack for visual consistency.
 * Minor updates to directly support [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
