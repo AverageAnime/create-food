@@ -1,7 +1,7 @@
 package net.averageanime.createfood;
 
 import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
-// import vectorwing.farmersdelight.common.registry.ModEffects;
+import net.averageanime.createfood.block.ModBlocks;
 import net.averageanime.createfood.fluid.ModFluids;
 import net.averageanime.createfood.item.ModTags;
 import net.fabricmc.api.ClientModInitializer;
@@ -11,13 +11,9 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlimeBlock;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -26,15 +22,16 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import static net.averageanime.createfood.CreateFood.CONFIG;
-import static net.averageanime.createfood.block.ModBlocks.registerBlock;
-import static net.minecraft.block.Blocks.SLIME_BLOCK;
-
 @Environment(value= EnvType.CLIENT)
 public class CreateFoodClient implements ClientModInitializer {
     public static final String MOD_ID = "createfood";
+    public static Identifier asId(String path) {
+        return new Identifier(MOD_ID, path);
+    }
     @Override
     public void onInitializeClient() {
+
+// Resource Packs
 
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(container -> {
             ResourceManagerHelper.registerBuiltinResourcePack(asId("create"), container, ResourcePackActivationType.NORMAL);
@@ -44,6 +41,8 @@ public class CreateFoodClient implements ClientModInitializer {
             ResourceManagerHelper.registerBuiltinResourcePack(asId("ends_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("cultural_delight"), container, ResourcePackActivationType.NORMAL);
         });
+
+// Food Effect Tooltips
 
         ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
             if (stack.isIn(ModTags.BRIEF_COMFORT)) {
@@ -358,90 +357,8 @@ public class CreateFoodClient implements ClientModInitializer {
             }
         });
 
-// Gelatin Dessert Block
-
-        if (CONFIG.isRedGelatinDessertBlockEnabled) {
-            final Block RED_GELATIN_DESSERT = registerBlock("red_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RED_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(RED_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isBlackGelatinDessertBlockEnabled) {
-            final Block BLACK_GELATIN_DESSERT = registerBlock("black_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLACK_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(BLACK_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isBlueGelatinDessertBlockEnabled) {
-            final Block BLUE_GELATIN_DESSERT = registerBlock("blue_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLUE_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isBrownGelatinDessertBlockEnabled) {
-            final Block BROWN_GELATIN_DESSERT = registerBlock("brown_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BROWN_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(BROWN_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isCyanGelatinDessertBlockEnabled) {
-            final Block CYAN_GELATIN_DESSERT = registerBlock("cyan_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CYAN_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(CYAN_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isGelatinDessertBlockEnabled) {
-            final Block GELATIN_DESSERT = registerBlock("gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isGrayGelatinDessertBlockEnabled) {
-            final Block GRAY_GELATIN_DESSERT = registerBlock("gray_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GRAY_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isGreenGelatinDessertBlockEnabled) {
-            final Block GREEN_GELATIN_DESSERT = registerBlock("green_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GREEN_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(GREEN_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isLightBlueGelatinDessertBlockEnabled) {
-            final Block LIGHT_BLUE_GELATIN_DESSERT = registerBlock("light_blue_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_BLUE_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(LIGHT_BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isLightGrayGelatinDessertBlockEnabled) {
-            final Block LIGHT_GRAY_GELATIN_DESSERT = registerBlock("light_gray_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_GRAY_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(LIGHT_GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isLimeGelatinDessertBlockEnabled) {
-            final Block LIME_GELATIN_DESSERT = registerBlock("lime_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIME_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(LIME_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isMagentaGelatinDessertBlockEnabled) {
-            final Block MAGENTA_GELATIN_DESSERT = registerBlock("magenta_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MAGENTA_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(MAGENTA_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isOrangeGelatinDessertBlockEnabled) {
-            final Block ORANGE_GELATIN_DESSERT = registerBlock("orange_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ORANGE_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(ORANGE_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isPinkGelatinDessertBlockEnabled) {
-            final Block PINK_GELATIN_DESSERT = registerBlock("pink_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PINK_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(PINK_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isPurpleGelatinDessertBlockEnabled) {
-            final Block PURPLE_GELATIN_DESSERT = registerBlock("purple_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PURPLE_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(PURPLE_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-        if (CONFIG.isYellowGelatinDessertBlockEnabled) {
-            final Block YELLOW_GELATIN_DESSERT = registerBlock("yellow_gelatin_dessert_block", new SlimeBlock(FabricBlockSettings.copyOf(SLIME_BLOCK).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(YELLOW_GELATIN_DESSERT));
-            BlockRenderLayerMap.INSTANCE.putBlock(YELLOW_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        }
-
 // Fluids
+
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_WHITE_CHOCOLATE_FUDGE, ModFluids.FLOWING_WHITE_CHOCOLATE_FUDGE, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/white_chocolate_fudge_still"),
                 new Identifier("createfood:block/white_chocolate_fudge_flow")
@@ -679,8 +596,25 @@ public class CreateFoodClient implements ClientModInitializer {
                 new Identifier("createfood:block/chorus_fruit_cream_frosting_still"),
                 new Identifier("createfood:block/chorus_fruit_cream_frosting_flow")
         ));
-    }
-    public static Identifier asId(String path) {
-        return new Identifier(MOD_ID, path);
+
+// Gelatin Dessert Blocks
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_GELATIN_DESSERT, RenderLayer.getTranslucent());
+
     }
 }
