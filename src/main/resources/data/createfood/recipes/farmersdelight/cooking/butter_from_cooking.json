@@ -12,7 +12,7 @@
   "experience": 0.5,
   "ingredients": [
     {
-      "tag": "c:milk"
+      "tag": "c:milk_bottle"
     },
     {
       "tag": "c:salt"
