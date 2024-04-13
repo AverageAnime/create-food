@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_slime",
+      "required": false
+    },
+    {
+      "id": "createfood:slime",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_white_chocolate_fudge",
       "required": false
     },

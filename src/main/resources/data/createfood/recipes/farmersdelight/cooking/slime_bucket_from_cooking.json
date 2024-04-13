@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 50,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "c:grains"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag":"c:lime_dyes"
+    },
+    {
+      "tag":"c:water_buckets"
+    }
+  ],
+  "result": {
+    "item": "createfood:slime_bucket"
+  }
+}
