@@ -1,5 +1,5 @@
 ### ***1.0.6***
-* Fixed issue where Gelatin Dessert Blocks were unable to be placed on servers.
+* Fixed issue where Gelatin Dessert Blocks could not be placed on servers.
 ### ***1.0.5 - Fix***
 * Added some tags missing from Farmer's Delight Refabricated that were needed for recipes.
 * Changed some recipes to use the proper tags.
