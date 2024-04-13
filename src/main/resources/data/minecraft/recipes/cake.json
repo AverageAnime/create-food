@@ -1,1 +1,10 @@
-{}
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_cake_base"
+      ]
+    }
+  ]
+}
