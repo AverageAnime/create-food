@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-  "layer0": "createfood:item/mini_smores_pie"
+  "layer0": "createfood:item/icon"
   }
 }
