@@ -1338,6 +1338,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRedGelatinMixFluidEnabled = true;
+    @Comment("Enable Slime Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSlimeFluidEnabled = true;
     @Comment("Enable Sugar Cane Juice Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1623,6 +1627,161 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSpicyChickenNuggetsEnabled = false;
 
+    // Farmer's Respite
+    @Comment("Enable Coffee Toffee.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCoffeeToffeeEnabled = false;
+    @Comment("Enable Coffee Toffee Fluid.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCoffeeToffeeFluidEnabled = false;
+    @Comment("Enable Coffee Toffee Fudge.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCoffeeToffeeFudgeEnabled = false;
+    @Comment("Enable Coffee Toffee Fudge Fluid.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCoffeeToffeeFudgeFluidEnabled = false;
+    @Comment("Enable Dried Coffee Beans.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDriedCoffeeBeansEnabled = false;
+    @Comment("Enable Espresso Powder.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEspressoPowderEnabled = false;
+    @Comment("Enable Marshmallow Coffee Toffee Fudge.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMarshmallowCoffeeToffeeFudgeEnabled = false;
+    @Comment("Enable Raw Green Tea Cookie.")
+    @ConfigEntry.Category("Farmer'sRespite")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawGreenTeaCookieEnabled = false;
 
+    // End's Delight
+    @Comment("Enable Dragon Bun.")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonBunEnabled = false;
+    @Comment("Enable Dragon Bun (Crimson Fungus).")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonBunCrimsonFungusEnabled = false;
+    @Comment("Enable Dragon Bun (Warped Fungus).")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonBunWarpedFungusEnabled = false;
+    @Comment("Enable Dragon Burger.")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonBurgerEnabled = false;
+    @Comment("Enable Dragon Burger (Crimson Fungus).")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonBurgerCrimsonFungusEnabled = false;
+    @Comment("Enable Dragon Burger (Warped Fungus).")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonBurgerWarpedFungusEnabled = false;
+    @Comment("Enable Dragon Patty.")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDragonPattyEnabled = false;
+    @Comment("Enable Minced Dragon.")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMincedDragonEnabled = false;
+    @Comment("Enable Raw Chorus Cookie.")
+    @ConfigEntry.Category("End'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChorusCookieEnabled = false;
 
+    // Cultural Delight
+    @Comment("Enable Caramel Popcorn.")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelPopcornEnabled = false;
+    @Comment("Enable Cheese and Eggplant Bun.")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheeseAndEggplantBunEnabled = false;
+    @Comment("Enable Cheese and Eggplant Bun (Lettuce).")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheeseAndEggplantBunLettuceEnabled = false;
+    @Comment("Enable Cheese and Eggplant Bun (Lettuce, Tomato).")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheeseAndEggplantBunLettuceTomatoEnabled = false;
+    @Comment("Enable Corn Flour.")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCornFlourEnabled = false;
+    @Comment("Enable Eggplant Bun.")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEggplantBunEnabled = false;
+    @Comment("Enable Eggplant Bun (Lettuce).")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEggplantBunLettuceEnabled = false;
+    @Comment("Enable Eggplant Bun (Lettuce, Tomato).")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEggplantBunLettuceTomatoEnabled = false;
+    @Comment("Enable Eggplant Cheeseburger (Lettuce, Tomato).")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEggplantCheeseburgerLettuceTomatoEnabled = false;
+
+    // Ube Delight
+    @Comment("Enable Frosted Ube Cake.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFrostedUbeCakeEnabled = false;
+    @Comment("Enable Raw Ginger Cookie.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawGingerCookieEnabled = false;
+    @Comment("Enable Raw Ube Cake Base.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawUbeCakeBaseEnabled = false;
+    @Comment("Enable Raw Ube Cookie.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawUbeCookieEnabled = false;
+    @Comment("Enable Ube Cake Base.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isUbeCakeBaseEnabled = false;
+    @Comment("Enable Ube Cream Frosting.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isUbeCreamFrostingBottleEnabled = false;
+    @Comment("Enable Ube Cream Frosting Fluid.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isUbeCreamFrostingFluidEnabled = false;
+    @Comment("Enable Ube Sugar Dough.")
+    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isUbeSugarDoughEnabled = false;
+
+    // Fright's Delight
+    @Comment("Enable Raw Flesh Cookie.")
+    @ConfigEntry.Category("Fright'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawFleshCookieEnabled = false;
+    @Comment("Enable Raw Soul Berry Cookie.")
+    @ConfigEntry.Category("Fright'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSoulBerryCookieEnabled = false;
+    @Comment("Enable Raw Spider Eye Cookie.")
+    @ConfigEntry.Category("Fright'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSpiderEyeCookieEnabled = false;
 }
