@@ -359,6 +359,10 @@ public class CreateFoodClient implements ClientModInitializer {
 
 // Fluids
 
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MILKSHAKE, ModFluids.FLOWING_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/milkshake_still"),
+                new Identifier("createfood:block/milkshake_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_ICE_CREAM, ModFluids.FLOWING_ICE_CREAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/ice_cream_still"),
                 new Identifier("createfood:block/ice_cream_flow")

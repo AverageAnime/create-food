@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:milkshake",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_ice_cream",
       "required": false
     },
