@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_heavy_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:heavy_cream",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_slime",
       "required": false
     },

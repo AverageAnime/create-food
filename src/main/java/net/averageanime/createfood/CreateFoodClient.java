@@ -358,8 +358,10 @@ public class CreateFoodClient implements ClientModInitializer {
         });
 
 // Fluids
-
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_SLIME, ModFluids.FLOWING_SLIME);
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_HEAVY_CREAM, ModFluids.FLOWING_HEAVY_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/heavy_cream_still"),
+                new Identifier("createfood:block/heavy_cream_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SLIME, ModFluids.FLOWING_SLIME, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/slime_still"),
                 new Identifier("createfood:block/slime_flow")
