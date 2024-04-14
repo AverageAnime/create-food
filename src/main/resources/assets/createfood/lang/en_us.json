@@ -72,6 +72,8 @@
   "block.createfood.milkshake_block": "Milkshake Fluid",
   "item.createfood.milkshake_bucket": "Milkshake Bucket",
   "text.autoconfig.createfood.option.isMilkshakeFluidEnabled": "Enable Milkshake Fluid",
+  "item.createfood.milkshake_bottle": "Milkshake Bottle",
+  "text.autoconfig.createfood.option.isMilkshakeBottleEnabled": "Enable Milkshake Bottle",
   "item.createfood.apple_cream_chocolate_pastry_bar": "Apple Cream Filled Chocolate Pastry Bar",
   "item.createfood.apple_cream_chocolate": "Apple Cream Filled Chocolate",
   "item.createfood.apple_cream_dark_chocolate": "Apple Cream Filled Dark Chocolate",
