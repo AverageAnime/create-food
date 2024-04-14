@@ -25,7 +25,7 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
     public static void registerModBlocks () {
-        CreateFood.LOGGER.info("Registering ModBlocks for " + CreateFood.MOD_ID);
+        CreateFood.LOGGER.info("Registering Blocks for " + CreateFood.MOD_ID);
     }
     public static void registerBlock(){
 

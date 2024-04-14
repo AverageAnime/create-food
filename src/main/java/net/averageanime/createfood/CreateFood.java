@@ -4,6 +4,7 @@ import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 import net.averageanime.createfood.block.ModBlocks;
 import net.averageanime.createfood.config.ModConfig;
+import net.averageanime.createfood.fluid.ModFluids;
 import net.averageanime.createfood.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -19,7 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static net.averageanime.createfood.block.ModBlocks.registerBlock;
-import static net.averageanime.createfood.fluid.ModFluids.register;
+import static net.averageanime.createfood.fluid.ModFluids.registerFluid;
 import static net.averageanime.createfood.item.ModItems.registerItem;
 
 public class CreateFood implements ModInitializer {
@@ -42,9 +43,10 @@ public class CreateFood implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFluids.registerModFluids();
 		registerItem();
 		registerBlock();
-		register();
+		registerFluid();
 
 	}
 }

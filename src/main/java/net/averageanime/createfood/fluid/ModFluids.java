@@ -170,7 +170,10 @@ public class ModFluids {
     public static boolean isGlowBerryCreamFrosting(FluidState state) {
         return state.isOf(ModFluids.STILL_GLOW_BERRY_CREAM_FROSTING) || state.isOf(ModFluids.FLOWING_GLOW_BERRY_CREAM_FROSTING);
     }
-    public static void register(){
+    public static void registerModFluids () {
+        CreateFood.LOGGER.info("Registering Fluids for " + CreateFood.MOD_ID);
+    }
+    public static void registerFluid(){
         if (CONFIG.isMilkshakeFluidEnabled) {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
                 entries.add(MILKSHAKE_BUCKET);

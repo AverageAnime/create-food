@@ -17,7 +17,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(CreateFood.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        CreateFood.LOGGER.info("Registering Mod Items for " + CreateFood.MOD_ID);
+        CreateFood.LOGGER.info("Registering Items for " + CreateFood.MOD_ID);
     }
     public static void registerItem(){
 
