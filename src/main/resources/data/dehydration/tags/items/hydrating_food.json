@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:ice_cream_bowl",
+      "required": false
+    },
+    {
       "id": "createfood:chocolate_milk_bottle",
       "required": false
     },
