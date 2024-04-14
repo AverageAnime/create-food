@@ -1709,6 +1709,12 @@ public class ModItems {
             final Item HOTWHITECHOCOLATEBOTTLE = registerItem("hot_white_chocolate_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(1.0f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HOTWHITECHOCOLATEBOTTLE));
         }
+// Ice Cream Bowl
+
+        if (CONFIG.isIceCreamBowlEnabled) {
+            final Item ICECREAMBOWL = registerItem("ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ICECREAMBOWL));
+        }
 
 // Marshmallow
 

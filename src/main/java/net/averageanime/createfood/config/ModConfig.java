@@ -756,6 +756,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotWhiteChocolateBottleEnabled = true;
+    @Comment("Enable Ice Cream Bowl.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isIceCreamBowlEnabled = true;
     @Comment("Enable Light Blue Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1306,6 +1310,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHotWhiteChocolateFluidEnabled = true;
+    @Comment("Enable Ice Cream Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isIceCreamFluidEnabled = true;
     @Comment("Enable Light Blue Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

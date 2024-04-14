@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:bowl"
+    },
+    {
+      "amount":40500,"fluid":"createfood:ice_cream"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:ice_cream_bowl"
+    }
+  ]
+}
