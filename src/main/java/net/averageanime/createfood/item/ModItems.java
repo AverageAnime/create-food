@@ -1821,7 +1821,12 @@ public class ModItems {
             final Item MEATBALLSTICK3 = registerItem("meatball_stick_3", new StickFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MEATBALLSTICK3));
         }
+// Milkshake Bottle
 
+        if (CONFIG.isMilkshakeBottleEnabled) {
+            final Item MILKSHAKEBOTTLE = registerItem("milkshake_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.3f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MILKSHAKEBOTTLE));
+        }
 // Mini Graham Cracker Pie Crust
 
         if (CONFIG.isMiniGrahamCrackerPieCrustEnabled) {
