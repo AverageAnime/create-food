@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:milkshake_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:blackstrap_molasses_bottle",
       "required": false
     },
