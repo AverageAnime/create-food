@@ -1250,6 +1250,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateCreamFrostingFluidEnabled = true;
+    @Comment("Enable Chocolate Ice Cream Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateIceCreamFluidEnabled = true;
     @Comment("Enable Chorus Fruit Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

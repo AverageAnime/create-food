@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":81000,"fluid":"createfood:ice_cream"
+    },
+    {
+      "tag":"c:cocoa_powder"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,"fluid":"createfood:chocolate_ice_cream"
+    }
+  ]
+}

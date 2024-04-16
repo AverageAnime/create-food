@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ice_cream_bucket"
+    },
+    {
+      "tag": "c:cocoa_powder"
+    }
+  ],
+  "result": {
+      "item": "createfood:chocolate_ice_cream_bucket"
+    }
+}
