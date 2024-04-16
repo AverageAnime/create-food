@@ -175,9 +175,7 @@ public class ModFluids {
     }
     public static void registerFluid(){
         if (CONFIG.isMilkshakeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(MILKSHAKE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MILKSHAKE_BUCKET));
             STILL_MILKSHAKE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "milkshake"), new MilkshakeFluid.Still());
             FLOWING_MILKSHAKE = Registry.register(Registries.FLUID,
@@ -189,9 +187,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_MILKSHAKE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isIceCreamFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(ICE_CREAM_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ICE_CREAM_BUCKET));
             STILL_ICE_CREAM = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "ice_cream"), new IceCreamFluid.Still());
             FLOWING_ICE_CREAM = Registry.register(Registries.FLUID,
@@ -203,9 +199,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_ICE_CREAM, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isHeavyCreamFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(HEAVY_CREAM_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HEAVY_CREAM_BUCKET));
             STILL_HEAVY_CREAM = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "heavy_cream"), new HeavyCreamFluid.Still());
             FLOWING_HEAVY_CREAM = Registry.register(Registries.FLUID,
@@ -217,9 +211,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_HEAVY_CREAM, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isSlimeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(SLIME_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLIME_BUCKET));
             STILL_SLIME = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "slime"), new SlimeFluid.Still());
             FLOWING_SLIME = Registry.register(Registries.FLUID,
@@ -231,9 +223,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_SLIME, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isWhiteChocolateFudgeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(WHITE_CHOCOLATE_FUDGE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_FUDGE_BUCKET));
             STILL_WHITE_CHOCOLATE_FUDGE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "white_chocolate_fudge"), new WhiteChocolateFudgeFluid.Still());
             FLOWING_WHITE_CHOCOLATE_FUDGE = Registry.register(Registries.FLUID,
@@ -245,9 +235,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_WHITE_CHOCOLATE_FUDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isDarkChocolateFudgeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(DARK_CHOCOLATE_FUDGE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_FUDGE_BUCKET));
             STILL_DARK_CHOCOLATE_FUDGE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "dark_chocolate_fudge"), new DarkChocolateFudgeFluid.Still());
             FLOWING_DARK_CHOCOLATE_FUDGE = Registry.register(Registries.FLUID,
@@ -259,9 +247,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_DARK_CHOCOLATE_FUDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isChocolateFudgeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CHOCOLATE_FUDGE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_FUDGE_BUCKET));
             STILL_CHOCOLATE_FUDGE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "chocolate_fudge"), new ChocolateFudgeFluid.Still());
             FLOWING_CHOCOLATE_FUDGE = Registry.register(Registries.FLUID,
@@ -273,9 +259,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CHOCOLATE_FUDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isToffeeFudgeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(TOFFEE_FUDGE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_FUDGE_BUCKET));
             STILL_TOFFEE_FUDGE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "toffee_fudge"), new ToffeeFudgeFluid.Still());
             FLOWING_TOFFEE_FUDGE = Registry.register(Registries.FLUID,
@@ -287,9 +271,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_TOFFEE_FUDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCaramelFudgeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CARAMEL_FUDGE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_FUDGE_BUCKET));
             STILL_CARAMEL_FUDGE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "caramel_fudge"), new CaramelFudgeFluid.Still());
             FLOWING_CARAMEL_FUDGE = Registry.register(Registries.FLUID,
@@ -301,9 +283,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CARAMEL_FUDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isButterscotchFudgeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BUTTERSCOTCH_FUDGE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_FUDGE_BUCKET));
             STILL_BUTTERSCOTCH_FUDGE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "butterscotch_fudge"), new ButterscotchFudgeFluid.Still());
             FLOWING_BUTTERSCOTCH_FUDGE = Registry.register(Registries.FLUID,
@@ -315,9 +295,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BUTTERSCOTCH_FUDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isAppleCreamFrostingFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(APPLE_CREAM_FROSTING_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_CREAM_FROSTING_BUCKET));
             STILL_APPLE_CREAM_FROSTING = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "apple_cream_frosting"), new AppleCreamFrostingFluid.Still());
             FLOWING_APPLE_CREAM_FROSTING = Registry.register(Registries.FLUID,
@@ -329,9 +307,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_APPLE_CREAM_FROSTING, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCondensedMilkFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CONDENSED_MILK_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CONDENSED_MILK_BUCKET));
             STILL_CONDENSED_MILK = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "condensed_milk"), new CondensedMilkFluid.Still());
             FLOWING_CONDENSED_MILK = Registry.register(Registries.FLUID,
@@ -343,9 +319,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CONDENSED_MILK, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isButterscotchFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BUTTERSCOTCH_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_BUCKET));
             STILL_BUTTERSCOTCH = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "butterscotch"), new ButterscotchFluid.Still());
             FLOWING_BUTTERSCOTCH = Registry.register(Registries.FLUID,
@@ -357,9 +331,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BUTTERSCOTCH, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isToffeeFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(TOFFEE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_BUCKET));
             STILL_TOFFEE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "toffee"), new ToffeeFluid.Still());
             FLOWING_TOFFEE = Registry.register(Registries.FLUID,
@@ -371,9 +343,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_TOFFEE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isBlackstrapMolassesFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BLACKSTRAP_MOLASSES_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLACKSTRAP_MOLASSES_BUCKET));
             STILL_BLACKSTRAP_MOLASSES = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "blackstrap_molasses"), new BlackstrapMolassesFluid.Still());
             FLOWING_BLACKSTRAP_MOLASSES = Registry.register(Registries.FLUID,
@@ -385,9 +355,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BLACKSTRAP_MOLASSES, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isMolassesFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(MOLASSES_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MOLASSES_BUCKET));
             STILL_MOLASSES = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "molasses"), new MolassesFluid.Still());
             FLOWING_MOLASSES = Registry.register(Registries.FLUID,
@@ -399,9 +367,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_MOLASSES, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCaneSyrupFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CANE_SYRUP_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CANE_SYRUP_BUCKET));
             STILL_CANE_SYRUP = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "cane_syrup"), new CaneSyrupFluid.Still());
             FLOWING_CANE_SYRUP = Registry.register(Registries.FLUID,
@@ -413,9 +379,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CANE_SYRUP, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isSugarCaneJuiceFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(SUGAR_CANE_JUICE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SUGAR_CANE_JUICE_BUCKET));
             STILL_SUGAR_CANE_JUICE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "sugar_cane_juice"), new SugarCaneJuiceFluid.Still());
             FLOWING_SUGAR_CANE_JUICE = Registry.register(Registries.FLUID,
@@ -427,9 +391,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_SUGAR_CANE_JUICE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isVegetableOilFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(VEGETABLE_OIL_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(VEGETABLE_OIL_BUCKET));
             STILL_VEGETABLE_OIL = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "vegetable_oil"), new VegetableOilFluid.Still());
             FLOWING_VEGETABLE_OIL = Registry.register(Registries.FLUID,
@@ -441,9 +403,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_VEGETABLE_OIL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isBlackGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BLACK_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLACK_GELATIN_MIX_BUCKET));
             STILL_BLACK_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "black_gelatin_mix"), new BlackGelatinMixFluid.Still());
             FLOWING_BLACK_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -455,9 +415,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BLACK_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isBlueGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BLUE_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BLUE_GELATIN_MIX_BUCKET));
             STILL_BLUE_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "blue_gelatin_mix"), new BlueGelatinMixFluid.Still());
             FLOWING_BLUE_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -469,9 +427,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BLUE_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isBrownGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BROWN_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BROWN_GELATIN_MIX_BUCKET));
             STILL_BROWN_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "brown_gelatin_mix"), new BrownGelatinMixFluid.Still());
             FLOWING_BROWN_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -483,9 +439,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BROWN_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCyanGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CYAN_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CYAN_GELATIN_MIX_BUCKET));
             STILL_CYAN_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "cyan_gelatin_mix"), new CyanGelatinMixFluid.Still());
             FLOWING_CYAN_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -497,9 +451,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CYAN_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isGrayGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(GRAY_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GRAY_GELATIN_MIX_BUCKET));
             STILL_GRAY_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "gray_gelatin_mix"), new GrayGelatinMixFluid.Still());
             FLOWING_GRAY_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -511,9 +463,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_GRAY_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isGreenGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(GREEN_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GREEN_GELATIN_MIX_BUCKET));
             STILL_GREEN_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "green_gelatin_mix"), new GreenGelatinMixFluid.Still());
             FLOWING_GREEN_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -525,9 +475,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_GREEN_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isLightBlueGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(LIGHT_BLUE_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_BLUE_GELATIN_MIX_BUCKET));
             STILL_LIGHT_BLUE_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "light_blue_gelatin_mix"), new LightBlueGelatinMixFluid.Still());
             FLOWING_LIGHT_BLUE_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -539,9 +487,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isLightGrayGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(LIGHT_GRAY_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIGHT_GRAY_GELATIN_MIX_BUCKET));
             STILL_LIGHT_GRAY_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "light_gray_gelatin_mix"), new LightGrayGelatinMixFluid.Still());
             FLOWING_LIGHT_GRAY_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -553,9 +499,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isLimeGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(LIME_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(LIME_GELATIN_MIX_BUCKET));
             STILL_LIME_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "lime_gelatin_mix"), new LimeGelatinMixFluid.Still());
             FLOWING_LIME_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -567,9 +511,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_LIME_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isMagentaGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(MAGENTA_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MAGENTA_GELATIN_MIX_BUCKET));
             STILL_MAGENTA_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "magenta_gelatin_mix"), new MagentaGelatinMixFluid.Still());
             FLOWING_MAGENTA_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -581,9 +523,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_MAGENTA_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isOrangeGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(ORANGE_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ORANGE_GELATIN_MIX_BUCKET));
             STILL_ORANGE_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "orange_gelatin_mix"), new OrangeGelatinMixFluid.Still());
             FLOWING_ORANGE_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -595,9 +535,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_ORANGE_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isPinkGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(PINK_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PINK_GELATIN_MIX_BUCKET));
             STILL_PINK_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "pink_gelatin_mix"), new PinkGelatinMixFluid.Still());
             FLOWING_PINK_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -609,9 +547,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_PINK_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isPurpleGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(PURPLE_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PURPLE_GELATIN_MIX_BUCKET));
             STILL_PURPLE_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "purple_gelatin_mix"), new PurpleGelatinMixFluid.Still());
             FLOWING_PURPLE_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -623,9 +559,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_PURPLE_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isRedGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(RED_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RED_GELATIN_MIX_BUCKET));
             STILL_RED_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "red_gelatin_mix"), new RedGelatinMixFluid.Still());
             FLOWING_RED_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -637,9 +571,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_RED_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isYellowGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(YELLOW_GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(YELLOW_GELATIN_MIX_BUCKET));
             STILL_YELLOW_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "yellow_gelatin_mix"), new YellowGelatinMixFluid.Still());
             FLOWING_YELLOW_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -651,9 +583,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_YELLOW_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isGelatinMixFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(GELATIN_MIX_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GELATIN_MIX_BUCKET));
             STILL_GELATIN_MIX = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "gelatin_mix"), new GelatinMixFluid.Still());
             FLOWING_GELATIN_MIX = Registry.register(Registries.FLUID,
@@ -665,9 +595,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_GELATIN_MIX, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isBerryCreamFrostingFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(BERRY_CREAM_FROSTING_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_FROSTING_BUCKET));
             STILL_BERRY_CREAM_FROSTING = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "berry_cream_frosting"), new BerryCreamFrostingFluid.Still());
             FLOWING_BERRY_CREAM_FROSTING = Registry.register(Registries.FLUID,
@@ -679,9 +607,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_BERRY_CREAM_FROSTING, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCacaoButterFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CACAO_BUTTER_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CACAO_BUTTER_BUCKET));
             STILL_CACAO_BUTTER = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "cacao_butter"), new CacaoButterFluid.Still());
             FLOWING_CACAO_BUTTER = Registry.register(Registries.FLUID,
@@ -693,9 +619,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CACAO_BUTTER, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCacaoMassFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CACAO_MASS_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CACAO_MASS_BUCKET));
             STILL_CACAO_MASS = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "cacao_mass"), new CacaoMassFluid.Still());
             FLOWING_CACAO_MASS = Registry.register(Registries.FLUID,
@@ -707,9 +631,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CACAO_MASS, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCaramelFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CARAMEL_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_BUCKET));
             STILL_CARAMEL = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "caramel"), new CaramelFluid.Still());
             FLOWING_CARAMEL = Registry.register(Registries.FLUID,
@@ -721,9 +643,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CARAMEL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isChocolateCreamFrostingFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CHOCOLATE_CREAM_FROSTING_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CREAM_FROSTING_BUCKET));
             STILL_CHOCOLATE_CREAM_FROSTING = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "chocolate_cream_frosting"), new ChocolateCreamFrostingFluid.Still());
             FLOWING_CHOCOLATE_CREAM_FROSTING = Registry.register(Registries.FLUID,
@@ -735,9 +655,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CHOCOLATE_CREAM_FROSTING, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isChocolateMilkFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CHOCOLATE_MILK_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_MILK_BUCKET));
             STILL_CHOCOLATE_MILK = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "chocolate_milk"), new ChocolateMilkFluid.Still());
             FLOWING_CHOCOLATE_MILK = Registry.register(Registries.FLUID,
@@ -749,9 +667,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CHOCOLATE_MILK, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isChorusFruitCreamFrostingFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CHORUS_FRUIT_CREAM_FROSTING_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_FROSTING_BUCKET));
             STILL_CHORUS_FRUIT_CREAM_FROSTING = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "chorus_fruit_cream_frosting"), new ChorusFruitCreamFrostingFluid.Still());
             FLOWING_CHORUS_FRUIT_CREAM_FROSTING = Registry.register(Registries.FLUID,
@@ -763,9 +679,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CHORUS_FRUIT_CREAM_FROSTING, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isCreamFrostingFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(CREAM_FROSTING_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CREAM_FROSTING_BUCKET));
             STILL_CREAM_FROSTING = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "cream_frosting"), new CreamFrostingFluid.Still());
             FLOWING_CREAM_FROSTING = Registry.register(Registries.FLUID,
@@ -777,9 +691,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_CREAM_FROSTING, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isDarkChocolateFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(DARK_CHOCOLATE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_BUCKET));
             STILL_DARK_CHOCOLATE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "dark_chocolate"), new DarkChocolateFluid.Still());
             FLOWING_DARK_CHOCOLATE = Registry.register(Registries.FLUID,
@@ -791,9 +703,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_DARK_CHOCOLATE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isGlowBerryCreamFrostingFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(GLOW_BERRY_CREAM_FROSTING_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_FROSTING_BUCKET));
             STILL_GLOW_BERRY_CREAM_FROSTING = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "glow_berry_cream_frosting"), new GlowBerryCreamFrostingFluid.Still());
             FLOWING_GLOW_BERRY_CREAM_FROSTING = Registry.register(Registries.FLUID,
@@ -805,9 +715,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_GLOW_BERRY_CREAM_FROSTING, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isHotChocolateFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(HOT_CHOCOLATE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HOT_CHOCOLATE_BUCKET));
             STILL_HOT_CHOCOLATE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "hot_chocolate"), new HotChocolateFluid.Still());
             FLOWING_HOT_CHOCOLATE = Registry.register(Registries.FLUID,
@@ -819,9 +727,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_HOT_CHOCOLATE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isHotDarkChocolateFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(HOT_DARK_CHOCOLATE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HOT_DARK_CHOCOLATE_BUCKET));
             STILL_HOT_DARK_CHOCOLATE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "hot_dark_chocolate"), new HotDarkChocolateFluid.Still());
             FLOWING_HOT_DARK_CHOCOLATE = Registry.register(Registries.FLUID,
@@ -833,9 +739,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_HOT_DARK_CHOCOLATE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isHotWhiteChocolateFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(HOT_WHITE_CHOCOLATE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HOT_WHITE_CHOCOLATE_BUCKET));
             STILL_HOT_WHITE_CHOCOLATE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "hot_white_chocolate"), new HotWhiteChocolateFluid.Still());
             FLOWING_HOT_WHITE_CHOCOLATE = Registry.register(Registries.FLUID,
@@ -847,9 +751,7 @@ public class ModFluids {
                     new BucketItem(ModFluids.STILL_HOT_WHITE_CHOCOLATE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         }
         if (CONFIG.isWhiteChocolateFluidEnabled) {
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> {
-                entries.add(WHITE_CHOCOLATE_BUCKET);
-            });
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_BUCKET));
             STILL_WHITE_CHOCOLATE = Registry.register(Registries.FLUID,
                     new Identifier(CreateFood.MOD_ID, "white_chocolate"), new WhiteChocolateFluid.Still());
             FLOWING_WHITE_CHOCOLATE = Registry.register(Registries.FLUID,
