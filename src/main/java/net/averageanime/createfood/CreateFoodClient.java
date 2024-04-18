@@ -359,6 +359,38 @@ public class CreateFoodClient implements ClientModInitializer {
 
 // Fluids
 
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_ICE_CREAM, ModFluids.FLOWING_APPLE_ICE_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/apple_ice_cream_still"),
+                new Identifier("createfood:block/apple_ice_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_MILKSHAKE, ModFluids.FLOWING_APPLE_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/apple_milkshake_still"),
+                new Identifier("createfood:block/apple_milkshake_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BERRY_ICE_CREAM, ModFluids.FLOWING_BERRY_ICE_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/berry_ice_cream_still"),
+                new Identifier("createfood:block/berry_ice_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BERRY_MILKSHAKE, ModFluids.FLOWING_BERRY_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/berry_milkshake_still"),
+                new Identifier("createfood:block/berry_milkshake_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GLOW_BERRY_ICE_CREAM, ModFluids.FLOWING_GLOW_BERRY_ICE_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/glow_berry_ice_cream_still"),
+                new Identifier("createfood:block/glow_berry_ice_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GLOW_BERRY_MILKSHAKE, ModFluids.FLOWING_GLOW_BERRY_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/glow_berry_milkshake_still"),
+                new Identifier("createfood:block/glow_berry_milkshake_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHORUS_FRUIT_ICE_CREAM, ModFluids.FLOWING_CHORUS_FRUIT_ICE_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chorus_fruit_ice_cream_still"),
+                new Identifier("createfood:block/chorus_fruit_ice_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHORUS_FRUIT_MILKSHAKE, ModFluids.FLOWING_CHORUS_FRUIT_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chorus_fruit_milkshake_still"),
+                new Identifier("createfood:block/chorus_fruit_milkshake_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MILKSHAKE, ModFluids.FLOWING_MILKSHAKE, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/milkshake_still"),
                 new Identifier("createfood:block/milkshake_flow")
@@ -366,6 +398,10 @@ public class CreateFoodClient implements ClientModInitializer {
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHOCOLATE_ICE_CREAM, ModFluids.FLOWING_CHOCOLATE_ICE_CREAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/chocolate_ice_cream_still"),
                 new Identifier("createfood:block/chocolate_ice_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHOCOLATE_MILKSHAKE, ModFluids.FLOWING_CHOCOLATE_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chocolate_milkshake_still"),
+                new Identifier("createfood:block/chocolate_milkshake_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_ICE_CREAM, ModFluids.FLOWING_ICE_CREAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/ice_cream_still"),

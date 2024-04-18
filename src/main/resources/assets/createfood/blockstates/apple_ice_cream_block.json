@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/apple_ice_cream_block"
+    }
+  }
+}

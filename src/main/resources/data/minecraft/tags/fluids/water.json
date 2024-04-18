@@ -2,6 +2,78 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_apple_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_apple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chorus_fruit_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chorus_fruit_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_glow_berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_glow_berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chocolate_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milkshake",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_chocolate_ice_cream",
       "required": false
     },
