@@ -1712,7 +1712,7 @@ public class ModItems {
 // Ice Cream Bowl
 
         if (CONFIG.isIceCreamBowlEnabled) {
-            final Item ICECREAMBOWL = registerItem("ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.7f).build())));
+            final Item ICECREAMBOWL = registerItem("ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.3f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ICECREAMBOWL));
         }
 
@@ -1821,12 +1821,14 @@ public class ModItems {
             final Item MEATBALLSTICK3 = registerItem("meatball_stick_3", new StickFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MEATBALLSTICK3));
         }
+
 // Milkshake
 
         if (CONFIG.isMilkshakeBottleEnabled) {
-            final Item MILKSHAKEBOTTLE = registerItem("milkshake_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.3f).build())));
+            final Item MILKSHAKEBOTTLE = registerItem("milkshake_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(1.0f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MILKSHAKEBOTTLE));
         }
+
 // Mini Graham Cracker Pie Crust
 
         if (CONFIG.isMiniGrahamCrackerPieCrustEnabled) {
