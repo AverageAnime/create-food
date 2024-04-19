@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:chorus_fruit_milkshake_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:chorus_fruit_cream_frosted_sweet_roll_chorus_fruit",
       "required": false
     }

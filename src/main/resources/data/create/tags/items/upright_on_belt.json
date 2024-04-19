@@ -2,6 +2,54 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:chorus_fruit_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:ice_cream",
+      "required": false
+    },
+    {
       "id": "createfood:apple_popsicle",
       "required": false
     },

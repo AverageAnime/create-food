@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:milk_buckets"
+    },
+    {
+      "tag": "c:ice_cream_bucket"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+      "item": "createfood:berry_milkshake_bucket"
+    }
+}

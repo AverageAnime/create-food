@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":20250,"fluidTag":"c:milk"
+    },
+    {
+      "amount":60750,"fluid":"createfood:ice_cream"
+    },
+    {
+      "tag":"c:ice_blocks"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,"fluid":"createfood:glow_berry_milkshake"
+    }
+  ]
+}

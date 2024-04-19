@@ -4,10 +4,6 @@
     {
       "id": "createfood:glow_berry_milkshake_bottle",
       "required": false
-    },
-    {
-      "id": "createfood:glow_berry_cream_frosted_sweet_roll_glow_berry",
-      "required": false
     }
   ]
 }

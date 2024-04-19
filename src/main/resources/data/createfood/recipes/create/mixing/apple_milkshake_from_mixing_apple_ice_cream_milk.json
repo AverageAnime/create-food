@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":20250,"fluidTag":"c:milk"
+    },
+    {
+      "amount":60750,"fluid":"createfood:apple_ice_cream"
+    },
+    {
+      "tag":"c:ice_blocks"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,"fluid":"createfood:apple_milkshake"
+    }
+  ]
+}
