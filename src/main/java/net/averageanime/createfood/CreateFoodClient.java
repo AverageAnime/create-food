@@ -22,6 +22,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+import static net.averageanime.createfood.CreateFood.CONFIG;
+
 @Environment(value= EnvType.CLIENT)
 public class CreateFoodClient implements ClientModInitializer {
     public static final String MOD_ID = "createfood";
@@ -485,109 +487,142 @@ public class CreateFoodClient implements ClientModInitializer {
                 new Identifier("createfood:block/sugar_cane_juice_flow")
 
         ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xaca875
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x1D1D21
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLUE_GELATIN_MIX, ModFluids.FLOWING_BLUE_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLUE_GELATIN_MIX, ModFluids.FLOWING_BLUE_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x3C44AA
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BROWN_GELATIN_MIX, ModFluids.FLOWING_BROWN_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BROWN_GELATIN_MIX, ModFluids.FLOWING_BROWN_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x835432
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_CYAN_GELATIN_MIX, ModFluids.FLOWING_CYAN_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CYAN_GELATIN_MIX, ModFluids.FLOWING_CYAN_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x169C9C
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GRAY_GELATIN_MIX, ModFluids.FLOWING_GRAY_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GRAY_GELATIN_MIX, ModFluids.FLOWING_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x474F52
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GREEN_GELATIN_MIX, ModFluids.FLOWING_GREEN_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GREEN_GELATIN_MIX, ModFluids.FLOWING_GREEN_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x5E7C16
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, ModFluids.FLOWING_LIGHT_BLUE_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, ModFluids.FLOWING_LIGHT_BLUE_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x3AB3DA
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x9D9D97
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIME_GELATIN_MIX, ModFluids.FLOWING_LIME_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIME_GELATIN_MIX, ModFluids.FLOWING_LIME_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x80C71F
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_MAGENTA_GELATIN_MIX, ModFluids.FLOWING_MAGENTA_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MAGENTA_GELATIN_MIX, ModFluids.FLOWING_MAGENTA_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xC74EBD
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_ORANGE_GELATIN_MIX, ModFluids.FLOWING_ORANGE_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_ORANGE_GELATIN_MIX, ModFluids.FLOWING_ORANGE_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xF9801D
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_PINK_GELATIN_MIX, ModFluids.FLOWING_PINK_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PINK_GELATIN_MIX, ModFluids.FLOWING_PINK_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xF38BAA
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_PURPLE_GELATIN_MIX, ModFluids.FLOWING_PURPLE_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PURPLE_GELATIN_MIX, ModFluids.FLOWING_PURPLE_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0x8932B8
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xb02e26
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_YELLOW_GELATIN_MIX, ModFluids.FLOWING_YELLOW_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_YELLOW_GELATIN_MIX, ModFluids.FLOWING_YELLOW_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xFED83D
-        ));
-        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX);
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX, new SimpleFluidRenderHandler(
-                new Identifier("minecraft:block/water_still"),
-                new Identifier("minecraft:block/water_flow"),
-                0xdfdfdf
-        ));
-
+        if (CONFIG.isVegetableOilFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_VEGETABLE_OIL, ModFluids.FLOWING_VEGETABLE_OIL, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xaca875
+            ));
+        }
+        if (CONFIG.isBlackGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLACK_GELATIN_MIX, ModFluids.FLOWING_BLACK_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x1D1D21
+            ));
+        }
+        if (CONFIG.isBlueGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BLUE_GELATIN_MIX, ModFluids.FLOWING_BLUE_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BLUE_GELATIN_MIX, ModFluids.FLOWING_BLUE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x3C44AA
+            ));
+        }
+        if (CONFIG.isBrownGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BROWN_GELATIN_MIX, ModFluids.FLOWING_BROWN_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BROWN_GELATIN_MIX, ModFluids.FLOWING_BROWN_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x835432
+            ));
+        }
+        if (CONFIG.isCyanGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_CYAN_GELATIN_MIX, ModFluids.FLOWING_CYAN_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CYAN_GELATIN_MIX, ModFluids.FLOWING_CYAN_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x169C9C
+            ));
+        }
+        if (CONFIG.isGrayGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GRAY_GELATIN_MIX, ModFluids.FLOWING_GRAY_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GRAY_GELATIN_MIX, ModFluids.FLOWING_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x474F52
+            ));
+        }
+        if (CONFIG.isGreenGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GREEN_GELATIN_MIX, ModFluids.FLOWING_GREEN_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GREEN_GELATIN_MIX, ModFluids.FLOWING_GREEN_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x5E7C16
+            ));
+        }
+        if (CONFIG.isLightBlueGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, ModFluids.FLOWING_LIGHT_BLUE_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_BLUE_GELATIN_MIX, ModFluids.FLOWING_LIGHT_BLUE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x3AB3DA
+            ));
+        }
+        if (CONFIG.isLightGrayGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIGHT_GRAY_GELATIN_MIX, ModFluids.FLOWING_LIGHT_GRAY_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x9D9D97
+            ));
+        }
+        if (CONFIG.isLimeGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_LIME_GELATIN_MIX, ModFluids.FLOWING_LIME_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_LIME_GELATIN_MIX, ModFluids.FLOWING_LIME_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x80C71F
+            ));
+        }
+        if (CONFIG.isMagentaGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_MAGENTA_GELATIN_MIX, ModFluids.FLOWING_MAGENTA_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MAGENTA_GELATIN_MIX, ModFluids.FLOWING_MAGENTA_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xC74EBD
+            ));
+        }
+        if (CONFIG.isOrangeGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_ORANGE_GELATIN_MIX, ModFluids.FLOWING_ORANGE_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_ORANGE_GELATIN_MIX, ModFluids.FLOWING_ORANGE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xF9801D
+            ));
+        }
+        if (CONFIG.isPinkGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_PINK_GELATIN_MIX, ModFluids.FLOWING_PINK_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PINK_GELATIN_MIX, ModFluids.FLOWING_PINK_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xF38BAA
+            ));
+        }
+        if (CONFIG.isPurpleGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_PURPLE_GELATIN_MIX, ModFluids.FLOWING_PURPLE_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PURPLE_GELATIN_MIX, ModFluids.FLOWING_PURPLE_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x8932B8
+            ));
+        }
+        if (CONFIG.isRedGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_RED_GELATIN_MIX, ModFluids.FLOWING_RED_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xb02e26
+            ));
+        }
+        if (CONFIG.isYellowGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_YELLOW_GELATIN_MIX, ModFluids.FLOWING_YELLOW_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_YELLOW_GELATIN_MIX, ModFluids.FLOWING_YELLOW_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xFED83D
+            ));
+        }
+        if (CONFIG.isGelatinMixFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GELATIN_MIX, ModFluids.FLOWING_GELATIN_MIX, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xdfdfdf
+            ));
+        }
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CREAM_FROSTING, ModFluids.FLOWING_CREAM_FROSTING, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/cream_frosting_still"),
                 new Identifier("createfood:block/cream_frosting_flow")
