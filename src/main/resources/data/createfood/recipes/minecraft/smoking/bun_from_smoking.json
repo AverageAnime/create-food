@@ -3,7 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:bun"
+        "c:compat_bun"
       ]
     }
   ],

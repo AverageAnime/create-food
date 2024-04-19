@@ -3,7 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:chocolate_cookie"
+        "c:compat_chocolate_cookie"
       ]
     }
   ],
