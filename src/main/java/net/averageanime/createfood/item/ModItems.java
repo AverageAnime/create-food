@@ -1216,6 +1216,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CONDENSEDMILKBOTTLE));
         }
 
+// Corn Flour
+
+        if (CONFIG.isCornFlourEnabled) {
+            final Item CORNFLOUR = registerItem("corn_flour", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CORNFLOUR));
+        }
+
 // Cream Filled Chocolate
 
         if (CONFIG.isCreamChocolateEnabled) {
@@ -1375,6 +1382,20 @@ public class ModItems {
         if (CONFIG.isDonutHoleSugarEnabled) {
             final Item DONUTHOLESUGAR = registerItem("donut_hole_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DONUTHOLESUGAR));
+        }
+
+// Dried Coffee Beans
+
+        if (CONFIG.isDriedCoffeeBeansEnabled) {
+            final Item DRIEDCOFFEEBEANS = registerItem("dried_coffee_beans", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRIEDCOFFEEBEANS));
+        }
+
+// Espresso Powder
+
+        if (CONFIG.isEspressoPowderEnabled) {
+            final Item ESPRESSOPOWDER = registerItem("espresso_powder", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ESPRESSOPOWDER));
         }
 
 // Frosted Cake
@@ -1900,6 +1921,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MILKSHAKEBOTTLE));
         }
 
+// Milk Powder
+
+        if (CONFIG.isMilkPowderEnabled) {
+            final Item MILKPOWDER = registerItem("milk_powder", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MILKPOWDER));
+        }
+
+// Minced Dragon
+
+        if (CONFIG.isMincedDragonEnabled) {
+            final Item MINCEDDRAGON = registerItem("minced_dragon", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MINCEDDRAGON));
+        }
+
 // Mini Graham Cracker Pie Crust
 
         if (CONFIG.isMiniGrahamCrackerPieCrustEnabled) {
@@ -1912,13 +1947,6 @@ public class ModItems {
         if (CONFIG.isMiniSmoresPieEnabled) {
             final Item MINISMORESPIE = registerItem("mini_smores_pie", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MINISMORESPIE));
-        }
-
-// Milk Powder
-
-        if (CONFIG.isMilkPowderEnabled) {
-            final Item MILKPOWDER = registerItem("milk_powder", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MILKPOWDER));
         }
 
 // Molasses
@@ -2082,6 +2110,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCHOCOLATESWEETROLLBASE));
         }
 
+// Raw Chorus Cookie
+
+        if (CONFIG.isRawChorusCookieEnabled) {
+            final Item RAWCHORUSCOOKIE = registerItem("raw_chorus_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCHORUSCOOKIE));
+        }
+
 // Raw Cinnamon Sweet Roll Base
 
         if (CONFIG.isRawCinnamonSweetRollBaseEnabled) {
@@ -2108,6 +2143,27 @@ public class ModItems {
         if (CONFIG.isRawDarkChipsCookieEnabled) {
             final Item RAWDARKCHIPSCOOKIE = registerItem("raw_dark_chips_cookie", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWDARKCHIPSCOOKIE));
+        }
+
+// Raw Flesh Cookie
+
+        if (CONFIG.isRawFleshCookieEnabled) {
+            final Item RAWFLESHCOOKIE = registerItem("raw_flesh_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWFLESHCOOKIE));
+        }
+
+// Raw Ginger Cookie
+
+        if (CONFIG.isRawGingerCookieEnabled) {
+            final Item RAWGINGERCOOKIE = registerItem("raw_ginger_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWGINGERCOOKIE));
+        }
+
+// Raw Green Tea Cookie
+
+        if (CONFIG.isRawGreenTeaCookieEnabled) {
+            final Item RAWGREENTEACOOKIE = registerItem("raw_green_tea_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWGREENTEACOOKIE));
         }
 
 // Raw Honey Cookie
@@ -2152,6 +2208,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWSNICKERDOODLE));
         }
 
+// Raw Soul Berry Cookie
+
+        if (CONFIG.isRawSoulBerryCookieEnabled) {
+            final Item RAWSOULBERRYCOOKIE = registerItem("raw_soul_berry_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWSOULBERRYCOOKIE));
+        }
+
+// Raw Spider Eye Cookie
+
+        if (CONFIG.isRawSpiderEyeCookieEnabled) {
+            final Item RAWSPIDEREYECOOKIE = registerItem("raw_spider_eye_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWSPIDEREYECOOKIE));
+        }
+
 // Raw Sugar Cookie
 
         if (CONFIG.isRawSugarCookieEnabled) {
@@ -2185,6 +2255,20 @@ public class ModItems {
         if (CONFIG.isRawToffeeChipsCookieEnabled) {
             final Item RAWTOFFEECHIPSCOOKIE = registerItem("raw_toffee_chips_cookie", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWTOFFEECHIPSCOOKIE));
+        }
+
+// Raw Ube Cookie
+
+        if (CONFIG.isRawUbeCookieEnabled) {
+            final Item RAWUBECOOKIE = registerItem("raw_ube_cookie", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWUBECOOKIE));
+        }
+
+// Raw Ube Cake Base
+
+        if (CONFIG.isRawUbeCakeBaseEnabled) {
+            final Item RAWUBECAKEBASE = registerItem("raw_ube_cake_base", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWUBECAKEBASE));
         }
 
 // Raw White Chips Chocolate Cookie
@@ -2352,6 +2436,13 @@ public class ModItems {
         if (CONFIG.isToffeeFudgeEnabled) {
             final Item TOFFEEFUDGE = registerItem("toffee_fudge", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.5f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEEFUDGE));
+        }
+
+// Ube Sugar Dough
+
+        if (CONFIG.isUbeSugarDoughEnabled) {
+            final Item UBESUGARDOUGH = registerItem("ube_sugar_dough", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBESUGARDOUGH));
         }
 
 // Unbreaded Chicken Patty

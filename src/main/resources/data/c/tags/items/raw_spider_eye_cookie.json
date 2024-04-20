@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:raw_spider_eye_cookie",
+      "required": false
+    }
+  ]
+}
