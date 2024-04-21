@@ -437,6 +437,16 @@ public class CreateFoodClient implements ClientModInitializer {
                 new Identifier("createfood:block/toffee_fudge_flow")
 
         ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_COFFEE_TOFFEE_FUDGE, ModFluids.FLOWING_COFFEE_TOFFEE_FUDGE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/coffee_toffee_fudge_still"),
+                new Identifier("createfood:block/coffee_toffee_fudge_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_COFFEE_TOFFEE, ModFluids.FLOWING_COFFEE_TOFFEE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/coffee_toffee_still"),
+                new Identifier("createfood:block/coffee_toffee_flow")
+
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CARAMEL_FUDGE, ModFluids.FLOWING_CARAMEL_FUDGE, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/caramel_fudge_still"),
                 new Identifier("createfood:block/caramel_fudge_flow")
@@ -450,6 +460,11 @@ public class CreateFoodClient implements ClientModInitializer {
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_CREAM_FROSTING, ModFluids.FLOWING_APPLE_CREAM_FROSTING, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/apple_cream_frosting_still"),
                 new Identifier("createfood:block/apple_cream_frosting_flow")
+
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_UBE_CREAM_FROSTING, ModFluids.FLOWING_UBE_CREAM_FROSTING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/ube_cream_frosting_still"),
+                new Identifier("createfood:block/ube_cream_frosting_flow")
 
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CONDENSED_MILK, ModFluids.FLOWING_CONDENSED_MILK, new SimpleFluidRenderHandler(

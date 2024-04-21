@@ -579,6 +579,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMELGLAZEDSWEETROLL));
         }
 
+// Caramel Popcorn
+
+        if (CONFIG.isCaramelPopcornEnabled) {
+            final Item CARAMELPOPCORN = registerItem("caramel_popcorn", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMELPOPCORN));
+        }
+
 // Caramel Toast
 
         if (CONFIG.isCaramelToastEnabled) {
@@ -703,21 +710,21 @@ public class ModItems {
 // Cheese and Eggplant Bun
 
         if (CONFIG.isCheeseAndEggplantBunEnabled) {
-            final Item CHEESEANDEGGPLANTBUN = registerItem("cheese_and_eggplant_bun", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(1.0f).build())));
+            final Item CHEESEANDEGGPLANTBUN = registerItem("cheese_and_eggplant_bun", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDEGGPLANTBUN));
         }
 
 // Cheese and Eggplant Bun (Lettuce)
 
         if (CONFIG.isCheeseAndEggplantBunLettuceEnabled) {
-            final Item CHEESEANDEGGPLANTBUNLETTUCE = registerItem("cheese_and_eggplant_bun_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.0f).build())));
+            final Item CHEESEANDEGGPLANTBUNLETTUCE = registerItem("cheese_and_eggplant_bun_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDEGGPLANTBUNLETTUCE));
         }
 
 // Cheese and Eggplant Bun (Lettuce, Tomato)
 
         if (CONFIG.isCheeseAndEggplantBunLettuceTomatoEnabled) {
-            final Item CHEESEANDEGGPLANTBUNLETTUCETOMATO = registerItem("cheese_and_eggplant_bun_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.1f).build())));
+            final Item CHEESEANDEGGPLANTBUNLETTUCETOMATO = registerItem("cheese_and_eggplant_bun_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.0f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDEGGPLANTBUNLETTUCETOMATO));
         }
 
@@ -1230,6 +1237,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(COCOAPOWDER));
         }
 
+// Coffee Toffee
+
+        if (CONFIG.isCoffeeToffeeEnabled) {
+            final Item COFFEETOFFEE = registerItem("coffee_toffee", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(2.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(COFFEETOFFEE));
+        }
+
+// Coffee Toffee Fudge
+
+        if (CONFIG.isCoffeeToffeeFudgeEnabled) {
+            final Item COFFEETOFFEEFUDGE = registerItem("coffee_toffee_fudge", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(COFFEETOFFEEFUDGE));
+        }
+
 // Condensed Milk Bottle
 
         if (CONFIG.isCondensedMilkBottleEnabled) {
@@ -1405,6 +1426,55 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DONUTHOLESUGAR));
         }
 
+// Dragon Bun
+
+        if (CONFIG.isDragonBunEnabled) {
+            final Item DRAGONBUN = registerItem("dragon_bun", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONBUN));
+        }
+
+// Dragon Bun (Crimson Fungus)
+
+        if (CONFIG.isDragonBunCrimsonFungusEnabled) {
+            final Item DRAGONBUNCRIMSONFUNGUS = registerItem("dragon_bun_crimson_fungus", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.5f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONBUNCRIMSONFUNGUS));
+        }
+
+// Dragon Bun (Warped Fungus)
+
+        if (CONFIG.isDragonBunWarpedFungusEnabled) {
+            final Item DRAGONBUNWARPEDFUNGUS = registerItem("dragon_bun_warped_fungus", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONBUNWARPEDFUNGUS));
+        }
+
+// Dragon Burger
+
+        if (CONFIG.isDragonBurgerEnabled) {
+            final Item DRAGONBURGER = registerItem("dragon_burger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONBURGER));
+        }
+
+// Dragon Burger (Crimson Fungus)
+
+        if (CONFIG.isDragonBurgerCrimsonFungusEnabled) {
+            final Item DRAGONBURGERCRIMSONFUNGUS = registerItem("dragon_burger_crimson_fungus", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.5f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONBURGERCRIMSONFUNGUS));
+        }
+
+// Dragon Burger (Warped Fungus)
+
+        if (CONFIG.isDragonBurgerWarpedFungusEnabled) {
+            final Item DRAGONBURGERWARPEDFUNGUS = registerItem("dragon_burger_warped_fungus", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(11).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONBURGERWARPEDFUNGUS));
+        }
+
+// Dragon Patty
+
+        if (CONFIG.isDragonPattyEnabled) {
+            final Item DRAGONPATTY = registerItem("dragon_patty", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRAGONPATTY));
+        }
+
 // Dried Coffee Beans
 
         if (CONFIG.isDriedCoffeeBeansEnabled) {
@@ -1450,21 +1520,21 @@ public class ModItems {
 // Eggplant Cheeseburger
 
         if (CONFIG.isEggplantCheeseburgerEnabled) {
-            final Item EGGPLANTCHEESEBURGER = registerItem("eggplant_cheeseburger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.0f).build())));
+            final Item EGGPLANTCHEESEBURGER = registerItem("eggplant_cheeseburger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGER));
         }
 
 // Eggplant Cheeseburger (Lettuce)
 
         if (CONFIG.isEggplantCheeseburgerLettuceEnabled) {
-            final Item EGGPLANTCHEESEBURGERLETTUCE = registerItem("eggplant_cheeseburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.0f).build())));
+            final Item EGGPLANTCHEESEBURGERLETTUCE = registerItem("eggplant_cheeseburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGERLETTUCE));
         }
 
 // Eggplant Cheeseburger (Lettuce, Tomato)
 
         if (CONFIG.isEggplantCheeseburgerLettuceTomatoEnabled) {
-            final Item EGGPLANTCHEESEBURGERLETTUCETOMATO = registerItem("eggplant_cheeseburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.1f).build())));
+            final Item EGGPLANTCHEESEBURGERLETTUCETOMATO = registerItem("eggplant_cheeseburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.0f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGERLETTUCETOMATO));
         }
 
@@ -1480,6 +1550,13 @@ public class ModItems {
         if (CONFIG.isFrostedCakeEnabled) {
             final Item FROSTEDCAKE = registerItem("frosted_cake", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTEDCAKE));
+        }
+
+// Frosted Ube Cake
+
+        if (CONFIG.isFrostedUbeCakeEnabled) {
+            final Item FROSTEDUBECAKE = registerItem("frosted_ube_cake", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.1f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTEDUBECAKE));
         }
 
 // Gelatin
@@ -1939,6 +2016,13 @@ public class ModItems {
         if (CONFIG.isMarshmallowChocolateFudgeEnabled) {
             final Item MARSHMALLOWCHOCOLATEFUDGE = registerItem("marshmallow_chocolate_fudge", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MARSHMALLOWCHOCOLATEFUDGE));
+        }
+
+// Marshmallow Coffee Toffee Fudge
+
+        if (CONFIG.isMarshmallowCoffeeToffeeFudgeEnabled) {
+            final Item MARSHMALLOWCOFFEETOFFEEFUDGE = registerItem("marshmallow_coffee_toffee_fudge", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MARSHMALLOWCOFFEETOFFEEFUDGE));
         }
 
 // Marshmallow Dark Chocolate Fudge
@@ -2513,6 +2597,20 @@ public class ModItems {
         if (CONFIG.isToffeeFudgeEnabled) {
             final Item TOFFEEFUDGE = registerItem("toffee_fudge", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.5f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEEFUDGE));
+        }
+
+// Ube Cake Base
+
+        if (CONFIG.isUbeCakeBaseEnabled) {
+            final Item UBECAKEBASE = registerItem("ube_cake_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.1f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBECAKEBASE));
+        }
+
+// Ube Cream Frosting Bottle
+
+        if (CONFIG.isUbeCreamFrostingBottleEnabled) {
+            final Item UBECREAMFROSTINGBOTTLE = registerItem("ube_cream_frosting_bottle", new BottleDrink(new Item.Settings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBECREAMFROSTINGBOTTLE));
         }
 
 // Ube Sugar Dough

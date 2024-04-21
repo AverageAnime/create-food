@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_coffee_toffee_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:coffee_toffee_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_coffee_toffee",
+      "required": false
+    },
+    {
+      "id": "createfood:coffee_toffee",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_apple_milkshake",
       "required": false
     },
