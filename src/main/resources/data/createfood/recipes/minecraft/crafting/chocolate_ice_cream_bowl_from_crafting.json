@@ -9,11 +9,14 @@
     },
     {
       "tag": "c:bowl"
+    },
+    {
+      "tag": "c:bowl"
     }
   ],
   "result":
   {
-    "count": 2,
+    "count": 3,
     "item": "createfood:chocolate_ice_cream_bowl"
   }
 }
