@@ -700,6 +700,27 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDCHICKENBUNLETTUCETOMATO));
         }
 
+// Cheese and Eggplant Bun
+
+        if (CONFIG.isCheeseAndEggplantBunEnabled) {
+            final Item CHEESEANDEGGPLANTBUN = registerItem("cheese_and_eggplant_bun", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDEGGPLANTBUN));
+        }
+
+// Cheese and Eggplant Bun (Lettuce)
+
+        if (CONFIG.isCheeseAndEggplantBunLettuceEnabled) {
+            final Item CHEESEANDEGGPLANTBUNLETTUCE = registerItem("cheese_and_eggplant_bun_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDEGGPLANTBUNLETTUCE));
+        }
+
+// Cheese and Eggplant Bun (Lettuce, Tomato)
+
+        if (CONFIG.isCheeseAndEggplantBunLettuceTomatoEnabled) {
+            final Item CHEESEANDEGGPLANTBUNLETTUCETOMATO = registerItem("cheese_and_eggplant_bun_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.1f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEANDEGGPLANTBUNLETTUCETOMATO));
+        }
+
 // Cheese and Sausage Biscuit
 
         if (CONFIG.isCheeseAndSausageBiscuitEnabled) {
@@ -1389,6 +1410,62 @@ public class ModItems {
         if (CONFIG.isDriedCoffeeBeansEnabled) {
             final Item DRIEDCOFFEEBEANS = registerItem("dried_coffee_beans", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRIEDCOFFEEBEANS));
+        }
+
+// Eggplant Bun
+
+        if (CONFIG.isEggplantBunEnabled) {
+            final Item EGGPLANTBUN = registerItem("eggplant_bun", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTBUN));
+        }
+
+// Eggplant Bun (Lettuce)
+
+        if (CONFIG.isEggplantBunLettuceEnabled) {
+            final Item EGGPLANTBUNLETTUCE = registerItem("eggplant_bun_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTBUNLETTUCE));
+        }
+
+// Eggplant Bun (Lettuce, Tomato)
+
+        if (CONFIG.isEggplantBunLettuceTomatoEnabled) {
+            final Item EGGPLANTBUNLETTUCETOMATO = registerItem("eggplant_bun_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(1.1f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTBUNLETTUCETOMATO));
+        }
+
+// Eggplant Burger
+
+        if (CONFIG.isEggplantBurgerEnabled) {
+            final Item EGGPLANTBURGER = registerItem("eggplant_burger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTBURGER));
+        }
+
+// Eggplant Burger (Lettuce)
+
+        if (CONFIG.isEggplantBurgerLettuceEnabled) {
+            final Item EGGPLANTBURGERLETTUCE = registerItem("eggplant_burger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTBURGERLETTUCE));
+        }
+
+// Eggplant Cheeseburger
+
+        if (CONFIG.isEggplantCheeseburgerEnabled) {
+            final Item EGGPLANTCHEESEBURGER = registerItem("eggplant_cheeseburger", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGER));
+        }
+
+// Eggplant Cheeseburger (Lettuce)
+
+        if (CONFIG.isEggplantCheeseburgerLettuceEnabled) {
+            final Item EGGPLANTCHEESEBURGERLETTUCE = registerItem("eggplant_cheeseburger_lettuce", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGERLETTUCE));
+        }
+
+// Eggplant Cheeseburger (Lettuce, Tomato)
+
+        if (CONFIG.isEggplantCheeseburgerLettuceTomatoEnabled) {
+            final Item EGGPLANTCHEESEBURGERLETTUCETOMATO = registerItem("eggplant_cheeseburger_lettuce_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(12).saturationModifier(1.1f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGERLETTUCETOMATO));
         }
 
 // Espresso Powder

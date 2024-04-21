@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:cheese_and_eggplant_bun",
+      "required": false
+    }
+  ]
+}

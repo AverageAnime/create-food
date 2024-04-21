@@ -1832,6 +1832,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CulturalDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isEggplantBunLettuceTomatoEnabled = false;
+    @Comment("Enable Eggplant Burger.")
+    @ConfigEntry.Category("CulturalDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEggplantBurgerEnabled = false;
     @Comment("Enable Eggplant Burger (Lettuce).")
     @ConfigEntry.Category("CulturalDelight")
     @ConfigEntry.Gui.RequiresRestart
