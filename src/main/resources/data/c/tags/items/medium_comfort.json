@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:marshmallow_white_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_dark_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_chocolate_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_caramel_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_toffee_fudge",
+      "required": false
+    },
+    {
+      "id": "createfood:marshmallow_coffee_toffee_fudge",
+      "required": false
+    },
+    {
       "id": "createfood:apple_cream_chocolate_pastry_bar",
       "required": false
     },
