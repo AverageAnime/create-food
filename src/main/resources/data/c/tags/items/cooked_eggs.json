@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:fried_egg",
+      "required": false
+    }
+  ]
+}
