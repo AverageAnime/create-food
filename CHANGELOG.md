@@ -1,3 +1,9 @@
+### ***1.0.7***
+* New items/fluids.
+  * Ice Creams, Milkshakes, Jams, Toasts, & Sandwiches
+  * Optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, and Fright's Delight.
+* Various recipe & tag fixes.
+* Fixed Gelatin Mix Fluids causing issues when disabled.
 ### ***1.0.6***
 * Fixed issue where Gelatin Dessert Blocks could not be placed on servers.
 ### ***1.0.5 - Fix***
