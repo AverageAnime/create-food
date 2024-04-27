@@ -1,7 +1,8 @@
 ### ***1.0.7***
 * New items/fluids.
-  * Ice Creams, Milkshakes, Jams, Toasts, & Sandwiches
+  * Ice Creams, Milkshakes, Jams, Toasts, and Sandwiches.
   * Optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, and Fright's Delight.
+* Animated texture for Builder's Tea in the built-in Create resource pack.
 * Various recipe & tag fixes.
 * Fixed Gelatin Mix Fluids causing issues when disabled.
 ### ***1.0.6***
