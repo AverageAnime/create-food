@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "culturaldelights:smoked_eggplant",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:smoked_cut_eggplant",
+      "required": false
+    }
+  ]
+}
