@@ -2,6 +2,70 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_chorus_fruit_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_glow_berry_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_berry_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_apple_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_juice",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_chorus_fruit_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_glow_berry_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_berry_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_apple_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_jam",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_coffee_toffee_fudge",
       "required": false
     },

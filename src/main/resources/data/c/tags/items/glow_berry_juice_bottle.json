@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:glow_berry_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:glow_berry_juice",
+      "required": false
+    }
+  ]
+}

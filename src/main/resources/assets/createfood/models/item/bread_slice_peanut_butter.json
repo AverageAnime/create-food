@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+  "layer0": "createfood:item/bread_slice_peanut_butter"
+  }
+}

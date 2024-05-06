@@ -361,6 +361,54 @@ public class CreateFoodClient implements ClientModInitializer {
 
 // Fluids
 
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_JAM, ModFluids.FLOWING_APPLE_JAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/apple_jam_still"),
+                new Identifier("createfood:block/apple_jam_flow")
+        ));
+        if (CONFIG.isAppleJuiceFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_APPLE_JUICE, ModFluids.FLOWING_APPLE_JUICE);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_JUICE, ModFluids.FLOWING_APPLE_JUICE, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xffec82
+            ));
+        }
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BERRY_JAM, ModFluids.FLOWING_BERRY_JAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/berry_jam_still"),
+                new Identifier("createfood:block/berry_jam_flow")
+        ));
+        if (CONFIG.isBerryJuiceFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_BERRY_JUICE, ModFluids.FLOWING_BERRY_JUICE);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BERRY_JUICE, ModFluids.FLOWING_BERRY_JUICE, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xde88a7
+            ));
+        }
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHORUS_FRUIT_JAM, ModFluids.FLOWING_CHORUS_FRUIT_JAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chorus_fruit_jam_still"),
+                new Identifier("createfood:block/chorus_fruit_jam_flow")
+        ));
+        if (CONFIG.isChorusFruitJuiceFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_CHORUS_FRUIT_JUICE, ModFluids.FLOWING_CHORUS_FRUIT_JUICE);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHORUS_FRUIT_JUICE, ModFluids.FLOWING_CHORUS_FRUIT_JUICE, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xe243d6
+            ));
+        }
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GLOW_BERRY_JAM, ModFluids.FLOWING_GLOW_BERRY_JAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/glow_berry_jam_still"),
+                new Identifier("createfood:block/glow_berry_jam_flow")
+        ));
+        if (CONFIG.isGlowBerryJuiceFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_GLOW_BERRY_JUICE, ModFluids.FLOWING_GLOW_BERRY_JUICE);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GLOW_BERRY_JUICE, ModFluids.FLOWING_GLOW_BERRY_JUICE, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xf6ae4b
+            ));
+        }
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_ICE_CREAM, ModFluids.FLOWING_APPLE_ICE_CREAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/apple_ice_cream_still"),
                 new Identifier("createfood:block/apple_ice_cream_flow")

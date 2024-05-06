@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:berry_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:sweet_berry_juice",
+      "required": false
+    }
+  ]
+}

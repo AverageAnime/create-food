@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/berry_juice_block"
+    }
+  }
+}

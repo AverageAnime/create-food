@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:apple_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:apple_juice",
+      "required": false
+    }
+  ]
+}

@@ -2,6 +2,18 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:toffee_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch_chip_milkshake_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:apple_milkshake_bottle",
       "required": false
     },

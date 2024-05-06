@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:peanut_butter_chorus_fruit_jam_sandwich",
+      "required": false
+    }
+  ]
+}

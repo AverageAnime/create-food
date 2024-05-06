@@ -343,6 +343,46 @@ public abstract class BackgroundRendererMixin {
             green = (float) 16 / 255;
             blue = (float) 60 / 255;
         }
+        if (ModFluids.isAppleJam(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isBerryJam(state)) {
+            red = (float) 85 / 255;
+            green = (float) 32 / 255;
+            blue = (float) 32 / 255;
+        }
+        if (ModFluids.isGlowBerryJam(state)) {
+            red = (float) 69 / 255;
+            green = (float) 47 / 255;
+            blue = (float) 14 / 255;
+        }
+        if (ModFluids.isChorusFruitJam(state)) {
+            red = (float) 42 / 255;
+            green = (float) 16 / 255;
+            blue = (float) 60 / 255;
+        }
+        if (ModFluids.isAppleJuice(state)) {
+            red = (float) 190 / 255;
+            green = (float) 184 / 255;
+            blue = (float) 115 / 255;
+        }
+        if (ModFluids.isBerryJuice(state)) {
+            red = (float) 85 / 255;
+            green = (float) 32 / 255;
+            blue = (float) 32 / 255;
+        }
+        if (ModFluids.isGlowBerryJuice(state)) {
+            red = (float) 69 / 255;
+            green = (float) 47 / 255;
+            blue = (float) 14 / 255;
+        }
+        if (ModFluids.isChorusFruitJuice(state)) {
+            red = (float) 42 / 255;
+            green = (float) 16 / 255;
+            blue = (float) 60 / 255;
+        }
     }
 
 
@@ -350,6 +390,46 @@ public abstract class BackgroundRendererMixin {
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+        if (ModFluids.isAppleJam(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isBerryJam(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isChorusFruitJam(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isGlowBerryJam(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isAppleJuice(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isBerryJuice(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isChorusFruitJuice(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isGlowBerryJuice(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isUbeCreamFrosting(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);

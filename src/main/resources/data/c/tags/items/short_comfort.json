@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:chocolate_chip_milkshake_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:apple_cream_white_chocolate",
       "required": false
     },

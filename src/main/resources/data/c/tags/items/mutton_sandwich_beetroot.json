@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:mutton_sandwich_beetroot",
+      "required": false
+    }
+  ]
+}

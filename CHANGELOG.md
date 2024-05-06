@@ -1,9 +1,9 @@
 ### ***1.0.7***
 * New items/fluids.
-  * Ice creams, milkshakes, Jams, bread slices, toasts, and sandwiches.
+  * Ice creams, milkshakes, jams, bread slices, and sandwiches.
   * Optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, Fright's Delight, and Nether's Delight.
 * Animated texture for Builder's Tea in the built-in Create resource pack.
-* Various recipe & tag fixes.
+* Various texture/recipe/tag updates & fixes.
 * Fixed Gelatin Mix Fluids causing issues when disabled.
 ### ***1.0.6***
 * Fixed issue where Gelatin Dessert Blocks could not be placed on servers.
@@ -34,7 +34,7 @@
 > Farmer's Delight Resource Pack includes an animated version of Farmer's Delight Hot Cocoa texture to match Create: Food.
 
 > Expanded Delight Resource Pack includes new Sweet Roll textures to match Create: Food. Also renames them.
-* Fix missing blockstate .json for 'Light Blue Gelatin Dessert Block'. Thanks to banya457 for reporting the issue.
+* Fix missing blockbuster .json for 'Light Blue Gelatin Dessert Block'. Thanks to banya457 for reporting the issue.
 * Removed Baking Station recipes due to [Let's Do] Bakery 1.1.4 removing them.
 * Added new Crafting Bowl recipes for Bakery for doughs.
 * Fire Resistance can now be added to items via tags.

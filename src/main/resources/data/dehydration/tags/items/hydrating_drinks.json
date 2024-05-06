@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:apple_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_juice_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:chocolate_bottle",
       "required": false
     },

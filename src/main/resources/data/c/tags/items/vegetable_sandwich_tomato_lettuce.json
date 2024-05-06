@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:vegetable_sandwich_tomato_lettuce",
+      "required": false
+    }
+  ]
+}
