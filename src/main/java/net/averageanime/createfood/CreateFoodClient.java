@@ -357,6 +357,34 @@ public class CreateFoodClient implements ClientModInitializer {
                                         new StatusEffectInstance(effect, 6000), 1))
                         .formatted(effect.getCategory().getFormatting()));
             }
+            if (stack.isIn(ModTags.BRIEF_ABSORPTION)) {
+                StatusEffect effect = StatusEffects.ABSORPTION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.SHORT_ABSORPTION)) {
+                StatusEffect effect = StatusEffects.ABSORPTION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 1200), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.MEDIUM_ABSORPTION)) {
+                StatusEffect effect = StatusEffects.ABSORPTION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 3600), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
+            if (stack.isIn(ModTags.LONG_ABSORPTION)) {
+                StatusEffect effect = StatusEffects.ABSORPTION;
+                lines.add(Text.translatable("potion.withDuration", Text.translatable(effect.getTranslationKey()),
+                                StatusEffectUtil.getDurationText(
+                                        new StatusEffectInstance(effect, 6000), 1))
+                        .formatted(effect.getCategory().getFormatting()));
+            }
         });
 
 // Fluids
