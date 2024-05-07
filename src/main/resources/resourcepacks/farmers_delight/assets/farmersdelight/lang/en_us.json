@@ -1,6 +1,9 @@
 {
   "item.farmersdelight.hamburger": "Hamburger (Onion, Lettuce, Tomato)",
   "item.farmersdelight.bacon_sandwich": "Bacon Sandwich (Lettuce, Tomato)",
+  "item.farmersdelight.chicken_sandwich": "Chicken Sandwich (Lettuce, Carrot)",
+  "item.farmersdelight.egg_sandwich": "Fried Egg Sandwich",
   "item.farmersdelight.pasta_with_meatballs": "Pasta with Meatballs & Tomato Sauce",
-  "item.farmersdelight.pasta_with_mutton_chop": "Pasta with Mutton Chop & Tomato Sauce"
+  "item.farmersdelight.pasta_with_mutton_chop": "Pasta with Mutton Chop & Tomato Sauce",
+  "item.farmersdelight.squid_ink_pasta": "Pasta with Squid Ink"
 }
