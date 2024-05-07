@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:endermite_meatball_stick_3",
+      "required": false
+    },
+    {
       "id": "createfood:vegetable_sandwich_beetroot_lettuce",
       "required": false
     },

@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:small_endermite_meatballs",
+      "required": false
+    },
+    {
+      "id": "createfood:endermite_meatball_stick_1",
+      "required": false
+    },
+    {
       "id": "createfood:small_strider_meatballs",
       "required": false
     },
