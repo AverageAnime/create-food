@@ -11,7 +11,9 @@
       "item": "minecraft:glass_bottle"
     }
   ],
-  "result": {
-      "item": "createfood:apple_milkshake_bottle"
-    }
+  "result":
+  {
+    "count": 2,
+    "item": "createfood:apple_milkshake_bottle"
+  }
 }

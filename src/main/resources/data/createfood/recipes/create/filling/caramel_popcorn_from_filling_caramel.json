@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_popcorn"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:popcorn"
+    },
+    {
+      "amount":10125,"fluid":"createfood:caramel"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:caramel_popcorn"
+    }
+  ]
+}

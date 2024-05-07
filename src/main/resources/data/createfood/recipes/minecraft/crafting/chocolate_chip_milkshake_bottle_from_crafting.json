@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:milkshake"
+    },
+    {
+      "tag": "c:chocolate_chips"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:chocolate_chip_milkshake_bottle"
+  }
+}

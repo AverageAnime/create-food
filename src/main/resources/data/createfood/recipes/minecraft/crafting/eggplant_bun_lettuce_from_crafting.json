@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:eggplant_bun"
+    }
+  ],
+  "result": {
+    "item": "createfood:eggplant_bun_lettuce"
+  }
+}

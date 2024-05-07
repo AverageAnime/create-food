@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bun"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:cheese_and_eggplant_bun"
+    }
+  ],
+  "result": {
+    "item": "createfood:eggplant_cheeseburger_lettuce"
+  }
+}
