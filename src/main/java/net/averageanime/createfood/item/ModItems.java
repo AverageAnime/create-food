@@ -470,7 +470,7 @@ public class ModItems {
 // Bread Slice (Cheese)
 
         if (CONFIG.isBreadSliceCheeseEnabled) {
-            final Item BREADSLICECHEESE = registerItem("bread_slice_cheese", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.3f).build())));
+            final Item BREADSLICECHEESE = registerItem("bread_slice_cheese", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BREADSLICECHEESE));
         }
 
