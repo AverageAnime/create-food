@@ -70,4 +70,9 @@ public class ModTags {
     public static final TagKey<Item> SHORT_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_resistance");
     public static final TagKey<Item> MEDIUM_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_resistance");
     public static final TagKey<Item> LONG_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_resistance");
+
+    public static final TagKey<Item> BRIEF_REGENERATION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_regeneration");
+    public static final TagKey<Item> SHORT_REGENERATION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_regeneration");
+    public static final TagKey<Item> MEDIUM_REGENERATION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_regeneration");
+    public static final TagKey<Item> LONG_REGENERATION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_regeneration");
 }

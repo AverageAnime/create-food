@@ -238,5 +238,21 @@ public abstract class LivingEntityOnUseItemFinishMixin {
                     new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 0));
         }
 
+        if (entity.getActiveItem().isIn(ModTags.BRIEF_REGENERATION)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.REGENERATION, 600, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.SHORT_REGENERATION)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.REGENERATION, 1200, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.MEDIUM_REGENERATION)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.REGENERATION, 3600, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.LONG_REGENERATION)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.REGENERATION, 6000, 0));
+        }
     }
 }
