@@ -65,4 +65,9 @@ public class ModTags {
     public static final TagKey<Item> SHORT_ABSORPTION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_absorption");
     public static final TagKey<Item> MEDIUM_ABSORPTION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_absorption");
     public static final TagKey<Item> LONG_ABSORPTION = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_absorption");
+
+    public static final TagKey<Item> BRIEF_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("brief_resistance");
+    public static final TagKey<Item> SHORT_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("short_resistance");
+    public static final TagKey<Item> MEDIUM_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("medium_resistance");
+    public static final TagKey<Item> LONG_RESISTANCE = TagRegistration.ITEM_TAG_REGISTRATION.registerCommon("long_resistance");
 }

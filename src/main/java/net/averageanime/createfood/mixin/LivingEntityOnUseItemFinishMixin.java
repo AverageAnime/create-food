@@ -220,5 +220,23 @@ public abstract class LivingEntityOnUseItemFinishMixin {
             entity.addStatusEffect(
                     new StatusEffectInstance(StatusEffects.ABSORPTION, 6000, 0));
         }
+
+        if (entity.getActiveItem().isIn(ModTags.BRIEF_RESISTANCE)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.RESISTANCE, 600, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.SHORT_RESISTANCE)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.RESISTANCE, 1200, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.MEDIUM_RESISTANCE)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.RESISTANCE, 3600, 0));
+        }
+        if (entity.getActiveItem().isIn(ModTags.LONG_RESISTANCE)) {
+            entity.addStatusEffect(
+                    new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 0));
+        }
+
     }
 }
