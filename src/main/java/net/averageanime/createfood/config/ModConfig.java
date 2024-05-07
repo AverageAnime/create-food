@@ -2043,35 +2043,35 @@ public class ModConfig implements ConfigData
 
     // Ube Delight
     @Comment("Enable Frosted Ube Cake.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isFrostedUbeCakeEnabled = false;
     @Comment("Enable Raw Ginger Cookie.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawGingerCookieEnabled = false;
     @Comment("Enable Raw Ube Cake Base.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawUbeCakeBaseEnabled = false;
     @Comment("Enable Raw Ube Cookie.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawUbeCookieEnabled = false;
     @Comment("Enable Ube Cake Base.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isUbeCakeBaseEnabled = false;
     @Comment("Enable Ube Cream Frosting.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isUbeCreamFrostingBottleEnabled = false;
     @Comment("Enable Ube Cream Frosting Fluid.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isUbeCreamFrostingFluidEnabled = false;
     @Comment("Enable Ube Sugar Dough.")
-    @ConfigEntry.Category("UbeDelight")
+    @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isUbeSugarDoughEnabled = false;
 
