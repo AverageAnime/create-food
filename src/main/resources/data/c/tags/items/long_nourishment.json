@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:eggplant_cheeseburger_lettuce_tomato",
+      "required": false
+    },
+    {
+      "id": "createfood:eggplant_cheeseburger_lettuce",
+      "required": false
+    },
+    {
       "id": "createfood:hamburger_peanut_butter_bacon",
       "required": false
     },

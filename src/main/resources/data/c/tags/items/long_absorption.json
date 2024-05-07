@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:honeyed_donut",
+      "id": "createfood:dragon_burger_warped_fungus",
       "required": false
     },
     {
-      "id": "createfood:coffee_toffee_fudge",
+      "id": "createfood:dragon_burger_crimson_fungus",
       "required": false
     }
   ]

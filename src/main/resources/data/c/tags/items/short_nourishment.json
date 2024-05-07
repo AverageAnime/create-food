@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:strider_meatball_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:strider_meatball_stick_2",
+      "required": false
+    },
+    {
+      "id": "createfood:eggplant_burger",
+      "required": false
+    },
+    {
+      "id": "createfood:dragon_burger",
+      "required": false
+    },
+    {
+      "id": "createfood:peanut_butter_chorus_fruit_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:peanut_butter_apple_jam_sandwich",
+      "required": false
+    },
+    {
       "id": "createfood:hamburger_peanut_butter",
       "required": false
     },

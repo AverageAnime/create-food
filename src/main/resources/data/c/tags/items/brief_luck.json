@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:caramel_popcorn",
+      "required": false
+    },
+    {
       "id": "createfood:donut_hole_sugar",
       "required": false
     },

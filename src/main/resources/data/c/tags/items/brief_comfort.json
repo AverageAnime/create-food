@@ -2,6 +2,38 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:magma_cream_marshmallow_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:peanut_butter_chorus_fruit_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:peanut_butter_apple_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:coffee_toffee",
+      "required": false
+    },
+    {
       "id": "createfood:toffee_chip_milkshake_bottle",
       "required": false
     },
@@ -15,6 +47,10 @@
     },
     {
       "id": "createfood:apple_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milkshake_bottle",
       "required": false
     },
     {

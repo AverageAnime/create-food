@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:marshmallow_coffee_toffee_fudge",
+      "required": false
+    },
+    {
       "id": "createfood:honeyed_chocolate_donut",
       "required": false
     },

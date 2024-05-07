@@ -2,6 +2,34 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:vegetable_sandwich_beetroot_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:vegetable_sandwich_tomato_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:strider_meatball_stick_3",
+      "required": false
+    },
+    {
+      "id": "createfood:eggplant_cheeseburger",
+      "required": false
+    },
+    {
+      "id": "createfood:eggplant_burger_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:dragon_burger_crimson_fungus",
+      "required": false
+    },
+    {
+      "id": "createfood:dragon_burger_warped_fungus",
+      "required": false
+    },
+    {
       "id": "createfood:spicy_breakfast_sausages",
       "required": false
     },
