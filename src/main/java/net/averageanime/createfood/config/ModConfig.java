@@ -1974,6 +1974,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDragonPattyEnabled = false;
+    @Comment("Enable Endermite Meatball.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEndermiteMeatballEnabled = false;
+    @Comment("Enable Endermite Meatball Sandwich.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEndermiteMeatballSandwichEnabled = false;
+    @Comment("Enable Endermite Meatball Stick.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEndermiteMeatballStickEnabled = false;
     @Comment("Enable Minced Dragon.")
     @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
@@ -1982,6 +1994,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawChorusCookieEnabled = false;
+    @Comment("Enable Raw Endermite Meatball.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawEndermiteMeatballEnabled = false;
+    @Comment("Enable Small Endermite Meatballs.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSmallEndermiteMeatballsEnabled = false;
 
     // Cultural Delight
     @Comment("Enable Caramel Popcorn.")

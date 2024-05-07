@@ -1727,6 +1727,35 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPLANTCHEESEBURGERLETTUCETOMATO));
         }
 
+// Endermite Meatball
+
+        if (CONFIG.isEndermiteMeatballEnabled) {
+            final Item ENDERMITEMEATBALL = registerItem("endermite_meatball", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ENDERMITEMEATBALL));
+        }
+
+// Endermite Meatball Sandwich
+
+        if (CONFIG.isEndermiteMeatballSandwichEnabled) {
+            final Item ENDERMITEMEATBALLSANDWICH = registerItem("endermite_meatball_sandwich", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ENDERMITEMEATBALLSANDWICH));
+        }
+
+// Endermite Meatball Stick
+
+        if (CONFIG.isEndermiteMeatballStickEnabled) {
+            final Item ENDERMITEMEATBALLSTICK1 = registerItem("endermite_meatball_stick_1", new StickFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ENDERMITEMEATBALLSTICK1));
+        }
+        if (CONFIG.isEndermiteMeatballStickEnabled) {
+            final Item ENDERMITEMEATBALLSTICK2 = registerItem("endermite_meatball_stick_2", new StickFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ENDERMITEMEATBALLSTICK2));
+        }
+        if (CONFIG.isEndermiteMeatballStickEnabled) {
+            final Item ENDERMITEMEATBALLSTICK3 = registerItem("endermite_meatball_stick_3", new StickFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ENDERMITEMEATBALLSTICK3));
+        }
+
 // Espresso Powder
 
         if (CONFIG.isEspressoPowderEnabled) {
@@ -2557,6 +2586,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWDARKCHIPSCOOKIE));
         }
 
+// Raw Endermite Meatball
+
+        if (CONFIG.isRawEndermiteMeatballEnabled) {
+            final Item RAWENDERMITEMEATBALL = registerItem("raw_endermite_meatball", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWENDERMITEMEATBALL));
+        }
+
 // Raw Flesh Cookie
 
         if (CONFIG.isRawFleshCookieEnabled) {
@@ -2759,6 +2795,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SHREDDEDCHICKEN));
         }
 
+// Small Endermite Meatballs
+
+        if (CONFIG.isSmallEndermiteMeatballsEnabled) {
+            final Item SMALLENDERMITEMEATBALLS = registerItem("small_endermite_meatballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMALLENDERMITEMEATBALLS));
+        }
+
 // Small Meatballs
 
         if (CONFIG.isSmallMeatballsEnabled) {
@@ -2772,6 +2815,7 @@ public class ModItems {
             final Item SMALLSTRIDERMEATBALLS = registerItem("small_strider_meatballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMALLSTRIDERMEATBALLS));
         }
+
 // Smoked Corn Stick
 
         if (CONFIG.isSmokedCornStickEnabled) {

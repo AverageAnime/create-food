@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:endermite_meatball_sandwich",
+      "required": false
+    }
+  ]
+}
