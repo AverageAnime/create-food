@@ -1975,15 +1975,15 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDragonPattyEnabled = false;
     @Comment("Enable Endermite Meatball.")
-    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isEndermiteMeatballEnabled = false;
     @Comment("Enable Endermite Meatball Sandwich.")
-    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isEndermiteMeatballSandwichEnabled = false;
     @Comment("Enable Endermite Meatball Stick.")
-    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isEndermiteMeatballStickEnabled = false;
     @Comment("Enable Minced Dragon.")
@@ -1995,11 +1995,11 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawChorusCookieEnabled = false;
     @Comment("Enable Raw Endermite Meatball.")
-    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawEndermiteMeatballEnabled = false;
     @Comment("Enable Small Endermite Meatballs.")
-    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Category("End'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmallEndermiteMeatballsEnabled = false;
 
@@ -2110,6 +2110,14 @@ public class ModConfig implements ConfigData
     public boolean isRawSpiderEyeCookieEnabled = false;
 
     // Nether's Delight
+    @Comment("Enable Magma Cream Marshmallow.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMagmaCreamMarshmallowEnabled = false;
+    @Comment("Enable Magma Cream Marshmallow Stick.")
+    @ConfigEntry.Category("Nether'sDelight")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMagmaCreamMarshmallowStickEnabled = false;
     @Comment("Enable Raw Strider Meatball.")
     @ConfigEntry.Category("Nether'sDelight")
     @ConfigEntry.Gui.RequiresRestart
@@ -2130,13 +2138,4 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("Nether'sDelight")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isStriderMeatballStickEnabled = false;
-    @Comment("Enable Magma Cream Marshmallow.")
-    @ConfigEntry.Category("Nether'sDelight")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isMagmaCreamMarshmallowEnabled = false;
-    @Comment("Enable Magma Cream Marshmallow Stick.")
-    @ConfigEntry.Category("Nether'sDelight")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isMagmaCreamMarshmallowStickEnabled = false;
-
 }
