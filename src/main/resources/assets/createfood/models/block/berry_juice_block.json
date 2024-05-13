@@ -1,10 +1,10 @@
 {
     "parent": "block/block",
     "textures": {
-        "particle": "createfood:block/berry_juice_flow",
-        "down": "createfood:block/berry_juice_flow",
-        "up": "createfood:block/berry_juice_flow",
-        "side": "createfood:block/berry_juice_flow"
+        "particle": "minecraft:block/water_flow",
+        "down": "minecraft:block/water_flow",
+        "up": "minecraft:block/water_flow",
+        "side": "minecraft:block/water_flow"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
