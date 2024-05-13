@@ -446,6 +446,22 @@ public class CreateFoodClient implements ClientModInitializer {
 
 // Fluids
 
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MELON_JAM, ModFluids.FLOWING_MELON_JAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/melon_jam_still"),
+                new Identifier("createfood:block/melon_jam_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MELON_ICE_CREAM, ModFluids.FLOWING_MELON_ICE_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/melon_ice_cream_still"),
+                new Identifier("createfood:block/melon_ice_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MELON_MILKSHAKE, ModFluids.FLOWING_MELON_MILKSHAKE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/melon_milkshake_still"),
+                new Identifier("createfood:block/melon_milkshake_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MELON_CREAM_FROSTING, ModFluids.FLOWING_MELON_CREAM_FROSTING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/melon_cream_frosting_still"),
+                new Identifier("createfood:block/melon_cream_frosting_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_JAM, ModFluids.FLOWING_APPLE_JAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/apple_jam_still"),
                 new Identifier("createfood:block/apple_jam_flow")

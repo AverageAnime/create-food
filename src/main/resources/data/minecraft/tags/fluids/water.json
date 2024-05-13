@@ -2,6 +2,38 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_melon_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_jam",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_melon_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_milkshake",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_melon_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_ice_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_melon_cream_frosting",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_cream_frosting",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_chorus_fruit_juice",
       "required": false
     },
