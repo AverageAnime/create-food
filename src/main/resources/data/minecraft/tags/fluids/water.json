@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_squid_ink",
+      "required": false
+    },
+    {
+      "id": "createfood:squid_ink",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_melon_jam",
       "required": false
     },
