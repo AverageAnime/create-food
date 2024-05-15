@@ -445,7 +445,14 @@ public class CreateFoodClient implements ClientModInitializer {
         });
 
 // Fluids
-
+        if (CONFIG.isSquidInkFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_SQUID_INK, ModFluids.FLOWING_SQUID_INK);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SQUID_INK, ModFluids.FLOWING_SQUID_INK, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0x100c1c
+            ));
+        }
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MELON_JAM, ModFluids.FLOWING_MELON_JAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/melon_jam_still"),
                 new Identifier("createfood:block/melon_jam_flow")

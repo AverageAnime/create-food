@@ -403,6 +403,11 @@ public abstract class BackgroundRendererMixin {
             green = (float) 16 / 255;
             blue = (float) 60 / 255;
         }
+        if (ModFluids.isSquidInk(state)) {
+            red = (float) 16 / 255;
+            green = (float) 12 / 255;
+            blue = (float) 28 / 255;
+        }
     }
 
 
@@ -410,6 +415,11 @@ public abstract class BackgroundRendererMixin {
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+        if (ModFluids.isSquidInk(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isMelonCreamFrosting(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
