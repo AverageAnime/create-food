@@ -42,7 +42,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 >#### **Food Effect Tags:**
 > Farmer's Delight: Comfort & Nourishment.
 >
-> Vanilla: Regeneration, Resistance, Fire Resistance, Glowing, Haste, Jump Boost, Luck, Night Vision, Slow Falling, Speed, & Strength.
+> Vanilla: Absorption, Regeneration, Resistance, Fire Resistance, Glowing, Haste, Jump Boost, Luck, Night Vision, Slow Falling, Speed, & Strength.
 >
 >  * 'c:brief_xxx' gives 30 seconds.
 >
