@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:corn_flour"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "culturaldelights:corn_dough"
+  }
+}

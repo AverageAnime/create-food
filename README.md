@@ -4,26 +4,45 @@
 Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated) based on expanding food content found in Create, Farmer's Delight, and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
 
 ### **Current Content:**
-* 350+ new food-related items, including 30+ new fluids. Enable/disable in the config according to preference. View complete item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List).
+
+* Hundreds of new food-related items, including dozens of new fluids. Enable/disable in the config according to preference. View item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List).
 * Numerous tag additions to enhance mod compatibility. Includes a tag-based system to apply Farmer's Delight food effects and vanilla status effects to any item with the appropriate tag.
 * All recipes use tags where possible. Includes additional recipe support for [satisfy’s](https://www.curseforge.com/members/satisfy/projects) [Let’s Do] mods.
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
 * Animated textures for hot drinks.
+
 ### **Required Dependencies:**
+
 * [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated)
 * [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
 
 ### **Mod Recommendations:**
+
 * [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) - More recipes. 
 * [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
 * [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) - View recipes and items.
 * [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric)/[Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
+
+>**Additional items available for:**
+> 
+> * [Expanded Delight](https://www.curseforge.com/minecraft/mc-mods/expanded-delight)
+>
+> * [End's Delight](https://www.curseforge.com/minecraft/mc-mods/ends-delight)
+>
+> * [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights-fabric)
+>
+> * [Ube's Delight](https://www.curseforge.com/minecraft/mc-mods/ubes-delight)
+>
+> * [Fright's Delight](https://www.curseforge.com/minecraft/mc-mods/frights-delight)
+>
+> * [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated) 
+  
 ### **Configuration:**
 >#### **Food Effect Tags:**
 > Farmer's Delight: Comfort & Nourishment.
 >
-> Vanilla: Fire Resistance, Glowing, Haste, Jump Boost, Luck, Night Vision, Slow Falling, Speed, & Strength.
+> Vanilla: Regeneration, Resistance, Fire Resistance, Glowing, Haste, Jump Boost, Luck, Night Vision, Slow Falling, Speed, & Strength.
 >
 >  * 'c:brief_xxx' gives 30 seconds.
 >
@@ -34,7 +53,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 >  * 'c:long_xxx' gives 5 minutes.
 
 >#### **Resource Packs:**
->This mod includes several built-in resource packs to connect Create: Food with other Delight mods. Resource packs include changes such as **item renames**, **new/animated textures**, & **food effect tags**.
+>This mod includes several built-in resource packs to connect Create: Food with other Delight mods. Resource packs include changes such as **item renames** and **new/animated textures**.
 
 >#### **Config Options:**
 >Multiple items featured in this mod can also be found other mods. These items are included to avoid adding more dependencies. The config itself has additional suggestions on which items to disable when using other mods.

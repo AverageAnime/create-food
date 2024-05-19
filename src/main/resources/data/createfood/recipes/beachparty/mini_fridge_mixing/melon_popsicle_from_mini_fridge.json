@@ -11,7 +11,7 @@
   "type": "beachparty:mini_fridge_mixing",
   "ingredients": [
     {
-      "item": "minecraft:melon_slice"
+      "tag": "c:melon"
     },
     {
       "item": "minecraft:ice"

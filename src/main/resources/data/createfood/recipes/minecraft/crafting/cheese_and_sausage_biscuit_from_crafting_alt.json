@@ -1,15 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-
+    {
+      "tag": "c:biscuit"
+    },
     {
       "tag": "c:cheeses"
     },
     {
       "tag": "c:sausage_patty"
-    },
-    {
-      "tag": "c:biscuit"
     }
   ],
   "result": {

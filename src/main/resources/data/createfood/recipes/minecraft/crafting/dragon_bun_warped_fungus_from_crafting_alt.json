@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:warped_fungus"
+      "tag": "c:bun"
     },
     {
       "tag": "c:dragon_patty"
     },
     {
-      "tag": "c:bun"
+      "item": "minecraft:warped_fungus"
     }
   ],
   "result": {

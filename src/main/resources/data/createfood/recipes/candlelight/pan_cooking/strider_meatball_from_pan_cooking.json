@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+  {
+    "condition": "fabric:all_mods_loaded",
+    "values": [
+      "candlelight"
+    ]
+  }
+],
+  "type": "candlelight:pan_cooking",
+  "ingredients": [
+    {
+      "tag": "c:raw_strider_meatball"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:strider_meatball",
+    "count": 1,
+    "experience": 0.45
+  }
+}

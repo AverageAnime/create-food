@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:pasta_plate_strider_meatballs_tomato_sauce",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_endermite_meatballs_tomato_sauce",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:hamburger",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bacon_sandwich",
+      "required": false
+    },
+    {
       "id": "createfood:endermite_meatball_stick_3",
       "required": false
     },
@@ -10,7 +26,7 @@
       "required": false
     },
     {
-      "id": "createfood:vegetable_sandwich_tomato_lettuce",
+      "id": "createfood:vegetable_sandwich_lettuce_tomato",
       "required": false
     },
     {

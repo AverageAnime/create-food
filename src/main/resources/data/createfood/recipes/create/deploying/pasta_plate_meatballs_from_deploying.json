@@ -17,6 +17,8 @@
     }
   ],
   "results":[
-    {"item":"delightfulcreators:incomplete_pasta_with_meatballs"}
+    {
+      "item":"createfood:pasta_plate_meatballs"
+    }
   ]
 }

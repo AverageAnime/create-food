@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hash_browns"
+      ]
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "c:shredded_potato"
+  },
+  "result": "createfood:hash_browns",
+  "experience": 0.25,
+  "cookingtime": 75
+}

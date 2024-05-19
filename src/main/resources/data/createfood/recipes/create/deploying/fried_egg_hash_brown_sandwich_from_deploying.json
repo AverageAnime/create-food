@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "farmersdelight",
+        "croptopia"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:bread_fried_egg"
+    },
+    {
+      "tag": "c:hash_brown"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:fried_egg_hash_brown_sandwich"
+    }
+  ]
+}

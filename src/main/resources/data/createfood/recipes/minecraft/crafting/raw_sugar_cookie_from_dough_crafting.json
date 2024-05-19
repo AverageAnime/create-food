@@ -1,20 +1,15 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"tag": "c:sugar"},
-    {"tag": "c:sweet_dough"},
-    {"tag": "c:sugar"}
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:sugar"
+    }
   ],
   "result":
   {

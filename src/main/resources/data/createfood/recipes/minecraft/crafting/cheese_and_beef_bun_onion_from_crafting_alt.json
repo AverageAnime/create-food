@@ -2,6 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "tag": "c:bun"
+    },
+    {
       "tag": "c:cheeses"
     },
     {
@@ -9,9 +12,6 @@
     },
     {
       "tag": "c:cooked_beef"
-    },
-    {
-      "tag": "c:bun"
     }
   ],
   "result": {

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:empty_buckets"
+    },
+    {
+      "tag": "c:glow_berry_jam_bottle"
+    },
+    {
+      "tag": "c:glow_berry_jam_bottle"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:glow_berry_jam_bucket"
+  }
+}

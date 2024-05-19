@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "cookingtime": 50,
+  "experience": 0.25,
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:butter"
+    },
+    {
+      "tag": "c:butter"
+    },
+    {
+      "tag": "c:espresso_powder"
+    },
+    {
+      "tag": "c:espresso_powder"
+    }
+  ],
+  "result": {
+    "item": "createfood:coffee_toffee_bucket"
+  }
+}

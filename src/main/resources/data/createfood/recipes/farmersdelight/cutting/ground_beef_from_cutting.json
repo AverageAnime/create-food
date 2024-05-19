@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {"item": "farmersdelight:minced_beef"}
+  ],
+  "tool":
+    {"tag": "c:tools/knives"},
+  "result":
+  [
+    {
+      "item": "createfood:ground_beef"
+    }
+  ]
+}

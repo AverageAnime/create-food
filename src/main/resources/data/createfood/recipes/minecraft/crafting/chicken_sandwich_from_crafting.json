@@ -1,19 +1,11 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:cooked_chicken"
+      "tag": "c:bread_lettuce_carrot"
     },
     {
-      "tag": "c:bread_lettuce_carrot"
+      "tag": "c:cooked_chicken"
     }
   ],
   "result": {

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "cookingtime": 50,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "c:coffee_toffee"
+    },
+    {
+      "tag": "c:coffee_toffee"
+    }
+  ],
+  "result": {
+    "item": "createfood:coffee_toffee_bucket"
+  }
+}

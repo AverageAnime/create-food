@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:apple",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_slice",
+      "required": false
+    }
+  ]
+}

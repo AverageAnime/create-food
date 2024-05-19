@@ -1,25 +1,14 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "tag": "c:graham_cracker"
     },
     {
-      "tag": "c:marshmallow"
+      "tag": "c:hollow_chocolate"
     },
     {
-      "tag": "c:hollow_chocolate"
+      "tag": "c:marshmallow"
     },
     {
       "tag": "c:graham_cracker"

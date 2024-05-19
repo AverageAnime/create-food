@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery",
+        "farmersrespite"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_green_tea_cookie"
+    },
+    {
+      "tag": "c:raw_green_tea_cookie"
+    },
+    {
+      "tag": "c:raw_green_tea_cookie"
+    }
+  ],
+  "item": "ubesdelight:green_tea_cookie",
+  "count": 3,
+  "experience": 0.45
+}

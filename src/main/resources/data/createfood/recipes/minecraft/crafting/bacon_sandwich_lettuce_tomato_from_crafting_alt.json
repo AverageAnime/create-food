@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slice"
+    },
+    {
+      "tag": "c:cooked_pork"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:tomato"
+    },
+    {
+      "tag": "c:bread_slice"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:bacon_sandwich"
+  }
+}

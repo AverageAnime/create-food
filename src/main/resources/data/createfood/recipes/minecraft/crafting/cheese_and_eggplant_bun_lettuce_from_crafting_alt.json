@@ -2,6 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "tag": "c:bun"
+    },
+    {
       "tag": "c:salad_ingredients"
     },
     {
@@ -9,9 +12,6 @@
     },
     {
       "tag": "c:cooked_eggplant"
-    },
-    {
-      "tag": "c:bun"
     }
   ],
   "result": {

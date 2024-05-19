@@ -1,0 +1,20 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "tag": "c:sugar"
+    }
+  ],
+  "result": {
+    "item": "createfood:glow_berry_juice_bottle"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "brewingtime": 2400,
+  "needWater": true
+}

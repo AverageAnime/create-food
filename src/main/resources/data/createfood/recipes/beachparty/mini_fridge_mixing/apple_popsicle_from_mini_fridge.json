@@ -10,7 +10,7 @@
   "type": "beachparty:mini_fridge_mixing",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "tag": "c:apple"
     },
     {
       "item": "minecraft:ice"

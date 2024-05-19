@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:donut_base"
+    },
+    {
+      "amount":20250,"fluid":"createfood:melon_cream_frosting"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:melon_cream_glazed_donut"
+    }
+  ]
+}

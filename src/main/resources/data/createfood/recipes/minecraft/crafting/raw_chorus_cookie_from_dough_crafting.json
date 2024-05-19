@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "item": "ends_delight:chorus_fruit_grain"
+    }
+  ],
+  "result":
+  {
+    "count": 8,
+    "item": "createfood:raw_chorus_cookie"
+  }
+}

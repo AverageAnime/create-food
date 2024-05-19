@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:pasta_plate_endermite_meatballs"
+    },
+    {
+      "amount":20250,
+      "fluid":"delightfulcreators:tomato_sauce"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:pasta_plate_endermite_meatballs_tomato_sauce"
+    }
+  ]
+}

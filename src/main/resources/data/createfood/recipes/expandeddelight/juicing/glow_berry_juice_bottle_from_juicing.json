@@ -1,0 +1,14 @@
+{
+  "type": "expandeddelight:juicing",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "tag": "c:sugar"
+    }
+  ],
+  "output": {
+    "item": "createfood:glow_berry_juice_bottle"
+  }
+}

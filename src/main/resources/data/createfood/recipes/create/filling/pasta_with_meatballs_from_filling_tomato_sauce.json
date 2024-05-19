@@ -11,7 +11,7 @@
   "type":"create:filling",
   "ingredients":[
     {
-      "item":"delightfulcreators:incomplete_pasta_with_meatballs"
+      "tag":"c:pasta_plate_meatballs"
     },
     {
       "amount":20250,

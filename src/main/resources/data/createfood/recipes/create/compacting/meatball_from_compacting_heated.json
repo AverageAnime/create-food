@@ -10,7 +10,9 @@
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
-    {"tag":"c:ground_beef"}
+    {
+      "tag":"c:ground_beef"
+    }
   ],
   "results":[
     {

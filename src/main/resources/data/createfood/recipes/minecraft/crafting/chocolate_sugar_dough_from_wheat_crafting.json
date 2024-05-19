@@ -2,13 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
+      "item": "minecraft:water_bucket"
     },
     {
       "item": "minecraft:sugar"
@@ -17,7 +11,13 @@
       "tag": "c:cocoa_powder"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

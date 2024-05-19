@@ -2,31 +2,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:bucket"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:berry_cream_frosting"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:berry_cream_frosting"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:berry_cream_frosting"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:sweet_berries"
+      "tag": "c:berry_cream_frosting"
     }
   ],
   "result": {

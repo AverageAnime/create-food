@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:empty_buckets"
+    },
+    {
+      "tag": "c:chorus_fruit_juice_bottle"
+    },
+    {
+      "tag": "c:chorus_fruit_juice_bottle"
+    },
+    {
+      "tag": "c:chorus_fruit_juice_bottle"
+    },
+    {
+      "tag": "c:chorus_fruit_juice_bottle"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:chorus_fruit_juice_bucket"
+  }
+}

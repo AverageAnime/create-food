@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:eggplant_bun_lettuce"
+    },
+    {
+      "tag":"c:tomato"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:eggplant_bun_lettuce_tomato"
+    }
+  ]
+}

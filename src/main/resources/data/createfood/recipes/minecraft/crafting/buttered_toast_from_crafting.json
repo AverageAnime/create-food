@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:toast"
+    },
+    {
+      "tag": "c:butter"
+    }
+  ],
+  "result": {
+    "item": "createfood:buttered_toast"
+  }
+}

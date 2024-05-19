@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_slice",
+      "required": false
+    }
+  ]
+}

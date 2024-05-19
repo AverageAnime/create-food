@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "tool":
+  {
+    "tag": "c:tools/knives"
+  },
+  "result": [
+    {
+      "item": "ends_delight:chorus_fruit_grain",
+      "count": 4
+    }
+  ]
+}

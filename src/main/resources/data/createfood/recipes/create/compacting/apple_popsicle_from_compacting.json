@@ -19,7 +19,7 @@
       "item":"minecraft:ice"
     },
     {
-      "item":"minecraft:apple"
+      "tag":"c:apple"
     }
   ],
   "results":[

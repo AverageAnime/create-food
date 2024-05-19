@@ -16,8 +16,8 @@
       "item": "minecraft:beef"
     }
   ],
-  "result": {
-    "count": 2,
+  "result":
+  {
     "item": "createfood:ground_beef"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slice"
+    },
+    {
+      "tag": "c:chorus_fruit_jam_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:bread_slice_chorus_fruit_jam"
+  }
+}

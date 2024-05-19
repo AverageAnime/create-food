@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:cooked_pork"
+      "tag": "c:bread_slice_lettuce_tomato"
     },
     {
-      "tag": "c:bread_slice_lettuce_tomato"
+      "tag": "c:cooked_pork"
     }
   ],
   "result": {

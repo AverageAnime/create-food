@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coffee_toffee_bucket"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "createfood:coffee_toffee"
+  }
+}

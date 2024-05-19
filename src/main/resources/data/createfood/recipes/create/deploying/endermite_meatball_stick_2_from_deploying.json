@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "item":"createfood:endermite_meatball_stick_1"
+    },
+    {
+      "tag":"c:endermite_meatball"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:endermite_meatball_stick_2"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "expandeddelight:juicing",
+  "ingredients": [
+    {
+      "tag": "c:apple"
+    },
+    {
+      "tag": "c:sugar"
+    }
+  ],
+  "output": {
+    "item": "createfood:apple_juice_bottle"
+  }
+}

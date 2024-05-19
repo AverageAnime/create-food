@@ -2,31 +2,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:bucket"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:chorus_fruit_cream_frosting"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:chorus_fruit_cream_frosting"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:chorus_fruit_cream_frosting"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:chorus_fruit"
-    },
-    {
-      "item": "minecraft:chorus_fruit"
-    },
-    {
-      "item": "minecraft:chorus_fruit"
-    },
-    {
-      "item": "minecraft:chorus_fruit"
+      "tag": "c:chorus_fruit_cream_frosting"
     }
   ],
   "result": {

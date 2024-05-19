@@ -11,6 +11,9 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "tag": "c:bun"
+    },
+    {
       "tag": "c:salad_ingredients"
     },
     {
@@ -18,9 +21,6 @@
     },
     {
       "tag": "c:chicken_patty"
-    },
-    {
-      "tag": "c:bun"
     }
   ],
   "result": {

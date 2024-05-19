@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createfood:endermite_meatball_stick_1"
+    },
+    {
+      "tag": "c:endermite_meatball"
+    }
+  ],
+  "result": {
+      "item": "createfood:endermite_meatball_stick_2"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:beetroot",
+      "required": false
+    },
+    {
+      "id": "createfood:sliced_beetroot",
+      "required": false
+    }
+  ]
+}

@@ -10,13 +10,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "tag": "c:bun"
+    },
+    {
       "tag": "c:peanut_butter"
     },
     {
       "tag": "c:cooked_beef"
-    },
-    {
-      "tag": "c:bun"
     }
   ],
   "result": {

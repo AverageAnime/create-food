@@ -1,20 +1,11 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:any_mod_loaded",
-      "values": [
-        "farmersdelight",
-        "croptopia"
-      ]
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:bun"
+      "tag": "c:cheese_and_chicken_bun_bacon_lettuce"
     },
     {
-      "tag": "c:cheese_and_chicken_bun_bacon_lettuce"
+      "tag": "c:bun"
     }
   ],
   "result": {

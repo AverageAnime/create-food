@@ -1,0 +1,20 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "tag": "c:apple"
+    },
+    {
+      "tag": "c:sugar"
+    }
+  ],
+  "result": {
+    "item": "createfood:apple_juice_bottle"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "brewingtime": 2400,
+  "needWater": true
+}

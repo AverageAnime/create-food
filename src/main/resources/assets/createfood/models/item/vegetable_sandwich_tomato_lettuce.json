@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-  "layer0": "createfood:item/vegetable_sandwich_tomato_lettuce"
-  }
-}

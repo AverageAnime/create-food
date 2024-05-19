@@ -9,10 +9,16 @@
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"item":"minecraft:bread"},
-    {"tag":"c:small_meatballs"}
+    {
+      "item":"minecraft:bread"
+    },
+    {
+      "tag":"c:small_meatballs"
+    }
   ],
   "results":[
-    {"item":"createfood:meatball_sandwich"}
+    {
+      "item":"createfood:meatball_sandwich"
+    }
   ]
 }

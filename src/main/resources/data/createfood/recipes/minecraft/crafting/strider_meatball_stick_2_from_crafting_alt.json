@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "c:strider_meatball"
+    },
+    {
+      "tag": "c:strider_meatball"
+    }
+  ],
+  "result": {
+      "item": "createfood:strider_meatball_stick_2"
+    }
+}

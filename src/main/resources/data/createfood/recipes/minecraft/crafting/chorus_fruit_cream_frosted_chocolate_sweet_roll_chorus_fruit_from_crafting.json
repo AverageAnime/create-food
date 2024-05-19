@@ -1,8 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"tag":"c:chorus_fruit_cream_frosted_chocolate_sweet_roll"},
-    {"item":"minecraft:chorus_fruit"}
+    {
+      "tag":"c:chorus_fruit_cream_frosted_chocolate_sweet_roll"
+    },
+    {
+      "tag":"c:chorus_fruit"
+    }
   ],
   "result": {
     "item": "createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit"

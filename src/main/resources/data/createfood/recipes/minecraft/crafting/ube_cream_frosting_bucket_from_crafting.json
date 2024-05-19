@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:ube_cream_frosting"
+    },
+    {
+      "tag": "c:ube_cream_frosting"
+    },
+    {
+      "tag": "c:ube_cream_frosting"
+    },
+    {
+      "tag": "c:ube_cream_frosting"
+    }
+  ],
+  "result": {
+      "item": "createfood:ube_cream_frosting_bucket"
+    }
+}

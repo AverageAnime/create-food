@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slice_beetroot"
+    },
+    {
+      "tag": "c:bread_slice_lettuce"
+    }
+  ],
+  "result": {
+    "item": "createfood:vegetable_sandwich_beetroot_lettuce"
+  }
+}

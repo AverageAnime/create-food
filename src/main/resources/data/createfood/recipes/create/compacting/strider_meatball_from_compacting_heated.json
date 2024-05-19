@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:ground_strider"
+    }
+  ],
+  "results":[
+    {
+      "count": 2,
+      "item":"createfood:strider_meatball"
+    }
+  ]
+}

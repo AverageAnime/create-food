@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "tag": "c:cheese_and_eggplant_bun_lettuce"
+    },
+    {
       "tag": "c:bun"
     },
     {
       "tag": "c:tomato"
-    },
-    {
-      "tag": "c:cheese_and_eggplant_bun_lettuce"
     }
   ],
   "result": {

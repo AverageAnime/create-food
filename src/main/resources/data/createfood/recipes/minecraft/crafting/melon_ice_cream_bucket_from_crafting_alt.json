@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:condensed_milk_bucket"
+    },
+    {
+      "tag": "c:heavy_cream_bucket"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "item": "minecraft:melon"
+    }
+  ],
+  "result": {
+      "item": "createfood:melon_ice_cream_bucket"
+    }
+}

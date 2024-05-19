@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:cooked_pork"
-    },
-    {
-      "tag": "c:salad_ingredients"
+      "tag": "c:bun"
     },
     {
       "tag": "c:chicken_patty"
     },
     {
-      "tag": "c:bun"
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:cooked_pork"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:bun"
+      "tag": "c:beef_bun_bacon_lettuce_tomato"
     },
     {
-      "tag": "c:beef_bun_bacon_lettuce_tomato"
+      "tag": "c:bun"
     }
   ],
   "result": {

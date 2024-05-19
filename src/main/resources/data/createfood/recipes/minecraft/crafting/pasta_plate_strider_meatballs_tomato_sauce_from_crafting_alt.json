@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:cooked_pasta"
+    },
+    {
+      "tag": "c:small_strider_meatballs"
+    }
+  ],
+  "result": {
+    "item": "createfood:pasta_plate_strider_meatballs_tomato_sauce"
+  }
+}

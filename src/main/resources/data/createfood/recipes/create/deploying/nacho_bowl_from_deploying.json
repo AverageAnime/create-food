@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:tortilla_chip_bowl"
+    },
+    {
+      "tag":"c:cheeses"
+    }
+  ],
+  "results":[
+    {"item":"createfood:nacho_bowl"}
+  ]
+}

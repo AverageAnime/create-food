@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slice"
+    },
+    {
+      "tag": "c:cheeses"
+    }
+  ],
+  "result": {
+    "item": "createfood:bread_slice_cheese"
+  }
+}

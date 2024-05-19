@@ -1,0 +1,14 @@
+{
+  "type": "expandeddelight:juicing",
+  "ingredients": [
+    {
+      "tag": "c:chorus_fruit"
+    },
+    {
+      "tag": "c:sugar"
+    }
+  ],
+  "output": {
+    "item": "createfood:chorus_fruit_juice_bottle"
+  }
+}

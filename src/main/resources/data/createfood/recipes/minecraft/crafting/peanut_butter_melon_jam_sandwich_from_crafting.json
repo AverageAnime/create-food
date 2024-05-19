@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slice_peanut_butter"
+    },
+    {
+      "tag": "c:bread_slice_melon_jam"
+    }
+  ],
+  "result": {
+    "item": "createfood:peanut_butter_melon_jam_sandwich"
+  }
+}

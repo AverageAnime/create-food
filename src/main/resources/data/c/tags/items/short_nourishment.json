@@ -2,6 +2,34 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:bacon_sandwich_lettuce",
+      "required": false
+    },
+    {
+      "id": "createfood:fried_egg_hash_brown_sandwich",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:sweet_berry_jelly_sandwich",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:glow_berry_jelly_sandwich",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:peanut_butter_honey_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:peanut_butter_melon_jam_sandwich",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:eggplant_burger",
+      "required": false
+    },
+    {
       "id": "createfood:endermite_meatball_sandwich",
       "required": false
     },
@@ -91,6 +119,22 @@
     },
     {
       "id": "createfood:pasta_plate",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_meatballs",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_meatballs_tomato_sauce",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_strider_meatballs",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_endermite_meatballs",
       "required": false
     },
     {

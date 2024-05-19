@@ -13,10 +13,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:chocolate_chips"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:apple"
+      "tag": "c:chocolate_chips"
     }
   ],
   "result": {

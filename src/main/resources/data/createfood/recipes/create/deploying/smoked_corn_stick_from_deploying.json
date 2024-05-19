@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "tag": "c:smoked_corn"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:smoked_corn_stick"
+    }
+  ]
+}

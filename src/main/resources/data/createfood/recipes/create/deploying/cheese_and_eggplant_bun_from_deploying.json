@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:eggplant_bun"
+    },
+    {
+      "tag":"c:cheeses"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:cheese_and_eggplant_bun"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bread_slice"
+    },
+    {
+      "tag": "c:cooked_pork"
+    }
+  ],
+  "result": {
+    "item": "createfood:bread_slice_bacon"
+  }
+}

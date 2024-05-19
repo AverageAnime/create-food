@@ -1,25 +1,12 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"item": "minecraft:honey_bottle"},
-    {"tag": "c:sweet_dough"}
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
   ],
   "result":
   {

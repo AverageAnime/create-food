@@ -9,7 +9,8 @@
       "tag": "c:sweet_roll_base"
     }
   ],
-  "result": {
-      "item": "createfood:glow_berry_cream_frosted_sweet_roll"
-    }
+  "result":
+  {
+    "item": "createfood:glow_berry_cream_frosted_sweet_roll"
+  }
 }

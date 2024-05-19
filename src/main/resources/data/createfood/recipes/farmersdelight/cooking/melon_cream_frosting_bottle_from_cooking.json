@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 50,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "tag": "c:milk_bottle"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:melon"
+    }
+  ],
+  "result": {
+    "item": "createfood:melon_cream_frosting_bottle"
+  }
+}

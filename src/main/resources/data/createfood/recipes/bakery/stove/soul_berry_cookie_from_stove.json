@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery",
+        "frightsdelight"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_soul_berry_cookie"
+    },
+    {
+      "tag": "c:raw_soul_berry_cookie"
+    },
+    {
+      "tag": "c:raw_soul_berry_cookie"
+    }
+  ],
+  "item": "frightsdelight:soul_berry_cookie",
+  "count": 3,
+  "experience": 0.45
+}

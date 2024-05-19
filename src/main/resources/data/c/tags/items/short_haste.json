@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "expandeddelight:berry_sweet_roll",
+      "required": false
+    },
+    {
       "id": "createfood:coffee_toffee_fudge",
       "required": false
     },

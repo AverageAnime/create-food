@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "item":"minecraft:bread"
+    },
+    {
+      "tag":"c:small_endermite_meatballs"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:endermite_meatball_sandwich"
+    }
+  ]
+}

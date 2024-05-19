@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:pasta_plate_endermite_meatballs_tomato_sauce",
+      "required": false
+    }
+  ]
+}

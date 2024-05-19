@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "i": {
+      "item": "minecraft:ice"
+    },
+    "b": {
+      "tag": "c:chorus_fruit"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ib ",
+    "-i "
+  ],
+  "result": {
+    "item": "createfood:chorus_fruit_popsicle"
+  }
+}

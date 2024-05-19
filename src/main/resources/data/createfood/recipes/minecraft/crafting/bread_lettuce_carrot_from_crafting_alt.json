@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "item": "minecraft:bread"
+    },
+    {
       "tag": "c:carrot"
     },
     {
       "tag": "c:salad_ingredients"
-    },
-    {
-      "item": "minecraft:bread"
     }
   ],
   "result": {

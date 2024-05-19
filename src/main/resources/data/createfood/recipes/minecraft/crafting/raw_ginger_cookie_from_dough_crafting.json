@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "tag": "c:foods/vegetables/ginger"
+    }
+  ],
+  "result":
+  {
+    "count": 8,
+    "item": "createfood:raw_ginger_cookie"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:empty_buckets"
+    },
+    {
+      "tag": "c:berry_jam_bottle"
+    },
+    {
+      "tag": "c:berry_jam_bottle"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:berry_jam_bucket"
+  }
+}

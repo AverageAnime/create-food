@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:pastry_bar_base"
+      "tag": "c:berry_cream_frosting"
     },
     {
-      "tag": "c:berry_cream_frosting"
+      "tag": "c:pastry_bar_base"
     }
   ],
   "result": {

@@ -9,10 +9,16 @@
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"item":"createfood:meatball_stick_2"},
-    {"tag":"c:meatball"}
+    {
+      "item":"createfood:meatball_stick_2"
+    },
+    {
+      "tag":"c:meatball"
+    }
   ],
   "results":[
-    {"item":"createfood:meatball_stick_3"}
+    {
+      "item":"createfood:meatball_stick_3"
+    }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:dragon_bun"
+    },
+    {
+      "item":"minecraft:warped_fungus"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:dragon_bun_warped_fungus"
+    }
+  ]
+}

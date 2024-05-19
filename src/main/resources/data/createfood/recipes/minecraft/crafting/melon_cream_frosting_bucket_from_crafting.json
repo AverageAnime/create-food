@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:melon_cream_frosting"
+    },
+    {
+      "tag": "c:melon_cream_frosting"
+    },
+    {
+      "tag": "c:melon_cream_frosting"
+    },
+    {
+      "tag": "c:melon_cream_frosting"
+    }
+  ],
+  "result": {
+      "item": "createfood:melon_cream_frosting_bucket"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "tag": "c:foods/vegetables/ginger"
+    }
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:raw_ginger_cookie"
+    }
+  ]
+}

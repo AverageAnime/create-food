@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result":
+  {
+    "count": 8,
+    "item": "createfood:raw_spider_eye_cookie"
+  }
+}

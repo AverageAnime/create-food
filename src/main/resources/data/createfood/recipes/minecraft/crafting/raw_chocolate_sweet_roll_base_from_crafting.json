@@ -12,8 +12,12 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"item": "minecraft:sugar"},
-    {"tag": "c:chocolate_sweet_dough"}
+    {
+      "tag": "c:chocolate_sweet_dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
   ],
   "result": {
     "item": "createfood:raw_chocolate_sweet_roll_base"

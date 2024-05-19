@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:melon_ice_cream_bowl",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_jam_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:apple_jam_bottle",
       "required": false
     },

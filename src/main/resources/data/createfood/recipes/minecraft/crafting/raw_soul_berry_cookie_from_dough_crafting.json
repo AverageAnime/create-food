@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "item": "frightsdelight:soul_berry"
+    }
+  ],
+  "result":
+  {
+    "count": 8,
+    "item": "createfood:raw_soul_berry_cookie"
+  }
+}

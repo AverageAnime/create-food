@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "expandeddelight",
+          "farmersrespite"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:chorus_fruit"
+    }
+  ],
+  "result": {
+      "item": "createfood:chorus_fruit_juice_bottle"
+    }
+}

@@ -5,16 +5,16 @@
       "tag": "c:bun"
     },
     {
-      "tag": "c:cooked_pork"
-    },
-    {
-      "tag": "c:onion"
+      "tag": "c:cooked_beef"
     },
     {
       "tag": "c:cheeses"
     },
     {
-      "tag": "c:cooked_beef"
+      "tag": "c:onion"
+    },
+    {
+      "tag": "c:cooked_pork"
     },
     {
       "tag": "c:bun"

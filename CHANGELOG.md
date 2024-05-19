@@ -1,10 +1,11 @@
 ### ***1.0.7***
-* New items/fluids.
-  * Ice creams, milkshakes, jams, bread slices, and sandwiches.
-  * Optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, Fright's Delight, and Nether's Delight.
-* Animated texture for Builder's Tea in the built-in Create resource pack.
-* Various texture/recipe/tag updates & fixes.
+**Big Update!**
+* 100+ new items/fluids. 
+  * Ice creams, milkshakes, jams, bread slices, sandwiches, and more.
+  * Various optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, Fright's Delight, and Nether's Delight. These new items are disabled by default.
+* Bunch of texture, recipe, tag & resource pack updates/fixes.
 * Fixed Gelatin Mix Fluids causing issues when disabled.
+* Absorption, Resistance, & Regeneration effect can now be added via tags.
 ### ***1.0.6***
 * Fixed issue where Gelatin Dessert Blocks could not be placed on servers.
 ### ***1.0.5 - Fix***

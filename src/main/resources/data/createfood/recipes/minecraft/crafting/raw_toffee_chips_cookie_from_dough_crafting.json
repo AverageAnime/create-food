@@ -1,19 +1,12 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"tag": "c:toffee_chips"},
-    {"tag": "c:sweet_dough"}
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "tag": "c:toffee_chips"
+    }
   ],
   "result":
   {

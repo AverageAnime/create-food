@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:bacon_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_jam_sandwich",
+      "required": false
+    },
+    {
       "id": "createfood:small_endermite_meatballs",
       "required": false
     },

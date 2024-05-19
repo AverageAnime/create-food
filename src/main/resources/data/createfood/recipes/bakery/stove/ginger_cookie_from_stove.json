@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery",
+        "ubesdelight"
+      ]
+    }
+  ],
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_ginger_cookie"
+    },
+    {
+      "tag": "c:raw_ginger_cookie"
+    },
+    {
+      "tag": "c:raw_ginger_cookie"
+    }
+  ],
+  "item": "ubesdelight:ginger_cookie",
+  "count": 3,
+  "experience": 0.45
+}

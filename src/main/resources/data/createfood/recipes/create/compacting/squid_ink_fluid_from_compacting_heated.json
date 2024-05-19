@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "results":[
+    {
+      "amount": 81000,
+      "fluid": "createfood:squid_ink"
+    }
+  ]
+}

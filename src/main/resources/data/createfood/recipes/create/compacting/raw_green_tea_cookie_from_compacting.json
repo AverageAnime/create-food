@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "tag": "c:crops/green_tea_leaves"
+    }
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:raw_green_tea_cookie"
+    }
+  ]
+}

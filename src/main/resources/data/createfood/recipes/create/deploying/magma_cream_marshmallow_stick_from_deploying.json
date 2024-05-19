@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "tag":"c:magma_cream_marshmallow"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:magma_cream_marshmallow_stick"
+    }
+  ]
+}

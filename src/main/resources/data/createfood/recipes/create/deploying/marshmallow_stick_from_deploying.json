@@ -9,10 +9,16 @@
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"item":"minecraft:stick"},
-    {"tag":"c:marshmallow"}
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "tag":"c:marshmallow"
+    }
   ],
   "results":[
-    {"item":"createfood:marshmallow_stick"}
+    {
+      "item":"createfood:marshmallow_stick"
+    }
   ]
 }

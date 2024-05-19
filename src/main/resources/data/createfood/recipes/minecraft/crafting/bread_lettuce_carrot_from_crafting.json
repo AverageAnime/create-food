@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:carrot"
+      "tag": "c:bread_lettuce"
     },
     {
-      "tag": "c:bread_lettuce"
+      "tag": "c:carrot"
     }
   ],
   "result": {

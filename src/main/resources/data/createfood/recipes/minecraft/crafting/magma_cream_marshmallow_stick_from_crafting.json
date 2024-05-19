@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "c:magma_cream_marshmallow"
+    }
+  ],
+  "result": {
+      "item": "createfood:magma_cream_marshmallow_stick"
+    }
+}
