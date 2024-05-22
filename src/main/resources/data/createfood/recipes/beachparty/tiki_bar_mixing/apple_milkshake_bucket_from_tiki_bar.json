@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "beachparty"
+      ]
+    }
+  ],
+  "type": "beachparty:tiki_bar_mixing",
+  "ingredients": [
+    {
+      "tag": "c:apple_ice_cream_bowl"
+    },
+    {
+      "tag": "c:milk_buckets"
+    }
+  ],
+  "result": {
+    "item": "createfood:apple_milkshake_bucket"
+  }
+}

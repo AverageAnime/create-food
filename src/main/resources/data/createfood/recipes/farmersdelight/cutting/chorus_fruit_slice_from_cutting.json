@@ -5,6 +5,15 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "ends_delight"
+        ]
+      }
     }
   ],
   "type": "farmersdelight:cutting",

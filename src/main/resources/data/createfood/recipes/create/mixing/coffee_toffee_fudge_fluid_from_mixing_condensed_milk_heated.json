@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:toffee_chips"
+    },
+    {
+      "tag":"c:espresso_powder"
+    },
+    {
+      "tag":"c:butter"
+    },
+    {
+      "amount":20250,"fluid":"createfood:condensed_milk"
+    }
+  ],
+  "results": [
+    {
+      "amount":81000,"fluid":"createfood:coffee_toffee_fudge"
+    }
+  ]
+}

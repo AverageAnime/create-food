@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:milkshake"
+    },
+    {
+      "tag":"c:toffee_chips"
+    }
+  ],
+  "results":[
+    {"item":"createfood:toffee_chip_milkshake_bottle"}
+  ]
+}

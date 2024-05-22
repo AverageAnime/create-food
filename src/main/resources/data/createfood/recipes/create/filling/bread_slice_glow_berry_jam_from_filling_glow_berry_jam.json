@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:bread_slice"
+    },
+    {
+      "amount":10125,"fluid":"createfood:glow_berry_jam"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:bread_slice_glow_berry_jam"
+    }
+  ]
+}

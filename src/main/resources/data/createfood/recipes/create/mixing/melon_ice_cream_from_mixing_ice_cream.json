@@ -13,7 +13,7 @@
       "amount":81000,"fluid":"createfood:ice_cream"
     },
     {
-      "item":"minecraft:melon"
+      "tag":"c:melon"
     }
   ],
   "results":[

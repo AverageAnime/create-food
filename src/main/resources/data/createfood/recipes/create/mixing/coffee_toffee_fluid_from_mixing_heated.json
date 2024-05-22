@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "item":"minecraft:sugar"
+    },
+    {
+      "tag":"c:espresso_powder"
+    },
+    {
+      "tag":"c:butter"
+    }
+  ],
+  "results":[
+    {"amount":40500,"fluid":"createfood:coffee_toffee"}
+  ]
+}

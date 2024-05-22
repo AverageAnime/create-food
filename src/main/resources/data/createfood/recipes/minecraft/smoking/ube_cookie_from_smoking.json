@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "ubesdelight"
+      ]
+    },
+      {
+        "condition": "fabric:tags_populated",
+        "values": [
+          "c:ube_cookie"
+        ]
+      }
+  ],
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:raw_ube_cookie"
+  },
+  "result": "ubesdelight:cookie_ube"
+}

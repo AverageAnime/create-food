@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ubesdelight:cookie_ginger",
+      "required": false
+    }
+  ]
+}

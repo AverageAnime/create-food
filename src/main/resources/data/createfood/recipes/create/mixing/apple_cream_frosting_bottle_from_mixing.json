@@ -17,7 +17,7 @@
       "item":"minecraft:sugar"
     },
     {
-      "item":"minecraft:apple"
+      "tag":"c:apple"
     },
     {
       "item":"minecraft:glass_bottle"

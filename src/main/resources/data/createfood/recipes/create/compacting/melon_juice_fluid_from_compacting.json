@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "amount":20250, "fluid":"minecraft:water"
+    },
+    {
+      "tag":"c:melon"
+    },
+    {
+      "tag":"c:sugar"
+    }
+  ],
+  "results":[
+    {
+    "amount":20250,"fluid":"delightfulcreators:melon_juice"
+    }
+  ]
+}

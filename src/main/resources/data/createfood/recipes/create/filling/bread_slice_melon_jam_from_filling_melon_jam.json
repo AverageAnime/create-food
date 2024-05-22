@@ -7,20 +7,18 @@
       ]
     }
   ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
+  "type":"create:filling",
   "ingredients":[
     {
-      "tag": "c:sweet_dough"
+      "tag":"c:bread_slice"
     },
     {
-      "tag": "c:foods/vegetables/ginger"
+      "amount":10125,"fluid":"createfood:melon_jam"
     }
   ],
   "results":[
     {
-      "count": 8,
-      "item":"ubesdelight:ginger_cookie"
+      "item":"createfood:bread_slice_melon_jam"
     }
   ]
 }

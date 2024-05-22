@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "tag":"c:sugar"
+    }
+  ],
+  "results":[
+    {
+    "amount":40500,"fluid":"createfood:glow_berry_jam"
+    }
+  ]
+}

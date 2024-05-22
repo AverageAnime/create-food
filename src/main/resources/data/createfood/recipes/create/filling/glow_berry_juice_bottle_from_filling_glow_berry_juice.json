@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "item":"minecraft:glass_bottle"
+    },
+    {
+      "amount":20250,"fluid":"createfood:glow_berry_juice"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:glow_berry_juice_bottle"
+    }
+  ]
+}

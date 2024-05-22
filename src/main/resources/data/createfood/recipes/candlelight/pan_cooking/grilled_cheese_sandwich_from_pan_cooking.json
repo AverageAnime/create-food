@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "candlelight"
+      ]
+    }
+  ],
+  "type": "candlelight:pan_cooking",
+  "ingredients": [
+    {
+      "tag": "c:cheese_sandwich"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:grilled_cheese_sandwich",
+    "count": 1,
+    "experience": 0.25
+  }
+}

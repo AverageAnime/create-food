@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight",
+        "ends_delight"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "tool":
+    {
+      "tag": "c:tools/knives"
+    },
+  "result":
+  [
+    {
+      "item": "createfood:chorus_fruit_slice",
+      "count": 4
+    }
+  ]
+}

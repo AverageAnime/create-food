@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "beachparty"
+      ]
+    }
+  ],
+  "type": "beachparty:mini_fridge_mixing",
+  "ingredients": [
+    {
+      "tag": "c:ice_cream_bucket"
+    },
+    {
+      "tag": "c:melon"
+    }
+  ],
+  "result": {
+    "item": "createfood:melon_ice_cream_bucket"
+  }
+}

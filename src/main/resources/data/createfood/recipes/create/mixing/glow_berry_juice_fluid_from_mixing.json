@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    }
+  ],
+  "results":[
+    {
+      "amount":27000,
+      "fluid":"createfood:glow_berry_juice"
+    }
+  ]
+}

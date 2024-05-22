@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:bread_slice_glow_berry_jam"
+    },
+    {
+      "tag":"c:bread_slice"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:glow_berry_jam_sandwich"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "ends_delight:raw_ender_mite_meat"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "createfood:ground_endermite"
+    }
+  ]
+}
