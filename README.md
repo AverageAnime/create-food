@@ -39,9 +39,10 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Ube's Delight](https://www.curseforge.com/minecraft/mc-mods/ubes-delight)
 
 ### **Configuration:**
+* Built-in Resource Packs - [View](https://github.com/AverageAnime/create-food/wiki/Built%E2%80%90in-Resource-Packs)
 * Config Options - [View](https://github.com/AverageAnime/create-food/wiki/Config-Options)
 * Food Effect Tags - [View](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
-* Resource Packs - [View](https://github.com/AverageAnime/create-food/wiki/Built%E2%80%90in-Resource-Packs)
+
 
 ### **My Other Mods**
 * [Create: Metalwork](https://www.curseforge.com/minecraft/mc-mods/create-metalwork-fabric)
