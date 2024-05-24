@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-  "layer0": "createfood:item/apple_jam_sandwich"
+  "layer0": "createfood:item/peanut_butter_apple_jam_sandwich"
   }
 }
