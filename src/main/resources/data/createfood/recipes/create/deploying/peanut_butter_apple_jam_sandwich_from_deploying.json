@@ -7,18 +7,18 @@
       ]
     }
   ],
-  "type":"create:filling",
+  "type":"create:deploying",
   "ingredients":[
     {
-      "tag":"c:hollow_dark_chocolate"
+      "tag":"c:bread_slice_peanut_butter"
     },
     {
-      "amount":10125,"fluid":"createfood:melon_cream_frosting"
+      "tag":"c:bread_slice_apple_jam"
     }
   ],
   "results":[
     {
-      "item":"createfood:melon_cream_dark_chocolate"
+      "item":"createfood:peanut_butter_apple_jam_sandwich"
     }
   ]
 }

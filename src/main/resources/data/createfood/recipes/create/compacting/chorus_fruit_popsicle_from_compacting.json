@@ -7,25 +7,24 @@
       ]
     }
   ],
-  "type":"create:mixing",
+  "type":"create:compacting",
   "ingredients":[
     {
-      "amount":20250,
-      "fluidTag":"c:milk"
+      "item":"minecraft:stick"
     },
     {
-      "item":"minecraft:sugar"
+      "item":"minecraft:ice"
     },
     {
-      "tag":"c:melon"
+      "item":"minecraft:ice"
     },
     {
-      "item":"minecraft:glass_bottle"
+      "tag":"c:chorus_fruit"
     }
   ],
   "results":[
     {
-      "item":"createfood:melon_cream_frosting_bottle"
+      "item":"createfood:chorus_fruit_popsicle"
     }
   ]
 }
