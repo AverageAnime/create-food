@@ -515,6 +515,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateDonutHoleSugarEnabled = true;
+    @Comment("Enable Chocolate Donut (Sugar).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateDonutSugarEnabled = true;
     @Comment("Enable Chocolate Filled Chocolate Pastry.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -763,6 +767,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDonutHoleSugarEnabled = true;
+    @Comment("Enable Donut (Sugar).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDonutSugarEnabled = true;
     @Comment("Enable Frosted Cake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1175,6 +1183,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPotatoChipsEnabled = true;
+    @Comment("Enable Potato Chip Bowl.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPotatoChipBowlEnabled = true;
     @Comment("Enable Powdered Sugar.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:donut_base"
+    },
+    {
+      "tag":"c:powdered_sugar"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:donut_sugar"
+    }
+  ]
+}

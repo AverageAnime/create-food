@@ -1182,6 +1182,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATEDONUTHOLESUGAR));
         }
 
+// Chocolate Donut (Sugar)
+
+        if (CONFIG.isChocolateDonutSugarEnabled) {
+            final Item CHOCOLATEDONUTSUGAR = registerItem("chocolate_donut_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATEDONUTSUGAR));
+        }
+
 // Chocolate Filled Mini Graham Cracker Pie Crust
 
         if (CONFIG.isChocolateFilledMiniGrahamCrackerPieCrustEnabled) {
@@ -1655,6 +1662,13 @@ public class ModItems {
         if (CONFIG.isDonutHoleSugarEnabled) {
             final Item DONUTHOLESUGAR = registerItem("donut_hole_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DONUTHOLESUGAR));
+        }
+
+// Donut (Sugar)
+
+        if (CONFIG.isDonutSugarEnabled) {
+            final Item DONUTSUGAR = registerItem("donut_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DONUTSUGAR));
         }
 
 // Dragon Bun
@@ -2666,6 +2680,13 @@ public class ModItems {
         if (CONFIG.isPotatoChipsEnabled) {
             final Item POTATOCHIPS = registerItem("potato_chips", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(POTATOCHIPS));
+        }
+
+// Potato Chip Bowl
+
+        if (CONFIG.isPotatoChipBowlEnabled) {
+            final Item POTATOCHIPBOWL = registerItem("potato_chip_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.5f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(POTATOCHIPBOWL));
         }
 
 // Powdered Sugar
