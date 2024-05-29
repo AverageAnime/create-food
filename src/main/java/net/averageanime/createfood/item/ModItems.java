@@ -3,6 +3,8 @@ package net.averageanime.createfood.item;
 import net.averageanime.createfood.CreateFood;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -2598,6 +2600,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATEBUTTER));
         }
 
+// Pasta Plate (Eggplant)
+
+        if (CONFIG.isPastaPlateEggplantEnabled) {
+            final Item PASTAPLATEEGGPLANT = registerItem("pasta_plate_eggplant", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATEEGGPLANT));
+        }
+
 // Pasta Plate (Endermite Meatballs)
 
         if (CONFIG.isPastaPlateEndermiteMeatballsEnabled) {
@@ -2612,11 +2621,39 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATEENDERMITEMEATBALLSTOMATOSAUCE));
         }
 
+// Pasta Plate (Fish)
+
+        if (CONFIG.isPastaPlateFishEnabled) {
+            final Item PASTAPLATEFISH = registerItem("pasta_plate_fish", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATEFISH));
+        }
+
 // Pasta Plate (Meatballs)
 
         if (CONFIG.isPastaPlateMeatballsEnabled) {
             final Item PASTAPLATEMEATBALLS = registerItem("pasta_plate_meatballs", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATEMEATBALLS));
+        }
+
+// Pasta Plate (Mutton Chop)
+
+        if (CONFIG.isPastaPlateMuttonChopEnabled) {
+            final Item PASTAPLATEMUTTONCHOP = registerItem("pasta_plate_mutton_chop", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATEMUTTONCHOP));
+        }
+
+// Pasta Plate (Slime)
+
+        if (CONFIG.isPastaPlateSlimeEnabled) {
+            final Item PASTAPLATESLIME = registerItem("pasta_plate_slime", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300, 0), 1.0F).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATESLIME));
+        }
+
+// Pasta Plate (Slimeballs)
+
+        if (CONFIG.isPastaPlateSlimeballsEnabled) {
+            final Item PASTAPLATESLIMEBALLS = registerItem("pasta_plate_slimeballs", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300, 0), 1.0F).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATESLIMEBALLS));
         }
 
 // Pasta Plate (Strider Meatballs)
@@ -2638,6 +2675,13 @@ public class ModItems {
         if (CONFIG.isPastaPlateTomatoSauceEnabled) {
             final Item PASTAPLATETOMATOSAUCE = registerItem("pasta_plate_tomato_sauce", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATETOMATOSAUCE));
+        }
+
+// Pasta Plate (Squid Ink)
+
+        if (CONFIG.isPastaPlateSquidInkEnabled) {
+            final Item PASTAPLATESQUIDINK = registerItem("pasta_plate_squid_ink", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PASTAPLATESQUIDINK));
         }
 
 // Pastry Bar Base
@@ -3057,6 +3101,13 @@ public class ModItems {
         if (CONFIG.isSmallMeatballsEnabled) {
             final Item SMALLMEATBALLS = registerItem("small_meatballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMALLMEATBALLS));
+        }
+
+// Small Slimeballs
+
+        if (CONFIG.isSmallSlimeballsEnabled) {
+            final Item SMALLSLIMEBALLS = registerItem("small_slimeballs", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300, 0), 1.0F).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMALLSLIMEBALLS));
         }
 
 // Small Strider Meatballs

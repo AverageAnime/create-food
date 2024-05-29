@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:pasta_plate_tomato_sauce"
+    },
+    {
+      "tag": "c:cooked_mutton"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:pasta_with_mutton_chop"
+  }
+}

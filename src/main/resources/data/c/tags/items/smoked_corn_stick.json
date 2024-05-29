@@ -4,6 +4,10 @@
     {
       "id": "createfood:smoked_corn_stick",
       "required": false
+    },
+    {
+      "id": "culturalcreators:incomplete_elote",
+      "required": false
     }
   ]
 }

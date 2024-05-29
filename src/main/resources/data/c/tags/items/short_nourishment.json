@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:pasta_plate_squid_ink",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_fish",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_slimeballs",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_slime",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_eggplant",
+      "required": false
+    },
+    {
+      "id": "createfood:pasta_plate_mutton_chop",
+      "required": false
+    },
+    {
       "id": "createfood:bacon_sandwich_lettuce",
       "required": false
     },

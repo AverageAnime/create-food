@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:sweet_berry_cookie",
+      "required": false
+    }
+  ]
+}

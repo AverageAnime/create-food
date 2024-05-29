@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:pasta_plate_slime",
+      "required": false
+    }
+  ]
+}

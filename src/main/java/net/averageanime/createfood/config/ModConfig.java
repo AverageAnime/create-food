@@ -1143,11 +1143,11 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateEnabled = true;
-    @Comment("Enable Pasta Plate (Butter).")
+    @Comment("Enable Pasta Plate with Butter.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateButterEnabled = true;
-    @Comment("Enable Pasta Plate (Endermite Meatballs).")
+    @Comment("Enable Pasta with Endermite Meatballs.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateEndermiteMeatballsEnabled = true;
@@ -1155,18 +1155,38 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateEndermiteMeatballsTomatoSauceEnabled = true;
-    @Comment("Enable Pasta Plate (Meatballs).")
+    @Comment("Enable Pasta with Fish.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastaPlateFishEnabled = true;
+    @Comment("Enable Pasta with Meatballs.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateMeatballsEnabled = true;
-    @Comment("Enable Pasta Plate (Strider Meatballs).")
+    @Comment("Enable Pasta with Mutton Chop.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastaPlateMuttonChopEnabled = true;
+    @Comment("Enable Pasta with Slime.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastaPlateSlimeEnabled = true;
+    @Comment("Enable Pasta with Slimeballs.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastaPlateSlimeballsEnabled = true;
+    @Comment("Enable Pasta with Strider Meatballs.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateStriderMeatballsEnabled = true;
-    @Comment("Enable Pasta With Strider Meatballs & Tomato Sauce.")
+    @Comment("Enable Pasta with Strider Meatballs & Tomato Sauce.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPastaPlateStriderMeatballsTomatoSauceEnabled = true;
+    @Comment("Enable Pasta with Squid Ink.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastaPlateSquidInkEnabled = true;
     @Comment("Enable Pastry Bar Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1355,6 +1375,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmallMeatballsEnabled = true;
+    @Comment("Enable Small Slimeballs.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSmallSlimeballsEnabled = true;
     @Comment("Enable Sugar Dough. Recommend 'disable' with Bakery installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -2236,6 +2260,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isEggplantCheeseburgerLettuceTomatoEnabled = false;
+    @Comment("Enable Pasta with Eggplant.")
+    @ConfigEntry.Category("CulturalDelights")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPastaPlateEggplantEnabled = true;
     @Comment("Enable Smoked Corn Stick.")
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart

@@ -27,9 +27,8 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) - Create and Farmer's Delight compatibility.
 * [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) - View recipes and items.
 
-
-
 **Optional items available for:**
+
 * [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights-fabric)
 * [End's Delight](https://www.curseforge.com/minecraft/mc-mods/ends-delight)
 * [Expanded Delight](https://www.curseforge.com/minecraft/mc-mods/expanded-delight)
@@ -39,14 +38,16 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Ube's Delight](https://www.curseforge.com/minecraft/mc-mods/ubes-delight)
 
 ### **Configuration:**
-* Built-in Resource Packs - [View](https://github.com/AverageAnime/create-food/wiki/Built%E2%80%90in-Resource-Packs)
-* Config Options - [View](https://github.com/AverageAnime/create-food/wiki/Config-Options)
-* Food Effect Tags - [View](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
 
+*  [Built-in Resource Packs](https://github.com/AverageAnime/create-food/wiki/Built%E2%80%90in-Resource-Packs)
+*  [Config Options](https://github.com/AverageAnime/create-food/wiki/Config-Options)
+*  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
 
 ### **My Other Mods**
+
 * [Create: Metalwork](https://www.curseforge.com/minecraft/mc-mods/create-metalwork-fabric)
 * [Stack Size Edit](https://www.curseforge.com/minecraft/mc-mods/stack-size-edit-fabric)
+
 ### **Credits:**
 
 * Base code is from [Tutorials By Kaupenjoe](https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.20.X).

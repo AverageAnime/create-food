@@ -3,7 +3,6 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
         "bakery"
       ]
     }
@@ -17,11 +16,11 @@
       "tag": "c:sugar"
     },
     {
-      "tag": "c:eggs"
+      "tag": "c:water_buckets"
     }
   ],
   "result": {
-    "item": "createfood:ube_dough",
+    "item": "createfood:ube_sugar_dough",
     "count": 3
   }
 }

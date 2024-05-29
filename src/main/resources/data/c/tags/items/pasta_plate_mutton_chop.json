@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:pasta_plate_mutton_chop",
+      "required": false
+    },
+    {
+      "id": "delightfulcreators:incomplete_pasta_with_mutton_chop",
+      "required": false
+    }
+  ]
+}

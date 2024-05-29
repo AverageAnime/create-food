@@ -4,6 +4,10 @@
     {
       "id": "createfood:bacon_sandwich",
       "required": false
+    },
+    {
+      "id": "delightfulcreators:incomplete_bacon_sandwich",
+      "required": false
     }
   ]
 }

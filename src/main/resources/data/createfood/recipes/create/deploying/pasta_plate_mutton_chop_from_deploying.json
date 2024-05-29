@@ -17,6 +17,8 @@
     }
   ],
   "results":[
-    {"item":"delightfulcreators:incomplete_pasta_with_mutton_chop"}
+    {
+      "item":"createfood:pasta_plate_mutton_chop"
+    }
   ]
 }

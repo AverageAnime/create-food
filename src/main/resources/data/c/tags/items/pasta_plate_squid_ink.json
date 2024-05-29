@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:pasta_plate_squid_ink",
+      "required": false
+    },
+    {
+      "id": "delightfulcreators:incomplete_squid_ink_pasta",
+      "required": false
+    }
+  ]
+}

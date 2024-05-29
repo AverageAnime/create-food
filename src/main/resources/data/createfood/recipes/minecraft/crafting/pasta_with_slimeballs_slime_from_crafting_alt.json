@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:pasta_plate_slimeballs"
+    },
+    {
+      "tag": "c:slime_bucket"
+    }
+  ],
+  "result": {
+    "item": "frightsdelight:pasta_with_slimeballs"
+  }
+}

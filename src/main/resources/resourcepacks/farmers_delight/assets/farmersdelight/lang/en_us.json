@@ -5,5 +5,11 @@
   "item.farmersdelight.egg_sandwich": "Fried Egg Sandwich",
   "item.farmersdelight.pasta_with_meatballs": "Pasta with Meatballs & Tomato Sauce",
   "item.farmersdelight.pasta_with_mutton_chop": "Pasta with Mutton Chop & Tomato Sauce",
-  "item.farmersdelight.squid_ink_pasta": "Pasta with Squid Ink"
+  "item.farmersdelight.squid_ink_pasta": "Pasta with Fish & Squid Ink",
+  "item.delightfulcreators.incomplete_chicken_sandwich": "Bread (Chicken)",
+  "item.delightfulcreators.incomplete_hamburger": "Hamburger",
+  "item.delightfulcreators.incomplete_pasta_dish": "Pasta Plate",
+  "item.delightfulcreators.incomplete_squid_ink_pasta": "Pasta with Squid Ink",
+  "item.delightfulcreators.incomplete_pasta_with_meatballs": "Pasta With Meatballs",
+  "item.delightfulcreators.incomplete_pasta_with_mutton_chop": "Pasta With Mutton Chop"
 }

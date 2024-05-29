@@ -1,24 +1,34 @@
 ### ***1.0.7***
+
 **Big Update!**
 * 100+ new items/fluids. 
-  * Ice creams, milkshakes, jams, bread slices, sandwiches, and more.
+  * Pasta plates, ice creams, milkshakes, jams, bread slices, sandwiches, and more.
   * Various optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, Fright's Delight, and Nether's Delight. These new items are disabled by default.
 * Bunch of texture, recipe, tag & resource pack updates/fixes.
 * Fixed Gelatin Mix Fluids causing issues when disabled.
 * Absorption, Resistance, & Regeneration effect can now be added via tags.
+* All Gelatin Dessert Blocks are now dropped when broken.
+
 ### ***1.0.6***
+
 * Fixed issue where Gelatin Dessert Blocks could not be placed on servers.
+
 ### ***1.0.5 - Fix***
+
 * Added some tags missing from Farmer's Delight Refabricated that were needed for recipes.
 * Changed some recipes to use the proper tags.
+
 ### ***1.0.5***
+
 * Minor tag & recipe updates.
 * Fix to remove log spam related to fluids.
 * New resource pack for Create. Also added dough texture from Create to Farmer's Delight resource pack for visual consistency.
 * Minor updates to directly support [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
   ).
 > Note: Deprecated port is still compatible. There's no difference between the two ports in terms of what this mod does, but I still recommend switching to Refabricated.
+
 ### ***1.0.4***
+
 * 50 new food items & 14 new fluids.
 * New resource packs for Cultural Delight, End's Delight, & Farmer's Respite.
 * Some features related to Farmer's Delight & Expanded Delight have been moved to their respective resource pack. 
@@ -27,6 +37,7 @@
 * In the config, items from the Expanded Delight tab are now disabled by default.
 >Note: [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
 ) (2.0.10+) can be used with **any**  version of Create: Food to satisfy the Farmer's Delight dependency.
+
 ### ***1.0.3***
 
 ![expandeddelightpreview](https://github.com/AverageAnime/create-food/assets/150550990/edd77810-f6fc-4434-b7f0-063e9b233828)

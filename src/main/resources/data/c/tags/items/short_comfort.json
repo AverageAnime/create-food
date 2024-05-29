@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:potato_chip_bowl",
+      "required": false
+    },
+    {
       "id": "expandeddelight:glow_berry_sweet_roll",
       "required": false
     },

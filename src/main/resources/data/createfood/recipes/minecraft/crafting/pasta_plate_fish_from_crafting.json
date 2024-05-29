@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:pasta_plate"
+    },
+    {
+      "tag": "c:cooked_fishes"
+    }
+  ],
+  "result": {
+    "item": "createfood:pasta_plate_fish"
+  }
+}

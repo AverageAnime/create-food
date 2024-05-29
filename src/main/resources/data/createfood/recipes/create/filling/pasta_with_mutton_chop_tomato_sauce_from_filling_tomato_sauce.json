@@ -11,7 +11,7 @@
   "type":"create:filling",
   "ingredients":[
     {
-      "item":"delightfulcreators:incomplete_pasta_with_mutton_chop"
+      "tag":"c:pasta_plate_mutton_chop"
     },
     {
       "amount":20250,
@@ -19,6 +19,8 @@
     }
   ],
   "results":[
-    {"item":"farmersdelight:pasta_with_mutton_chop"}
+    {
+      "item":"farmersdelight:pasta_with_mutton_chop"
+    }
   ]
 }

@@ -4,6 +4,10 @@
     {
       "id": "createfood:pasta_plate_meatballs",
       "required": false
+    },
+    {
+      "id": "delightfulcreators:incomplete_pasta_with_meatballs",
+      "required": false
     }
   ]
 }

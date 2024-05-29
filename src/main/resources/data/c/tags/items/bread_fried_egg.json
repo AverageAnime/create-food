@@ -4,6 +4,10 @@
     {
       "id": "createfood:bread_fried_egg",
       "required": false
+    },
+    {
+      "id": "delightfulcreators:incomplete_egg_sandwich",
+      "required": false
     }
   ]
 }

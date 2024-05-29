@@ -2,14 +2,6 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:potato_chip_bowl",
-      "required": false
-    },
-    {
-      "id": "createfood:chocolate_donut_sugar",
-      "required": false
-    },
-    {
       "id": "createfood:donut_sugar",
       "required": false
     },

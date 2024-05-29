@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:pasta_plate"
+    },
+    {
+      "tag":"c:cooked_eggplant"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:pasta_plate_eggplant"
+    }
+  ]
+}

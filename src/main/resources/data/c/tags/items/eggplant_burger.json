@@ -4,6 +4,10 @@
     {
       "id": "createfood:eggplant_burger",
       "required": false
+    },
+    {
+      "id": "culturalcreators:incomplete_eggplant_burger",
+      "required": false
     }
   ]
 }

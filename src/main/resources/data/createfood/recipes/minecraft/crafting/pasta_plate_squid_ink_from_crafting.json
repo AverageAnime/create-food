@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:pasta_plate"
+    },
+    {
+      "tag": "c:squid_ink_bucket"
+    }
+  ],
+  "result": {
+    "item": "createfood:pasta_plate_squid_ink"
+  }
+}

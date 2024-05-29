@@ -3,22 +3,24 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create"
+        "create",
+        "farmersdelight"
       ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
     {
-      "tag":"c:pasta_plate"
+      "tag":"c:pasta_plate_eggplant"
     },
     {
-      "amount":20250,"fluid":"createfood:slime"
+      "amount":20250,
+      "fluid":"delightfulcreators:tomato_sauce"
     }
   ],
   "results":[
     {
-      "item":"frightsdelight:pasta_with_slimeballs"
+      "item":"culturaldelights:fried_eggplant_pasta"
     }
   ]
 }
