@@ -28,7 +28,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) - Create and Farmer's Delight compatibility.
 * [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) - View recipes and items.
 
-**Optional items available for:**
+### **Optional items available for:**
 
 * [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights-fabric)
 * [End's Delight](https://www.curseforge.com/minecraft/mc-mods/ends-delight)
