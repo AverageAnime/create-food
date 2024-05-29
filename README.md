@@ -13,9 +13,10 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 
 ### **Required Dependencies:**
 
-* [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated)
-* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
+* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+* [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated)
+
 
 ### **Mod Recommendations:**
 

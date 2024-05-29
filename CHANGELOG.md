@@ -6,7 +6,7 @@
   * Various optional items for Expanded Delight, End's Delight, Cultural Delights, Farmer's Respite, Ube's Delight, Fright's Delight, and Nether's Delight. These new items are disabled by default.
 * Bunch of texture, recipe, tag & resource pack updates/fixes.
 * Fixed Gelatin Mix Fluids causing issues when disabled.
-* Absorption, Resistance, & Regeneration effect can now be added via tags.
+* Absorption, Resistance, & Regeneration effects can now be added via tags.
 * All Gelatin Dessert Blocks are now dropped when broken.
 
 ### ***1.0.6***
