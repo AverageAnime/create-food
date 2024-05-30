@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:ube_sugar_dough"
+    },
+    {
+      "tag":"c:eggs"
+    },
+    {
+      "amount":81000,"fluidTag":"c:milk"
+    }
+  ],
+  "results": [
+    {
+      "item":"createfood:raw_ube_cake_base"
+    }
+  ]
+}
