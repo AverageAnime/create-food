@@ -17,13 +17,10 @@
       "item": "minecraft:egg"
     },
     {
-      "item": "ubesdelight:ube"
+      "tag": "c:ube_sugar_dough"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:milk_bucket"
+      "tag": "c:milk_buckets"
     }
   ],
   "result": {
