@@ -1,15 +1,6 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    },
-    {
       "condition": "fabric:tags_populated",
       "values": [
         "c:hash_browns"
