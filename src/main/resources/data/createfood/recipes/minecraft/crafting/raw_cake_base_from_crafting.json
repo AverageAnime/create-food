@@ -1,29 +1,14 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-
-        ]
-      }
-    }
-  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
-      "item": "minecraft:wheat"
+      "tag": "c:sugar_dough"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:milk_bucket"
+      "tag": "c:milk_buckets"
     }
   ],
   "result": {
