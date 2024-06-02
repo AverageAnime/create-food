@@ -2263,7 +2263,7 @@ public class ModConfig implements ConfigData
     @Comment("Enable Pasta with Eggplant.")
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isPastaPlateEggplantEnabled = true;
+    public boolean isPastaPlateEggplantEnabled = false;
     @Comment("Enable Smoked Corn Stick.")
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart
