@@ -1,4 +1,5 @@
 ![logo](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/473ed31f-67ad-406f-9ea4-e633aa76f49f)
+
 ### **About:**
 
 Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated) based on expanding food content found in Create, Farmer's Delight, and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
@@ -43,6 +44,9 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 *  [Built-in Resource Packs](https://github.com/AverageAnime/create-food/wiki/Built%E2%80%90in-Resource-Packs)
 *  [Config Options](https://github.com/AverageAnime/create-food/wiki/Config-Options)
 *  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
+
+### **Item Preview**
+![fullprevbig](https://github.com/AverageAnime/create-food/assets/150550990/c80a57df-b994-4121-a0db-60e501a9eace)
 
 ### **My Other Mods**
 
