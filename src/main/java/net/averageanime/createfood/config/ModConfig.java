@@ -20,6 +20,7 @@ import net.averageanime.createfood.CreateFood;
 @Config.Gui.CategoryBackground(category = "Fright'sDelight", background = "minecraft:textures/block/sculk_catalyst_top.png")
 @Config.Gui.CategoryBackground(category = "Ube'sDelight", background = "minecraft:textures/block/mushroom_block_inside.png")
 @Config.Gui.CategoryBackground(category = "CulturalDelights", background = "minecraft:textures/block/prismarine_bricks.png")
+
 public class ModConfig implements ConfigData
 
 {
@@ -75,7 +76,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isAppleJamSandwichEnabled = true;
-    @Comment("Enable Apple Juice Bottle.")
+    @Comment("Enable Apple Juice Bottle. Recommend 'disable' with Expanded Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isAppleJuiceBottleEnabled = true;
@@ -167,15 +168,15 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryIceCreamBowlEnabled = true;
-    @Comment("Enable Berry Jam Bottle.")
+    @Comment("Enable Berry Jam Bottle. Recommend 'disable' with Expanded Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryJamBottleEnabled = true;
-    @Comment("Enable Berry Jam Sandwich.")
+    @Comment("Enable Berry Jam Sandwich. Recommend 'disable' with Expanded Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryJamSandwichEnabled = true;
-    @Comment("Enable Berry Juice Bottle.")
+    @Comment("Enable Berry Juice Bottle. Recommend 'disable' with Expanded Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryJuiceBottleEnabled = true;
@@ -207,7 +208,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBrownGelatinDessertSliceEnabled = true;
-    @Comment("Enable Brown Sugar.")
+    @Comment("Enable Brown Sugar. Recommend 'disable' with Ube's Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBrownSugarEnabled = true;
@@ -343,7 +344,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCacaoNibsEnabled = true;
-    @Comment("Enable Cake Base.  Recommend 'disable' if Create Additions or Bakery installed.")
+    @Comment("Enable Cake Base. Recommend 'disable' if Create Additions or Bakery installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCakeBaseEnabled = true;
@@ -675,7 +676,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitMilkshakeBottleEnabled = true;
-    @Comment("Enable Chorus Fruit Popsicle.")
+    @Comment("Enable Chorus Fruit Popsicle. Recommend 'disable' with End's Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitPopsicleEnabled = true;
@@ -1111,7 +1112,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMiniSmoresPieEnabled = true;
-    @Comment("Enable Milk Powder.")
+    @Comment("Enable Milk Powder. Recommend 'disable' with Ube's Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMilkPowderEnabled = true;
@@ -1327,7 +1328,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmoreEnabled = true;
-    @Comment("Enable Salt. Recommend 'disable' with Expanded Delight, Brewin' and Chewin', or Meadow installed.")
+    @Comment("Enable Salt. Recommend 'disable' with Croptopia, Expanded Delight, Brewin' and Chewin', or Meadow installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSaltEnabled = true;
