@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nethersdelight:magma_gelatin",
+      "required": false
+    }
+  ]
+}
