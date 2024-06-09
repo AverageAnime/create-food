@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:fruit_smoothie_bottle",
+      "required": false
+    },
+    {
       "id": "createfood:pasta_plate_squid_ink",
       "required": false
     },

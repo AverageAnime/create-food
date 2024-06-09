@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:fruit_smoothie_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:breakfast_plate",
+      "required": false
+    },
+    {
       "id": "createfood:marshmallow_white_chocolate_fudge",
       "required": false
     },

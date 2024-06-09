@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:breakfast_plate",
+      "required": false
+    },
+    {
       "id": "culturaldelights:fried_eggplant_pasta",
       "required": false
     },

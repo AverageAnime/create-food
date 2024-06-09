@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:breakfast_plate",
+      "required": false
+    },
+    {
       "id": "createfood:marshmallow_coffee_toffee_fudge",
       "required": false
     },

@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:breakfast_bar",
+      "required": false
+    },
+    {
       "id": "createfood:pasta_plate_strider_meatballs_tomato_sauce",
       "required": false
     },
