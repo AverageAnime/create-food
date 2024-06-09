@@ -546,11 +546,25 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BREADSLICEPEANUTBUTTER));
         }
 
+// Breakfast Bar
+
+        if (CONFIG.isBreakfastBarEnabled) {
+            final Item BREAKFASTBAR = registerItem("breakfast_bar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(4.1f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BREAKFASTBAR));
+        }
+
 // Breakfast Sausages
 
         if (CONFIG.isBreakfastSausagesEnabled) {
             final Item BREAKFASTSAUSAGES = registerItem("breakfast_sausages", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BREAKFASTSAUSAGES));
+        }
+
+// Breakfast Plate
+
+        if (CONFIG.isBreakfastPlateEnabled) {
+            final Item BREAKFASTPLATE = registerItem("breakfast_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(1.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BREAKFASTPLATE));
         }
 
 // Brown Sugar
@@ -1729,6 +1743,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRIEDCOFFEEBEANS));
         }
 
+// Egg Powder
+
+        if (CONFIG.isEggPowderEnabled) {
+            final Item EGGPOWDER = registerItem("egg_powder", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(EGGPOWDER));
+        }
+
 // Eggplant Bun
 
         if (CONFIG.isEggplantBunEnabled) {
@@ -1821,6 +1842,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ESPRESSOPOWDER));
         }
 
+// Fried Egg Plate
+
+        if (CONFIG.isFriedEggPlateEnabled) {
+            final Item FRIEDEGGPLATE = registerItem("fried_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRIEDEGGPLATE));
+        }
+
+// Fried Egg & Hash Brown Sandwich
+
+        if (CONFIG.isFriedEggAndHashBrownSandwichEnabled) {
+            final Item FRIEDEGGHASHBROWNSANDWICH = registerItem("fried_egg_hash_brown_sandwich", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(1.2f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRIEDEGGHASHBROWNSANDWICH));
+        }
+
 // Frosted Cake
 
         if (CONFIG.isFrostedCakeEnabled) {
@@ -1835,11 +1870,11 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTEDUBECAKE));
         }
 
-// Fried Egg & Hash Brown Sandwich
+// Fruit Smoothie
 
-        if (CONFIG.isFriedEggAndHashBrownSandwichEnabled) {
-            final Item FRIEDEGGHASHBROWNSANDWICH = registerItem("fried_egg_hash_brown_sandwich", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(1.2f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRIEDEGGHASHBROWNSANDWICH));
+        if (CONFIG.isFruitSmoothieBottleEnabled) {
+            final Item FRUITSMOOTHIEBOTTLE = registerItem("fruit_smoothie_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRUITSMOOTHIEBOTTLE));
         }
 
 // Gelatin
@@ -2166,6 +2201,27 @@ public class ModItems {
         if (CONFIG.isHashBrownsEnabled) {
             final Item HASHBROWNS = registerItem("hash_browns", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HASHBROWNS));
+        }
+
+// Hash Browns Plate
+
+        if (CONFIG.isHashBrownPlateEnabled) {
+            final Item HASHBROWNPLATE = registerItem("hash_brown_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HASHBROWNPLATE));
+        }
+
+// Hash Brown & Fried Egg Plate
+
+        if (CONFIG.isHashBrownAndFriedEggPlateEnabled) {
+            final Item HASHBROWNFRIEDEGGPLATE = registerItem("hash_brown_fried_egg_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HASHBROWNFRIEDEGGPLATE));
+        }
+
+// Hash Brown & Toast Plate
+
+        if (CONFIG.isHashBrownAndToastPlateEnabled) {
+            final Item HASHBROWNTOASTPLATE = registerItem("hash_brown_toast_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HASHBROWNTOASTPLATE));
         }
 
 // Hollow Chocolate
@@ -3208,6 +3264,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDTOMATO));
         }
 
+// Toast & Fried Egg Plate
+
+        if (CONFIG.isToastAndFriedEggPlateEnabled) {
+            final Item TOASTFRIEDEGGPLATE = registerItem("toast_fried_egg_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOASTFRIEDEGGPLATE));
+        }
+
+// Toast Plate
+
+        if (CONFIG.isToastPlateEnabled) {
+            final Item TOASTPLATE = registerItem("toast_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOASTPLATE));
+        }
+
 // Toast Slice
 
         if (CONFIG.isToastSliceEnabled) {
@@ -3382,5 +3452,13 @@ public class ModItems {
             final Item WHITECHOCOLATETOAST = registerItem("white_chocolate_toast", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITECHOCOLATETOAST));
         }
+
+// Yoghurt
+
+        if (CONFIG.isYoghurtBottleEnabled) {
+            final Item YOGHURTBOTTLE = registerItem("yoghurt_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(YOGHURTBOTTLE));
+        }
+
     }
 }
