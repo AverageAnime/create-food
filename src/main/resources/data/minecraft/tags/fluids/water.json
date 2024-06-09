@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_fruit_smoothie",
+      "required": false
+    },
+    {
+      "id": "createfood:fruit_smoothie",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_yoghurt",
+      "required": false
+    },
+    {
+      "id": "createfood:yoghurt",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_squid_ink",
       "required": false
     },
