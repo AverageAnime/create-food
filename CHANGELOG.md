@@ -1,3 +1,10 @@
+### ***1.0.8***
+
+* 11 new breakfast themed items.
+* Recipe updates: 
+  * Recipes now check for the tags used being populated. This prevents log spam when disabling recipes & offers better compatibility for recipes with optional items compared to checking for mods loaded.  
+  * Fixes for recipes. Mostly increased/consistent tag usage & correcting load conditions.
+  
 ### ***1.0.7***
 
 **Big Update!**
