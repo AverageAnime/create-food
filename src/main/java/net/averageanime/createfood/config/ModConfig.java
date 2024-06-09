@@ -295,11 +295,11 @@ public class ModConfig implements ConfigData
     @Comment("Enable Breakfast Bar.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isABreakfastBarEnabled = true;
+    public boolean isBreakfastBarEnabled = true;
     @Comment("Enable Breakfast Plate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isABreakfastPlateEnabled = true;
+    public boolean isBreakfastPlateEnabled = true;
     @Comment("Enable Breakfast Sausages.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -799,7 +799,7 @@ public class ModConfig implements ConfigData
     @Comment("Enable Fruit Smoothie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isFruitSmoothieEnabled = true;
+    public boolean isFruitSmoothieBottleEnabled = true;
     @Comment("Enable Glazed Chocolate Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -924,7 +924,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHashBrownsEnabled = true;
-    @Comment("Enable Hash Browns & Fried Eggs Plate.")
+    @Comment("Enable Hash Browns & Fried Egg Plate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHashBrownAndFriedEggPlateEnabled = true;
