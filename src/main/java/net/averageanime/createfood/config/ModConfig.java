@@ -292,6 +292,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBreadSliceMuttonBeetrootEnabled = true;
+    @Comment("Enable Breakfast Bar.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isABreakfastBarEnabled = true;
+    @Comment("Enable Breakfast Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isABreakfastPlateEnabled = true;
     @Comment("Enable Breakfast Sausages.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -772,6 +780,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDonutSugarEnabled = true;
+    @Comment("Enable Egg Powder.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isEggPowderEnabled = true;
     @Comment("Enable Frosted Cake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -780,6 +792,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isFriedEggAndHashBrownSandwichEnabled = true;
+    @Comment("Enable Fried Egg Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFriedEggPlateEnabled = true;
+    @Comment("Enable Fruit Smoothie.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFruitSmoothieEnabled = true;
     @Comment("Enable Glazed Chocolate Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -904,6 +924,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHashBrownsEnabled = true;
+    @Comment("Enable Hash Browns & Fried Eggs Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHashBrownAndFriedEggPlateEnabled = true;
+    @Comment("Enable Hash Browns Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHashBrownPlateEnabled = true;
+    @Comment("Enable Hash Browns & Toast Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHashBrownAndToastPlateEnabled = true;
     @Comment("Enable Hollow Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1388,10 +1420,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSweetRollBaseEnabled = true;
+    @Comment("Enable Toast & Fried Eggs Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isToastAndFriedEggPlateEnabled = true;
     @Comment("Enable Toast Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isToastSliceEnabled = true;
+    @Comment("Enable Toast Plate.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isToastPlateEnabled = true;
     @Comment("Enable Toffee.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1480,6 +1520,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isYellowGelatinDessertSliceEnabled = true;
+    @Comment("Enable Yoghurt.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isYoghurtBottleEnabled = true;
 
 //Blocks
 
@@ -1694,6 +1738,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChocolateFudgeFluidEnabled = true;
+    @Comment("Enable Fruit Smoothie Fluid .")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFruitSmoothieFluidEnabled = true;
     @Comment("Enable Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1838,6 +1886,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isYellowGelatinMixFluidEnabled = true;
+    @Comment("Enable Yoghurt Fluid .")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isYoghurtFluidEnabled = true;
 
     // Farmer's Delight
     @Comment("Enable Beef Bun (Bacon, Lettuce).")
