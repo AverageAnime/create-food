@@ -33,6 +33,21 @@ public abstract class BackgroundRendererMixin {
     @ModifyArgs(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false))
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
+        if (ModFluids.isFruitSmoothie(state)) {
+            red = (float) 255 / 255;
+            green = (float) 126 / 255;
+            blue = (float) 114 / 255;
+        }
+        if (ModFluids.isYogurt(state)) {
+            red = (float) 228 / 255;
+            green = (float) 212 / 255;
+            blue = (float) 186 / 255;
+        }
+        if (ModFluids.isSourCream(state)) {
+            red = (float) 228 / 255;
+            green = (float) 212 / 255;
+            blue = (float) 186 / 255;
+        }
         if (ModFluids.isMelonCreamFrosting(state)) {
             red = (float) 255 / 255;
             green = (float) 118 / 255;
@@ -415,6 +430,21 @@ public abstract class BackgroundRendererMixin {
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+        if (ModFluids.isSourCream(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isYogurt(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isFruitSmoothie(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isSquidInk(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);

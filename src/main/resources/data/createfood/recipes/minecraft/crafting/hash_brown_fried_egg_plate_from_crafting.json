@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hash_brown_plate",
+        "c:hash_brown_fried_egg_plate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:hash_brown_plate"
+    },
+    {
+      "tag": "c:cooked_eggs"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:hash_brown_fried_egg_plate"
+  }
+}

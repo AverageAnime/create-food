@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sour_cream_bucket",
+        "c:yogurt_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":20250,"fluid":"createfood:sour_cream"
+    },
+    {
+      "amount":81000,"fluidTag":"c:milk"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,"fluid":"createfood:yogurt"
+    }
+  ]
+}

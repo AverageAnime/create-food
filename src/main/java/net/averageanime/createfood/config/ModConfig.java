@@ -1412,6 +1412,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmallSlimeballsEnabled = true;
+    @Comment("Enable Sour Cream Bottle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSourCreamBottleEnabled = true;
     @Comment("Enable Sugar Dough. Recommend 'disable' with Bakery installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1520,10 +1524,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isYellowGelatinDessertSliceEnabled = true;
-    @Comment("Enable Yoghurt.")
+    @Comment("Enable Yogurt.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isYoghurtBottleEnabled = true;
+    public boolean isYogurtBottleEnabled = true;
 
 //Blocks
 
@@ -1854,6 +1858,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSlimeFluidEnabled = true;
+    @Comment("Enable Sour Cream Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSourCreamFluidEnabled = true;
     @Comment("Enable Sugar Cane Juice Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1886,10 +1894,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isYellowGelatinMixFluidEnabled = true;
-    @Comment("Enable Yoghurt Fluid .")
+    @Comment("Enable Yogurt Fluid .")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isYoghurtFluidEnabled = true;
+    public boolean isYogurtFluidEnabled = true;
 
     // Farmer's Delight
     @Comment("Enable Beef Bun (Bacon, Lettuce).")

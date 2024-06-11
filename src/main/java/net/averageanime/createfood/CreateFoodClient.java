@@ -445,6 +445,19 @@ public class CreateFoodClient implements ClientModInitializer {
         });
 
 // Fluids
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SOUR_CREAM, ModFluids.FLOWING_SOUR_CREAM, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/sour_cream_still"),
+                new Identifier("createfood:block/sour_cream_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_YOGURT, ModFluids.FLOWING_YOGURT, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/yogurt_still"),
+                new Identifier("createfood:block/yogurt_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_FRUIT_SMOOTHIE, ModFluids.FLOWING_FRUIT_SMOOTHIE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/fruit_smoothie_still"),
+                new Identifier("createfood:block/fruit_smoothie_flow")
+        ));
         if (CONFIG.isSquidInkFluidEnabled) {
             BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_SQUID_INK, ModFluids.FLOWING_SQUID_INK);
             FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SQUID_INK, ModFluids.FLOWING_SQUID_INK, new SimpleFluidRenderHandler(

@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_sour_cream",
+      "required": false
+    },
+    {
+      "id": "createfood:sour_cream",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_fruit_smoothie",
       "required": false
     },
@@ -10,11 +18,11 @@
       "required": false
     },
     {
-      "id": "createfood:flowing_yoghurt",
+      "id": "createfood:flowing_yogurt",
       "required": false
     },
     {
-      "id": "createfood:yoghurt",
+      "id": "createfood:yogurt",
       "required": false
     },
     {

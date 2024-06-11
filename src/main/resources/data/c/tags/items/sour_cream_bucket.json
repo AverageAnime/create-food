@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:yoghurt_bottle",
+      "id": "createfood:sour_cream_bucket",
       "required": false
     }
   ]

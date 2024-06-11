@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hash_brown_plate",
+        "c:toast_slice",
+        "c:hash_brown_toast_plate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:hash_brown_plate"
+    },
+    {
+      "tag": "c:toast_slice"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:hash_brown_toast_plate"
+  }
+}

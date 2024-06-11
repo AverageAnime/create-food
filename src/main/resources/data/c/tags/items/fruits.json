@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:apple",
+      "required": false
+    },
+    {
+      "id": "#c:melon",
+      "required": false
+    },
+    {
+      "id": "#c:chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "#c:foods/berries",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:egg_powder"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "c:cooked_eggs"
+    }
+  ],
+  "tool":
+    {
+      "tag": "c:tools/knives"
+    },
+  "result":
+  [
+    {
+      "item": "createfood:egg_powder",
+      "count": 2
+    }
+  ]
+}

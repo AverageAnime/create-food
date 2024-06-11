@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:yogurt_bucket",
+        "c:yogurt_bottle"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "item":"minecraft:glass_bottle"
+    },
+    {
+      "amount":20250,"fluid":"createfood:yogurt"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:yogurt_bottle"
+    }
+  ]
+}

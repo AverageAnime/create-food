@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:heavy_cream_bucket",
+        "c:sour_cream_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "item":"minecraft:bucket"
+    },
+    {
+      "amount":81000,"fluid":"createfood:heavy_cream"
+    },
+    {
+      "amount":20250,"fluidTag":"c:milk"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:sour_cream_bucket"
+    }
+  ]
+}

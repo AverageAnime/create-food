@@ -1,0 +1,55 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:yogurt_bucket",
+        "c:fruit_smoothie_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "item":"minecraft:bucket"
+    },
+    {
+      "amount":40500,"fluid":"createfood:yogurt"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "tag": "c:ice_blocks"
+    },
+    {
+      "tag": "c:ice_blocks"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:fruit_smoothie_bucket"
+    }
+  ]
+}

@@ -1845,7 +1845,7 @@ public class ModItems {
 // Fried Egg Plate
 
         if (CONFIG.isFriedEggPlateEnabled) {
-            final Item FRIEDEGGPLATE = registerItem("fried_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.4f).build())));
+            final Item FRIEDEGGPLATE = registerItem("fried_egg_plate", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.4f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRIEDEGGPLATE));
         }
 
@@ -3145,6 +3145,33 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SHREDDEDPOTATO));
         }
 
+// Sliced Beetroot
+
+        if (CONFIG.isSlicedBeetrootEnabled) {
+            final Item SLICEDBEETROOT = registerItem("sliced_beetroot", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDBEETROOT));
+        }
+
+// Sliced Carrot
+        if (CONFIG.isSlicedCarrotEnabled) {
+            final Item SLICEDCARROT = registerItem("sliced_carrot", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDCARROT));
+        }
+
+// Sliced Potato
+
+        if (CONFIG.isSlicedPotatoEnabled) {
+            final Item SLICEDPOTATO = registerItem("sliced_potato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDPOTATO));
+        }
+
+// Sliced Tomato
+
+        if (CONFIG.isSlicedTomatoEnabled) {
+            final Item SLICEDTOMATO = registerItem("sliced_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDTOMATO));
+        }
+
 // Small Endermite Meatballs
 
         if (CONFIG.isSmallEndermiteMeatballsEnabled) {
@@ -3178,6 +3205,13 @@ public class ModItems {
         if (CONFIG.isSmokedCornStickEnabled) {
             final Item SMOKEDCORNSTICK = registerItem("smoked_corn_stick", new StickFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMOKEDCORNSTICK));
+        }
+
+// Sour Cream Bottle
+
+        if (CONFIG.isSourCreamBottleEnabled) {
+            final Item SOURCREAMBOTTLE = registerItem("sour_cream_bottle", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SOURCREAMBOTTLE));
         }
 
 // Spicy Breakfast Sausages
@@ -3235,33 +3269,6 @@ public class ModItems {
         if (CONFIG.isSweetRollBaseEnabled) {
             final Item SWEETROLLBASE = registerItem("sweet_roll_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SWEETROLLBASE));
-        }
-
-// Sliced Beetroot
-
-        if (CONFIG.isSlicedBeetrootEnabled) {
-            final Item SLICEDBEETROOT = registerItem("sliced_beetroot", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDBEETROOT));
-        }
-
-// Sliced Carrot
-        if (CONFIG.isSlicedCarrotEnabled) {
-            final Item SLICEDCARROT = registerItem("sliced_carrot", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.4f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDCARROT));
-        }
-
-// Sliced Potato
-
-        if (CONFIG.isSlicedPotatoEnabled) {
-            final Item SLICEDPOTATO = registerItem("sliced_potato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDPOTATO));
-        }
-
-// Sliced Tomato
-
-        if (CONFIG.isSlicedTomatoEnabled) {
-            final Item SLICEDTOMATO = registerItem("sliced_tomato", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.6f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SLICEDTOMATO));
         }
 
 // Toast & Fried Egg Plate
@@ -3455,9 +3462,9 @@ public class ModItems {
 
 // Yoghurt
 
-        if (CONFIG.isYoghurtBottleEnabled) {
-            final Item YOGHURTBOTTLE = registerItem("yoghurt_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(YOGHURTBOTTLE));
+        if (CONFIG.isYogurtBottleEnabled) {
+            final Item YOGURTBOTTLE = registerItem("yogurt_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(YOGURTBOTTLE));
         }
 
     }

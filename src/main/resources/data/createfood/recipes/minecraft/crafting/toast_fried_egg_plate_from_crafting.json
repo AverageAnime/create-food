@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast_plate",
+        "c:toast_fried_egg_plate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:toast_plate"
+    },
+    {
+      "tag": "c:cooked_eggs"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:toast_fried_egg_plate"
+  }
+}
