@@ -874,22 +874,54 @@ public class CreateFoodClient implements ClientModInitializer {
 
 // Gelatin Dessert Blocks
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        if (CONFIG.isBlackGelatinDessertBlockEnabled) {
+            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isBlueGelatinDessertBlockEnabled) {
+            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isBrownGelatinDessertBlockEnabled) {
+            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isCyanGelatinDessertBlockEnabled) {
+            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isGrayGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isGreenGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isLightBlueGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isLightGrayGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isLimeGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isMagentaGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isOrangeGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isPinkGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isPurpleGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isRedGelatinDessertBlockEnabled) {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GELATIN_DESSERT, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
+        if (CONFIG.isYellowGelatinDessertBlockEnabled) {
+            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_GELATIN_DESSERT, RenderLayer.getTranslucent());
+        }
 
     }
 }
