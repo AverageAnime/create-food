@@ -1160,10 +1160,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMuttonSandwichBeetrootEnabled = true;
-    @Comment("Enable Nacho Bowl.")
-    @ConfigEntry.Category("CreateFood")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isNachoBowlEnabled = true;
     @Comment("Enable Orange Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1460,10 +1456,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isToffeeFudgeEnabled = true;
-    @Comment("Enable Tortilla Chip Bowl.")
-    @ConfigEntry.Category("CreateFood")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isTortillaChipBowlEnabled = true;
     @Comment("Enable Unbreaded Chicken Patty.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -2321,6 +2313,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isEggplantCheeseburgerLettuceTomatoEnabled = false;
+    @Comment("Enable Nacho Bowl.")
+    @ConfigEntry.Category("CulturalDelights")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isNachoBowlEnabled = false;
     @Comment("Enable Pasta with Eggplant.")
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart
@@ -2329,6 +2325,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CulturalDelights")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmokedCornStickEnabled = false;
+    @Comment("Enable Tortilla Chip Bowl.")
+    @ConfigEntry.Category("CulturalDelights")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isTortillaChipBowlEnabled = false;
 
     // Ube Delight
     @Comment("Enable Frosted Ube Cake.")
