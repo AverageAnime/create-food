@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:condensed_milk_bottle",
+      "required": false
+    },
+    {
+      "id": "ubesdelight:condensed_milk_bottle",
+      "required": false
+    }
+  ]
+}
