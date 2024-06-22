@@ -1,9 +1,13 @@
 ### ***1.0.8***
 
-* 11 new breakfast themed items.
+![108prevbig](https://github.com/AverageAnime/create-food/assets/150550990/7837c32e-2cc5-4867-9535-bf3fe28cb4a2)
+
+* New breakfast-themed items.
+* Some texture updates.
+* Fixed Gelatin Mix Blocks causing issues when disabled.
 * Recipe updates: 
-  * Recipes now check for the tags used being populated. This prevents log spam when disabling recipes & offers better compatibility for recipes with optional items compared to checking for mods loaded.  
-  * Fixes for recipes. Mostly increased/consistent tag usage & correcting load conditions.
+  * Recipes now check for tags populated. This prevents log spam when disabling recipes & offers better compatibility for recipes with optional items compared to checking for mods loaded.  
+  * Fixes for recipes. Mostly increased/consistent tag usage & correcting load conditions. 
   
 ### ***1.0.7***
 
