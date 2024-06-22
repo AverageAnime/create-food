@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate_meatballs"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

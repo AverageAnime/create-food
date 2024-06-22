@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:squid_ink_bucket"
+      ]
     }
   ],
   "type":"create:compacting",

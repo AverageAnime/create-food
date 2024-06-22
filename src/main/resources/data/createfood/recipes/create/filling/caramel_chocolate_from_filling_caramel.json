@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_chocolate",
+        "c:caramel_bucket",
+        "c:caramel_chocolate"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:hollow_chocolate"},
-    {"amount":10125,"fluid":"createfood:caramel"}
+    {
+      "tag":"c:hollow_chocolate"
+    },
+    {
+      "amount":10125,"fluid":"createfood:caramel"
+    }
   ],
   "results":[
-    {"item":"createfood:caramel_chocolate"}
+    {
+      "item":"createfood:caramel_chocolate"
+    }
   ]
 }

@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:cheese_and_sausage_biscuit_sandwich",
         "c:hot_cheese_and_sausage_biscuit_sandwich"
       ]
     }

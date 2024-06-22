@@ -1,4 +1,13 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:molasses_bucket",
+        "c:molasses_bottle"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

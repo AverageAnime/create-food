@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:salt"
+        "c:salt_compat"
       ]
     }
   ],

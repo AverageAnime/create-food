@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_juice_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -21,8 +27,7 @@
   ],
   "results":[
     {
-      "amount":27000,
-      "fluid":"createfood:glow_berry_juice"
+      "amount":27000, "fluid":"createfood:glow_berry_juice"
     }
   ]
 }

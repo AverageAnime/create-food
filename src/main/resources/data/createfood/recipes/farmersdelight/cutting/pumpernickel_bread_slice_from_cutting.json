@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pumpernickel_bread",
+        "c:pumpernickel_bread_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"item": "createfood:pumpernickel_bread"}
+    {
+      "tag": "c:pumpernickel_bread"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:pumpernickel_bread_slice",
-      "count": 3
+      "count": 3,
+      "item": "createfood:pumpernickel_bread_slice"
     }
   ]
 }

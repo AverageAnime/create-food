@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_and_sausage_biscuit",
+        "c:biscuit",
+        "c:cheese_and_sausage_biscuit_sandwich"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:cheese_and_sausage_biscuit"},
-    {"tag":"c:biscuit"}
+    {
+      "tag":"c:cheese_and_sausage_biscuit"
+    },
+    {
+      "tag":"c:biscuit"
+    }
   ],
   "results":[
-    {"item":"createfood:cheese_and_sausage_biscuit_sandwich"}
+    {
+      "item":"createfood:cheese_and_sausage_biscuit_sandwich"
+    }
   ]
 }

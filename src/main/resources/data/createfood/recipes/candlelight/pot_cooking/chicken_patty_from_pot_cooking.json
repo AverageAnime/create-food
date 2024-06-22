@@ -5,6 +5,14 @@
       "values": [
         "candlelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast_slice",
+        "c:unbreaded_chicken_patty",
+        "c:chicken_patty"
+      ]
     }
   ],
   "type": "candlelight:pot_cooking",

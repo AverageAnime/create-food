@@ -1,13 +1,11 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:white_chocolate_bottle",
+        "c:white_chocolate_bucket"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

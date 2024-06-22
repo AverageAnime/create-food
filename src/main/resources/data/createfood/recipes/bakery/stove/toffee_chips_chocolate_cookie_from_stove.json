@@ -5,6 +5,13 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_toffee_chips_chocolate_cookie",
+        "c:toffee_chips_chocolate_cookie"
+      ]
     }
   ],
   "type": "bakery:stove",

@@ -5,6 +5,13 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_butterscotch_chips_cookie",
+        "c:butterscotch_chips_cookie"
+      ]
     }
   ],
   "type": "bakery:stove",

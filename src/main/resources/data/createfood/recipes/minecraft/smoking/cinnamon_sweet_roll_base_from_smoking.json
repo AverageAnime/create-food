@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_cinnamon_sweet_roll_base",
         "c:cinnamon_sweet_roll_base"
       ]
     }

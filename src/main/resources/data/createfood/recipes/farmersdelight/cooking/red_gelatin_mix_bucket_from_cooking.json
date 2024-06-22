@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin",
+        "c:red_gelatin_mix_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

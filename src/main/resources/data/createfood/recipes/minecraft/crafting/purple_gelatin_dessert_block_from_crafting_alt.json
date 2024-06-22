@@ -1,4 +1,13 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin_dessert_block",
+        "c:purple_gelatin_dessert_block"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

@@ -1,4 +1,18 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersrespite"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_juice_bottle_compat"
+      ]
+    }
+  ],
   "type": "farmersrespite:brewing",
   "ingredients": [
     {

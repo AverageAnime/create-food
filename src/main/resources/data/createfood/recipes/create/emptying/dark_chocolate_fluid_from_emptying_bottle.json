@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chocolate_bottle",
+        "c:dark_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:emptying",

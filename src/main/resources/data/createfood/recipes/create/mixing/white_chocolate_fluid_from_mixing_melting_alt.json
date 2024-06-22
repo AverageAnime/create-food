@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_white_chocolate",
+        "c:white_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -16,8 +23,7 @@
   ],
   "results":[
     {
-      "amount":20250,
-      "fluid":"createfood:white_chocolate"
+      "amount":20250, "fluid":"createfood:white_chocolate"
     }
   ]
 }

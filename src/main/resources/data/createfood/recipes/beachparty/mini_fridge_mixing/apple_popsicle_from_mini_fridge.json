@@ -5,6 +5,12 @@
       "values": [
         "beachparty"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_popsicle"
+      ]
     }
   ],
   "type": "beachparty:mini_fridge_mixing",

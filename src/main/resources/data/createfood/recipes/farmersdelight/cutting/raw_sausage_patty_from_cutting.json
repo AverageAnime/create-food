@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sausage_meat",
+        "c:raw_sausage_patty"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:sausage_meat"}
+    {
+      "tag": "c:sausage_meat"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:raw_sausage_patty",
-      "count": 2
+      "count": 2,
+      "item": "createfood:raw_sausage_patty"
     }
   ]
 }

@@ -19,14 +19,14 @@
       "tag": "c:cooked_eggs"
     }
   ],
-  "processingTime": 80,
+  "processingTime": 50,
   "results": [
     {
       "count": 2,
       "item": "createfood:egg_powder"
     },
     {
-      "chance": 0.50,
+      "chance": 0.25,
       "item": "createfood:egg_powder"
     }
   ]

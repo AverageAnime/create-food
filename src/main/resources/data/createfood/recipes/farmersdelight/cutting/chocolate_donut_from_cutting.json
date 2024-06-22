@@ -5,14 +5,25 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_pastry_base",
+        "c:chocolate_donut_hole"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:chocolate_pastry_base"}
+    {
+      "tag": "c:chocolate_pastry_base"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {

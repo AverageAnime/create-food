@@ -5,12 +5,24 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:white_chocolate_chips",
+        "c:chocolate_sweet_dough",
+        "c:raw_white_chips_chocolate_cookie"
+      ]
     }
   ],
   "type":"create:compacting",
   "ingredients":[
-    {"tag":"c:white_chocolate_chips"},
-    {"tag":"c:chocolate_sweet_dough"}
+    {
+      "tag":"c:white_chocolate_chips"
+    },
+    {
+      "tag":"c:chocolate_sweet_dough"
+    }
   ],
   "results":[
     {

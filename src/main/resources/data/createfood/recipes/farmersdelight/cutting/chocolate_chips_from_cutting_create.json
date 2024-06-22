@@ -3,22 +3,32 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "farmersdelight",
-        "create"
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_chocolate",
+        "c:chocolate_chips"
       ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:bar_of_chocolate"}
+    {
+      "tag": "c:bar_of_chocolate"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:chocolate_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:chocolate_chips"
     }
   ]
 }

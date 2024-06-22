@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:beef_bun_onion_lettuce",
+        "c:bun",
+        "c:hamburger_onion_lettuce"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:beef_bun_onion_lettuce"},
-    {"tag":"c:bun"}
+    {
+      "tag":"c:beef_bun_onion_lettuce"
+    },
+    {
+      "tag":"c:bun"
+    }
   ],
   "results":[
-    {"item":"createfood:hamburger_onion_lettuce"}
+    {
+      "item":"createfood:hamburger_onion_lettuce"
+    }
   ]
 }

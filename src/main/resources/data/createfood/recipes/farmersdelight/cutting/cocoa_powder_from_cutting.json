@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pressed_cocoa",
+        "c:cocoa_powder"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:pressed_cocoa"}
+    {
+      "tag": "c:pressed_cocoa"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:cocoa_powder",
-      "count": 2
+      "count": 2,
+      "item": "createfood:cocoa_powder"
     }
   ]
 }

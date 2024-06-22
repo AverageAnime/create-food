@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast_slice",
+        "c:butter",
+        "c:buttered_toast"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:buttered_toast"}
+    {
+      "item":"createfood:buttered_toast"
+    }
   ]
 }

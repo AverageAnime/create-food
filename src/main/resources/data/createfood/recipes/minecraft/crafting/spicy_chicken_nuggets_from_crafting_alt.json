@@ -3,7 +3,9 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:chili_pepper"
+        "c:chicken_nuggets",
+        "c:chili_pepper",
+        "c:spicy_chicken_nuggets"
       ]
     }
   ],

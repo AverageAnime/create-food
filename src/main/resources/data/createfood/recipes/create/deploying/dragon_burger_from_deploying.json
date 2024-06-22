@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dragon_bun",
+        "c:bun",
+        "c:dragon_burger"
+      ]
     }
   ],
   "type":"create:deploying",

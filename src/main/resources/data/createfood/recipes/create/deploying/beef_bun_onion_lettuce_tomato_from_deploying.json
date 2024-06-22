@@ -7,19 +7,25 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:beef_bun_onion_lettuce",
+        "c:beef_bun_onion_lettuce_tomato"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:beef_bun_onion_lettuce"},
-    {"tag": "c:tomato"}
+    {
+      "tag":"c:beef_bun_onion_lettuce"
+    },
+    {
+      "tag": "c:tomato"
+    }
   ],
   "results":[
-    {"item":"createfood:beef_bun_onion_lettuce_tomato"}
+    {
+      "item":"createfood:beef_bun_onion_lettuce_tomato"
+    }
   ]
 }

@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milk_powder"
+      ]
     }
   ],
   "type":"create:mixing",

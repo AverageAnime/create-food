@@ -5,11 +5,20 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:shredded_chicken",
+        "c:unbreaded_chicken_patty"
+      ]
     }
   ],
   "type":"create:compacting",
   "ingredients":[
-    {"tag":"c:shredded_chicken"}
+    {
+      "tag":"c:shredded_chicken"
+    }
   ],
   "results":[
     {

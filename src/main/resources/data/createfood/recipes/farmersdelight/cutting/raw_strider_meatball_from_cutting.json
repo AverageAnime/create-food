@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_strider",
+        "c:raw_strider_meatball"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
@@ -20,8 +27,8 @@
   "result":
   [
     {
-      "item": "createfood:raw_strider_meatball",
-      "count": 2
+      "count": 2,
+      "item": "createfood:raw_strider_meatball"
     }
   ]
 }

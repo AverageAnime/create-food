@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:shredded_chicken"
+      ]
     }
   ],
   "type": "create:pressing",

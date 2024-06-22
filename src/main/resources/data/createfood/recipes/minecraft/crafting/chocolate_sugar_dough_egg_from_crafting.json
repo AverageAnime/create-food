@@ -1,11 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:chocolate_sugar_dough"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "tag": "c:eggs"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "tag": "c:cocoa_powder"

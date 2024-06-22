@@ -5,13 +5,19 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:green_gelatin_mix_bucket",
+        "c:green_gelatin_dessert_block"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":81000,
-      "fluid":"createfood:green_gelatin_mix"
+      "amount":81000, "fluid":"createfood:green_gelatin_mix"
     },
     {
       "item":"minecraft:ice"

@@ -7,19 +7,24 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:bread_lettuce"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"item":"minecraft:bread"},
-    {"tag": "c:salad_ingredients"}
+    {
+      "item":"minecraft:bread"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    }
   ],
   "results":[
-    {"item":"createfood:bread_lettuce"}
+    {
+      "item":"createfood:bread_lettuce"
+    }
   ]
 }

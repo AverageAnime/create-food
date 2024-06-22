@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hot_dark_chocolate_bucket",
+        "c:hot_dark_chocolate_bottle"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"minecraft:glass_bottle"},
-    {"amount":20250,"fluid":"createfood:hot_dark_chocolate"}
+    {
+      "item":"minecraft:glass_bottle"
+    },
+    {
+      "amount":20250,"fluid":"createfood:hot_dark_chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:hot_dark_chocolate_bottle"}
+    {
+      "item":"createfood:hot_dark_chocolate_bottle"
+    }
   ]
 }

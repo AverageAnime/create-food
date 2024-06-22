@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_ube_cookie",
         "c:ube_cookie"
       ]
     }

@@ -5,6 +5,17 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:toffee_chips",
+        "c:butter",
+        "c:marshmallow",
+        "c:espresso_powder",
+        "c:marshmallow_coffee_toffee_fudge"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

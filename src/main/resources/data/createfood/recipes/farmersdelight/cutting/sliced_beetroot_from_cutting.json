@@ -5,19 +5,29 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sliced_beetroot"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"item": "minecraft:beetroot"}
+    {
+      "item": "minecraft:beetroot"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:sliced_beetroot",
-      "count": 2
+      "count": 2,
+      "item": "createfood:sliced_beetroot"
     }
   ]
 }

@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dragon_bun_crimson_fungus",
+        "c:bun",
+        "c:dragon_burger_crimson_fungus"
+      ]
     }
   ],
   "type":"create:deploying",

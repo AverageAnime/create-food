@@ -3,8 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "bakery",
-        "ubesdelight"
+        "bakery"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_ginger_cookie"
       ]
     }
   ],

@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_spider_eye_cookie",
         "c:spider_eye_cookie"
       ]
     }

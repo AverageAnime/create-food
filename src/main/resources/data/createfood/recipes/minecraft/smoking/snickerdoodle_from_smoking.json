@@ -1,17 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "expandeddelight"
+        "c:raw_snickerdoodle",
+        "c:snickerdoodle"
       ]
-    },
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:snickerdoodle"
-        ]
-      }
+    }
   ],
   "type": "minecraft:smoking",
   "cookingtime": 100,

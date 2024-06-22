@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:raw_chorus_cookie",
+        "c:chorus_cookie"
+      ]
     }
   ],
   "type":"create:compacting",

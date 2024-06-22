@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toffee",
+        "c:toffee_chips"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:toffee"}
+    {
+      "tag": "c:toffee"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:toffee_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:toffee_chips"
     }
   ]
 }

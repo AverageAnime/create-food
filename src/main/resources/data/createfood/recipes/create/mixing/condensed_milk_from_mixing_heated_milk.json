@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:powdered_sugar",
+        "c:condensed_milk_bucket"
+      ]
     }
   ],
   "type":"create:mixing",

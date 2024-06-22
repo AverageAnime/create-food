@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:smoked_corn",
+        "c:smoked_corn_stick"
+      ]
     }
   ],
   "type":"create:deploying",

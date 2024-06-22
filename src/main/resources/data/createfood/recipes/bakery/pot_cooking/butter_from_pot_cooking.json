@@ -5,6 +5,14 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milk",
+        "c:salt",
+        "c:butter_compat"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",

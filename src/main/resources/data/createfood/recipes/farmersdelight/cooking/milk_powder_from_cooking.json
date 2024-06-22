@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milk_powder_compat"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

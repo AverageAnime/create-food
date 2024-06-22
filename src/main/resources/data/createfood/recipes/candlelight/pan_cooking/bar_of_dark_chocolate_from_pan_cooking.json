@@ -5,6 +5,14 @@
       "values": [
         "candlelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pressed_cocoa",
+        "c:cacao_mass_bucket",
+        "c:bar_of_dark_chocolate"
+      ]
     }
   ],
   "type": "candlelight:pan_cooking",
@@ -13,7 +21,7 @@
       "tag": "c:pressed_cocoa"
     },
     {
-      "item": "createfood:cacao_mass_bucket"
+      "tag": "c:cacao_mass_bucket"
     }
   ],
   "container": {

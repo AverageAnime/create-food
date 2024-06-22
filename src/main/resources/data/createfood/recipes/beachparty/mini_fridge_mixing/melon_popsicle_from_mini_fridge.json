@@ -3,8 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "beachparty",
-        "farmersdelight"
+        "beachparty"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:melon_popsicle"
       ]
     }
   ],

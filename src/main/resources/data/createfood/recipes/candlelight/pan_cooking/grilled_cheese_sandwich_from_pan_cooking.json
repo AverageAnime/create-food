@@ -5,6 +5,13 @@
       "values": [
         "candlelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_sandwich",
+        "c:grilled_cheese_sandwich"
+      ]
     }
   ],
   "type": "candlelight:pan_cooking",

@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:brown_sugar",
+        "c:butterscotch_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -18,6 +25,8 @@
     }
   ],
   "results":[
-    {"amount":40500,"fluid":"createfood:butterscotch"}
+    {
+      "amount":40500,"fluid":"createfood:butterscotch"
+    }
   ]
 }

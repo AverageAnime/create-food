@@ -3,7 +3,9 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:chili_pepper"
+        "c:breakfast_sausages",
+        "c:chili_pepper",
+        "c:spicy_breakfast_sausages"
       ]
     }
   ],

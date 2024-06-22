@@ -5,13 +5,20 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:magma_gelatin",
+        "c:magma_cream_marshmallow"
+      ]
     }
   ],
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "amount":6750,

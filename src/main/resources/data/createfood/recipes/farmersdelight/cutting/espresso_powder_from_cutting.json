@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dried_coffee_beans",
+        "c:espresso_powder"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
@@ -20,8 +27,8 @@
   "result":
   [
     {
-      "item": "createfood:espresso_powder",
-      "count": 2
+      "count": 2,
+      "item": "createfood:espresso_powder"
     }
   ]
 }

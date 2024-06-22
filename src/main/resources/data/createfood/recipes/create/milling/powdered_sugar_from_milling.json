@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:powdered_sugar"
+      ]
     }
   ],
   "type": "create:milling",

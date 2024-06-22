@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_pastry_base",
+        "c:cream_frosting_bucket",
+        "c:cream_chocolate_pastry"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:chocolate_pastry_base"},
-    {"amount":20250,"fluid":"createfood:cream_frosting"}
+    {
+      "tag":"c:chocolate_pastry_base"
+    },
+    {
+      "amount":20250,"fluid":"createfood:cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:cream_chocolate_pastry"}
+    {
+      "item":"createfood:cream_chocolate_pastry"
+    }
   ]
 }

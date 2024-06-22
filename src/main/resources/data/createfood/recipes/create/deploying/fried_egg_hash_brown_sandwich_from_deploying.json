@@ -7,10 +7,11 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:bread_fried_egg",
+        "c:hash_browns",
+        "c:fried_egg_hash_brown_sandwich"
       ]
     }
   ],

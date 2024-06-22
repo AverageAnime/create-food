@@ -5,19 +5,29 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:diced_onion"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:crops/onion"}
+    {
+      "tag": "c:crops/onion"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:diced_onion",
-      "count": 2
+      "count": 2,
+      "item": "createfood:diced_onion"
     }
   ]
 }

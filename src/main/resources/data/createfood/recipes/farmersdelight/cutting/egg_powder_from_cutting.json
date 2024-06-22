@@ -26,8 +26,8 @@
   "result":
   [
     {
-      "item": "createfood:egg_powder",
-      "count": 2
+      "count": 2,
+      "item": "createfood:egg_powder"
     }
   ]
 }

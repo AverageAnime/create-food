@@ -19,13 +19,13 @@
       "amount":20250, "fluid":"minecraft:water"
     },
     {
-      "tags":"c:egg_powder"
+      "tag":"c:egg_powder"
     },
     {
-      "tags":"c:cocoa_powder"
+      "tag":"c:cocoa_powder"
     },
     {
-      "tags":"c:milk_powder"
+      "tag":"c:milk_powder"
     }
   ],
   "results":[

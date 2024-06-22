@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milkshake",
+        "c:chocolate_chips",
+        "c:chocolate_chip_milkshake_bottle"
+      ]
     }
   ],
   "type":"create:deploying",

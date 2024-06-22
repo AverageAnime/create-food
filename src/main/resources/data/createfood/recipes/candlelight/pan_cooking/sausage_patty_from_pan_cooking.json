@@ -5,6 +5,13 @@
       "values": [
         "candlelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_sausage_patty",
+        "c:sausage_patty"
+      ]
     }
   ],
   "type": "candlelight:pan_cooking",

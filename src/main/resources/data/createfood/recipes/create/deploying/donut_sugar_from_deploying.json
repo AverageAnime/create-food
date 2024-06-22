@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:donut_base",
+        "c:powdered_sugar",
+        "c:donut_sugar"
+      ]
     }
   ],
   "type":"create:deploying",

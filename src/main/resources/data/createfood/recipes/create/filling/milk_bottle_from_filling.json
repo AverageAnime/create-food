@@ -3,8 +3,7 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "farmersdelight"
+        "create"
       ]
     }
   ],
@@ -14,8 +13,7 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "amount": 20250,
-      "fluidTag": "c:milk"
+      "amount": 20250, "fluidTag": "c:milk"
     }
   ],
   "results": [

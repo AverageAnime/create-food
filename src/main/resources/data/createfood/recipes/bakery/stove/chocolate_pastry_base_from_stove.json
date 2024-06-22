@@ -5,6 +5,13 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_chocolate_pastry",
+        "c:chocolate_pastry"
+      ]
     }
   ],
   "type": "bakery:stove",

@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:bread_slice",
         "c:toast_slice"
       ]
     }

@@ -5,13 +5,24 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:salt",
+        "c:cheese_block"
+      ]
     }
   ],
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
-    {"amount":81000,"fluidTag":"c:milk"},
-    {"tag":"c:salt"}
+    {
+      "amount":81000,"fluidTag":"c:milk"
+    },
+    {
+      "tag":"c:salt"
+    }
   ],
   "results":[
     {

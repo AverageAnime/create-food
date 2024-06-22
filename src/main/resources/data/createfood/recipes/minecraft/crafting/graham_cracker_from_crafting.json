@@ -8,6 +8,13 @@
           "create"
         ]
       }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:graham_cracker"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

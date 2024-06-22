@@ -5,6 +5,13 @@
       "values": [
         "beachparty"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_ice_cream_bowl",
+        "c:chorus_fruit_milkshake_bucket"
+      ]
     }
   ],
   "type": "beachparty:tiki_bar_mixing",

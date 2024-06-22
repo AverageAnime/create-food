@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:butter_dough"
+      ]
     }
   ],
   "type":"create:mixing",

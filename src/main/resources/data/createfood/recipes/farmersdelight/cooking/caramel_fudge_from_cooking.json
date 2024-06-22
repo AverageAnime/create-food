@@ -5,6 +5,15 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:caramel_chips",
+        "c:butter",
+        "c:caramel_fudge"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

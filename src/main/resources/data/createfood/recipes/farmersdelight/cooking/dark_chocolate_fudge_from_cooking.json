@@ -5,6 +5,15 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:dark_chocolate_chips",
+        "c:butter",
+        "c:dark_chocolate_fudge"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

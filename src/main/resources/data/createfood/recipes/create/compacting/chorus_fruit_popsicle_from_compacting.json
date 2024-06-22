@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_popsicle"
+      ]
     }
   ],
   "type":"create:compacting",

@@ -5,14 +5,26 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:frosted_cake"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:frosted_cake"},
-    {"item":"minecraft:sweet_berries"}
+    {
+      "tag":"c:frosted_cake"
+    },
+    {
+      "item":"minecraft:sweet_berries"
+    }
   ],
   "results":[
-    {"item":"minecraft:cake"}
+    {
+      "item":"minecraft:cake"
+    }
   ]
 }

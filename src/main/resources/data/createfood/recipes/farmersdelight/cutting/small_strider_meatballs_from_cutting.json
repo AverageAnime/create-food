@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:strider_meatball",
+        "c:small_strider_meatballs"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",

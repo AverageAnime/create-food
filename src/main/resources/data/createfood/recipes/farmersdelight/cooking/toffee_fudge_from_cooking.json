@@ -5,6 +5,15 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:toffee_chips",
+        "c:butter",
+        "c:toffee_fudge"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

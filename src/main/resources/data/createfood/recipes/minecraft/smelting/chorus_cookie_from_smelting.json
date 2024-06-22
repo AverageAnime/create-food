@@ -1,11 +1,12 @@
 {
   "fabric:load_conditions": [
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:chorus_cookie"
-        ]
-      }
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_chorus_cookie",
+        "c:chorus_cookie"
+      ]
+    }
   ],
   "type": "minecraft:smelting",
   "cookingtime": 200,

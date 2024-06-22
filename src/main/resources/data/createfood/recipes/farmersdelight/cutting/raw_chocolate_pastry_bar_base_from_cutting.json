@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_chocolate_pastry_base",
+        "c:raw_chocolate_pastry_bar_base"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",

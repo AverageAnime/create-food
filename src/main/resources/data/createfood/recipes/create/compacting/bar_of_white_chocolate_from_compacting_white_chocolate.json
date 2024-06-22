@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:white_chocolate_bucket",
+        "c:bar_of_white_chocolate"
+      ]
     }
   ],
   "type": "create:compacting",

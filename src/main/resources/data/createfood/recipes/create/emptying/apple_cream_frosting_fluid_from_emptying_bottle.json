@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_cream_frosting",
+        "c:apple_cream_frosting_bucket"
+      ]
     }
   ],
   "type":"create:emptying",
@@ -18,7 +25,7 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "amount": 27000,
+      "amount": 20250,
       "fluid":"createfood:apple_cream_frosting"
     }
   ]

@@ -1,4 +1,15 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice",
+        "c:peanut_butter",
+        "c:melon_jam_bottle",
+        "c:peanut_butter_melon_jam_sandwich"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

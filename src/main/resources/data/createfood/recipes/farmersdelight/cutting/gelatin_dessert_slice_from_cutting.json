@@ -5,12 +5,19 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin_dessert_block",
+        "c:gelatin_dessert_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "createfood:gelatin_dessert_block"
+      "tag": "c:gelatin_dessert_block"
     }
   ],
   "tool":
@@ -20,8 +27,8 @@
   "result":
   [
     {
-      "item": "createfood:gelatin_dessert_slice",
-      "count": 8
+      "count": 8,
+      "item": "createfood:gelatin_dessert_slice"
     }
   ]
 }

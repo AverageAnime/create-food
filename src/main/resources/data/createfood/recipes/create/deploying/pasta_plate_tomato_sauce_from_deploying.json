@@ -6,14 +6,27 @@
         "create",
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cooked_pasta",
+        "c:pasta_plate_tomato_sauce"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"item":"farmersdelight:tomato_sauce"},
-    {"tag":"c:cooked_pasta"}
+    {
+      "item":"farmersdelight:tomato_sauce"
+    },
+    {
+      "tag":"c:cooked_pasta"
+    }
   ],
   "results":[
-    {"item":"createfood:pasta_plate_tomato_sauce"}
+    {
+      "item":"createfood:pasta_plate_tomato_sauce"
+    }
   ]
 }

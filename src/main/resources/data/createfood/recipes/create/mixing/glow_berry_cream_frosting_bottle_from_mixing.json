@@ -5,16 +5,21 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_cream_frosting_bottle"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":20250,
-      "fluidTag":"c:milk"
+      "amount":20250, "fluidTag":"c:milk"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "item":"minecraft:glow_berries"

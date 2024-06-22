@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_sweet_roll_base",
+        "c:chocolate_cream_frosting_bucket",
+        "c:chocolate_frosted_chocolate_sweet_roll"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"createfood:chocolate_sweet_roll_base"},
-    {"amount":27000,"fluid":"createfood:chocolate_cream_frosting"}
+    {
+      "item":"createfood:chocolate_sweet_roll_base"
+    },
+    {
+      "amount":27000,"fluid":"createfood:chocolate_cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:chocolate_frosted_chocolate_sweet_roll"}
+    {
+      "item":"createfood:chocolate_frosted_chocolate_sweet_roll"
+    }
   ]
 }

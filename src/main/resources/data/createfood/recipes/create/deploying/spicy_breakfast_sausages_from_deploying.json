@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:breakfast_sausages",
+        "c:paprika",
+        "c:spicy_breakfast_sausages"
+      ]
     }
   ],
   "type":"create:deploying",

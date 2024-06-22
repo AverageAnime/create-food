@@ -5,14 +5,20 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_mass_bucket",
+        "c:hot_dark_chocolate_bottle"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":20250,
-      "fluid":"createfood:cacao_mass"
+      "amount":20250, "fluid":"createfood:cacao_mass"
     },
     {
       "tag":"c:cocoa_powder"

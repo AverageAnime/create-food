@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_cream_frosting"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -18,7 +24,7 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:apple"
+      "tag": "c:apple"
     }
   ],
   "result": {

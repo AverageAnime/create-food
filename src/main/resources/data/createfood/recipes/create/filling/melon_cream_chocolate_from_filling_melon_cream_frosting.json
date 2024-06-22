@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_chocolate",
+        "c:melon_cream_frosting_bucket",
+        "c:melon_cream_chocolate"
+      ]
     }
   ],
   "type":"create:filling",

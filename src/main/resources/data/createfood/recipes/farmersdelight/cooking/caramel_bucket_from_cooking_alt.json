@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel",
+        "c:caramel_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

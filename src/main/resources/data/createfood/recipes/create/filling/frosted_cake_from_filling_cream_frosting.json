@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cake_base",
+        "c:cream_frosting_bucket",
+        "c:frosted_cake"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:cake_base"},
-    {"amount":81000,"fluid":"createfood:cream_frosting"}
+    {
+      "tag":"c:cake_base"
+    },
+    {
+      "amount":81000,"fluid":"createfood:cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:frosted_cake"}
+    {
+      "item":"createfood:frosted_cake"
+    }
   ]
 }

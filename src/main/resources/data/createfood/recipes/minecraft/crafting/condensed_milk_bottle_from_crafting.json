@@ -1,4 +1,13 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk_bucket",
+        "c:condensed_milk"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -17,7 +26,8 @@
       "item": "minecraft:glass_bottle"
     }
   ],
-  "result": {
+  "result":
+  {
     "count": 4,
     "item": "createfood:condensed_milk_bottle"
   }

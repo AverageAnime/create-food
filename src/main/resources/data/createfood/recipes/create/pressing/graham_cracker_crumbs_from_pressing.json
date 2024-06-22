@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:graham_cracker",
+        "c:graham_cracker_crumbs"
+      ]
     }
   ],
   "type": "create:pressing",

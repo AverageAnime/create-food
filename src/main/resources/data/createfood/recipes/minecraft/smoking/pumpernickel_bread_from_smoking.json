@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:pumpernickel_dough",
         "c:pumpernickel_bread"
       ]
     }

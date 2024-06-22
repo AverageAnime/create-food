@@ -5,13 +5,21 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:espresso_powder",
+        "c:butter",
+        "c:coffee_toffee_fudge_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "tag":"c:espresso_powder"

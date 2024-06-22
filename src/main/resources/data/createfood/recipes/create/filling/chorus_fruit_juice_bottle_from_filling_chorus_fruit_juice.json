@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_juice_bucket",
+        "c:chorus_fruit_juice_bottle"
+      ]
     }
   ],
   "type":"create:filling",

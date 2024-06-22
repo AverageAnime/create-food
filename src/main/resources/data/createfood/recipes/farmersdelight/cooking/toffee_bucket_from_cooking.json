@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:toffee_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -15,10 +22,10 @@
   "experience": 0.25,
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "tag": "c:butter"

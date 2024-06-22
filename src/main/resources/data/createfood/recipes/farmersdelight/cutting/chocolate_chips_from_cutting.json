@@ -14,19 +14,29 @@
           "create"
         ]
       }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_chips"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"item": "minecraft:cocoa_beans"}
+    {
+      "item": "minecraft:cocoa_beans"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:chocolate_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:chocolate_chips"
     }
   ]
 }

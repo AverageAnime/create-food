@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_flesh_cookie",
         "c:flesh_cookie"
       ]
     }

@@ -5,13 +5,25 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sugar_dough"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
-    {"tag":"c:flour"},
-    {"item":"minecraft:sugar"},
-    {"amount":81000,"fluid":"minecraft:water"}
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "amount":81000,"fluid":"minecraft:water"
+    }
   ],
   "results":[
     {

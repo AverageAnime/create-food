@@ -5,14 +5,26 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_glazed_apple"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"minecraft:apple"},
-    {"amount":20250,"fluid":"create:chocolate"}
+    {
+      "item":"minecraft:apple"
+    },
+    {
+      "amount":20250,"fluid":"create:chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:chocolate_glazed_apple"}
+    {
+      "item":"createfood:chocolate_glazed_apple"
+    }
   ]
 }

@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_ice_cream_bucket",
+        "c:chocolate_ice_cream_bowl"
+      ]
     }
   ],
   "type":"create:filling",

@@ -1,14 +1,23 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:molasses_bottle",
+        "c:brown_sugar"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "tag": "c:molasses_bottle"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     }
   ],
   "result": {

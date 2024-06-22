@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:salt",
+        "c:salt_dough"
+      ]
     }
   ],
   "type":"create:mixing",

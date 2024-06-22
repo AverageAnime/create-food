@@ -5,11 +5,20 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_beef",
+        "c:raw_meatball"
+      ]
     }
   ],
   "type":"create:compacting",
   "ingredients":[
-    {"tag":"c:ground_beef"}
+    {
+      "tag":"c:ground_beef"
+    }
   ],
   "results":[
     {

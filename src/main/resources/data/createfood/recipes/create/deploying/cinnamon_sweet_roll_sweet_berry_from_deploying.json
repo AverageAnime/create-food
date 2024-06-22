@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cinnamon_sweet_roll",
+        "c:berry_sweet_roll"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +24,8 @@
     }
   ],
   "results":[
-    {"item":"expandeddelight:berry_sweet_roll"}
+    {
+      "item":"expandeddelight:berry_sweet_roll"
+    }
   ]
 }

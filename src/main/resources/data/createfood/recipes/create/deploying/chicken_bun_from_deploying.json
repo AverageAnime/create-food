@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bun",
+        "c:chicken_patty",
+        "c:chicken_bun"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:bun"},
-    {"tag":"c:chicken_patty"}
+    {
+      "tag":"c:bun"
+    },
+    {
+      "tag":"c:chicken_patty"
+    }
   ],
   "results":[
-    {"item":"createfood:chicken_bun"}
+    {
+      "item":"createfood:chicken_bun"
+    }
   ]
 }

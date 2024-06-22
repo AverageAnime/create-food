@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cane_syrup_bucket",
+        "c:molasses_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

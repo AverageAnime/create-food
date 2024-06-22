@@ -7,19 +7,25 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:beef_bun_onion",
+        "c:beef_bun_onion_bacon"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:beef_bun_onion"},
-    {"tag": "c:cooked_pork"}
+    {
+      "tag":"c:beef_bun_onion"
+    },
+    {
+      "tag": "c:cooked_pork"
+    }
   ],
   "results":[
-    {"item":"createfood:beef_bun_onion_bacon"}
+    {
+      "item":"createfood:beef_bun_onion_bacon"
+    }
   ]
 }

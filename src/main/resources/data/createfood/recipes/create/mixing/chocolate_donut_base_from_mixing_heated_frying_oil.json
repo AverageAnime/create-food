@@ -11,7 +11,14 @@
         "values": [
           "create"
         ]
-      }
+      },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_pastry_base",
+        "c:chocolate_donut_base"
+      ]
+    }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
@@ -20,8 +27,7 @@
       "tag": "c:chocolate_pastry_base"
     },
     {
-      "amount": 10125,
-      "fluid": "create_bic_bit:frying_oil"
+      "amount": 10125, "fluid": "create_bic_bit:frying_oil"
     }
   ],
   "results":[

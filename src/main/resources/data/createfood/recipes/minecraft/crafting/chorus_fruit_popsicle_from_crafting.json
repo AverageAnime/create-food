@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_popsicle"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "-": {

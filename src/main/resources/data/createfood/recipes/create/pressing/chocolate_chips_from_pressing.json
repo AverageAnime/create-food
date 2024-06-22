@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_chocolate",
+        "c:chocolate_chips"
+      ]
     }
   ],
   "type": "create:pressing",

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:blackstrap_molasses_bottle",
+        "c:blackstrap_molasses_bucket"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:empty_bucket"
+    },
+    {
+      "tag": "c:blackstrap_molasses_bottle"
+    },
+    {
+      "tag": "c:blackstrap_molasses_bottle"
+    }
+  ],
+  "result":
+  {
+    "item": "createfood:blackstrap_molasses_bucket"
+  }
+}

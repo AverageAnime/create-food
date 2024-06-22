@@ -1,17 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight"
+        "c:raw_sweet_berry_cookie",
+        "c:sweet_berry_cookie"
       ]
-    },
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:sweet_berry_cookie"
-        ]
-      }
+    }
   ],
   "type": "minecraft:campfire_cooking",
   "ingredient": {

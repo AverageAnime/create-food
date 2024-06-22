@@ -1,13 +1,11 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "create"
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_chips",
+        "c:raw_cookie"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -19,7 +17,7 @@
       "tag": "c:eggs"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "tag": "c:chocolate_chips"

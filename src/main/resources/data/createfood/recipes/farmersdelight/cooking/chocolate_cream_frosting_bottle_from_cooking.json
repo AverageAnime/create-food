@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:chocolate_cream_frosting"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -15,7 +22,7 @@
       "tag": "c:milk_bottle"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "tag": "c:cocoa_powder"

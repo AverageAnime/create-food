@@ -3,22 +3,32 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "farmersdelight",
-        "expandeddelight"
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chili_pepper",
+        "c:paprika"
       ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:chili_pepper"}
+    {
+      "tag": "c:chili_pepper"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:paprika",
-      "count": 2
+      "count": 2,
+      "item": "createfood:paprika"
     }
   ]
 }

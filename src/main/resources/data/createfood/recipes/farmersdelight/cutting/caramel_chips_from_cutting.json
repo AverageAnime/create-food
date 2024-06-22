@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel",
+        "c:caramel_chips"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:caramel"}
+    {
+      "tag": "c:caramel"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:caramel_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:caramel_chips"
     }
   ]
 }

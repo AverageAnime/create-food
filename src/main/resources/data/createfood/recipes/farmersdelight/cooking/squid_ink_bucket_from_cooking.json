@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:squid_ink_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

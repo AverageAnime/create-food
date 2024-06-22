@@ -1,9 +1,10 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "expandeddelight"
+        "c:bread_slice_peanut_butter",
+        "c:bread_slice_berry_jam"
       ]
     }
   ],

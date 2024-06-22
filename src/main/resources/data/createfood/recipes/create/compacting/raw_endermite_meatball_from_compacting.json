@@ -5,11 +5,20 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_endermite",
+        "c:raw_endermite_meatball"
+      ]
     }
   ],
   "type":"create:compacting",
   "ingredients":[
-    {"tag":"c:ground_endermite"}
+    {
+      "tag":"c:ground_endermite"
+    }
   ],
   "results":[
     {

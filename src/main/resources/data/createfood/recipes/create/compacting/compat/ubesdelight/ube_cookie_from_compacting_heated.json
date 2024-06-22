@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:foods/vegetables/ube",
+        "c:ube_cookie"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag": "c:sweet_dough"
+    },
+    {
+      "tag": "c:foods/vegetables/ube"
+    }
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"ubesdelight:cookie_ube"
+    }
+  ]
+}

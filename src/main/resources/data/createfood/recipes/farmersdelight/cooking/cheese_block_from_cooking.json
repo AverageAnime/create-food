@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:salt",
+        "c:cheese_block"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

@@ -1,17 +1,27 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_milkshake_bottle",
+        "c:chorus_fruit_milkshake_bucket"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:milk_buckets"
+      "tag": "c:empty_buckets"
     },
     {
-      "tag": "c:chorus_fruit_ice_cream_bucket"
+      "tag": "c:chorus_fruit_milkshake_bottle"
     },
     {
-      "tag": "c:ice_blocks"
+      "tag": "c:chorus_fruit_milkshake_bottle"
     }
   ],
-  "result": {
-      "item": "createfood:chorus_fruit_milkshake_bucket"
-    }
+  "result":
+  {
+    "item": "createfood:chorus_fruit_milkshake_bucket"
+  }
 }

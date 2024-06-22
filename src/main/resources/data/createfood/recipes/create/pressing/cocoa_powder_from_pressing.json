@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pressed_cocoa",
+        "c:cocoa_powder"
+      ]
     }
   ],
   "type": "create:pressing",

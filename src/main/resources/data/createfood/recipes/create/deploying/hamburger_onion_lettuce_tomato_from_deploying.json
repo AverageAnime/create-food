@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:beef_bun_onion_lettuce_tomato",
+        "c:bun"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:beef_bun_onion_lettuce_tomato"},
-    {"tag":"c:bun"}
+    {
+      "tag":"c:beef_bun_onion_lettuce_tomato"
+    },
+    {
+      "tag":"c:bun"
+    }
   ],
   "results":[
-    {"item":"farmersdelight:hamburger"}
+    {
+      "item":"farmersdelight:hamburger"
+    }
   ]
 }

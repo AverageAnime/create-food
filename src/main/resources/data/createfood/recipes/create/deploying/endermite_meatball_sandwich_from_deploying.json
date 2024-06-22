@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:small_endermite_meatballs",
+        "c:endermite_meatball_sandwich"
+      ]
     }
   ],
   "type":"create:deploying",

@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_jam_bucket",
+        "c:apple_jam_bottle"
+      ]
     }
   ],
   "type":"create:filling",

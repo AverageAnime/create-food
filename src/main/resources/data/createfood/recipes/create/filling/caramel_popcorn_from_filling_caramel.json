@@ -9,6 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:popcorn",
+        "c:caramel_bucket",
         "c:caramel_popcorn"
       ]
     }

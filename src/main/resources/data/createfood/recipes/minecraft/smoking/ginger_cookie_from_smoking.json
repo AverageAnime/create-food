@@ -1,17 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "ubesdelight"
+        "c:raw_ginger_cookie",
+        "c:ginger_cookie"
       ]
-    },
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:ginger_cookie"
-        ]
-      }
+    }
   ],
   "type": "minecraft:smoking",
   "cookingtime": 100,

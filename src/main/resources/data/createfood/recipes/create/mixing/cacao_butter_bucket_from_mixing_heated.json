@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_butter",
+        "c:cacao_butter_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -19,7 +26,9 @@
     {
       "tag":"c:cacao_butter"
     },
-    {"item":"minecraft:bucket"}
+    {
+      "item":"minecraft:bucket"
+    }
   ],
   "results": [
     {

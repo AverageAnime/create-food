@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:donut_hole",
+        "c:powdered_sugar",
+        "c:donut_hole_sugar"
+      ]
     }
   ],
   "type":"create:deploying",

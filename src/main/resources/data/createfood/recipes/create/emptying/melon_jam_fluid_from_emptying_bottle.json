@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:melon_jam_bottle",
+        "c:melon_jam_bucket"
+      ]
+    }
+  ],
+  "type":"create:emptying",
+  "ingredients":[
+    {
+      "tag":"c:melon_jam_bottle"
+    }
+  ],
+  "results":[
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "amount": 40500,
+      "fluid":"createfood:melon_jam"
+    }
+  ]
+}

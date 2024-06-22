@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cloth_filter_cacao_mass",
+        "c:pressed_cocoa",
+        "c:cacao_butter_bucket"
+      ]
     }
   ],
   "type": "create:compacting",

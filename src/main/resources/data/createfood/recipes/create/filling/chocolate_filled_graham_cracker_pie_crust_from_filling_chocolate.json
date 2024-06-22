@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:mini_graham_cracker_pie_crust",
+        "c:chocolate_filled_mini_graham_cracker_pie_crust"
+      ]
     }
   ],
   "type":"create:filling",
@@ -18,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:chocolate_filled_mini_graham_cracker_pie_crust"}
+    {
+      "item":"createfood:chocolate_filled_mini_graham_cracker_pie_crust"
+    }
   ]
 }

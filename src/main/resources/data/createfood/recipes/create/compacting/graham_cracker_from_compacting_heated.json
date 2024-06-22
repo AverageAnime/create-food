@@ -5,15 +5,30 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:graham_cracker"
+      ]
     }
   ],
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
-    {"tag":"c:butter"},
-    {"tag":"c:dough"},
-    {"amount":20250,"fluid":"create:honey"},
-    {"amount":10125,"fluidTag":"c:milk"}
+    {
+      "tag":"c:butter"
+    },
+    {
+      "tag":"c:dough"
+    },
+    {
+      "amount":20250,"fluid":"create:honey"
+    },
+    {
+      "amount":10125,"fluidTag":"c:milk"
+    }
   ],
   "results":[
     {

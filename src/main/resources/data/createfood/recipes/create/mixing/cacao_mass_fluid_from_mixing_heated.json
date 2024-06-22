@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_nibs",
+        "c:cacao_mass_bucket"
+      ]
     }
   ],
   "type":"create:mixing",

@@ -1,4 +1,13 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_cream_frosted_chocolate_sweet_roll",
+        "c:glow_berry_cream_frosted_chocolate_sweet_roll_glow_berry"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_jam_bottle_compat"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

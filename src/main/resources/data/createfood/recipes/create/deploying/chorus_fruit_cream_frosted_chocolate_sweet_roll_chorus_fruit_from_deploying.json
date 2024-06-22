@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_cream_frosted_chocolate_sweet_roll",
+        "c:chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:chorus_fruit_cream_frosted_chocolate_sweet_roll"},
-    {"item":"minecraft:chorus_fruit"}
+    {
+      "tag":"c:chorus_fruit_cream_frosted_chocolate_sweet_roll"
+    },
+    {
+      "tag":"c:chorus_fruit"
+    }
   ],
   "results":[
-    {"item":"createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit"}
+    {
+      "item":"createfood:chorus_fruit_cream_frosted_chocolate_sweet_roll_chorus_fruit"
+    }
   ]
 }

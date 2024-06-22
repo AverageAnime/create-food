@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate",
+        "c:squid_ink_bucket",
+        "c:pasta_plate_squid_ink"
+      ]
     }
   ],
   "type":"create:filling",

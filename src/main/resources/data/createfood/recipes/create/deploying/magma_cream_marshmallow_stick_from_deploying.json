@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:magma_cream_marshmallow",
+        "c:magma_cream_marshmallow_stick"
+      ]
     }
   ],
   "type":"create:deploying",

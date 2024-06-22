@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butterscotch_bucket",
+        "c:butterscotch"
+      ]
     }
   ],
   "type": "create:compacting",

@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice_cheese",
+        "c:bread_slice",
+        "c:cheese_sandwich"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:cheese_sandwich"}
+    {
+      "item":"createfood:cheese_sandwich"
+    }
   ]
 }

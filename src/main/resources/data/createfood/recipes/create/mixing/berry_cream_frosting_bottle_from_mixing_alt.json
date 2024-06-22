@@ -3,15 +3,20 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "farmersdelight"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:berry_cream_frosting_bottle"
       ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "item":"minecraft:sweet_berries"

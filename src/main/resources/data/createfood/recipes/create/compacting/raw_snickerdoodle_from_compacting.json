@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:ground_cinnamon",
+        "c:raw_snickerdoodle"
+      ]
     }
   ],
   "type":"create:compacting",

@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_and_eggplant_bun_lettuce",
+        "c:bun",
+        "c:eggplant_cheeseburger_lettuce"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:eggplant_cheeseburger_lettuce"}
+    {
+      "item":"createfood:eggplant_cheeseburger_lettuce"
+    }
   ]
 }

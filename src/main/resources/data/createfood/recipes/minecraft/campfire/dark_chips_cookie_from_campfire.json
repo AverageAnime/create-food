@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_dark_chips_cookie",
         "c:dark_chips_cookie"
       ]
     }

@@ -5,12 +5,19 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_dark_chocolate",
+        "c:dark_chocolate_chips"
+      ]
     }
   ],
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "createfood:bar_of_dark_chocolate"
+      "tag": "c:bar_of_dark_chocolate"
     }
   ],
   "results": [

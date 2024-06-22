@@ -5,12 +5,21 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sausage_meat",
+        "c:sausage_patty"
+      ]
     }
   ],
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
-    {"tag":"c:sausage_meat"}
+    {
+      "tag":"c:sausage_meat"
+    }
   ],
   "results":[
     {

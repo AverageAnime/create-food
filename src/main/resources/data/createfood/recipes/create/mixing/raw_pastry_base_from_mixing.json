@@ -5,12 +5,24 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:butter",
+        "c:raw_pastry_base"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
-    {"tag":"c:sweet_dough"},
-    {"tag":"c:butter"}
+    {
+      "tag":"c:sweet_dough"
+    },
+    {
+      "tag":"c:butter"
+    }
   ],
   "results":[
     {

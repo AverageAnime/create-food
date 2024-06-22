@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_frosting_bucket",
+        "c:cream_frosting_bottle"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"minecraft:glass_bottle"},
-    {"amount":20250,"fluid":"createfood:cream_frosting"}
+    {
+      "item":"minecraft:glass_bottle"
+    },
+    {
+      "amount":20250,"fluid":"createfood:cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:cream_frosting_bottle"}
+    {
+      "item":"createfood:cream_frosting_bottle"
+    }
   ]
 }

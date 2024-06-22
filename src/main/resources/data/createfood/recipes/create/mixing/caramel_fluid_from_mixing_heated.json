@@ -5,19 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     }
   ],
   "results":[
-    {"amount":40500,"fluid":"createfood:caramel"}
+    {
+      "amount":40500,"fluid":"createfood:caramel"
+    }
   ]
 }

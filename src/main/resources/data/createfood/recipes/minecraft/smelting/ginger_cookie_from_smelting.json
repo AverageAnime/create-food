@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_ginger_cookie",
         "c:ginger_cookie"
       ]
     }

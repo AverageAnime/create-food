@@ -5,13 +5,25 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:butter",
+        "c:pastry_base"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
-    {"tag":"c:sweet_dough"},
-    {"tag":"c:butter"}
+    {
+      "tag":"c:sweet_dough"
+    },
+    {
+      "tag":"c:butter"
+    }
   ],
   "results":[
     {

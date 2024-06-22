@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_dark_chocolate",
+        "c:hollow_dark_chocolate"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:bar_of_dark_chocolate"}
+    {
+      "tag": "c:bar_of_dark_chocolate"
+    }
   ],
   "tool":
-    {"item": "minecraft:stick"},
+    {
+      "item": "minecraft:stick"
+    },
   "result":
   [
     {
-      "item": "createfood:hollow_dark_chocolate",
-      "count": 2
+      "count": 2,
+      "item": "createfood:hollow_dark_chocolate"
     }
   ]
 }

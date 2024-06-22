@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:pumpernickel_bread_slice",
         "c:pumpernickel_toast_slice"
       ]
     }

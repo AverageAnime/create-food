@@ -5,19 +5,29 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sliced_carrot"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"item": "minecraft:carrot"}
+    {
+      "item": "minecraft:carrot"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:sliced_carrot",
-      "count": 2
+      "count": 2,
+      "item": "createfood:sliced_carrot"
     }
   ]
 }

@@ -5,13 +5,26 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:salt",
+        "c:salt_dough"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
-    {"tag":"c:flour"},
-    {"tag":"c:salt"},
-    {"amount":81000,"fluid":"minecraft:water"}
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:salt"
+    },
+    {
+      "amount":81000,"fluid":"minecraft:water"
+    }
   ],
   "results":[
     {

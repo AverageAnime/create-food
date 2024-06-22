@@ -1,11 +1,12 @@
 {
   "fabric:load_conditions": [
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:spider_eye_cookie"
-        ]
-      }
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_spider_eye_cookie",
+        "c:spider_eye_cookie"
+      ]
+    }
   ],
   "type": "minecraft:smoking",
   "cookingtime": 100,

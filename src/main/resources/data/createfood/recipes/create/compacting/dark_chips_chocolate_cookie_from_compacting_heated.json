@@ -5,13 +5,25 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chocolate_chips",
+        "c:chocolate_sweet_dough",
+        "c:dark_chocolate_chips_chocolate_cookie"
+      ]
     }
   ],
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
-    {"tag":"c:dark_chocolate_chips"},
-    {"tag":"c:chocolate_sweet_dough"}
+    {
+      "tag":"c:dark_chocolate_chips"
+    },
+    {
+      "tag":"c:chocolate_sweet_dough"
+    }
   ],
   "results":[
     {

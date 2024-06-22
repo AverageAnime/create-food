@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:eggplant_bun",
+        "c:eggplant_bun_lettuce"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -18,7 +25,7 @@
   ],
   "results":[
     {
-      "item":"createfood:eggplant_bun"
+      "item":"createfood:eggplant_bun_lettuce"
     }
   ]
 }

@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:shredded_potato",
         "c:hash_browns"
       ]
     }

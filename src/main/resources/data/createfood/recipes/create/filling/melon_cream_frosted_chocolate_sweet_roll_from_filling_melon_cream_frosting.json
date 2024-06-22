@@ -5,18 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_sweet_roll_base",
+        "c:melon_cream_frosting_bucket",
+        "c:melon_cream_frosted_chocolate_sweet_roll"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
     {
-      "item":"createfood:chocolate_sweet_roll_base"
+      "tag":"c:chocolate_sweet_roll_base"
     },
     {
       "amount":27000,"fluid":"createfood:melon_cream_frosting"
     }
   ],
   "results":[
-    {"item":"createfood:melon_cream_frosted_chocolate_sweet_roll"}
+    {
+      "item":"createfood:melon_cream_frosted_chocolate_sweet_roll"
+    }
   ]
 }

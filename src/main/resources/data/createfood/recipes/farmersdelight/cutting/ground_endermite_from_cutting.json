@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_endermite"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",

@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk_bucket",
+        "c:condensed_milk_bottle"
+      ]
     }
   ],
   "type":"create:filling",

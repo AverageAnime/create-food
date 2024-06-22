@@ -5,6 +5,13 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butterscotch",
+        "c:butterscotch_bucket"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",

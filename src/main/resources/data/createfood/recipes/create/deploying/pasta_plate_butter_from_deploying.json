@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cooked_pasta",
+        "c:butter",
+        "c:pasta_plate_butter"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:pasta_plate_butter"}
+    {
+      "item":"createfood:pasta_plate_butter"
+    }
   ]
 }

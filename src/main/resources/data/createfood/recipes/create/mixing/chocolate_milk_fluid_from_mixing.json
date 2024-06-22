@@ -5,13 +5,19 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:chocolate_milk_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":20250,
-      "fluidTag":"c:milk"
+      "amount":20250, "fluidTag":"c:milk"
     },
     {
       "tag":"c:cocoa_powder"
@@ -19,8 +25,7 @@
   ],
   "results":[
     {
-      "amount":20250,
-      "fluid":"createfood:chocolate_milk"
+      "amount":20250, "fluid":"createfood:chocolate_milk"
     }
   ]
 }

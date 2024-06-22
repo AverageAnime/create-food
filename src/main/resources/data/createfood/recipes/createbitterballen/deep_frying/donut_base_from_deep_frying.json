@@ -5,6 +5,13 @@
       "values": [
         "create_bic_bit"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pastry_base",
+        "c:donut_base"
+      ]
     }
   ],
   "type": "create_bic_bit:deep_frying",

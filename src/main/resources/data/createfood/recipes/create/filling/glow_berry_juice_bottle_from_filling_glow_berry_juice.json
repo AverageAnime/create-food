@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_juice_bucket",
+        "c:glow_berry_juice_bottle"
+      ]
     }
   ],
   "type":"create:filling",

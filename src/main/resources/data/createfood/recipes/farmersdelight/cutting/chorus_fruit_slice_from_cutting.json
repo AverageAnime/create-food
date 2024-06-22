@@ -14,6 +14,12 @@
           "ends_delight"
         ]
       }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
@@ -29,8 +35,8 @@
   "result":
   [
     {
-      "item": "createfood:chorus_fruit_slice",
-      "count": 4
+      "count": 4,
+      "item": "createfood:chorus_fruit_slice"
     }
   ]
 }

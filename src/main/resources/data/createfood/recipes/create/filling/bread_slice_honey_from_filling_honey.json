@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice",
+        "c:bread_slice_honey"
+      ]
     }
   ],
   "type":"create:filling",

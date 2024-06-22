@@ -5,12 +5,20 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:water_buckets",
+        "c:gelatin",
+        "c:gelatin_mix_bucket"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",
   "ingredients": [
     {
-      "item": "minecraft:water_bucket"
+      "tag": "c:water_bucket"
     },
     {
       "tag": "c:gelatin"

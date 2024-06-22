@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_butter",
+        "c:cacao_butter_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

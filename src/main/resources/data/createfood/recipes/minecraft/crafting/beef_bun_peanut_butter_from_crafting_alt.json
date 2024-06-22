@@ -3,7 +3,9 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:peanut_butter"
+        "c:bun",
+        "c:peanut_butter",
+        "c:beef_bun_peanut_butter"
       ]
     }
   ],

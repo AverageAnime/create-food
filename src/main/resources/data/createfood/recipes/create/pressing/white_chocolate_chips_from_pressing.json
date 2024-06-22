@@ -5,12 +5,19 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_white_chocolate",
+        "c:white_chocolate_chips"
+      ]
     }
   ],
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "createfood:bar_of_white_chocolate"
+      "tag": "c:bar_of_white_chocolate"
     }
   ],
   "results": [

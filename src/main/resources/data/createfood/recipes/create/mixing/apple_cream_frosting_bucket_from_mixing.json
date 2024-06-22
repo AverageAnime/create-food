@@ -5,25 +5,30 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_cream_frosting_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":81000,
-      "fluidTag":"c:milk"
+      "amount":81000, "fluidTag":"c:milk"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "tag":"c:apple"

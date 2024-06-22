@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_glazed_apple",
+        "c:caramel_apple_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:caramel_glazed_apple"}
+    {
+      "tag": "c:caramel_glazed_apple"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:caramel_apple_slice",
-      "count": 2
+      "count": 2,
+      "item": "createfood:caramel_apple_slice"
     }
   ]
 }

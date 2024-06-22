@@ -1,4 +1,14 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_and_chicken_bun_lettuce_tomato",
+        "c:bun",
+        "c:chicken_cheeseburger_lettuce_tomato"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

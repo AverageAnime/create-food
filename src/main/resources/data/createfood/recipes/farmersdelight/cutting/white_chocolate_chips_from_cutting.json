@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_white_chocolate",
+        "c:white_chocolate_chips"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:bar_of_white_chocolate"}
+    {
+      "tag": "c:bar_of_white_chocolate"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:white_chocolate_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:white_chocolate_chips"
     }
   ]
 }

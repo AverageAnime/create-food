@@ -5,22 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "item":"minecraft:bucket"

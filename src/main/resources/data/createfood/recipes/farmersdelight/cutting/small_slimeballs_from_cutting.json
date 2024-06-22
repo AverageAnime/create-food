@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:small_slimeballs"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",

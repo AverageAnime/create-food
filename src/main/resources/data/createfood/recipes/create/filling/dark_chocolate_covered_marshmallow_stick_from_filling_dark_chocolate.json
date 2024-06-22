@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:marshmallow_stick",
+        "c:dark_chocolate_bucket",
+        "c:dark_chocolate_covered_marshmallow_stick"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:marshmallow_stick"},
-    {"amount":10125,"fluid":"createfood:dark_chocolate"}
+    {
+      "tag":"c:marshmallow_stick"
+    },
+    {
+      "amount":10125,"fluid":"createfood:dark_chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:dark_chocolate_covered_marshmallow_stick"}
+    {
+      "item":"createfood:dark_chocolate_covered_marshmallow_stick"
+    }
   ]
 }

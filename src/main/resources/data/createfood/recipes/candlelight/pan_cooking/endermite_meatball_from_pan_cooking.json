@@ -1,12 +1,19 @@
 {
   "fabric:load_conditions": [
-  {
-    "condition": "fabric:all_mods_loaded",
-    "values": [
-      "candlelight"
-    ]
-  }
-],
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "candlelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_endermite_meatball",
+        "c:endermite_meatball"
+      ]
+    }
+  ],
   "type": "candlelight:pan_cooking",
   "ingredients": [
     {

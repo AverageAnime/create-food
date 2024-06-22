@@ -5,12 +5,23 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_sweet_dough",
+        "c:raw_chocolate_sweet_roll_base"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
-    {"tag":"c:chocolate_sweet_dough"},
-    {"item":"minecraft:sugar"}
+    {
+      "tag":"c:chocolate_sweet_dough"
+    },
+    {
+      "tag":"c:sugar"
+    }
   ],
   "results": [
     {

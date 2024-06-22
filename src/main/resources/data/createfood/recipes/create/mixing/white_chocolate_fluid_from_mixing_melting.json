@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_white_chocolate",
+        "c:white_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -16,8 +23,7 @@
   ],
   "results":[
     {
-      "amount":27000,
-      "fluid":"createfood:white_chocolate"
+      "amount":27000, "fluid":"createfood:white_chocolate"
     }
   ]
 }

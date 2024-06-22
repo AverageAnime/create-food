@@ -5,19 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:toffee_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "tag":"c:butter"
     }
   ],
   "results":[
-    {"amount":40500,"fluid":"createfood:toffee"}
+    {
+      "amount":40500,"fluid":"createfood:toffee"
+    }
   ]
 }

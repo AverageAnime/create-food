@@ -5,19 +5,29 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sliced_potato"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"item": "minecraft:potato"}
+    {
+      "item": "minecraft:potato"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:sliced_potato",
-      "count": 2
+      "count": 2,
+      "item": "createfood:sliced_potato"
     }
   ]
 }

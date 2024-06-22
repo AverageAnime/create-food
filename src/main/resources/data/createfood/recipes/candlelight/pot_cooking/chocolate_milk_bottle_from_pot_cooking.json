@@ -5,6 +5,13 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:chocolate_milk"
+      ]
     }
   ],
   "type": "candlelight:pot_cooking",

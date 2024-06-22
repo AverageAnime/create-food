@@ -7,19 +7,26 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:chicken_bun_bacon_lettuce",
+        "c:bun",
+        "c:chicken_burger_bacon_lettuce"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:chicken_bun_bacon_lettuce"},
-    {"tag":"c:bun"}
+    {
+      "tag":"c:chicken_bun_bacon_lettuce"
+    },
+    {
+      "tag":"c:bun"
+    }
   ],
   "results":[
-    {"item":"createfood:chicken_burger_bacon_lettuce"}
+    {
+      "item":"createfood:chicken_burger_bacon_lettuce"
+    }
   ]
 }

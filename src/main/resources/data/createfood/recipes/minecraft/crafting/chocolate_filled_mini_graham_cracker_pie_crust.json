@@ -1,4 +1,14 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:mini_graham_cracker_pie_crust",
+        "c:chocolate_bottle",
+        "c:chocolate_filled_mini_graham_cracker_pie_crust"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

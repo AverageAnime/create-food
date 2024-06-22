@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:peanut_butter_sandwich",
+        "c:glow_berry_jam_bucket"
+      ]
     }
   ],
   "type":"create:filling",

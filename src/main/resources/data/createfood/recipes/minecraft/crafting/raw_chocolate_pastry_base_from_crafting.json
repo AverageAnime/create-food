@@ -1,14 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_sweet_dough",
+        "c:butter",
+        "c:raw_chocolate_pastry_base"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

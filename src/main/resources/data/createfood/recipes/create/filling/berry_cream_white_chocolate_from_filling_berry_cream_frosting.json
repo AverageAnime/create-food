@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_white_chocolate",
+        "c:berry_cream_frosting_bucket",
+        "c:berry_cream_white_chocolate"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:hollow_white_chocolate"},
-    {"amount":10125,"fluid":"createfood:berry_cream_frosting"}
+    {
+      "tag":"c:hollow_white_chocolate"
+    },
+    {
+      "amount":10125,"fluid":"createfood:berry_cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:berry_cream_white_chocolate"}
+    {
+      "item":"createfood:berry_cream_white_chocolate"
+    }
   ]
 }

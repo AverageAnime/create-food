@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:tortilla_chip_bowl",
+        "c:cheeses",
+        "c:nacho_bowl"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:nacho_bowl"}
+    {
+      "item":"createfood:nacho_bowl"
+    }
   ]
 }

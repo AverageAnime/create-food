@@ -1,25 +1,31 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:vegetable_oil_bucket"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:water_bucket"
+      "tag": "c:empty_buckets"
+    },
+    {
+      "tag": "c:carrot"
     },
     {
       "tag": "c:carrot"
     },
     {
       "tag": "c:potato"
+    },
+    {
+      "tag": "c:potato"
+    },
+    {
+      "tag": "c:vegetables"
     },
     {
       "tag": "c:vegetables"

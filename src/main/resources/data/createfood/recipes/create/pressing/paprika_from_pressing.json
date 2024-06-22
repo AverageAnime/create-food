@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chili_pepper",
+        "c:paprika"
+      ]
     }
   ],
   "type": "create:pressing",

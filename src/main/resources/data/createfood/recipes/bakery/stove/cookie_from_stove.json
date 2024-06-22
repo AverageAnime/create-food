@@ -5,6 +5,12 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_cookie"
+      ]
     }
   ],
   "type": "bakery:stove",

@@ -1,10 +1,10 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:chicken_bun",
+        "c:chicken_bun_lettuce"
       ]
     }
   ],

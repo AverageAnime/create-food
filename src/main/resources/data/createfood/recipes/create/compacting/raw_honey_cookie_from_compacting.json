@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:raw_honey_cookie"
+      ]
     }
   ],
   "type":"create:compacting",
@@ -13,7 +20,9 @@
       "amount": 20250,
       "fluid": "create:honey"
     },
-    {"tag":"c:sweet_dough"}
+    {
+      "tag":"c:sweet_dough"
+    }
   ],
   "results":[
     {

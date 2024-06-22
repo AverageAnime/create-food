@@ -5,19 +5,29 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"item": "minecraft:bread"}
+    {
+      "item": "minecraft:bread"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:bread_slice",
-      "count": 3
+      "count": 3,
+      "item": "createfood:bread_slice"
     }
   ]
 }

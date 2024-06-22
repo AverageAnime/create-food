@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:eggplant_bun",
+        "c:bun",
+        "c:eggplant_burger"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:eggplant_burger"}
+    {
+      "item":"createfood:eggplant_burger"
+    }
   ]
 }

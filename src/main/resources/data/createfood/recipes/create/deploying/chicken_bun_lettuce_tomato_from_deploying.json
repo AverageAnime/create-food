@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chicken_bun_lettuce",
+        "c:chicken_bun_lettuce_tomato"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:chicken_bun_lettuce"},
-    {"tag": "c:tomato"}
+    {
+      "tag":"c:chicken_bun_lettuce"
+    },
+    {
+      "tag": "c:tomato"
+    }
   ],
   "results":[
-    {"item":"createfood:chicken_bun_lettuce_tomato"}
+    {
+      "item":"createfood:chicken_bun_lettuce_tomato"
+    }
   ]
 }

@@ -3,7 +3,15 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create"
+        "create",
+        "delightfulcreators"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cooked_pasta",
+        "c:small_meatballs"
       ]
     }
   ],
@@ -19,8 +27,7 @@
       "tag":"c:small_meatballs"
     },
     {
-      "amount":20250,
-      "fluid":"delightfulcreators:tomato_sauce"
+      "amount":20250, "fluid":"delightfulcreators:tomato_sauce"
     }
   ],
   "results":[

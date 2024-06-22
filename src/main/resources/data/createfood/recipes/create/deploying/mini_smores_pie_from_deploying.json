@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_filled_mini_graham_cracker_pie_crust",
+        "c:marshmallow",
+        "c:mini_smores_pie"
+      ]
     }
   ],
   "type":"create:deploying",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:mini_smores_pie"}
+    {
+      "item":"createfood:mini_smores_pie"
+    }
   ]
 }

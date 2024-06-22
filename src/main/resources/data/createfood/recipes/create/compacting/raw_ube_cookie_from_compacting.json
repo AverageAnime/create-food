@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:foods/vegetables/ube",
+        "c:raw_ube_cookie"
+      ]
     }
   ],
   "type":"create:compacting",
@@ -13,7 +21,7 @@
       "tag": "c:sweet_dough"
     },
     {
-      "item": "ubesdelight:ube"
+      "tag": "c:foods/vegetables/ube"
     }
   ],
   "results":[

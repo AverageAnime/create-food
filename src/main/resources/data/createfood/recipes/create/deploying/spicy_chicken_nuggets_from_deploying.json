@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chicken_nuggets",
+        "c:paprika",
+        "c:spicy_chicken_nuggets"
+      ]
     }
   ],
   "type":"create:deploying",

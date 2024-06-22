@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pastry_base",
+        "c:chocolate_pastry"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:pastry_base"},
-    {"amount":20250,"fluid":"create:chocolate"}
+    {
+      "tag":"c:pastry_base"
+    },
+    {
+      "amount":20250,"fluid":"create:chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:chocolate_pastry"}
+    {
+      "item":"createfood:chocolate_pastry"
+    }
   ]
 }

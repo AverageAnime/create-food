@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin_dessert_block",
+        "c:black_gelatin_dessert_block"
+      ]
     }
   ],
   "type":"create:item_application",
   "ingredients":[
-    {"tag":"c:gelatin_dessert_block"},
-    {"tag":"c:black_dyes"}
+    {
+      "tag":"c:gelatin_dessert_block"
+    },
+    {
+      "tag":"c:black_dyes"
+    }
   ],
   "results":[
-    {"item":"createfood:black_gelatin_dessert_block"}
+    {
+      "item":"createfood:black_gelatin_dessert_block"
+    }
   ]
 }

@@ -4,7 +4,14 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "farmersdelight"
+        "delightfulcreators"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate_eggplant",
+        "c:fried_eggplant_pasta"
       ]
     }
   ],
@@ -14,8 +21,7 @@
       "tag":"c:pasta_plate_eggplant"
     },
     {
-      "amount":20250,
-      "fluid":"delightfulcreators:tomato_sauce"
+      "amount":20250, "fluid":"delightfulcreators:tomato_sauce"
     }
   ],
   "results":[

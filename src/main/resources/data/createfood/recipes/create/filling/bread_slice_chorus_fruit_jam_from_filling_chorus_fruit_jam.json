@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice",
+        "c:chorus_fruit_jam_bucket",
+        "c:bread_slice_chorus_fruit_jam"
+      ]
     }
   ],
   "type":"create:filling",

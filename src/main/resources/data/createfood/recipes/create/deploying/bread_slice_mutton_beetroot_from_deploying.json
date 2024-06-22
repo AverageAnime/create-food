@@ -7,10 +7,10 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:bread_slice_mutton",
+        "c:bread_slice_mutton_beetroot"
       ]
     }
   ],

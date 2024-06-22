@@ -5,6 +5,13 @@
       "values": [
         "beachparty"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:chocolate_milk"
+      ]
     }
   ],
   "type": "beachparty:tiki_bar_mixing",

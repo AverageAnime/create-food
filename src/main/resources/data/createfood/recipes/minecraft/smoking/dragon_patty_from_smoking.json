@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:minced_dragon",
         "c:dragon_patty"
       ]
     }

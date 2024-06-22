@@ -3,18 +3,23 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "farmersdelight"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_cream_frosting_bottle"
       ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:chorus_fruit"
+      "tag":"c:chorus_fruit"
     },
     {
       "item":"farmersdelight:milk_bottle"

@@ -1,9 +1,11 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight"
+        "c:bread_slice",
+        "c:chorus_fruit_jam_bottle",
+        "c:chorus_fruit_jam_sandwich"
       ]
     }
   ],

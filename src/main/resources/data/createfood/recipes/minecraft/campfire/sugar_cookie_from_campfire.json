@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_sugar_cookie",
         "c:sugar_cookie"
       ]
     }

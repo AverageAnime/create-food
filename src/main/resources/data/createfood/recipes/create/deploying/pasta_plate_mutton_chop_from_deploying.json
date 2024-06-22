@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate",
+        "c:pasta_plate_mutton_chop"
+      ]
     }
   ],
   "type":"create:deploying",

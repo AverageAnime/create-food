@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sliced_potato",
+        "c:shredded_potato"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",

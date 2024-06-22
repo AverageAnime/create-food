@@ -1,5 +1,13 @@
 {
-
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:endermite_meatball",
+        "c:endermite_meatball_stick"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

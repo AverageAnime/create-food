@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chocolate_chips",
+        "c:sweet_dough",
+        "c:raw_dark_chips_cookie"
+      ]
     }
   ],
   "type":"create:compacting",

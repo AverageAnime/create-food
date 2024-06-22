@@ -9,6 +9,12 @@
           "farmersrespite"
         ]
       }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_juice_bottle"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

@@ -5,12 +5,21 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:foods/vegetables/ube",
+        "c:sugar",
+        "c:water_buckets",
+        "c:ube_sugar_dough"
+      ]
     }
   ],
   "type": "bakery:crafting_bowl",
   "ingredients": [
     {
-      "item": "ubesdelight:ube"
+      "tag": "c:foods/vegetables/ube"
     },
     {
       "tag": "c:sugar"

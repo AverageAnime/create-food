@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:melon_cream_frosting_bucket",
+        "c:melon_cream_frosting_bottle"
+      ]
     }
   ],
   "type":"create:filling",
@@ -17,6 +24,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:melon_cream_frosting_bottle"}
+    {
+      "item":"createfood:melon_cream_frosting_bottle"
+    }
   ]
 }

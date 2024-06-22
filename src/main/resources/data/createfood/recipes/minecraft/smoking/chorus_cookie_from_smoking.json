@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_chorus_cookie",
         "c:chorus_cookie"
       ]
     }

@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_bucket",
+        "c:caramel_glazed_berries"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"minecraft:sweet_berries"},
-    {"amount":27000,"fluid":"createfood:caramel"}
+    {
+      "item":"minecraft:sweet_berries"
+    },
+    {
+      "amount":27000,"fluid":"createfood:caramel"
+    }
   ],
   "results":[
-    {"item":"createfood:caramel_glazed_berries"}
+    {
+      "item":"createfood:caramel_glazed_berries"
+    }
   ]
 }

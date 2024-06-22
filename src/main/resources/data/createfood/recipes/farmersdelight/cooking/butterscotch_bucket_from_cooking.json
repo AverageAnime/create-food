@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:brown_sugar",
+        "c:butterscotch_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

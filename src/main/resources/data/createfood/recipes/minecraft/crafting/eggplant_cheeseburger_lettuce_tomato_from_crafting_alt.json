@@ -1,4 +1,15 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bun",
+        "c:cooked_eggplant",
+        "c:cheeses",
+        "c:eggplant_cheeseburger_lettuce_tomato"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

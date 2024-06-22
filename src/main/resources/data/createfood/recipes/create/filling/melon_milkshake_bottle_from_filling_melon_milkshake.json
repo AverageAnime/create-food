@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:melon_milkshake_bucket",
+        "c:melon_milkshake_bottle"
+      ]
     }
   ],
   "type":"create:filling",

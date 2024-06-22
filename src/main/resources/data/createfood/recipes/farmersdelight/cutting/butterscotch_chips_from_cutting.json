@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butterscotch",
+        "c:butterscotch_chips"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:butterscotch"}
+    {
+      "tag": "c:butterscotch"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:butterscotch_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:butterscotch_chips"
     }
   ]
 }

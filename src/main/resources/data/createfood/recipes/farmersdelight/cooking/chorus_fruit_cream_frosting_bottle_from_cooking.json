@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_cream_frosting"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -15,10 +21,10 @@
       "tag": "c:milk_bottle"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "tag": "c:chorus_fruit"
     }
   ],
   "result": {

@@ -12,6 +12,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:sliced_potato",
         "c:potato_chips"
       ]
     }

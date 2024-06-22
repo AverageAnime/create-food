@@ -7,19 +7,25 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:bread_slice_lettuce",
+        "c:bread_slice_lettuce_tomato"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:bread_slice_lettuce"},
-    {"tag": "c:tomato"}
+    {
+      "tag":"c:bread_slice_lettuce"
+    },
+    {
+      "tag": "c:tomato"
+    }
   ],
   "results":[
-    {"item":"createfood:bread_slice_lettuce_tomato"}
+    {
+      "item":"createfood:bread_slice_lettuce_tomato"
+    }
   ]
 }

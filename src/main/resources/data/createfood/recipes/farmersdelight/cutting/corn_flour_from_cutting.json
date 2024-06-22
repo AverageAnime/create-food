@@ -9,21 +9,26 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:corn_kernel",
         "c:corn_flour"
       ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:corn_kernel"}
+    {
+      "tag": "c:corn_kernel"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:corn_flour",
-      "count": 2
+      "count": 2,
+      "item": "createfood:corn_flour"
     }
   ]
 }

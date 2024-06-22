@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_bucket",
+        "c:caramel_glazed_apple"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"minecraft:apple"},
-    {"amount":20250,"fluid":"createfood:caramel"}
+    {
+      "item":"minecraft:apple"
+    },
+    {
+      "amount":20250,"fluid":"createfood:caramel"
+    }
   ],
   "results":[
-    {"item":"createfood:caramel_glazed_apple"}
+    {
+      "item":"createfood:caramel_glazed_apple"
+    }
   ]
 }

@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sugar_cane_juice_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

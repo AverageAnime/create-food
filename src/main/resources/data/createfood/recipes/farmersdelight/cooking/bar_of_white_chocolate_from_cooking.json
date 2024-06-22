@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_butter",
+        "c:bar_of_white_chocolate"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

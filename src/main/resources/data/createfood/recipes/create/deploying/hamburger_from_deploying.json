@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:beef_bun",
+        "c:bun",
+        "c:hamburger"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:beef_bun"},
-    {"tag":"c:bun"}
+    {
+      "tag":"c:beef_bun"
+    },
+    {
+      "tag":"c:bun"
+    }
   ],
   "results":[
-    {"item":"createfood:hamburger"}
+    {
+      "item":"createfood:hamburger"
+    }
   ]
 }

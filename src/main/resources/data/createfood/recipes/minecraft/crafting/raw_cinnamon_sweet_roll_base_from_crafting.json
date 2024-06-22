@@ -1,13 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:ground_cinnamon",
+        "c:raw_cinnamon_sweet_roll_base"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -16,7 +15,7 @@
       "tag": "c:sweet_dough"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "tag": "c:ground_cinnamon"

@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:corn_flour",
+        "c:corn_dough"
+      ]
     }
   ],
   "type":"create:mixing",

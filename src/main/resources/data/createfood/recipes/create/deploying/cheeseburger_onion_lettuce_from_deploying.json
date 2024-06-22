@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_and_beef_bun_onion_lettuce",
+        "c:bun",
+        "c:cheeseburger_onion_lettuce"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:cheese_and_beef_bun_onion_lettuce"},
-    {"tag":"c:bun"}
+    {
+      "tag":"c:cheese_and_beef_bun_onion_lettuce"
+    },
+    {
+      "tag":"c:bun"
+    }
   ],
   "results":[
-    {"item":"createfood:cheeseburger_onion_lettuce"}
+    {
+      "item":"createfood:cheeseburger_onion_lettuce"
+    }
   ]
 }

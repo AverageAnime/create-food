@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ube_cream_frosting",
+        "c:ube_cream_frosting_bucket"
+      ]
+    }
+  ],
+  "type":"create:emptying",
+  "ingredients":[
+    {
+      "tag":"c:ube_cream_frosting"
+    }
+  ],
+  "results":[
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "amount": 20250,
+      "fluid":"createfood:ube_cream_frosting"
+    }
+  ]
+}

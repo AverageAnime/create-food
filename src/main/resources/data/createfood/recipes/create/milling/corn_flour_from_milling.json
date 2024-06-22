@@ -9,6 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:corn_kernel",
         "c:corn_flour"
       ]
     }

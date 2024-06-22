@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_toffee_chips_cookie",
         "c:toffee_chips_cookie"
       ]
     }

@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butterscotch_chips",
+        "c:sweet_dough",
+        "c:butterscotch_chips_cookie"
+      ]
     }
   ],
   "type":"create:compacting",

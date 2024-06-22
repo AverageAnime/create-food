@@ -5,6 +5,14 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:unbreaded_chicken_patty",
+        "c:toast",
+        "c:chicken_patty"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

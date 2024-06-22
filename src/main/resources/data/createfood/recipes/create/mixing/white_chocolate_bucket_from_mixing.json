@@ -5,17 +5,22 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_butter_bucket",
+        "c:white_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":40500,
-      "fluidTag":"c:milk"
+      "amount":40500, "fluidTag":"c:milk"
     },
     {
-      "amount":40500,
-      "fluid":"createfood:cacao_butter"
+      "amount":40500, "fluid":"createfood:cacao_butter"
     },
     {
       "item":"minecraft:bucket"

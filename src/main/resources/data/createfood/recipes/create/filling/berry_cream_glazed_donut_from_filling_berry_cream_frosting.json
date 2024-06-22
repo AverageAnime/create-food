@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:donut_base",
+        "c:berry_cream_frosting_bucket",
+        "c:berry_cream_glazed_donut"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:donut_base"},
-    {"amount":20250,"fluid":"createfood:berry_cream_frosting"}
+    {
+      "tag":"c:donut_base"
+    },
+    {
+      "amount":20250,"fluid":"createfood:berry_cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:berry_cream_glazed_donut"}
+    {
+      "item":"createfood:berry_cream_glazed_donut"
+    }
   ]
 }

@@ -5,6 +5,12 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_nibs"
+      ]
     }
   ],
   "type": "bakery:stove",

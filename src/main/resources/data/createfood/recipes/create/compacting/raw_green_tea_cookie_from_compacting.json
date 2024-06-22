@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:crops/green_tea_leaves",
+        "c:raw_green_tea_cookie"
+      ]
     }
   ],
   "type":"create:compacting",

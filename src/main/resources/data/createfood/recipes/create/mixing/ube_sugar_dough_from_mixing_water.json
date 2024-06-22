@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ube_sugar_dough"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -13,7 +19,7 @@
       "item":"ubesdelight:ube"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "amount":81000,"fluid":"minecraft:water"

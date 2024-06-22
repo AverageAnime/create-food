@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cooked_pasta",
+        "c:small_meatballs"
+      ]
     }
   ],
   "type":"create:mixing",

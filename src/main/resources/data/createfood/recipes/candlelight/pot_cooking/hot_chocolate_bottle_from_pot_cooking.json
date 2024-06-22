@@ -5,6 +5,13 @@
       "values": [
         "candlelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_bottle",
+        "c:hot_chocolate_bottle"
+      ]
     }
   ],
   "type": "candlelight:pot_cooking",

@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_butter_bucket",
+        "c:cacao_butter"
+      ]
     }
   ],
   "type": "create:compacting",

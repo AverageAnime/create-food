@@ -5,18 +5,23 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_mass_bucket",
+        "c:hot_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":40500,
-      "fluidTag":"c:milk"
+      "amount":40500, "fluidTag":"c:milk"
     },
     {
-      "amount":40500,
-      "fluid":"createfood:cacao_mass"
+      "amount":40500, "fluid":"createfood:cacao_mass"
     },
     {
       "item":"minecraft:bucket"

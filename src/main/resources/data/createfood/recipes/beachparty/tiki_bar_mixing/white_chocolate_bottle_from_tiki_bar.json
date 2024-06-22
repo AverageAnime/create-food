@@ -5,6 +5,13 @@
       "values": [
         "beachparty"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_white_chocolate",
+        "c:white_chocolate_bottle"
+      ]
     }
   ],
   "type": "beachparty:tiki_bar_mixing",

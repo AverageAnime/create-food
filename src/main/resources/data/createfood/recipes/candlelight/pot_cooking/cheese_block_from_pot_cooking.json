@@ -5,6 +5,14 @@
       "values": [
         "candlelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milk_buckets",
+        "c:salt",
+        "c:cheese_block"
+      ]
     }
   ],
   "type": "candlelight:pot_cooking",

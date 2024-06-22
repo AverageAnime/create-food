@@ -1,14 +1,30 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_ice_cream_bowl",
+        "c:apple_ice_cream_bucket"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:ice_cream_bucket"
+      "tag": "c:empty_buckets"
     },
     {
-      "tag": "c:apple"
+      "tag": "c:apple_ice_cream_bowl"
+    },
+    {
+      "tag": "c:apple_ice_cream_bowl"
+    },
+    {
+      "tag": "c:apple_ice_cream_bowl"
     }
   ],
-  "result": {
-      "item": "createfood:apple_ice_cream_bucket"
-    }
+  "result":
+  {
+    "item": "createfood:apple_ice_cream_bucket"
+  }
 }

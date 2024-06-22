@@ -5,6 +5,13 @@
       "values": [
         "beachparty"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ice_cream_bucket",
+        "c:glow_ice_cream_bucket"
+      ]
     }
   ],
   "type": "beachparty:mini_fridge_mixing",

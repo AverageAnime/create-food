@@ -1,13 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "create"
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:toffee_chips",
+        "c:raw_toffee_chips_chocolate_cookie"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -16,7 +15,7 @@
       "item": "minecraft:wheat"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "item": "minecraft:water_bucket"

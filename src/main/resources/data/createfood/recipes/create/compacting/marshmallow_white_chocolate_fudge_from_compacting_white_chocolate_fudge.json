@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:white_chocolate_fudge_bucket",
+        "c:marshmallow",
+        "c:marshmallow_white_chocolate_fudge"
+      ]
     }
   ],
   "type": "create:compacting",

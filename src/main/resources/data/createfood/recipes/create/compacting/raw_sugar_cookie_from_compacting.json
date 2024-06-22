@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:raw_sugar_cookie"
+      ]
     }
   ],
   "type":"create:compacting",

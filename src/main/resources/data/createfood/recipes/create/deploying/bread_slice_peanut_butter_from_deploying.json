@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice",
+        "c:peanut_butter",
+        "c:bread_slice_peanut_butter"
+      ]
     }
   ],
   "type":"create:deploying",

@@ -5,13 +5,19 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:magenta_gelatin_mix_bucket",
+        "c:magenta_gelatin_dessert_block"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":81000,
-      "fluid":"createfood:magenta_gelatin_mix"
+      "amount":81000, "fluid":"createfood:magenta_gelatin_mix"
     },
     {
       "item":"minecraft:ice"

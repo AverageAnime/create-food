@@ -1,13 +1,12 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-          ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:graham_cracker_crumbs",
+        "c:butter",
+        "c:mini_graham_cracker_pie_crust"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

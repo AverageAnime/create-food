@@ -3,8 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "farmersdelight"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate_squid_ink"
       ]
     }
   ],
@@ -18,6 +23,8 @@
     }
   ],
   "results":[
-    {"item":"farmersdelight:squid_ink_pasta"}
+    {
+      "item":"farmersdelight:squid_ink_pasta"
+    }
   ]
 }

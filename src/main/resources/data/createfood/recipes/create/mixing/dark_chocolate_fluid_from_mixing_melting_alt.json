@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_dark_chocolate",
+        "c:dark_chocolate_fudge_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -15,8 +22,7 @@
   ],
   "results":[
     {
-      "amount":20250,
-      "fluid":"createfood:dark_chocolate"
+      "amount":20250, "fluid":"createfood:dark_chocolate"
     }
   ]
 }

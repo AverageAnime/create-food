@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:graham_cracker",
+        "c:graham_cracker_crumbs"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:graham_cracker"}
+    {
+      "tag": "c:graham_cracker"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:graham_cracker_crumbs",
-      "count": 2
+      "count": 2,
+      "item": "createfood:graham_cracker_crumbs"
     }
   ]
 }

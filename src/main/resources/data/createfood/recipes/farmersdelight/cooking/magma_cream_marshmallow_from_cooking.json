@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:magma_cream_marshmallow"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -18,7 +24,7 @@
       "item": "nethersdelight:magma_gelatin"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     }
   ],
   "result": {

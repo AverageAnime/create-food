@@ -1,13 +1,11 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-          ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cloth_filter_cacao_mass",
+        "c:pressed_cocoa"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

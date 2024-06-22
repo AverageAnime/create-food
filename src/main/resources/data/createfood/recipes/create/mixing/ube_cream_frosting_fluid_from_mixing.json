@@ -5,25 +5,30 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ube_cream_frosting"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":81000,
-      "fluidTag":"c:milk"
+      "amount":81000, "fluidTag":"c:milk"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
       "item":"ubesdelight:ube"
@@ -40,8 +45,7 @@
   ],
   "results":[
     {
-      "amount":81000,
-      "fluid":"createfood:ube_cream_frosting"
+      "amount":81000, "fluid":"createfood:ube_cream_frosting"
     }
   ]
 }

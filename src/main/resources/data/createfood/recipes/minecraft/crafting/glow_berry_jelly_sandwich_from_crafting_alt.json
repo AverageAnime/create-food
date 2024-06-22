@@ -5,6 +5,14 @@
       "values": [
         "expandeddelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice",
+        "c:peanut_butter",
+        "c:glow_berry_jam_bottle"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chicken_bun",
+        "c:cheeses",
+        "c:cheese_and_chicken_bun"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:chicken_bun"},
-    {"tag":"c:cheeses"}
+    {
+      "tag":"c:chicken_bun"
+    },
+    {
+      "tag":"c:cheeses"
+    }
   ],
   "results":[
-    {"item":"createfood:cheese_and_chicken_bun"}
+    {
+      "item":"createfood:cheese_and_chicken_bun"
+    }
   ]
 }

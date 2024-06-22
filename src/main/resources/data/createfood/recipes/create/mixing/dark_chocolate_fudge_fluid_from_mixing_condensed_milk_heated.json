@@ -5,6 +5,15 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chocolate_chips",
+        "c:butter",
+        "c:condensed_milk_bucket",
+        "c:dark_chocolate_fudge_bucket"
+      ]
     }
   ],
   "type":"create:mixing",

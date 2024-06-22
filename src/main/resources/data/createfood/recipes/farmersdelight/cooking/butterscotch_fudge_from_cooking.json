@@ -5,6 +5,15 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:butterscotch_chips",
+        "c:butter",
+        "c:butterscotch_fudge"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

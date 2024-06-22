@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+    "condition": "fabric:tags_populated",
+    "values": [
+      "c:hollow_white_chocolate",
+      "c:marshmallow",
+      "c:marshmallow_white_chocolate"
+    ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:hollow_white_chocolate"},
-    {"tag":"c:marshmallow"}
+    {
+      "tag":"c:hollow_white_chocolate"
+    },
+    {
+      "tag":"c:marshmallow"
+    }
   ],
   "results":[
-    {"item":"createfood:marshmallow_white_chocolate"}
+    {
+      "item":"createfood:marshmallow_white_chocolate"
+    }
   ]
 }

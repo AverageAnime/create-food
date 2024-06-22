@@ -6,6 +6,12 @@
         "farmersdelight",
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cacao_mass_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

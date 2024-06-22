@@ -9,6 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:raw_dragon_meat_cuts",
         "c:minced_dragon"
       ]
     }

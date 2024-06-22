@@ -5,19 +5,24 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hot_dark_chocolate_bucket",
+        "c:dark_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":20250,
-      "fluid":"createfood:hot_dark_chocolate"
+      "amount":20250, "fluid":"createfood:hot_dark_chocolate"
     }
   ],
   "results":[
     {
-      "amount":20250,
-      "fluid":"createfood:dark_chocolate"
+      "amount":20250, "fluid":"createfood:dark_chocolate"
     }
   ]
 }

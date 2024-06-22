@@ -5,19 +5,24 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hot_white_chocolate_bucket",
+        "c:white_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "amount":20250,
-      "fluid":"createfood:hot_white_chocolate"
+      "amount":20250, "fluid":"createfood:hot_white_chocolate"
     }
   ],
   "results":[
     {
-      "amount":20250,
-      "fluid":"createfood:white_chocolate"
+      "amount":20250, "fluid":"createfood:white_chocolate"
     }
   ]
 }

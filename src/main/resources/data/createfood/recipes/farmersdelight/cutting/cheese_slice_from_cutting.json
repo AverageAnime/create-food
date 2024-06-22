@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_block",
+        "c:cheese_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:cheese_block"}
+    {
+      "tag": "c:cheese_block"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:cheese_slice",
-      "count": 4
+      "count": 4,
+      "item": "createfood:cheese_slice"
     }
   ]
 }

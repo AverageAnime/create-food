@@ -1,4 +1,14 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk_bucket",
+        "c:heavy_cream_bucket",
+        "c:apple_ice_cream_bucket"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -20,7 +30,7 @@
       "tag": "c:ice_blocks"
     },
     {
-      "item": "minecraft:apple"
+      "tag": "c:apple"
     }
   ],
   "result": {

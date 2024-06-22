@@ -5,21 +5,28 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sugar",
+        "c:caramel_bucket"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     }
   ],
   "container": {

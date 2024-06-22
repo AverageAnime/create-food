@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_dough",
+        "c:foods/vegetables/ginger",
+        "c:raw_ginger_cookie"
+      ]
     }
   ],
   "type":"create:compacting",

@@ -7,19 +7,25 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:chicken_bun_lettuce",
+        "c:chicken_bun_bacon_lettuce"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:chicken_bun_lettuce"},
-    {"tag": "c:cooked_pork"}
+    {
+      "tag":"c:chicken_bun_lettuce"
+    },
+    {
+      "tag": "c:cooked_pork"
+    }
   ],
   "results":[
-    {"item":"createfood:chicken_bun_bacon_lettuce"}
+    {
+      "item":"createfood:chicken_bun_bacon_lettuce"
+    }
   ]
 }

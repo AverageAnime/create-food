@@ -3,17 +3,28 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "farmersdelight"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate_tomato_sauce"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:pasta_plate_tomato_sauce"},
-    {"tag":"c:cooked_mutton"}
+    {
+      "tag":"c:pasta_plate_tomato_sauce"
+    },
+    {
+      "tag":"c:cooked_mutton"
+    }
   ],
   "results":[
-    {"item":"farmersdelight:pasta_with_mutton_chop"}
+    {
+      "item":"farmersdelight:pasta_with_mutton_chop"
+    }
   ]
 }

@@ -1,4 +1,13 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pink_gelatin_mix_bucket",
+        "c:pink_gelatin_mix_bucket"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -12,6 +21,6 @@
     }
   ],
   "result": {
-    "item": "createfood:pink_gelatin_dessert_block"
+    "item": "createfood:pink_gelatin_mix_bucket"
   }
 }

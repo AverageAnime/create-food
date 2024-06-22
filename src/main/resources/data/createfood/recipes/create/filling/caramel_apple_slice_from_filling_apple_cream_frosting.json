@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_slice",
+        "c:caramel_bucket",
+        "c:caramel_apple_slice"
+      ]
     }
   ],
   "type":"create:filling",

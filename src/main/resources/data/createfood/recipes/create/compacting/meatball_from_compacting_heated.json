@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_beef",
+        "c:meatball"
+      ]
     }
   ],
   "type":"create:compacting",

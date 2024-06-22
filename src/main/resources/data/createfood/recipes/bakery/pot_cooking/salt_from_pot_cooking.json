@@ -5,12 +5,19 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:water_buckets",
+        "c:salt_compat"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",
   "ingredients": [
     {
-      "item": "minecraft:water_bucket"
+      "tag": "c:water_buckets"
     }
   ],
   "container": {

@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_endermite",
+        "c:raw_endermite_meatball"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:ground_endermite"}
+    {
+      "tag": "c:ground_endermite"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:raw_endermite_meatball",
-      "count": 2
+      "count": 2,
+      "item": "createfood:raw_endermite_meatball"
     }
   ]
 }

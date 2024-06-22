@@ -5,6 +5,13 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_bottle",
+        "c:hot_chocolate"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",

@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hollow_white_chocolate",
+        "c:melon_cream_frosting_bucket",
+        "c:melon_cream_white_chocolate"
+      ]
     }
   ],
   "type":"create:filling",
@@ -17,6 +25,8 @@
     }
   ],
   "results":[
-    {"item":"createfood:melon_cream_white_chocolate"}
+    {
+      "item":"createfood:melon_cream_white_chocolate"
+    }
   ]
 }

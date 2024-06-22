@@ -5,6 +5,16 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel_chips",
+        "c:butter",
+        "c:marshmallow",
+        "c:condensed_milk_bucket",
+        "c:marshmallow_caramel_fudge"
+      ]
     }
   ],
   "type":"create:mixing",

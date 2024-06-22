@@ -1,17 +1,27 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_milkshake_bottle",
+        "c:glow_berry_milkshake_bucket"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:milk_buckets"
+      "tag": "c:empty_buckets"
     },
     {
-      "tag": "c:glow_berry_ice_cream_bucket"
+      "tag": "c:glow_berry_milkshake_bottle"
     },
     {
-      "tag": "c:ice_blocks"
+      "tag": "c:glow_berry_milkshake_bottle"
     }
   ],
-  "result": {
+  "result":
+  {
       "item": "createfood:glow_berry_milkshake_bucket"
     }
 }

@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_jam_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

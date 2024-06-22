@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dried_coffee_beans",
+        "c:espresso_powder"
+      ]
     }
   ],
   "type": "create:pressing",

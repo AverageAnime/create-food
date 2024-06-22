@@ -1,9 +1,11 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight"
+        "c:cooked_pasta",
+        "c:small_endermite_meatballs",
+        "c:pasta_plate_endermite_meatballs_tomato_sauce"
       ]
     }
   ],

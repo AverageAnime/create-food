@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bread_slice",
+        "c:glow_berry_jam_bucket",
+        "c:bread_slice_glow_berry_jam"
+      ]
     }
   ],
   "type":"create:filling",

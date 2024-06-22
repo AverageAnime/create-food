@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:shredded_chicken",
+        "c:unbreaded_chicken_patty"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:shredded_chicken"}
+    {
+      "tag": "c:shredded_chicken"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:unbreaded_chicken_patty",
-      "count": 2
+      "count": 2,
+      "item": "createfood:unbreaded_chicken_patty"
     }
   ]
 }

@@ -3,6 +3,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
+        "c:salt_dough",
         "c:compat_bun"
       ]
     }

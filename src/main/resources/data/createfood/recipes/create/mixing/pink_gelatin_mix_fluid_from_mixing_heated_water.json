@@ -5,14 +5,20 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin",
+        "c:pink_gelatin_mix_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":81000,
-      "fluid":"minecraft:water"
+      "amount":81000, "fluid":"minecraft:water"
     },
     {
       "tag": "c:gelatin"
@@ -29,8 +35,7 @@
   ],
   "results":[
     {
-      "amount":81000,
-      "fluid":"createfood:pink_gelatin_mix"
+      "amount":81000, "fluid":"createfood:pink_gelatin_mix"
     }
   ]
 }

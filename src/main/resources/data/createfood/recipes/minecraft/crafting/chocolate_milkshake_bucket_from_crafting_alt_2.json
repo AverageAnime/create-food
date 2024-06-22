@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_ice_cream_bucket",
+        "c:chocolate_milkshake_bucket"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:milk_buckets"
+    },
+    {
+      "tag": "c:chocolate_ice_cream_bucket"
+    },
+    {
+      "tag": "c:ice_blocks"
+    }
+  ],
+  "result": {
+      "item": "createfood:chocolate_milkshake_bucket"
+    }
+}

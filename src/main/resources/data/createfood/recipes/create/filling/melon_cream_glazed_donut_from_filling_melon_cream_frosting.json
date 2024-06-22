@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:donut_base",
+        "c:melon_cream_frosting_bucket",
+        "c:melon_cream_glazed_donut"
+      ]
     }
   ],
   "type":"create:filling",

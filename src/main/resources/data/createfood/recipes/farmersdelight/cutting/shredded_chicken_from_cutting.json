@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:shredded_chicken"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",

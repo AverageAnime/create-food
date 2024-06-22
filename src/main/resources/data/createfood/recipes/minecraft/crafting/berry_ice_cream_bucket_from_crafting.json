@@ -1,14 +1,30 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:berry_ice_cream_bowl",
+        "c:berry_ice_cream_bucket"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:ice_cream_bucket"
+      "tag": "c:empty_buckets"
     },
     {
-      "item": "minecraft:sweet_berries"
+      "tag": "c:berry_ice_cream_bowl"
+    },
+    {
+      "tag": "c:berry_ice_cream_bowl"
+    },
+    {
+      "tag": "c:berry_ice_cream_bowl"
     }
   ],
-  "result": {
-      "item": "createfood:berry_ice_cream_bucket"
-    }
+  "result":
+  {
+    "item": "createfood:berry_ice_cream_bucket"
+  }
 }

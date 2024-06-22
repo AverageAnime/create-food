@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:coffee_toffee",
+        "c:coffee_toffee_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

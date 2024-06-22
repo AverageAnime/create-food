@@ -3,18 +3,19 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "farmersdelight"
+        "create"
       ]
     }
   ],
   "type":"create:splashing",
   "ingredients":[
-    {"tag":"c:wheat_flour"}
+    {
+      "tag":"c:wheat_flour"
+    }
   ],
   "results":[
-    {"item":"farmersdelight:wheat_dough"},
-    {"item":"farmersdelight:wheat_dough"},
-    {"item":"farmersdelight:wheat_dough"}
+    {
+      "item":"farmersdelight:wheat_dough"
+    }
   ]
 }

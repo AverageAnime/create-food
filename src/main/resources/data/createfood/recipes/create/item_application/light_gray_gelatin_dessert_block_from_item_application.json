@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin_dessert_block",
+        "c:light_gray_gelatin_dessert_block"
+      ]
     }
   ],
   "type":"create:item_application",
   "ingredients":[
-    {"tag":"c:gelatin_dessert_block"},
-    {"tag":"c:light_gray_dyes"}
+    {
+      "tag":"c:gelatin_dessert_block"
+    },
+    {
+      "tag":"c:light_gray_dyes"
+    }
   ],
   "results":[
-    {"item":"createfood:light_gray_gelatin_dessert_block"}
+    {
+      "item":"createfood:light_gray_gelatin_dessert_block"
+    }
   ]
 }

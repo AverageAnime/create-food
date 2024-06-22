@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_jam_bottle",
+        "c:chorus_fruit_jam_bucket"
+      ]
+    }
+  ],
+  "type":"create:emptying",
+  "ingredients":[
+    {
+      "tag":"c:chorus_fruit_jam_bottle"
+    }
+  ],
+  "results":[
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "amount": 40500,
+      "fluid":"createfood:chorus_fruit_jam"
+    }
+  ]
+}

@@ -8,6 +8,14 @@
           "create"
         ]
       }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pastry_base",
+        "c:vegetable_oil_bucket",
+        "c:donut_base"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

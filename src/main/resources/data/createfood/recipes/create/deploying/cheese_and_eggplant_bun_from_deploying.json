@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:eggplant_bun",
+        "c:cheeses",
+        "c:cheese_and_eggplant_bun"
+      ]
     }
   ],
   "type":"create:deploying",

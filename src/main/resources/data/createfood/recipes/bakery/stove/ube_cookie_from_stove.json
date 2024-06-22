@@ -6,6 +6,12 @@
         "bakery",
         "ubesdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_ube_cookie"
+      ]
     }
   ],
   "type": "bakery:stove",

@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_dark_chocolate",
+        "c:dark_chocolate_chips"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:bar_of_dark_chocolate"}
+    {
+      "tag": "c:bar_of_dark_chocolate"
+    }
   ],
   "tool":
-    {"tag": "c:tools/knives"},
+    {
+      "tag": "c:tools/knives"
+    },
   "result":
   [
     {
-      "item": "createfood:dark_chocolate_chips",
-      "count": 8
+      "count": 8,
+      "item": "createfood:dark_chocolate_chips"
     }
   ]
 }

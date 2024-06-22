@@ -3,8 +3,17 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
         "bakery"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:flour",
+        "c:sugar",
+        "c:cocoa_powder",
+        "c:eggs",
+        "c:chocolate_sugar_dough"
       ]
     }
   ],

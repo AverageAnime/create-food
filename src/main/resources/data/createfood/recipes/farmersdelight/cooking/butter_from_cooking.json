@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:salt",
+        "c:butter_compat"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

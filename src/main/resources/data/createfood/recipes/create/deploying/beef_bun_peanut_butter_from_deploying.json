@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:beef_bun",
+        "c:peanut_butter",
+        "c:beef_bun_peanut_butter"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:beef_bun"},
-    {"tag": "c:peanut_butter"}
+    {
+      "tag":"c:beef_bun"
+    },
+    {
+      "tag": "c:peanut_butter"
+    }
   ],
   "results":[
-    {"item":"createfood:beef_bun_peanut_butter"}
+    {
+      "item":"createfood:beef_bun_peanut_butter"
+    }
   ]
 }

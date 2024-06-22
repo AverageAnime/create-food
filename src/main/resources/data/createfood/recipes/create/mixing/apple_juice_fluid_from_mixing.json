@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_slice",
+        "c:apple_juice_bucket"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -27,8 +34,7 @@
   ],
   "results":[
     {
-      "amount":27000,
-      "fluid":"createfood:apple_juice"
+      "amount":27000, "fluid":"createfood:apple_juice"
     }
   ]
 }

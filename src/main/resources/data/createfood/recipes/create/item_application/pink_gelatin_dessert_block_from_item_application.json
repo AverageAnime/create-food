@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin_dessert_block",
+        "c:pink_gelatin_dessert_block"
+      ]
     }
   ],
   "type":"create:item_application",
   "ingredients":[
-    {"tag":"c:gelatin_dessert_block"},
-    {"tag":"c:pink_dyes"}
+    {
+      "tag":"c:gelatin_dessert_block"
+    },
+    {
+      "tag":"c:pink_dyes"
+    }
   ],
   "results":[
-    {"item":"createfood:pink_gelatin_dessert_block"}
+    {
+      "item":"createfood:pink_gelatin_dessert_block"
+    }
   ]
 }

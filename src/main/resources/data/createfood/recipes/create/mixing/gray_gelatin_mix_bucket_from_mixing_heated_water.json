@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin",
+        "c:gray_gelatin_mix_bucket"
+      ]
     }
   ],
   "type":"create:mixing",

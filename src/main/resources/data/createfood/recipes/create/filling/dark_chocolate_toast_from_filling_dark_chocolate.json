@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast",
+        "c:dark_chocolate_bucket",
+        "c:dark_chocolate_toast"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:toast"},
-    {"amount":10125,"fluid":"createfood:dark_chocolate"}
+    {
+      "tag":"c:toast"
+    },
+    {
+      "amount":10125,"fluid":"createfood:dark_chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:dark_chocolate_toast"}
+    {
+      "item":"createfood:dark_chocolate_toast"
+    }
   ]
 }

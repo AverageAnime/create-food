@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk_bucket"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -15,10 +21,10 @@
       "tag": "c:milk_buckets"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     },
     {
-      "item":"minecraft:sugar"
+      "tag":"c:sugar"
     }
   ],
   "result": {

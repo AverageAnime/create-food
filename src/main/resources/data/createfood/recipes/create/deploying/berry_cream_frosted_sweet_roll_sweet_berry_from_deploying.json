@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:berry_cream_frosted_sweet_roll",
+        "c:berry_cream_frosted_sweet_roll_sweet_berry"
+      ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:berry_cream_frosted_sweet_roll"},
-    {"item":"minecraft:sweet_berries"}
+    {
+      "tag":"c:berry_cream_frosted_sweet_roll"
+    },
+    {
+      "item":"minecraft:sweet_berries"
+    }
   ],
   "results":[
-    {"item":"createfood:berry_cream_frosted_sweet_roll_sweet_berry"}
+    {
+      "item":"createfood:berry_cream_frosted_sweet_roll_sweet_berry"
+    }
   ]
 }

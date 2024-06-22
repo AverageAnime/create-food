@@ -7,19 +7,24 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:bread_lettuce_carrot"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:bread_lettuce_carrot"},
-    {"tag": "c:cooked_chicken"}
+    {
+      "tag":"c:bread_lettuce_carrot"
+    },
+    {
+      "tag": "c:cooked_chicken"
+    }
   ],
   "results":[
-    {"item":"farmersdelight:chicken_sandwich"}
+    {
+      "item":"farmersdelight:chicken_sandwich"
+    }
   ]
 }

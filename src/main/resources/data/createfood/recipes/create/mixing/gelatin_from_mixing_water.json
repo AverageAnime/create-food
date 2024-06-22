@@ -5,14 +5,19 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":6750,
-      "fluid":"minecraft:water"
+      "amount":6750, "fluid":"minecraft:water"
     },
     {
       "item":"minecraft:bone"

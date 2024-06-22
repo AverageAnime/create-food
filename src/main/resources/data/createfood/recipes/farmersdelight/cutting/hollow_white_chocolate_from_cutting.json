@@ -5,19 +5,30 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bar_of_white_chocolate",
+        "c:hollow_white_chocolate"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {"tag": "c:bar_of_white_chocolate"}
+    {
+      "tag": "c:bar_of_white_chocolate"
+    }
   ],
   "tool":
-    {"item": "minecraft:stick"},
+    {
+      "item": "minecraft:stick"
+    },
   "result":
   [
     {
-      "item": "createfood:hollow_white_chocolate",
-      "count": 2
+      "count": 2,
+      "item": "createfood:hollow_white_chocolate"
     }
   ]
 }

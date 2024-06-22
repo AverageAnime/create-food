@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -12,10 +18,10 @@
   "experience": 0.25,
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     }
   ],
   "result": {

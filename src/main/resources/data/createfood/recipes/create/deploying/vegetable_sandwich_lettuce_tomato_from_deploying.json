@@ -7,10 +7,11 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia"
+        "c:bread_slice_lettuce_tomato",
+        "c:bread_slice",
+        "c:vegetable_sandwich_lettuce_tomato"
       ]
     }
   ],

@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chocolate_bottle",
+        "c:hot_dark_chocolate_bottle"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",

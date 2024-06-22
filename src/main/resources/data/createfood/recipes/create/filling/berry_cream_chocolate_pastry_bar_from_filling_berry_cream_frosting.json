@@ -5,14 +5,28 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_pastry_bar_base",
+        "c:berry_cream_frosting_bucket",
+        "c:berry_cream_chocolate_pastry_bar"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:chocolate_pastry_bar_base"},
-    {"amount":20250,"fluid":"createfood:berry_cream_frosting"}
+    {
+      "tag":"c:chocolate_pastry_bar_base"
+    },
+    {
+      "amount":20250,"fluid":"createfood:berry_cream_frosting"
+    }
   ],
   "results":[
-    {"item":"createfood:berry_cream_chocolate_pastry_bar"}
+    {
+      "item":"createfood:berry_cream_chocolate_pastry_bar"
+    }
   ]
 }

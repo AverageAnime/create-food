@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cane_syrup_bucket",
+        "c:molasses_bucket"
+      ]
     }
   ],
   "type":"create:mixing",

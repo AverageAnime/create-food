@@ -4,7 +4,14 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "farmersdelight"
+        "delightfulcreators"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate_strider_meatballs",
+        "c:pasta_plate_strider_meatballs_tomato_sauce"
       ]
     }
   ],
@@ -14,8 +21,7 @@
       "tag":"c:pasta_plate_strider_meatballs"
     },
     {
-      "amount":20250,
-      "fluid":"delightfulcreators:tomato_sauce"
+      "amount":20250, "fluid":"delightfulcreators:tomato_sauce"
     }
   ],
   "results":[

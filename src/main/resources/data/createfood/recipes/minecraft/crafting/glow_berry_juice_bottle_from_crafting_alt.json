@@ -9,6 +9,12 @@
           "farmersrespite"
         ]
       }
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_juice_bottle"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",

@@ -5,16 +5,34 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast",
+        "c:unbreaded_chicken_patty",
+        "c:chicken_patty"
+      ]
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
-    {"amount":20250,"fluidTag":"c:milk"},
-    {"tag":"c:eggs"},
-    {"tag":"c:toast"},
-    {"tag":"c:unbreaded_chicken_patty"},
-    {"tag":"c:unbreaded_chicken_patty"}
+    {
+      "amount":20250,"fluidTag":"c:milk"
+    },
+    {
+      "tag":"c:eggs"
+    },
+    {
+      "tag":"c:toast"
+    },
+    {
+      "tag":"c:unbreaded_chicken_patty"
+    },
+    {
+      "tag":"c:unbreaded_chicken_patty"
+    }
   ],
   "results":[
     {

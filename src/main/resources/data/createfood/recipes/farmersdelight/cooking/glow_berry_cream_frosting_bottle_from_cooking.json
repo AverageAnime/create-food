@@ -5,6 +5,12 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_cream_frosting"
+      ]
     }
   ],
   "type": "farmersdelight:cooking",
@@ -15,7 +21,7 @@
       "tag": "c:milk_bottle"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:sugar"
     },
     {
       "item": "minecraft:glow_berries"

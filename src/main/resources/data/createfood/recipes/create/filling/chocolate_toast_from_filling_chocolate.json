@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toast",
+        "c:chocolate_toast"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"tag":"c:toast"},
-    {"amount":10125,"fluid":"create:chocolate"}
+    {
+      "tag":"c:toast"
+    },
+    {
+      "amount":10125,"fluid":"create:chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:chocolate_toast"}
+    {
+      "item":"createfood:chocolate_toast"
+    }
   ]
 }

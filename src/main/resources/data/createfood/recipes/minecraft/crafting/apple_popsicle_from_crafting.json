@@ -1,5 +1,12 @@
 {
-
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_popsicle"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "key": {
     "-": {
@@ -9,7 +16,7 @@
       "item": "minecraft:ice"
     },
     "a": {
-      "item": "minecraft:apple"
+      "tag": "c:apple"
     }
   },
   "pattern": [

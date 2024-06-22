@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:molasses_bucket",
+        "c:pumpernickel_dough"
+      ]
     }
   ],
   "type":"create:mixing",

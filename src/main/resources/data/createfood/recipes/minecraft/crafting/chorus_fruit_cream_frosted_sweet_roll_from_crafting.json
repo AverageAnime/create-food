@@ -1,5 +1,14 @@
-
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sweet_roll_base",
+        "c:chorus_fruit_cream_frosting",
+        "c:chorus_fruit_cream_frosted_sweet_roll"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

@@ -5,15 +5,17 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:vegetable_oil_bucket"
+      ]
     }
   ],
   "type":"create:compacting",
   "heatRequirement":"heated",
   "ingredients":[
-    {
-      "amount":40500,
-      "fluid":"minecraft:water"
-    },
     {
       "tag": "c:carrot"
     },

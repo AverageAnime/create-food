@@ -5,6 +5,13 @@
       "values": [
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cyan_gelatin_dessert_block",
+        "c:cyan_gelatin_dessert_slice"
+      ]
     }
   ],
   "type": "farmersdelight:cutting",
@@ -20,8 +27,8 @@
   "result":
   [
     {
-      "item": "createfood:cyan_gelatin_dessert_slice",
-      "count": 8
+      "count": 8,
+      "item": "createfood:cyan_gelatin_dessert_slice"
     }
   ]
 }

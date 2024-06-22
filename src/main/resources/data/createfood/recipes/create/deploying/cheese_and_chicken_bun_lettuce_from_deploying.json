@@ -7,22 +7,25 @@
       ]
     },
     {
-      "condition": "fabric:any_mod_loaded",
+      "condition": "fabric:tags_populated",
       "values": [
-        "farmersdelight",
-        "croptopia",
-        "expandeddelight",
-        "brewinandchewin",
-        "meadow"
+        "c:cheese_and_chicken_bun",
+        "c:cheese_and_chicken_bun_lettuce"
       ]
     }
   ],
   "type":"create:deploying",
   "ingredients":[
-    {"tag":"c:cheese_and_chicken_bun"},
-    {"tag": "c:salad_ingredients"}
+    {
+      "tag":"c:cheese_and_chicken_bun"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    }
   ],
   "results":[
-    {"item":"createfood:cheese_and_chicken_bun_lettuce"}
+    {
+      "item":"createfood:cheese_and_chicken_bun_lettuce"
+    }
   ]
 }

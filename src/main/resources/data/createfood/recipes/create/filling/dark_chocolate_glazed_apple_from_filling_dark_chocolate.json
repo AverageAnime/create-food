@@ -5,14 +5,27 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dark_chocolate_bucket",
+        "c:dark_chocolate_glazed_apple"
+      ]
     }
   ],
   "type":"create:filling",
   "ingredients":[
-    {"item":"minecraft:apple"},
-    {"amount":20250,"fluid":"createfood:dark_chocolate"}
+    {
+      "item":"minecraft:apple"
+    },
+    {
+      "amount":20250,"fluid":"createfood:dark_chocolate"
+    }
   ],
   "results":[
-    {"item":"createfood:dark_chocolate_glazed_apple"}
+    {
+      "item":"createfood:dark_chocolate_glazed_apple"
+    }
   ]
 }

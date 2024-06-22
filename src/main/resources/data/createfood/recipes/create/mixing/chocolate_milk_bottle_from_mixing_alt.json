@@ -6,6 +6,13 @@
         "create",
         "farmersdelight"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cocoa_powder",
+        "c:chocolate_milk_bottle"
+      ]
     }
   ],
   "type":"create:mixing",

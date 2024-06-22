@@ -1,17 +1,27 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milkshake_bucket",
+        "c:milkshake_bottle"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:milk_buckets"
+      "tag": "c:empty_buckets"
     },
     {
-      "tag": "c:ice_cream_bucket"
+      "tag": "c:milkshake_bottle"
     },
     {
-      "tag": "c:ice_blocks"
+      "tag": "c:milkshake_bottle"
     }
   ],
-  "result": {
-      "item": "createfood:milkshake_bucket"
-    }
+  "result":
+  {
+    "item": "createfood:milkshake_bucket"
+  }
 }

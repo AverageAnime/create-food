@@ -4,7 +4,14 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "farmersdelight"
+        "delightfulcreators"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate_mutton_chop",
+        "c:pasta_with_mutton_chop"
       ]
     }
   ],
@@ -14,8 +21,7 @@
       "tag":"c:pasta_plate_mutton_chop"
     },
     {
-      "amount":20250,
-      "fluid":"delightfulcreators:tomato_sauce"
+      "amount":20250, "fluid":"delightfulcreators:tomato_sauce"
     }
   ],
   "results":[

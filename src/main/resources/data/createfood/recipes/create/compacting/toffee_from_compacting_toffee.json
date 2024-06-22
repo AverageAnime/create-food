@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:toffee_bucket",
+        "c:toffee"
+      ]
     }
   ],
   "type": "create:compacting",

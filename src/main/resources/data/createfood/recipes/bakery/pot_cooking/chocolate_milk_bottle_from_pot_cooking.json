@@ -5,6 +5,14 @@
       "values": [
         "bakery"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milk",
+        "c:cocoa_powder",
+        "c:chocolate_milk_bottle"
+      ]
     }
   ],
   "type": "bakery:pot_cooking",

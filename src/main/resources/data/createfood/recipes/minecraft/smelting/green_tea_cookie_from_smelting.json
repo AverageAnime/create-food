@@ -1,11 +1,12 @@
 {
   "fabric:load_conditions": [
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:green_tea_cookie"
-        ]
-      }
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_green_tea_cookie",
+        "c:green_tea_cookie"
+      ]
+    }
   ],
   "type": "minecraft:smelting",
   "cookingtime": 200,

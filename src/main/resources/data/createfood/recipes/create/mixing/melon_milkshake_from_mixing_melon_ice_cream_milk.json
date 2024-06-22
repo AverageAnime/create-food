@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:melon_ice_cream_bucket",
+        "c:milk_powder",
+        "c:melon_milkshake_bucket"
+      ]
     }
   ],
   "type":"create:mixing",

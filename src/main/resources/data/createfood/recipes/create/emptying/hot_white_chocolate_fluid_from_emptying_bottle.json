@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:hot_white_chocolate",
+        "c:hot_white_chocolate_bucket"
+      ]
     }
   ],
   "type":"create:emptying",

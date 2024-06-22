@@ -5,13 +5,26 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:butter_dough"
+      ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
-    {"tag":"c:flour"},
-    {"tag":"c:butter"},
-    {"amount":81000,"fluid":"minecraft:water"}
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:butter"
+    },
+    {
+      "amount":81000,"fluid":"minecraft:water"
+    }
   ],
   "results":[
     {

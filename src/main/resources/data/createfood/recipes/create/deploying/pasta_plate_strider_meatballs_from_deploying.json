@@ -5,6 +5,14 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pasta_plate",
+        "c:small_strider_meatballs",
+        "c:pasta_plate_strider_meatballs"
+      ]
     }
   ],
   "type":"create:deploying",
