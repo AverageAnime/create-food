@@ -17,17 +17,13 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":10125,
+      "amount":3375,
       "fluid":"minecraft:water"
     }
   ],
   "results":[
     {
       "item":"createfood:salt"
-    },
-    {
-      "amount":6750,
-      "fluid":"minecraft:water"
     }
   ]
 }
