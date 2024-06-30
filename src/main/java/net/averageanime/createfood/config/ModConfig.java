@@ -536,6 +536,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolatePastryEnabled = true;
+    @Comment("Enable Chocolate Filled Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateFilledGrahamCrackerPieCrustEnabled = true;
     @Comment("Enable Chocolate Filled Mini Graham Cracker Pie Crust.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -896,6 +900,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGrahamCrackerCrumbsEnabled = true;
+    @Comment("Enable Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrahamCrackerPieCrustEnabled = true;
     @Comment("Enable Gray Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1535,6 +1543,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBrownGelatinDessertBlockEnabled = true;
+    @Comment("Enable Cheese Pizza.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheesePizzaEnabled = true;
     @Comment("Enable Cyan Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1583,6 +1595,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRedGelatinDessertBlockEnabled = true;
+    @Comment("Enable S'mores Pie.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSmoresPieEnabled = true;
     @Comment("Enable Yellow Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:smores_pie_slice",
+      "required": false
+    }
+  ]
+}

@@ -1,4 +1,17 @@
 {
+  "text.autoconfig.createfood.option.isGrahamCrackerPieCrustEnabled": "Enable Graham Cracker Pie Crust",
+  "text.autoconfig.createfood.option.isChocolateFilledGrahamCrackerPieCrustEnabled": "Enable Chocolate Filled Graham Cracker Pie Crust",
+  "text.autoconfig.createfood.option.isSmoresPieEnabled": "Enable S'mores Pie",
+
+  "text.autoconfig.createfood.option.isCheesePizzaEnabled": "Enable Cheese Pizza",
+  "block.createfood.cheese_pizza": "Cheese Pizza",
+  "item.createfood.cheese_pizza_slice": "Cheese Pizza Slice",
+
+  "block.createfood.smores_pie": "S'mores Pie",
+  "item.createfood.smores_pie_slice": "S'mores Pie Slice",
+  "item.createfood.graham_cracker_pie_crust": "Graham Cracker Pie Crust",
+  "item.createfood.chocolate_filled_graham_cracker_pie_crust": "Chocolate Filled Graham Cracker Pie Crust",
+
   "block.createfood.apple_cream_frosting_block": "Apple Cream Frosting Fluid",
   "block.createfood.apple_ice_cream_block": "Apple Ice Cream Fluid",
   "block.createfood.apple_jam_block": "Apple Jam Fluid",

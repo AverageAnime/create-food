@@ -1,5 +1,6 @@
 package net.averageanime.createfood.item;
 
+import com.nhoryzon.mc.farmersdelight.block.PieBlock;
 import net.averageanime.createfood.CreateFood;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -12,6 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 import static net.averageanime.createfood.CreateFood.CONFIG;
+import static net.averageanime.createfood.block.ModBlocks.*;
 
 public class ModItems {
     public static final Item ICON = registerItem("icon", new Item(new FabricItemSettings()));
@@ -1037,6 +1039,15 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEBURGERONIONLETTUCETOMATO));
         }
 
+// Cheese Pizza & Slice
+
+        if (CONFIG.isCheesePizzaEnabled) {
+            final Item CHEESEPIZZASLICE = registerItem("cheese_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEPIZZASLICE));
+            CHEESE_PIZZA = registerBlock("cheese_pizza", new PieBlock(CHEESEPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESE_PIZZA));
+        }
+
 // Chicken Bun
 
         if (CONFIG.isChickenBunEnabled) {
@@ -1203,6 +1214,13 @@ public class ModItems {
         if (CONFIG.isChocolateDonutSugarEnabled) {
             final Item CHOCOLATEDONUTSUGAR = registerItem("chocolate_donut_sugar", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATEDONUTSUGAR));
+        }
+
+// Chocolate Filled Graham Cracker Pie Crust
+
+        if (CONFIG.isChocolateFilledGrahamCrackerPieCrustEnabled) {
+            final Item CHOCOLATEFILLEDGRAHAMCRACKERPIECRUST = registerItem("chocolate_filled_graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(9).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATEFILLEDGRAHAMCRACKERPIECRUST));
         }
 
 // Chocolate Filled Mini Graham Cracker Pie Crust
@@ -2091,6 +2109,12 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GRAHAMCRACKERCRUMBS));
         }
 
+// Graham Cracker Pie Crust
+
+        if (CONFIG.isGrahamCrackerPieCrustEnabled) {
+            final Item GRAHAMCRACKERPIECRUST = registerItem("graham_cracker_pie_crust", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GRAHAMCRACKERPIECRUST));
+        }
 // Grilled Cheese Sandwich
 
         if (CONFIG.isGrilledCheeseSandwichEnabled) {
@@ -3087,6 +3111,15 @@ public class ModItems {
         if (CONFIG.isSmoreEnabled) {
             final Item SMORE = registerItem("smore", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.5f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMORE));
+        }
+
+// S'mores Pie & Slice
+
+        if (CONFIG.isSmoresPieEnabled) {
+            final Item SMORESPIESLICE = registerItem("smores_pie_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMORESPIESLICE));
+            SMORES_PIE = registerBlock("smores_pie", new PieBlock(SMORESPIESLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SMORES_PIE));
         }
 
 // Salt
