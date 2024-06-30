@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:cheese_slice",
+      "id": "brewery:dumplings",
       "required": false
     },
     {
-      "id": "meadow:piece_of_cheese",
+      "id": "farmersdelight:dumplings",
       "required": false
     }
   ]

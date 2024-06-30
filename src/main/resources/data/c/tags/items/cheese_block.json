@@ -4,6 +4,10 @@
     {
       "id": "createfood:cheese_block",
       "required": false
+    },
+    {
+      "id": "meadow:cheese_block",
+      "required": false
     }
   ]
 }
