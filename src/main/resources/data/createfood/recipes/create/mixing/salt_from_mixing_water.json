@@ -17,8 +17,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":3375,
-      "fluid":"minecraft:water"
+      "amount":6750, "fluid":"minecraft:water"
     }
   ],
   "results":[
