@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/pizza_dough_tomato_sauce"
+    }
+  }
+}

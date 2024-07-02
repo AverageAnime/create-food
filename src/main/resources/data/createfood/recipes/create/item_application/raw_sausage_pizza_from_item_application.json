@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_cheese_pizza",
+        "c:raw_sausage_pizza"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:raw_cheese_pizza"
+    },
+    {
+      "tag":"c:breakfast_sausages"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:raw_sausage_pizza"
+    }
+  ]
+}

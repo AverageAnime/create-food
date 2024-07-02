@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:onion_bacon_pizza",
+      "required": false
+    }
+  ]
+}

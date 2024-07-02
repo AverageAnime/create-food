@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:fish_pizza_slice",
+      "required": false
+    }
+  ]
+}

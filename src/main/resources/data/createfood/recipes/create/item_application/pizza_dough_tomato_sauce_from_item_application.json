@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pizza_dough",
+        "c:pizza_dough_tomato_sauce"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:pizza_dough"
+    },
+    {
+      "tag":"c:tomato_sauce"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:pizza_dough_tomato_sauce"
+    }
+  ]
+}

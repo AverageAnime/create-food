@@ -1531,6 +1531,10 @@ public class ModConfig implements ConfigData
 
 //Blocks
 
+    @Comment("Enable Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBaconPizzaEnabled = true;
     @Comment("Enable Black Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1544,13 +1548,25 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBrownGelatinDessertBlockEnabled = true;
     @Comment("Enable Cheese Pizza.")
-    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCheesePizzaEnabled = true;
     @Comment("Enable Cyan Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCyanGelatinDessertBlockEnabled = true;
+    @Comment("Enable Fish Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFishPizzaEnabled = true;
+    @Comment("Enable Fish & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFishBaconPizzaEnabled = true;
+    @Comment("Enable Fish & Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFishOnionPizzaEnabled = true;
     @Comment("Enable Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1579,6 +1595,30 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMagentaGelatinDessertBlockEnabled = true;
+    @Comment("Enable Mushroom Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMushroomPizzaEnabled = true;
+    @Comment("Enable Mushroom & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMushroomBaconPizzaEnabled = true;
+    @Comment("Enable Mushroom & Fish Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMushroomFishPizzaEnabled = true;
+    @Comment("Enable Mushroom & Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMushroomOnionPizzaEnabled = true;
+    @Comment("Enable Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isOnionPizzaEnabled = true;
+    @Comment("Enable Onion & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isOnionBaconPizzaEnabled = true;
     @Comment("Enable Orange Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1591,12 +1631,104 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPurpleGelatinDessertBlockEnabled = true;
+    @Comment("Enable Pizza Dough.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPizzaDoughEnabled = true;
+    @Comment("Enable Pizza Dough (Tomato Sauce).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isPizzaDoughTomatoSauceEnabled = true;
+    @Comment("Enable Raw Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawBaconPizzaEnabled = true;
+    @Comment("Enable Raw Cheese Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawCheesePizzaEnabled = true;
+    @Comment("Enable Raw Fish Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawFishPizzaEnabled = true;
+    @Comment("Enable Raw Fish & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawFishBaconPizzaEnabled = true;
+    @Comment("Enable Raw Fish & Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawFishOnionPizzaEnabled = true;
+    @Comment("Enable Raw Mushroom Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMushroomPizzaEnabled = true;
+    @Comment("Enable Raw Mushroom & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMushroomBaconPizzaEnabled = true;
+    @Comment("Enable Raw Mushroom & Fish Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMushroomFishPizzaEnabled = true;
+    @Comment("Enable Raw Mushroom & Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMushroomOnionPizzaEnabled = true;
+    @Comment("Enable Raw Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawOnionPizzaEnabled = true;
+    @Comment("Enable Raw Onion & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawOnionBaconPizzaEnabled = true;
+    @Comment("Enable Raw Sausage Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSausagePizzaEnabled = true;
+    @Comment("Enable Raw Sausage & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSausageBaconPizzaEnabled = true;
+    @Comment("Enable Raw Sausage & Fish Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSausageFishPizzaEnabled = true;
+    @Comment("Enable Raw Sausage & Mushroom Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSausageMushroomPizzaEnabled = true;
+    @Comment("Enable Raw Sausage & Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawSausageOnionPizzaEnabled = true;
     @Comment("Enable Red Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRedGelatinDessertBlockEnabled = true;
+    @Comment("Enable Sausage Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSausagePizzaEnabled = true;
+    @Comment("Enable Sausage & Bacon Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSausageBaconPizzaEnabled = true;
+    @Comment("Enable Sausage & Fish Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSausageFishPizzaEnabled = true;
+    @Comment("Enable Sausage & Mushroom Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSausageMushroomPizzaEnabled = true;
+    @Comment("Enable Sausage & Onion Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isSausageOnionPizzaEnabled = true;
     @Comment("Enable S'mores Pie.")
-    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmoresPieEnabled = true;
     @Comment("Enable Yellow Gelatin Dessert Block.")
@@ -1907,7 +2039,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isYogurtFluidEnabled = true;
 
-    // Farmer's Delight
+// Farmer's Delight
     @Comment("Enable Beef Bun (Bacon, Lettuce).")
     @ConfigEntry.Category("Farmer'sDelight")
     @ConfigEntry.Gui.RequiresRestart

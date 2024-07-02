@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_sausage_pizza",
+        "c:raw_sausage_onion_pizza"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_sausage_pizza"
+    },
+    {
+      "tag": "c:onion"
+    }
+  ],
+  "result": {
+    "item": "createfood:raw_sausage_onion_pizza"
+  }
+}

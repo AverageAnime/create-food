@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:onion_bacon_pizza"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "c:onion_bacon_pizza"
+    }
+  ],
+  "tool":
+    {
+      "tag": "c:tools/knives"
+    },
+  "result":
+  [
+    {
+      "count": 4,
+      "item": "createfood:onion_bacon_pizza_slice"
+    }
+  ]
+}

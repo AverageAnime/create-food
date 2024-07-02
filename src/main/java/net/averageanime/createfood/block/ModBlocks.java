@@ -13,9 +13,10 @@ import net.minecraft.util.Identifier;
 
 import static net.averageanime.createfood.CreateFood.CONFIG;
 import static net.minecraft.block.Blocks.SLIME_BLOCK;
+import static net.minecraft.block.Blocks.WHITE_CARPET;
 
 public class ModBlocks {
-    public static Block CHEESE_PIZZA,SMORES_PIE, BLACK_GELATIN_DESSERT, BLUE_GELATIN_DESSERT, BROWN_GELATIN_DESSERT, CYAN_GELATIN_DESSERT, GELATIN_DESSERT, GRAY_GELATIN_DESSERT, GREEN_GELATIN_DESSERT, LIGHT_BLUE_GELATIN_DESSERT, LIGHT_GRAY_GELATIN_DESSERT, LIME_GELATIN_DESSERT, MAGENTA_GELATIN_DESSERT, ORANGE_GELATIN_DESSERT, PINK_GELATIN_DESSERT, PURPLE_GELATIN_DESSERT, RED_GELATIN_DESSERT, YELLOW_GELATIN_DESSERT;
+    public static Block PIZZA_DOUGH,PIZZA_DOUGH_TOMATO_SAUCE,CHEESE_PIZZA,SAUSAGE_PIZZA,BACON_PIZZA,MUSHROOM_PIZZA,ONION_PIZZA,FISH_PIZZA,SAUSAGE_ONION_PIZZA,SAUSAGE_BACON_PIZZA,SAUSAGE_MUSHROOM_PIZZA,SAUSAGE_FISH_PIZZA,MUSHROOM_ONION_PIZZA,MUSHROOM_BACON_PIZZA,MUSHROOM_FISH_PIZZA,FISH_ONION_PIZZA,FISH_BACON_PIZZA,ONION_BACON_PIZZA,RAW_CHEESE_PIZZA,RAW_SAUSAGE_PIZZA,RAW_BACON_PIZZA,RAW_MUSHROOM_PIZZA,RAW_ONION_PIZZA,RAW_FISH_PIZZA,RAW_SAUSAGE_ONION_PIZZA,RAW_SAUSAGE_BACON_PIZZA,RAW_SAUSAGE_MUSHROOM_PIZZA,RAW_SAUSAGE_FISH_PIZZA,RAW_MUSHROOM_ONION_PIZZA,RAW_MUSHROOM_BACON_PIZZA,RAW_MUSHROOM_FISH_PIZZA,RAW_FISH_ONION_PIZZA,RAW_FISH_BACON_PIZZA,RAW_ONION_BACON_PIZZA,SMORES_PIE, BLACK_GELATIN_DESSERT, BLUE_GELATIN_DESSERT, BROWN_GELATIN_DESSERT, CYAN_GELATIN_DESSERT, GELATIN_DESSERT, GRAY_GELATIN_DESSERT, GREEN_GELATIN_DESSERT, LIGHT_BLUE_GELATIN_DESSERT, LIGHT_GRAY_GELATIN_DESSERT, LIME_GELATIN_DESSERT, MAGENTA_GELATIN_DESSERT, ORANGE_GELATIN_DESSERT, PINK_GELATIN_DESSERT, PURPLE_GELATIN_DESSERT, RED_GELATIN_DESSERT, YELLOW_GELATIN_DESSERT;
     public static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(CreateFood.MOD_ID, name), block);
@@ -28,6 +29,132 @@ public class ModBlocks {
         CreateFood.LOGGER.info("Registering Blocks for " + CreateFood.MOD_ID);
     }
     public static void registerBlock(){
+
+// Pizza Dough
+
+        if (CONFIG.isPizzaDoughEnabled) {
+            PIZZA_DOUGH = registerBlock("pizza_dough", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PIZZA_DOUGH));
+        }
+
+// Pizza Dough (Sauce)
+
+        if (CONFIG.isPizzaDoughTomatoSauceEnabled) {
+            PIZZA_DOUGH_TOMATO_SAUCE = registerBlock("pizza_dough_tomato_sauce", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PIZZA_DOUGH_TOMATO_SAUCE));
+        }
+
+// Raw Bacon Pizza & Slice
+
+        if (CONFIG.isRawBaconPizzaEnabled) {
+            RAW_BACON_PIZZA = registerBlock("raw_bacon_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BACON_PIZZA));
+        }
+
+// Raw Cheese Pizza & Slice
+
+        if (CONFIG.isRawCheesePizzaEnabled) {
+            RAW_CHEESE_PIZZA = registerBlock("raw_cheese_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHEESE_PIZZA));
+        }
+
+// Raw Fish Pizza & Slice
+
+        if (CONFIG.isRawFishPizzaEnabled) {
+            RAW_FISH_PIZZA = registerBlock("raw_fish_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_FISH_PIZZA));
+        }
+
+// Raw Fish & Bacon Pizza & Slice
+
+        if (CONFIG.isRawFishBaconPizzaEnabled) {
+            RAW_FISH_BACON_PIZZA = registerBlock("raw_fish_bacon_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_FISH_BACON_PIZZA));
+        }
+
+// Raw Fish & Onion Pizza & Slice
+
+        if (CONFIG.isRawFishOnionPizzaEnabled) {
+            RAW_FISH_ONION_PIZZA = registerBlock("raw_fish_onion_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_FISH_ONION_PIZZA));
+        }
+
+// Raw Mushroom Pizza & Slice
+
+        if (CONFIG.isRawMushroomPizzaEnabled) {
+            RAW_MUSHROOM_PIZZA = registerBlock("raw_mushroom_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MUSHROOM_PIZZA));
+        }
+
+// Raw Mushroom & Bacon Pizza & Slice
+
+        if (CONFIG.isRawMushroomBaconPizzaEnabled) {
+            RAW_MUSHROOM_BACON_PIZZA = registerBlock("raw_mushroom_bacon_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MUSHROOM_BACON_PIZZA));
+        }
+
+// Raw Mushroom & Fish Pizza & Slice
+
+        if (CONFIG.isRawMushroomFishPizzaEnabled) {
+            RAW_MUSHROOM_FISH_PIZZA = registerBlock("raw_mushroom_fish_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MUSHROOM_FISH_PIZZA));
+        }
+
+// Raw Mushroom & Onion Pizza & Slice
+
+        if (CONFIG.isRawMushroomOnionPizzaEnabled) {
+            RAW_MUSHROOM_ONION_PIZZA = registerBlock("raw_mushroom_onion_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MUSHROOM_ONION_PIZZA));
+        }
+
+// Raw Onion Pizza & Slice
+
+        if (CONFIG.isRawOnionPizzaEnabled) {
+            RAW_ONION_PIZZA = registerBlock("raw_onion_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_ONION_PIZZA));
+        }
+
+// Raw Onion & Bacon Pizza & Slice
+
+        if (CONFIG.isRawOnionBaconPizzaEnabled) {
+            RAW_ONION_BACON_PIZZA = registerBlock("raw_onion_bacon_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_ONION_BACON_PIZZA));
+        }
+
+// Raw Sausage Pizza & Slice
+
+        if (CONFIG.isRawSausagePizzaEnabled) {
+            RAW_SAUSAGE_PIZZA = registerBlock("raw_sausage_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_PIZZA));
+        }
+
+// Raw Sausage & Bacon Pizza & Slice
+
+        if (CONFIG.isRawSausageBaconPizzaEnabled) {
+            RAW_SAUSAGE_BACON_PIZZA = registerBlock("raw_sausage_bacon_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_BACON_PIZZA));
+        }
+
+// Raw Sausage & Fish Pizza & Slice
+
+        if (CONFIG.isRawSausageFishPizzaEnabled) {
+            RAW_SAUSAGE_FISH_PIZZA = registerBlock("raw_sausage_fish_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_FISH_PIZZA));
+        }
+
+// Raw Sausage & Mushroom Pizza & Slice
+
+        if (CONFIG.isRawSausageMushroomPizzaEnabled) {
+            RAW_SAUSAGE_MUSHROOM_PIZZA = registerBlock("raw_sausage_mushroom_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_MUSHROOM_PIZZA));
+        }
+
+// Raw Sausage & Onion Pizza & Slice
+
+        if (CONFIG.isRawSausageOnionPizzaEnabled) {
+            RAW_SAUSAGE_ONION_PIZZA = registerBlock("raw_sausage_onion_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_ONION_PIZZA));
+        }
 
 // Gelatin Dessert Block
 

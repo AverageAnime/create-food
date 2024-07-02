@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:raw_sausage_mushroom_pizza",
+      "required": false
+    }
+  ]
+}

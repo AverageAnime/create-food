@@ -2,6 +2,7 @@ package net.averageanime.createfood.item;
 
 import com.nhoryzon.mc.farmersdelight.block.PieBlock;
 import net.averageanime.createfood.CreateFood;
+import net.averageanime.createfood.block.PizzaBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -141,6 +142,15 @@ public class ModItems {
         if (CONFIG.isAppleSliceEnabled) {
             final Item APPLESLICE = registerItem("apple_slice", new StickFood(new Item.Settings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.4f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLESLICE));
+        }
+
+// Bacon Pizza & Slice
+
+        if (CONFIG.isBaconPizzaEnabled) {
+            final Item BACONPIZZASLICE = registerItem("bacon_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BACONPIZZASLICE));
+            BACON_PIZZA = registerBlock("bacon_pizza", new PizzaBlock(BACONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BACON_PIZZA));
         }
 
 // Bacon Sandwich
@@ -1044,7 +1054,7 @@ public class ModItems {
         if (CONFIG.isCheesePizzaEnabled) {
             final Item CHEESEPIZZASLICE = registerItem("cheese_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.4f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEPIZZASLICE));
-            CHEESE_PIZZA = registerBlock("cheese_pizza", new PieBlock(CHEESEPIZZASLICE));
+            CHEESE_PIZZA = registerBlock("cheese_pizza", new PizzaBlock(CHEESEPIZZASLICE));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESE_PIZZA));
         }
 
@@ -1860,6 +1870,33 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ESPRESSOPOWDER));
         }
 
+// Fish Pizza & Slice
+
+        if (CONFIG.isFishPizzaEnabled) {
+            final Item FISHPIZZASLICE = registerItem("fish_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISHPIZZASLICE));
+            FISH_PIZZA = registerBlock("fish_pizza", new PizzaBlock(FISHPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISH_PIZZA));
+        }
+
+// Fish & Bacon Pizza & Slice
+
+        if (CONFIG.isFishBaconPizzaEnabled) {
+            final Item FISHBACONPIZZASLICE = registerItem("fish_bacon_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISHBACONPIZZASLICE));
+            FISH_BACON_PIZZA = registerBlock("fish_bacon_pizza", new PizzaBlock(FISHBACONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISH_BACON_PIZZA));
+        }
+
+// Fish & Onion Pizza & Slice
+
+        if (CONFIG.isFishOnionPizzaEnabled) {
+            final Item FISHONIONPIZZASLICE = registerItem("fish_onion_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISHONIONPIZZASLICE));
+            FISH_ONION_PIZZA = registerBlock("fish_onion_pizza", new PizzaBlock(FISHONIONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISH_ONION_PIZZA));
+        }
+
 // Fried Egg Plate
 
         if (CONFIG.isFriedEggPlateEnabled) {
@@ -2631,6 +2668,43 @@ public class ModItems {
             final Item MOLASSESBOTTLE = registerItem("molasses_bottle", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MOLASSESBOTTLE));
         }
+
+// Mushroom Pizza & Slice
+
+        if (CONFIG.isMushroomPizzaEnabled) {
+            final Item MUSHROOMPIZZASLICE = registerItem("mushroom_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOMPIZZASLICE));
+            MUSHROOM_PIZZA = registerBlock("mushroom_pizza", new PizzaBlock(MUSHROOMPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOM_PIZZA));
+        }
+
+// Mushroom & Bacon Pizza & Slice
+
+        if (CONFIG.isMushroomBaconPizzaEnabled) {
+            final Item MUSHROOMBACONPIZZASLICE = registerItem("mushroom_bacon_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOMBACONPIZZASLICE));
+            MUSHROOM_BACON_PIZZA = registerBlock("mushroom_bacon_pizza", new PizzaBlock(MUSHROOMBACONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOM_BACON_PIZZA));
+        }
+
+// Mushroom & Fish Pizza & Slice
+
+        if (CONFIG.isMushroomFishPizzaEnabled) {
+            final Item MUSHROOMFISHPIZZASLICE = registerItem("mushroom_fish_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOMFISHPIZZASLICE));
+            MUSHROOM_FISH_PIZZA = registerBlock("mushroom_fish_pizza", new PizzaBlock(MUSHROOMFISHPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOM_FISH_PIZZA));
+        }
+
+// Mushroom & Onion Pizza & Slice
+
+        if (CONFIG.isMushroomOnionPizzaEnabled) {
+            final Item MUSHROOMONIONPIZZASLICE = registerItem("mushroom_onion_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOMONIONPIZZASLICE));
+            MUSHROOM_ONION_PIZZA = registerBlock("mushroom_onion_pizza", new PizzaBlock(MUSHROOMONIONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOM_ONION_PIZZA));
+        }
+
 // Mutton Sandwich
 
         if (CONFIG.isMuttonSandwichEnabled) {
@@ -2650,6 +2724,24 @@ public class ModItems {
         if (CONFIG.isNachoBowlEnabled) {
             final Item NACHOBOWL = registerItem("nacho_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(NACHOBOWL));
+        }
+
+// Onion Pizza & Slice
+
+        if (CONFIG.isOnionPizzaEnabled) {
+            final Item ONIONPIZZASLICE = registerItem("onion_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.5f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ONIONPIZZASLICE));
+            ONION_PIZZA = registerBlock("onion_pizza", new PizzaBlock(ONIONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ONION_PIZZA));
+        }
+
+// Onion & Bacon Pizza & Slice
+
+        if (CONFIG.isOnionBaconPizzaEnabled) {
+            final Item ONIONBACONPIZZASLICE = registerItem("onion_bacon_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ONIONBACONPIZZASLICE));
+            ONION_BACON_PIZZA = registerBlock("onion_bacon_pizza", new PizzaBlock(ONIONBACONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ONION_BACON_PIZZA));
         }
 
 // Paprika
@@ -3162,6 +3254,51 @@ public class ModItems {
         if (CONFIG.isSausagePattyEnabled) {
             final Item SAUSAGEPATTY = registerItem("sausage_patty", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.3f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEPATTY));
+        }
+
+// Sausage Pizza & Slice
+
+        if (CONFIG.isSausagePizzaEnabled) {
+            final Item SAUSAGEPIZZASLICE = registerItem("sausage_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.5f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEPIZZASLICE));
+            SAUSAGE_PIZZA = registerBlock("sausage_pizza", new PizzaBlock(SAUSAGEPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGE_PIZZA));
+        }
+
+// Sausage & Bacon Pizza & Slice
+
+        if (CONFIG.isSausageBaconPizzaEnabled) {
+            final Item SAUSAGEBACONPIZZASLICE = registerItem("sausage_bacon_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEBACONPIZZASLICE));
+            SAUSAGE_BACON_PIZZA = registerBlock("sausage_bacon_pizza", new PizzaBlock(SAUSAGEBACONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGE_BACON_PIZZA));
+        }
+
+// Sausage & Fish Pizza & Slice
+
+        if (CONFIG.isSausageFishPizzaEnabled) {
+            final Item SAUSAGEFISHPIZZASLICE = registerItem("sausage_fish_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEFISHPIZZASLICE));
+            SAUSAGE_FISH_PIZZA = registerBlock("sausage_fish_pizza", new PizzaBlock(SAUSAGEFISHPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGE_FISH_PIZZA));
+        }
+
+// Sausage & Mushroom Pizza & Slice
+
+        if (CONFIG.isSausageMushroomPizzaEnabled) {
+            final Item SAUSAGEMUSHROOMPIZZASLICE = registerItem("sausage_mushroom_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEMUSHROOMPIZZASLICE));
+            SAUSAGE_MUSHROOM_PIZZA = registerBlock("sausage_mushroom_pizza", new PizzaBlock(SAUSAGEMUSHROOMPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGE_MUSHROOM_PIZZA));
+        }
+
+// Sausage & Onion Pizza & Slice
+
+        if (CONFIG.isSausageOnionPizzaEnabled) {
+            final Item SAUSAGEONIONPIZZASLICE = registerItem("sausage_onion_pizza_slice", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.6f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEONIONPIZZASLICE));
+            SAUSAGE_ONION_PIZZA = registerBlock("sausage_onion_pizza", new PizzaBlock(SAUSAGEONIONPIZZASLICE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGE_ONION_PIZZA));
         }
 
 // Shredded Chicken

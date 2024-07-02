@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_mushroom_fish_pizza",
+        "c:mushroom_fish_pizza"
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:raw_mushroom_fish_pizza"
+  },
+  "result": "createfood:mushroom_fish_pizza",
+  "experience": 0.25,
+  "cookingtime": 400
+}
