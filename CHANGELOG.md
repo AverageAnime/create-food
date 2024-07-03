@@ -1,3 +1,10 @@
+### ***1.0.9***
+
+![newprev2](https://github.com/AverageAnime/create-food/assets/150550990/dbfe8944-55af-4e65-847d-20cbdd7bb978)
+
+* New placeable pizzas & s'mores pie.
+* Fix for salt mixing recipe ([#20](https://github.com/AverageAnime/create-food/issues/20)). 
+
 ### ***1.0.8***
 
 ![108prevbig](https://github.com/AverageAnime/create-food/assets/150550990/7837c32e-2cc5-4867-9535-bf3fe28cb4a2)

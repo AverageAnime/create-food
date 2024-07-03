@@ -22,7 +22,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 ### **Mod Recommendations:**
 
 * [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
-* [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric)/[Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
+* [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric) & [Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
 * [Cultural Creators](https://www.curseforge.com/minecraft/mc-mods/cultural-creators-fabric-create-and-cultural) - Create and Cultural Delights compatibility.
 * [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) - More recipes.
 * [Dehydration](https://www.curseforge.com/minecraft/mc-mods/dehydration) - Appropriate items give hydration.
@@ -46,7 +46,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 *  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
 
 ### **Item Preview**
-![fullprev2big](https://github.com/AverageAnime/create-food/assets/150550990/6a5da43b-3c60-4088-8ba2-29c9a70be608)
+![fullprev2](https://github.com/AverageAnime/create-food/assets/150550990/2c031d09-7000-4e31-92e4-aef5280a3c71)
 ![fullprev2bucketbig](https://github.com/AverageAnime/create-food/assets/150550990/84d23955-50e2-4bb2-b247-7cebca832974)
 
 ### **My Other Mods**
