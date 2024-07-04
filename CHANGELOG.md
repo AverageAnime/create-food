@@ -1,4 +1,4 @@
-### ***1.0.9 - Fix***
+### ***1.1.0***
 
 * Updated textures for pizza items.
 * Fix some recipes/tags.
