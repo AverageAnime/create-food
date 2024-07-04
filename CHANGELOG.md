@@ -1,3 +1,9 @@
+### ***1.0.9 - Fix***
+
+* Updated textures for pizza items.
+* Fix some recipes/tags.
+* Fix crash ([#21](https://github.com/AverageAnime/create-food/issues/21)).
+
 ### ***1.0.9***
 
 ![newprev2](https://github.com/AverageAnime/create-food/assets/150550990/dbfe8944-55af-4e65-847d-20cbdd7bb978)
