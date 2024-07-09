@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:sausage_mushroom_pizza_slice"
+        }
+      ],
+      "rolls": 4.0
+    }
+  ],
+  "random_sequence": "createfood:blocks/sausage_mushroom_pizza"
+}
