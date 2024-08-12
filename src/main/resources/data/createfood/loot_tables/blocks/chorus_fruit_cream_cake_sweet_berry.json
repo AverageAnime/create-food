@@ -1,0 +1,205 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "chorus_fruit_cream_cake_sweet_berry",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "c:tools/knives"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_sweet_berry_knife",
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_slice_sweet_berry1",
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_slice_sweet_berry2",
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_slice_sweet_berry3",
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_slice_sweet_berry4",
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_slice_sweet_berry5",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chorus_fruit_cream_cake_slice_sweet_berry6",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chorus_fruit_cream_cake_slice_sweet_berry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chorus_fruit_cream_cake_sweet_berry",
+          "properties": {
+            "bites": "6"
+          }
+        }
+      ]
+    }
+  ]
+}

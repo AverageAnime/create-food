@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createfood:sausage_pizza"
+          "name": "createfood:raw_cheesecake"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "createfood:blocks/sausage_pizza"
+  "random_sequence": "createfood:blocks/raw_cheesecake"
 }

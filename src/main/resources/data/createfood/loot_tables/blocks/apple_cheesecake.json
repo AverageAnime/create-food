@@ -2,12 +2,12 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "onion_bacon_pizza",
+      "name": "apple_cheesecake",
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createfood:onion_bacon_pizza"
+          "name": "createfood:apple_cheesecake"
         }
       ],
       "conditions": [
@@ -22,7 +22,7 @@
         },
         {
           "condition": "minecraft:block_state_property",
-          "block": "createfood:onion_bacon_pizza",
+          "block": "createfood:apple_cheesecake",
           "properties": {
             "bites": "0"
           }
@@ -30,12 +30,12 @@
       ]
     },
     {
-      "name": "onion_bacon_pizza_knife",
+      "name": "apple_cheesecake_knife",
       "rolls": 4,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createfood:onion_bacon_pizza_slice"
+          "name": "createfood:apple_cheesecake_slice"
         }
       ],
       "conditions": [
@@ -47,7 +47,7 @@
         },
         {
           "condition": "minecraft:block_state_property",
-          "block": "createfood:onion_bacon_pizza",
+          "block": "createfood:apple_cheesecake",
           "properties": {
             "bites": "0"
           }
@@ -55,12 +55,12 @@
       ]
     },
     {
-      "name": "onion_bacon_pizza_slice1",
+      "name": "apple_cheesecake_slice1",
       "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createfood:onion_bacon_pizza_slice"
+          "name": "createfood:apple_cheesecake_slice"
         }
       ],
       "conditions": [
@@ -72,7 +72,7 @@
         },
         {
           "condition": "minecraft:block_state_property",
-          "block": "createfood:onion_bacon_pizza",
+          "block": "createfood:apple_cheesecake",
           "properties": {
             "bites": "1"
           }
@@ -80,12 +80,12 @@
       ]
     },
     {
-      "name": "onion_bacon_pizza_slice2",
+      "name": "apple_cheesecake_slice2",
       "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createfood:onion_bacon_pizza_slice"
+          "name": "createfood:apple_cheesecake_slice"
         }
       ],
       "conditions": [
@@ -97,7 +97,7 @@
         },
         {
           "condition": "minecraft:block_state_property",
-          "block": "createfood:onion_bacon_pizza",
+          "block": "createfood:apple_cheesecake",
           "properties": {
             "bites": "2"
           }
@@ -105,12 +105,12 @@
       ]
     },
     {
-      "name": "onion_bacon_pizza_slice2",
+      "name": "apple_cheesecake_slice2",
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createfood:onion_bacon_pizza_slice"
+          "name": "createfood:apple_cheesecake_slice"
         }
       ],
       "conditions": [
@@ -119,7 +119,7 @@
         },
         {
           "condition": "minecraft:block_state_property",
-          "block": "createfood:onion_bacon_pizza",
+          "block": "createfood:apple_cheesecake",
           "properties": {
             "bites": "3"
           }
