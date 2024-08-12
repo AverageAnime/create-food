@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:butter",
+      "id": "farmersdelight:minced_beef",
       "required": false
     },
     {
-      "id": "croptopia:butter",
+      "id": "farm_and_charm:minced_beef",
       "required": false
     }
   ]

@@ -6,10 +6,6 @@
       "required": false
     },
     {
-      "id": "createfood:breakfast_plate",
-      "required": false
-    },
-    {
       "id": "createfood:marshmallow_white_chocolate_fudge",
       "required": false
     },
@@ -47,10 +43,6 @@
     },
     {
       "id": "createfood:smore",
-      "required": false
-    },
-    {
-      "id": "createfood:mini_smores_pie",
       "required": false
     }
   ]

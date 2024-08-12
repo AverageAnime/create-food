@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chorus_fruit_cream_cake_slice_chorus_fruit",
+      "required": false
+    }
+  ]
+}
