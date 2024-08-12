@@ -2,6 +2,62 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_chorus_fruit_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_glow_berry_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_berry_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_apple_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_pie_filling_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_cheesecake_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:cheesecake_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_cream_cheese",
+      "required": false
+    },
+    {
+      "id": "createfood:cream_cheese",
+      "required": false
+    },
+    {
+      "id": "createfood:flowing_vinegar",
+      "required": false
+    },
+    {
+      "id": "createfood:vinegar",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_sour_cream",
       "required": false
     },
