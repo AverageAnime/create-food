@@ -33,6 +33,41 @@ public abstract class BackgroundRendererMixin {
     @ModifyArgs(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false))
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
+        if (ModFluids.isGlowBerryPieFilling(state)) {
+            red = (float) 229 / 255;
+            green = (float) 138 / 255;
+            blue = (float) 107 / 255;
+        }
+        if (ModFluids.isChorusFruitPieFilling(state)) {
+            red = (float) 223 / 255;
+            green = (float) 70 / 255;
+            blue = (float) 221 / 255;
+        }
+        if (ModFluids.isBerryPieFilling(state)) {
+            red = (float) 230 / 255;
+            green = (float) 110 / 255;
+            blue = (float) 160 / 255;
+        }
+        if (ModFluids.isApplePieFilling(state)) {
+            red = (float) 165 / 255;
+            green = (float) 18 / 255;
+            blue = (float) 0 / 255;
+        }
+        if (ModFluids.isCheesecakeFilling(state)) {
+            red = (float) 225 / 255;
+            green = (float) 217 / 255;
+            blue = (float) 207 / 255;
+        }
+        if (ModFluids.isCreamCheese(state)) {
+            red = (float) 225 / 255;
+            green = (float) 217 / 255;
+            blue = (float) 207 / 255;
+        }
+        if (ModFluids.isVinegar(state)) {
+            red = (float) 198 / 255;
+            green = (float) 197 / 255;
+            blue = (float) 193 / 255;
+        }
         if (ModFluids.isFruitSmoothie(state)) {
             red = (float) 255 / 255;
             green = (float) 126 / 255;
@@ -430,6 +465,41 @@ public abstract class BackgroundRendererMixin {
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+        if (ModFluids.isChorusFruitPieFilling(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isGlowBerryPieFilling(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isBerryPieFilling(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isApplePieFilling(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isCheesecakeFilling(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isCreamCheese(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isVinegar(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isSourCream(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);

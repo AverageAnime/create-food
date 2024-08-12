@@ -26,10 +26,13 @@ import static net.averageanime.createfood.CreateFood.CONFIG;
 
 @Environment(value= EnvType.CLIENT)
 public class CreateFoodClient implements ClientModInitializer {
+
     public static final String MOD_ID = "createfood";
+
     public static Identifier asId(String path) {
         return new Identifier(MOD_ID, path);
     }
+
     @Override
     public void onInitializeClient() {
 
@@ -42,6 +45,7 @@ public class CreateFoodClient implements ClientModInitializer {
             ResourceManagerHelper.registerBuiltinResourcePack(asId("farmers_respite"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("ends_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("cultural_delight"), container, ResourcePackActivationType.NORMAL);
+            ResourceManagerHelper.registerBuiltinResourcePack(asId("ubes_delight"), container, ResourcePackActivationType.NORMAL);
         });
 
 // Food Effect Tooltips
@@ -445,6 +449,45 @@ public class CreateFoodClient implements ClientModInitializer {
         });
 
 // Fluids
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHORUS_FRUIT_PIE_FILLING, ModFluids.FLOWING_CHORUS_FRUIT_PIE_FILLING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/chorus_fruit_pie_filling_still"),
+                new Identifier("createfood:block/chorus_fruit_pie_filling_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_GLOW_BERRY_PIE_FILLING, ModFluids.FLOWING_GLOW_BERRY_PIE_FILLING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/glow_berry_pie_filling_still"),
+                new Identifier("createfood:block/glow_berry_pie_filling_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BERRY_PIE_FILLING, ModFluids.FLOWING_BERRY_PIE_FILLING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/berry_pie_filling_still"),
+                new Identifier("createfood:block/berry_pie_filling_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_APPLE_PIE_FILLING, ModFluids.FLOWING_APPLE_PIE_FILLING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/apple_pie_filling_still"),
+                new Identifier("createfood:block/apple_pie_filling_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHEESECAKE_FILLING, ModFluids.FLOWING_CHEESECAKE_FILLING, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/cheesecake_filling_still"),
+                new Identifier("createfood:block/cheesecake_filling_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CREAM_CHEESE, ModFluids.FLOWING_CREAM_CHEESE, new SimpleFluidRenderHandler(
+                new Identifier("createfood:block/cream_cheese_still"),
+                new Identifier("createfood:block/cream_cheese_flow")
+        ));
+
+        if (CONFIG.isVinegarFluidEnabled) {
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_VINEGAR, ModFluids.FLOWING_VINEGAR);
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_VINEGAR, ModFluids.FLOWING_VINEGAR, new SimpleFluidRenderHandler(
+                    new Identifier("minecraft:block/water_still"),
+                    new Identifier("minecraft:block/water_flow"),
+                    0xc5c6c1
+            ));
+        }
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_SOUR_CREAM, ModFluids.FLOWING_SOUR_CREAM, new SimpleFluidRenderHandler(
                 new Identifier("createfood:block/sour_cream_still"),
