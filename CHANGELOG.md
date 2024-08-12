@@ -1,3 +1,25 @@
+### ***1.1.1***
+
+![111new](https://github.com/user-attachments/assets/02396822-70ce-4a71-a0e9-2943f1cf0baa)
+
+* New cakes, pies, and cheesecakes.
+  * Related additions to Farmer's Delight resource pack.
+* Renamed the following items. This will delete existing versions of the items.
+  * Chocolate Filled Mini Graham Cracker Pie Crust -> Mini Chocolate Pie (Graham Cracker)
+  * Chocolate Filled Graham Cracker Pie Crust -> Chocolate Pie (Graham Cracker)
+* Changed the following items into placeable blocks. This will delete existing versions of the items.
+  * Cake Base
+  * Frosted Cake
+  * Chocolate Pie (Graham Cracker)
+  * Graham Cracker Pie Crust
+* All cake, pie, cheesecake, and pizza blocks will now:
+  * Drop full block item when broken with empty hand.
+  * Drop appropriate number of slices when partially eaten block is broken with a knife.
+  * Drop single slice on final bite when broken with empty hand.
+* Compatibility for [[Let's Do] Farm & Charm](https://www.curseforge.com/minecraft/mc-mods/lets-do-farm-charm). 
+  * Cooking pot & crafting bowl recipes are now for Farm & Charm.
+  * New recipes for mincer, roaster, & stove.
+  
 ### ***1.1.0***
 
 * Updated textures for pizza items.

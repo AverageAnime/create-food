@@ -1,4 +1,4 @@
-![logo](https://github.com/AverageAnime/create-food-1.20.1/assets/150550990/473ed31f-67ad-406f-9ea4-e633aa76f49f)
+![cflogofixed](https://github.com/AverageAnime/create-food/assets/150550990/e2b1eb71-d719-4323-b4c7-e1601533ced4)
 
 ### **About:**
 
@@ -6,7 +6,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 
 ### **Current Content:**
 
-* Hundreds of new food-related items, including dozens of new fluids. Enable/disable in the config according to preference. View item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List) or preview textures [here](https://github.com/AverageAnime/create-food/wiki/Previews).
+* Hundreds of new food-related items, including dozens of new fluids. Enable/disable in the config according to preference. View item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List) and preview textures [here](https://github.com/AverageAnime/create-food/wiki/Previews).
 * Numerous tag additions to enhance mod compatibility. Includes a tag-based system to apply Farmer's Delight food effects and vanilla status effects to any item with the appropriate tag.
 * All recipes use tags where possible. Includes additional recipe support for [satisfy’s](https://www.curseforge.com/members/satisfy/projects) [Let’s Do] mods.
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
@@ -36,9 +36,9 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Expanded Delight](https://www.curseforge.com/minecraft/mc-mods/expanded-delight)
 * [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite-fabric)
 * [Fright's Delight](https://www.curseforge.com/minecraft/mc-mods/frights-delight)
-* [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated)
+* [Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated) or [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric)
 * [Ube's Delight](https://www.curseforge.com/minecraft/mc-mods/ubes-delight)
-
+  
 ### **Configuration:**
 
 *  [Built-in Resource Packs](https://github.com/AverageAnime/create-food/wiki/Resource-Packs)
@@ -46,8 +46,8 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 *  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
 
 ### **Item Preview**
-![fullprev2](https://github.com/AverageAnime/create-food/assets/150550990/2c031d09-7000-4e31-92e4-aef5280a3c71)
-![fullprev2bucketbig](https://github.com/AverageAnime/create-food/assets/150550990/84d23955-50e2-4bb2-b247-7cebca832974)
+![111item](https://github.com/user-attachments/assets/18f65eb3-d2fa-4669-acd5-2d0707e5c597)
+![111bucket](https://github.com/user-attachments/assets/62d793f1-907c-4c65-965f-55a484c65a3d)
 
 ### **My Other Mods**
 
