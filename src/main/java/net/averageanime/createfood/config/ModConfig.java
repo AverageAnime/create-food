@@ -536,14 +536,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolatePastryEnabled = true;
-    @Comment("Enable Chocolate Filled Graham Cracker Pie Crust.")
+    @Comment("Enable Mini Chocolate Pie (Graham Cracker).")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isChocolateFilledGrahamCrackerPieCrustEnabled = true;
-    @Comment("Enable Chocolate Filled Mini Graham Cracker Pie Crust.")
-    @ConfigEntry.Category("CreateFood")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isChocolateFilledMiniGrahamCrackerPieCrustEnabled = true;
+    public boolean isMiniChocolatePieGrahamCrackerEnabled = true;
     @Comment("Enable Chocolate Frosted Chocolate Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -696,6 +692,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitSliceEnabled = true;
+    @Comment("Enable Cream Cheese.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamCheeseEnabled = true;
     @Comment("Enable Cream Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1476,6 +1476,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isVegetableSandwichLettuceTomatoEnabled = true;
+    @Comment("Enable Vinegar")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isVinegarBottleEnabled = true;
     @Comment("Enable White Chips Chocolate Cookie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1531,6 +1535,10 @@ public class ModConfig implements ConfigData
 
 //Blocks
 
+    @Comment("Enable Apple Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isAppleCheesecakeEnabled = true;
     @Comment("Enable Bacon Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1547,10 +1555,70 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBrownGelatinDessertBlockEnabled = true;
+    @Comment("Enable Berry Cream Cake (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamCakeChorusFruitEnabled = true;
+    @Comment("Enable Berry Cream Cake (Glow Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamCakeGlowBerryEnabled = true;
+    @Comment("Enable Berry Cream Cake (Sweet Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamCakeSweetBerryEnabled = true;
+    @Comment("Enable Berry Cream Frosted Cake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamFrostedCakeEnabled = true;
+    @Comment("Enable Berry Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryPieEnabled = true;
     @Comment("Enable Cheese Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCheesePizzaEnabled = true;
+    @Comment("Enable Cake (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCakeChorusFruitEnabled = true;
+    @Comment("Enable Cake (Glow Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCakeGlowBerryEnabled = true;
+    @Comment("Enable Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheesecakeEnabled = true;
+    @Comment("Enable Chocolate Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolatePieGrahamCrackerEnabled = true;
+    @Comment("Enable Chorus Fruit Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCheesecakeEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Cake (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamCakeChorusFruitEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Cake (Glow Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamCakeGlowBerryEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Cake (Sweet Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamCakeSweetBerryEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Frosted Cake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamFrostedCakeEnabled = true;
+    @Comment("Enable Chorus Fruit Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitPieEnabled = true;
     @Comment("Enable Cyan Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1579,6 +1647,30 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGreenGelatinDessertBlockEnabled = true;
+    @Comment("Enable Glow Berry Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCheesecakeEnabled = true;
+    @Comment("Enable Glow Berry Cream Cake (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamCakeChorusFruitEnabled = true;
+    @Comment("Enable Glow Berry Cream Cake (Glow Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamCakeGlowBerryEnabled = true;
+    @Comment("Enable Glow Berry Cream Cake (Sweet Berry).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamCakeSweetBerryEnabled = true;
+    @Comment("Enable Glow Berry Cream Frosted Cake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamFrostedCakeEnabled = true;
+    @Comment("Enable Glow Berry Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryPieEnabled = true;
     @Comment("Enable Light Blue Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1639,14 +1731,50 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isPizzaDoughTomatoSauceEnabled = true;
+    @Comment("Enable Raw Apple Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawAppleCheesecakeEnabled = true;
+    @Comment("Enable Raw Apple Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawApplePieEnabled = true;
     @Comment("Enable Raw Bacon Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawBaconPizzaEnabled = true;
+    @Comment("Enable Raw Berry Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawBerryCheesecakeEnabled = true;
+    @Comment("Enable Raw Berry Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawBerryPieEnabled = true;
     @Comment("Enable Raw Cheese Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawCheesePizzaEnabled = true;
+    @Comment("Enable Raw Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawCheesecakeEnabled = true;
+    @Comment("Enable Raw Chocolate Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChocolatePieEnabled = true;
+    @Comment("Enable Raw Chocolate Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChocolatePieGrahamCrackerEnabled = true;
+    @Comment("Enable Raw Chorus Fruit Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChorusFruitPieEnabled = true;
+    @Comment("Enable Raw Chorus Fruit Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChorusFruitCheesecakeEnabled = true;
     @Comment("Enable Raw Fish Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1659,6 +1787,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawFishOnionPizzaEnabled = true;
+    @Comment("Enable Raw Glow Berry Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawGlowBerryPieEnabled = true;
+    @Comment("Enable Raw Glow Berry Cheesecake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawGlowBerryCheesecakeEnabled = true;
+    @Comment("Enable Raw Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawGrahamCrackerPieCrustEnabled = true;
     @Comment("Enable Raw Mushroom Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1683,6 +1823,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawOnionBaconPizzaEnabled = true;
+    @Comment("Enable Raw Pie Crust.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawPieCrustEnabled = true;
     @Comment("Enable Raw Sausage Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1758,6 +1902,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isAppleMilkshakeFluidEnabled = true;
+    @Comment("Enable Apple Pie Filling Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isApplePieFillingFluidEnabled = true;
     @Comment("Enable Berry Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1778,6 +1926,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryMilkshakeFluidEnabled = true;
+    @Comment("Enable Berry Pie Filling Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryPieFillingFluidEnabled = true;
     @Comment("Enable Blackstrap Molasses Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1862,10 +2014,22 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitMilkshakeFluidEnabled = true;
+    @Comment("Enable Chorus Fruit Pie Filling Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitPieFillingFluidEnabled = true;
+    @Comment("Enable Cheesecake Filling Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheesecakeFillingFluidEnabled = true;
     @Comment("Enable Condensed Milk Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCondensedMilkFluidEnabled = true;
+    @Comment("Enable Cream Cheese Fluid .")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamCheeseFluidEnabled = true;
     @Comment("Enable Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -1910,6 +2074,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryMilkshakeFluidEnabled = true;
+    @Comment("Enable Glow Berry Pie Filling Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryPieFillingFluidEnabled = true;
     @Comment("Enable Gray Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -2022,6 +2190,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isVegetableOilFluidEnabled = true;
+    @Comment("Enable Vinegar Fluid .")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isVinegarFluidEnabled = true;
     @Comment("Enable White Chocolate Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
