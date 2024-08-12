@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "createfood:block/frosted_cake_side",
+        "bottom": "createfood:block/cake_bottom",
+        "top": "createfood:block/cake_top_chorus_fruit",
+        "side": "createfood:block/frosted_cake_side",
+        "inside": "createfood:block/cake_inner"
+    },
+    "elements": [
+        {   "from": [ 3, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "createfood:block/raw_graham_cracker_pie_crust",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "createfood:block/raw_graham_cracker_pie_crust"
+    },
+    "facing=south": {
+      "model": "createfood:block/raw_graham_cracker_pie_crust",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "createfood:block/raw_graham_cracker_pie_crust",
+      "y": 270
+    }
+  }
+}

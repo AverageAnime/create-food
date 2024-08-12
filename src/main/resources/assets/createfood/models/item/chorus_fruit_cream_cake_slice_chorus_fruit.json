@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+  "layer0": "createfood:item/chorus_fruit_cream_cake_slice_chorus_fruit"
+  }
+}

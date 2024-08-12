@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "createfood:block/raw_chorus_fruit_pie",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "createfood:block/raw_chorus_fruit_pie"
+    },
+    "facing=south": {
+      "model": "createfood:block/raw_chorus_fruit_pie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "createfood:block/raw_chorus_fruit_pie",
+      "y": 270
+    }
+  }
+}

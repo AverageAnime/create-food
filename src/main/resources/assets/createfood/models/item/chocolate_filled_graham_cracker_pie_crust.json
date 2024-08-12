@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-  "layer0": "createfood:item/chocolate_filled_graham_cracker_pie_crust"
-  }
-}

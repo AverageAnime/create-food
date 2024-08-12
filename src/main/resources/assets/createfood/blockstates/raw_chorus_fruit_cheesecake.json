@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "createfood:block/raw_chorus_fruit_cheesecake",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "createfood:block/raw_chorus_fruit_cheesecake"
+    },
+    "facing=south": {
+      "model": "createfood:block/raw_chorus_fruit_cheesecake",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "createfood:block/raw_chorus_fruit_cheesecake",
+      "y": 270
+    }
+  }
+}

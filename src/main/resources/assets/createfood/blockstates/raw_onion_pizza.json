@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "createfood:block/raw_onion_pizza",
+      "y": 90
+    },
+    "facing=north": {
       "model": "createfood:block/raw_onion_pizza"
+    },
+    "facing=south": {
+      "model": "createfood:block/raw_onion_pizza",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "createfood:block/raw_onion_pizza",
+      "y": 270
     }
   }
 }

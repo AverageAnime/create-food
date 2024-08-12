@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry"
+    },
+    "bites=1": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry_slice1"
+    },
+    "bites=2": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry_slice2"
+    },
+    "bites=3": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry_slice3"
+    },
+    "bites=4": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry_slice4"
+    },
+    "bites=5": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry_slice5"
+    },
+    "bites=6": {
+      "model": "createfood:block/chorus_fruit_cream_cake_glow_berry_slice6"
+    }
+  }
+}
