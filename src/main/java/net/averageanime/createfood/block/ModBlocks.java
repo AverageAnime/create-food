@@ -15,7 +15,7 @@ import static net.averageanime.createfood.CreateFood.CONFIG;
 import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
-    public static Block CHOCOLATE_PIE_GRAHAM_CRACKER,GLOW_BERRY_PIE,CHORUS_FRUIT_PIE,BERRY_PIE,GLOW_BERRY_CHEESECAKE,CHORUS_FRUIT_CHEESECAKE,APPLE_CHEESECAKE,CHEESECAKE,RAW_BERRY_CHEESECAKE,RAW_APPLE_PIE,RAW_GLOW_BERRY_PIE,RAW_GLOW_BERRY_CHEESECAKE,RAW_CHORUS_FRUIT_PIE,RAW_CHORUS_FRUIT_CHEESECAKE,RAW_CHEESECAKE,RAW_BERRY_PIE,RAW_APPLE_CHEESECAKE,RAW_CHOCOLATE_PIE_GRAHAM_CRACKER,RAW_CHOCOLATE_PIE,RAW_GRAHAM_CRACKER_PIE_CRUST,RAW_PIE_CRUST,CAKE_GLOW_BERRY,CAKE_CHORUS_FRUIT,GLOW_BERRY_CREAM_CAKE_SWEET_BERRY,GLOW_BERRY_CREAM_CAKE_GLOW_BERRY,GLOW_BERRY_CREAM_CAKE_CHORUS_FRUIT,CHORUS_FRUIT_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_CAKE_GLOW_BERRY,CHORUS_FRUIT_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_GLOW_BERRY,BERRY_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_FROSTED_CAKE,GLOW_BERRY_CREAM_FROSTED_CAKE,BERRY_CREAM_FROSTED_CAKE,FROSTED_CAKE,CAKE_BASE,PIZZA_DOUGH,PIZZA_DOUGH_TOMATO_SAUCE,CHEESE_PIZZA,SAUSAGE_PIZZA,BACON_PIZZA,MUSHROOM_PIZZA,ONION_PIZZA,FISH_PIZZA,SAUSAGE_ONION_PIZZA,SAUSAGE_BACON_PIZZA,SAUSAGE_MUSHROOM_PIZZA,SAUSAGE_FISH_PIZZA,MUSHROOM_ONION_PIZZA,MUSHROOM_BACON_PIZZA,MUSHROOM_FISH_PIZZA,FISH_ONION_PIZZA,FISH_BACON_PIZZA,ONION_BACON_PIZZA,RAW_CHEESE_PIZZA,RAW_SAUSAGE_PIZZA,RAW_BACON_PIZZA,RAW_MUSHROOM_PIZZA,RAW_ONION_PIZZA,RAW_FISH_PIZZA,RAW_SAUSAGE_ONION_PIZZA,RAW_SAUSAGE_BACON_PIZZA,RAW_SAUSAGE_MUSHROOM_PIZZA,RAW_SAUSAGE_FISH_PIZZA,RAW_MUSHROOM_ONION_PIZZA,RAW_MUSHROOM_BACON_PIZZA,RAW_MUSHROOM_FISH_PIZZA,RAW_FISH_ONION_PIZZA,RAW_FISH_BACON_PIZZA,RAW_ONION_BACON_PIZZA,SMORES_PIE, BLACK_GELATIN_DESSERT, BLUE_GELATIN_DESSERT, BROWN_GELATIN_DESSERT, CYAN_GELATIN_DESSERT, GELATIN_DESSERT, GRAY_GELATIN_DESSERT, GREEN_GELATIN_DESSERT, LIGHT_BLUE_GELATIN_DESSERT, LIGHT_GRAY_GELATIN_DESSERT, LIME_GELATIN_DESSERT, MAGENTA_GELATIN_DESSERT, ORANGE_GELATIN_DESSERT, PINK_GELATIN_DESSERT, PURPLE_GELATIN_DESSERT, RED_GELATIN_DESSERT, YELLOW_GELATIN_DESSERT;
+    public static Block UBE_CREAM_FROSTED_UBE_CAKE,UBE_CAKE_BASE,CHOCOLATE_PIE_GRAHAM_CRACKER,GLOW_BERRY_PIE,CHORUS_FRUIT_PIE,BERRY_PIE,GLOW_BERRY_CHEESECAKE,CHORUS_FRUIT_CHEESECAKE,APPLE_CHEESECAKE,CHEESECAKE,RAW_BERRY_CHEESECAKE,RAW_APPLE_PIE,RAW_GLOW_BERRY_PIE,RAW_GLOW_BERRY_CHEESECAKE,RAW_CHORUS_FRUIT_PIE,RAW_CHORUS_FRUIT_CHEESECAKE,RAW_CHEESECAKE,RAW_BERRY_PIE,RAW_APPLE_CHEESECAKE,RAW_CHOCOLATE_PIE_GRAHAM_CRACKER,RAW_CHOCOLATE_PIE,RAW_GRAHAM_CRACKER_PIE_CRUST,RAW_PIE_CRUST,CAKE_GLOW_BERRY,CAKE_CHORUS_FRUIT,GLOW_BERRY_CREAM_CAKE_SWEET_BERRY,GLOW_BERRY_CREAM_CAKE_GLOW_BERRY,GLOW_BERRY_CREAM_CAKE_CHORUS_FRUIT,CHORUS_FRUIT_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_CAKE_GLOW_BERRY,CHORUS_FRUIT_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_GLOW_BERRY,BERRY_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_FROSTED_CAKE,GLOW_BERRY_CREAM_FROSTED_CAKE,BERRY_CREAM_FROSTED_CAKE,FROSTED_CAKE,CAKE_BASE,PIZZA_DOUGH,PIZZA_DOUGH_TOMATO_SAUCE,CHEESE_PIZZA,SAUSAGE_PIZZA,BACON_PIZZA,MUSHROOM_PIZZA,ONION_PIZZA,FISH_PIZZA,SAUSAGE_ONION_PIZZA,SAUSAGE_BACON_PIZZA,SAUSAGE_MUSHROOM_PIZZA,SAUSAGE_FISH_PIZZA,MUSHROOM_ONION_PIZZA,MUSHROOM_BACON_PIZZA,MUSHROOM_FISH_PIZZA,FISH_ONION_PIZZA,FISH_BACON_PIZZA,ONION_BACON_PIZZA,RAW_CHEESE_PIZZA,RAW_SAUSAGE_PIZZA,RAW_BACON_PIZZA,RAW_MUSHROOM_PIZZA,RAW_ONION_PIZZA,RAW_FISH_PIZZA,RAW_SAUSAGE_ONION_PIZZA,RAW_SAUSAGE_BACON_PIZZA,RAW_SAUSAGE_MUSHROOM_PIZZA,RAW_SAUSAGE_FISH_PIZZA,RAW_MUSHROOM_ONION_PIZZA,RAW_MUSHROOM_BACON_PIZZA,RAW_MUSHROOM_FISH_PIZZA,RAW_FISH_ONION_PIZZA,RAW_FISH_BACON_PIZZA,RAW_ONION_BACON_PIZZA,SMORES_PIE, BLACK_GELATIN_DESSERT, BLUE_GELATIN_DESSERT, BROWN_GELATIN_DESSERT, CYAN_GELATIN_DESSERT, GELATIN_DESSERT, GRAY_GELATIN_DESSERT, GREEN_GELATIN_DESSERT, LIGHT_BLUE_GELATIN_DESSERT, LIGHT_GRAY_GELATIN_DESSERT, LIME_GELATIN_DESSERT, MAGENTA_GELATIN_DESSERT, ORANGE_GELATIN_DESSERT, PINK_GELATIN_DESSERT, PURPLE_GELATIN_DESSERT, RED_GELATIN_DESSERT, YELLOW_GELATIN_DESSERT;
 
     public static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -162,14 +162,14 @@ public class ModBlocks {
 // Raw Apple Cheesecake
 
         if (CONFIG.isRawAppleCheesecakeEnabled) {
-            RAW_APPLE_CHEESECAKE = registerBlock("raw_apple_cheesecake", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_APPLE_CHEESECAKE = registerBlock("raw_apple_cheesecake", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_APPLE_CHEESECAKE));
         }
 
 // Raw Apple Pie
 
         if (CONFIG.isRawApplePieEnabled) {
-            RAW_APPLE_PIE = registerBlock("raw_apple_pie", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_APPLE_PIE = registerBlock("raw_apple_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_APPLE_PIE));
         }
 
@@ -183,21 +183,21 @@ public class ModBlocks {
 // Raw Berry Pie
 
         if (CONFIG.isRawBerryPieEnabled) {
-            RAW_BERRY_PIE = registerBlock("raw_berry_pie", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_BERRY_PIE = registerBlock("raw_berry_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BERRY_PIE));
         }
 
 // Raw Berry Cheesecake
 
         if (CONFIG.isRawBerryCheesecakeEnabled) {
-            RAW_BERRY_CHEESECAKE = registerBlock("raw_berry_cheesecake", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_BERRY_CHEESECAKE = registerBlock("raw_berry_cheesecake", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BERRY_CHEESECAKE));
         }
 
 // Raw Cheesecake
 
         if (CONFIG.isRawCheesecakeEnabled) {
-            RAW_CHEESECAKE = registerBlock("raw_cheesecake", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_CHEESECAKE = registerBlock("raw_cheesecake", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHEESECAKE));
         }
 
@@ -211,28 +211,28 @@ public class ModBlocks {
 // Raw Chocolate Pie
 
         if (CONFIG.isRawChocolatePieEnabled) {
-            RAW_CHOCOLATE_PIE = registerBlock("raw_chocolate_pie", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_CHOCOLATE_PIE = registerBlock("raw_chocolate_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHOCOLATE_PIE));
         }
 
 // Raw Chocolate Pie (Graham Cracker)
 
         if (CONFIG.isRawChocolatePieGrahamCrackerEnabled) {
-            RAW_CHOCOLATE_PIE_GRAHAM_CRACKER = registerBlock("raw_chocolate_pie_graham_cracker", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_CHOCOLATE_PIE_GRAHAM_CRACKER = registerBlock("raw_chocolate_pie_graham_cracker", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHOCOLATE_PIE_GRAHAM_CRACKER));
         }
 
 // Raw Chorus Fruit Cheesecake
 
         if (CONFIG.isRawChorusFruitCheesecakeEnabled) {
-            RAW_CHORUS_FRUIT_CHEESECAKE = registerBlock("raw_chorus_fruit_cheesecake", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_CHORUS_FRUIT_CHEESECAKE = registerBlock("raw_chorus_fruit_cheesecake", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHORUS_FRUIT_CHEESECAKE));
         }
 
 // Raw Chorus Fruit Pie
 
         if (CONFIG.isRawChorusFruitPieEnabled) {
-            RAW_CHORUS_FRUIT_PIE = registerBlock("raw_chorus_fruit_pie", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_CHORUS_FRUIT_PIE = registerBlock("raw_chorus_fruit_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHORUS_FRUIT_PIE));
         }
 
@@ -260,21 +260,21 @@ public class ModBlocks {
 // Raw Glow Berry Cheesecake
 
         if (CONFIG.isRawGlowBerryCheesecakeEnabled) {
-            RAW_GLOW_BERRY_CHEESECAKE = registerBlock("raw_glow_berry_cheesecake", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_GLOW_BERRY_CHEESECAKE = registerBlock("raw_glow_berry_cheesecake", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_GLOW_BERRY_CHEESECAKE));
         }
 
 // Raw Glow Berry Pie
 
         if (CONFIG.isRawGlowBerryPieEnabled) {
-            RAW_GLOW_BERRY_PIE = registerBlock("raw_glow_berry_pie", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_GLOW_BERRY_PIE = registerBlock("raw_glow_berry_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_GLOW_BERRY_PIE));
         }
 
 // Raw Graham Cracker Pie Crust
 
         if (CONFIG.isRawGrahamCrackerPieCrustEnabled) {
-            RAW_GRAHAM_CRACKER_PIE_CRUST = registerBlock("raw_graham_cracker_pie_crust", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_GRAHAM_CRACKER_PIE_CRUST = registerBlock("raw_graham_cracker_pie_crust", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_GRAHAM_CRACKER_PIE_CRUST));
         }
 
@@ -323,7 +323,7 @@ public class ModBlocks {
 // Raw Pie Crust
 
         if (CONFIG.isRawPieCrustEnabled) {
-            RAW_PIE_CRUST = registerBlock("raw_pie_crust", new RawPieCrustBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            RAW_PIE_CRUST = registerBlock("raw_pie_crust", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_PIE_CRUST));
         }
 
@@ -361,6 +361,21 @@ public class ModBlocks {
             RAW_SAUSAGE_ONION_PIZZA = registerBlock("raw_sausage_onion_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_ONION_PIZZA));
         }
+
+// Ube Cake Base
+
+        if (CONFIG.isUbeCakeBaseEnabled) {
+            UBE_CAKE_BASE = registerBlock("ube_cake_base", new CakeBaseBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBE_CAKE_BASE));
+        }
+
+// Ube Cream Frosted Ube Cake
+
+        if (CONFIG.isUbeCreamFrostedUbeCakeEnabled) {
+            UBE_CREAM_FROSTED_UBE_CAKE = registerBlock("ube_cream_frosted_ube_cake", new CakeBaseBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBE_CREAM_FROSTED_UBE_CAKE));
+        }
+
 
 // Gelatin Dessert Block
 

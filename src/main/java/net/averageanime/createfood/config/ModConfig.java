@@ -2651,10 +2651,10 @@ public class ModConfig implements ConfigData
     public boolean isTortillaChipBowlEnabled = false;
 
     // Ube Delight
-    @Comment("Enable Frosted Ube Cake.")
+    @Comment("Enable Ube Cream Frosted Ube Cake.")
     @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isFrostedUbeCakeEnabled = false;
+    public boolean isUbeCreamFrostedUbeCakeEnabled = false;
     @Comment("Enable Raw Ginger Cookie.")
     @ConfigEntry.Category("Ube'sDelight")
     @ConfigEntry.Gui.RequiresRestart

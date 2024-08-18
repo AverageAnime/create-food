@@ -2026,13 +2026,6 @@ if (CONFIG.isCheesecakeEnabled) {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRIEDEGGHASHBROWNSANDWICH));
         }
 
-// Frosted Ube Cake
-
-        if (CONFIG.isFrostedUbeCakeEnabled) {
-            final Item FROSTEDUBECAKE = registerItem("frosted_ube_cake", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.1f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTEDUBECAKE));
-        }
-
 // Fruit Smoothie
 
         if (CONFIG.isFruitSmoothieBottleEnabled) {
@@ -3664,13 +3657,6 @@ if (CONFIG.isCheesecakeEnabled) {
         if (CONFIG.isTortillaChipBowlEnabled) {
             final Item TORTILLACHIPBOWL = registerItem("tortilla_chip_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TORTILLACHIPBOWL));
-        }
-
-// Ube Cake Base
-
-        if (CONFIG.isUbeCakeBaseEnabled) {
-            final Item UBECAKEBASE = registerItem("ube_cake_base", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.1f).build())));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBECAKEBASE));
         }
 
 // Ube Cream Frosting Bottle

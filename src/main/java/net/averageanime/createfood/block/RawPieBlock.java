@@ -16,12 +16,12 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
-public class RawPieCrustBlock extends Block {
+public class RawPieBlock extends Block {
 
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0D, 0.0D, 2.0D, 14.0D, 4.0D, 14.0D);
 
-    public RawPieCrustBlock(Settings settings) {
+    public RawPieBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
     }
