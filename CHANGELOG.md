@@ -16,9 +16,9 @@
   * Ube Cake Base
   * Ube Cream Frosted Ube Cake
 * All cake, pie, cheesecake, and pizza blocks will now:
-  * Drop full block item when broken with empty hand.
-  * Drop appropriate number of slices when partially eaten block is broken with a knife.
-  * Drop single slice on final bite when broken with empty hand.
+  * Drop full block item when broken with an empty hand.
+  * Drop the appropriate number of slices when a partially eaten block is broken with a knife.
+  * Drop a single slice on the final bite when broken with an empty hand.
 * Compatibility for [[Let's Do] Farm & Charm](https://www.curseforge.com/minecraft/mc-mods/lets-do-farm-charm). 
   * Cooking pot, crafting bowl, and stove recipes are now for Farm & Charm.
   * New recipes for mincer, drying, & roaster.
