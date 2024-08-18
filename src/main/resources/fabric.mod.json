@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "createfood",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"name": "Create: Food",
 	"description": "A Fabric Food Addon for Farmer's Delight & Create",
 	"authors": [

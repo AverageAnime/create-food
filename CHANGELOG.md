@@ -7,18 +7,22 @@
 * Renamed the following items. This will delete existing versions of the items.
   * Chocolate Filled Mini Graham Cracker Pie Crust -> Mini Chocolate Pie (Graham Cracker)
   * Chocolate Filled Graham Cracker Pie Crust -> Chocolate Pie (Graham Cracker)
+  * Frosted Ube Cake -> Ube Cream Frosted Ube Cake
 * Changed the following items into placeable blocks. This will delete existing versions of the items.
   * Cake Base
   * Frosted Cake
   * Chocolate Pie (Graham Cracker)
   * Graham Cracker Pie Crust
+  * Ube Cake Base
+  * Ube Cream Frosted Ube Cake
 * All cake, pie, cheesecake, and pizza blocks will now:
   * Drop full block item when broken with empty hand.
   * Drop appropriate number of slices when partially eaten block is broken with a knife.
   * Drop single slice on final bite when broken with empty hand.
 * Compatibility for [[Let's Do] Farm & Charm](https://www.curseforge.com/minecraft/mc-mods/lets-do-farm-charm). 
-  * Cooking pot & crafting bowl recipes are now for Farm & Charm.
-  * New recipes for mincer, roaster, & stove.
+  * Cooking pot, crafting bowl, and stove recipes are now for Farm & Charm.
+  * New recipes for mincer, drying, & roaster.
+* Various recipe & tag updates. 
   
 ### ***1.1.0***
 
