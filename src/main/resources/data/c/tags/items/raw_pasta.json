@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "minecraft:sugar",
+      "id": "farmersdelight:raw_pasta",
       "required": false
     },
     {
-      "id": "createfood:powdered_sugar",
+      "id": "farm_and_charm:raw_pasta",
       "required": false
     }
   ]
