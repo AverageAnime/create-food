@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_jam_bucket"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "ingredients": [
+    {
+      "tag": "c:apple"
+    },
+    {
+      "tag": "c:apple"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:sugar"
+    }
+  ],
+  "result": {
+    "item": "createfood:apple_jam_bucket"
+  }
+}

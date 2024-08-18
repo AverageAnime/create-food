@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:sliced_potato",
+        "c:shredded_potato"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:mincer",
+  "ingredient":
+    {
+      "tag": "c:sliced_potato"
+    },
+  "recipe_type": "MEAT",
+  "result":
+    {
+      "item": "createfood:shredded_potato"
+    }
+}

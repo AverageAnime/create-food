@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:flour",
+        "c:sugar",
+        "c:water_buckets",
+        "c:sugar_dough"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:water_buckets"
+    }
+  ],
+  "result": {
+    "item": "createfood:sugar_dough",
+    "count": 3
+  }
+}

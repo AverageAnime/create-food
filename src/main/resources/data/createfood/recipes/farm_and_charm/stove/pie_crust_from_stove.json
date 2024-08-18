@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_pie_crust"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_pie_crust"
+    },
+    {
+      "tag": "c:raw_pie_crust"
+    },
+    {
+      "tag": "c:raw_pie_crust"
+    }
+  ],
+  "item": "farmersdelight:pie_crust",
+  "count": 3,
+  "experience": 0.40
+}

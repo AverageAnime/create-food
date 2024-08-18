@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_glow_berry_pie",
+        "c:glow_berry_pie"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_glow_berry_pie"
+    },
+    {
+      "tag": "c:raw_glow_berry_pie"
+    },
+    {
+      "tag": "c:raw_glow_berry_pie"
+    }
+  ],
+  "item": "createfood:glow_berry_pie",
+  "count": 3,
+  "experience": 1.5
+}

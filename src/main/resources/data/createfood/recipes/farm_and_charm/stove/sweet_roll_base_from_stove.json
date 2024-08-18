@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_sweet_roll_base",
+        "c:sweet_roll_base"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_sweet_roll_base"
+    },
+    {
+      "tag": "c:raw_sweet_roll_base"
+    },
+    {
+      "tag": "c:raw_sweet_roll_base"
+    }
+  ],
+  "item": "createfood:sweet_roll_base",
+  "count": 3,
+  "experience": 0.25
+}

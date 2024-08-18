@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_green_tea_cookie"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_green_tea_cookie"
+    },
+    {
+      "tag": "c:raw_green_tea_cookie"
+    },
+    {
+      "tag": "c:raw_green_tea_cookie"
+    }
+  ],
+  "item": "farmersrespite:green_tea_cookie",
+  "count": 3,
+  "experience": 0.45
+}

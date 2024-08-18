@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gelatin",
+        "c:slime_bucket"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:grains"
+    },
+    {
+      "tag": "c:gelatin"
+    },
+    {
+      "tag":"c:lime_dyes"
+    },
+    {
+      "tag":"c:water_buckets"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "result": {
+    "item": "createfood:slime_bucket"
+  }
+}

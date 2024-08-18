@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:dark_chocolate_chips",
+        "c:butter",
+        "c:dark_chocolate_fudge"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:condensed_milk"
+    },
+    {
+      "tag": "c:dark_chocolate_chips"
+    },
+    {
+      "tag": "c:butter"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:dark_chocolate_fudge"
+  }
+}

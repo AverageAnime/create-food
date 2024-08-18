@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:dried_coffee_beans",
+        "c:espresso_powder"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:mincer",
+  "ingredient":
+    {
+      "tag": "c:dried_coffee_beans"
+    },
+  "recipe_type": "STONE",
+  "result":
+    {
+      "count": 2,
+      "item": "createfood:espresso_powder"
+    }
+}

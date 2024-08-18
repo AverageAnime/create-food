@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:salt_dough",
+        "c:bun"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:salt_dough"
+    },
+    {
+      "tag": "c:salt_dough"
+    },
+    {
+      "tag": "c:salt_dough"
+    }
+  ],
+  "item": "createfood:bun",
+  "count": 3,
+  "experience": 0.10
+}

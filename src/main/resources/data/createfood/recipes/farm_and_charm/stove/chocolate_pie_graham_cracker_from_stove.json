@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_chocolate_pie_graham_cracker",
+        "c:chocolate_pie_graham_cracker"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_chocolate_pie_graham_cracker"
+    },
+    {
+      "tag": "c:raw_chocolate_pie_graham_cracker"
+    },
+    {
+      "tag": "c:raw_chocolate_pie_graham_cracker"
+    }
+  ],
+  "item": "createfood:chocolate_pie_graham_cracker",
+  "count": 3,
+  "experience": 1.5
+}

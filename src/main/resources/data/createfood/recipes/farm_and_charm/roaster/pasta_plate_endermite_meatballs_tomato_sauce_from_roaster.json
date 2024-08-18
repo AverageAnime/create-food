@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_pasta",
+        "c:small_endermite_meatballs",
+        "c:pasta_plate_endermite_meatballs_tomato_sauce"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "tag": "c:raw_pasta"
+    },
+    {
+      "tag": "c:small_endermite_meatballs"
+    }
+  ],
+  "container": {
+    "item": "farmersdelight:tomato_sauce"
+  },
+  "result": {
+    "item": "createfood:pasta_plate_endermite_meatballs_tomato_sauce"
+  }
+}

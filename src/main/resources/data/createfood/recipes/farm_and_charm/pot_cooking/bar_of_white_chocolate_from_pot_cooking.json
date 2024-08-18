@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pressed_cocoa",
+        "c:cacao_mass_bucket",
+        "c:bar_of_white_chocolate"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:cacao_butter"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:bar_of_white_chocolate",
+    "count": 1,
+    "experience": 0.75
+  }
+}

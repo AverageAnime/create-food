@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm",
+        "ends_delight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_chorus_cookie",
+        "c:chorus_cookie"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_chorus_cookie"
+    },
+    {
+      "tag": "c:raw_chorus_cookie"
+    },
+    {
+      "tag": "c:raw_chorus_cookie"
+    }
+  ],
+  "item": "ends_delight:chorus_cookie",
+  "count": 3,
+  "experience": 0.45
+}

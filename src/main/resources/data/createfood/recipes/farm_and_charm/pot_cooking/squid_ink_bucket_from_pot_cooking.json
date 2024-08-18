@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:squid_ink_bucket"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "result": {
+    "item": "createfood:squid_ink_bucket"
+  }
+}

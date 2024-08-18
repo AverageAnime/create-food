@@ -1,0 +1,41 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:condensed_milk",
+        "c:toffee_chips",
+        "c:butter",
+        "c:espresso_powder",
+        "c:coffee_toffee_fudge"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:condensed_milk"
+    },
+    {
+      "tag": "c:toffee_chips"
+    },
+    {
+      "tag": "c:butter"
+    },
+    {
+      "tag": "c:espresso_powder"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:coffee_toffee_fudge"
+  }
+}

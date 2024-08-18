@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:caramel",
+        "c:caramel_chips"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:mincer",
+  "ingredient":
+    {
+      "tag": "c:caramel"
+    },
+  "recipe_type": "STONE",
+  "result":
+    {
+      "count": 8,
+      "item": "createfood:caramel_chips"
+    }
+}

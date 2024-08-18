@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:pumpernickel_bread_slice",
+        "c:pumpernickel_toast_slice"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:pumpernickel_bread_slice"
+    },
+    {
+      "tag": "c:pumpernickel_bread_slice"
+    },
+    {
+      "tag": "c:pumpernickel_bread_slice"
+    }
+  ],
+  "item": "createfood:pumpernickel_toast_slice",
+  "count": 3,
+  "experience": 0.15
+}

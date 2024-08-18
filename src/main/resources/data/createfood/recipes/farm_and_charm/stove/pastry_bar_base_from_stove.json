@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_pastry_bar",
+        "c:pastry_bar"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_pastry_bar_base"
+    },
+    {
+      "tag": "c:raw_pastry_bar_base"
+    },
+    {
+      "tag": "c:raw_pastry_bar_base"
+    }
+  ],
+  "item": "createfood:pastry_bar_base",
+  "count": 3,
+  "experience": 0.15
+}

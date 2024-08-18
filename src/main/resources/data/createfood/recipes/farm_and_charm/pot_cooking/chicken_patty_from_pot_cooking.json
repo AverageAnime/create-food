@@ -1,0 +1,45 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:milk",
+        "c:eggs",
+        "c:toast_slice",
+        "c:unbreaded_chicken_patty",
+        "c:chicken_patty"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "c:milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:toast_slice"
+    },
+    {
+      "tag": "c:unbreaded_chicken_patty"
+    },
+    {
+      "tag": "c:unbreaded_chicken_patty"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "createfood:chicken_patty",
+    "count": 2
+  }
+}

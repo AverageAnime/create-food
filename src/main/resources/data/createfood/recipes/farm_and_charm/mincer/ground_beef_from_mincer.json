@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ground_beef"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:mincer",
+  "ingredient":
+    {
+      "tag": "c:minced_beef"
+    },
+  "recipe_type": "MEAT",
+  "result":
+    {
+      "item": "createfood:ground_beef"
+    }
+}

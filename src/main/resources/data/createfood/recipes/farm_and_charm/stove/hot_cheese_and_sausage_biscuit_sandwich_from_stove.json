@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheese_and_sausage_biscuit_sandwich",
+        "c:hot_cheese_and_sausage_biscuit_sandwich"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:cheese_and_sausage_biscuit_sandwich"
+    },
+    {
+      "tag": "c:cheese_and_sausage_biscuit_sandwich"
+    },
+    {
+      "tag": "c:cheese_and_sausage_biscuit_sandwich"
+    }
+  ],
+  "item": "createfood:hot_cheese_and_sausage_biscuit_sandwich",
+  "count": 3,
+  "experience": 0.15
+}

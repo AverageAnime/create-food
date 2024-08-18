@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_snickerdoodle_cookie"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_snickerdoodle"
+    },
+    {
+      "tag": "c:raw_snickerdoodle"
+    },
+    {
+      "tag": "c:raw_snickerdoodle"
+    }
+  ],
+  "item": "expandeddelight:snickerdoodle",
+  "count": 3,
+  "experience": 0.45
+}

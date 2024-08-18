@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_glow_berry_cheesecake",
+        "c:glow_berry_cheesecake"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "c:raw_glow_berry_cheesecake"
+    },
+    {
+      "tag": "c:raw_glow_berry_cheesecake"
+    },
+    {
+      "tag": "c:raw_glow_berry_cheesecake"
+    }
+  ],
+  "item": "createfood:glow_berry_cheesecake",
+  "count": 3,
+  "experience": 1.5
+}
