@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cake_base",
+        "c:chorus_fruit_cream_frosting_bucket",
+        "c:chorus_fruit_cream_frosted_cake"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:cake_base"
+    },
+    {
+      "tag":"c:chorus_fruit_cream_frosting_bottle"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:chorus_fruit_cream_frosted_cake"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cheesecake_slice",
+        "c:cheesecake"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cheesecake_slice"
+    },
+    {
+      "tag": "c:cheesecake_slice"
+    },
+    {
+      "tag": "c:cheesecake_slice"
+    },
+    {
+      "tag": "c:cheesecake_slice"
+    }
+  ],
+  "result": {
+    "item": "createfood:cheesecake"
+  }
+}

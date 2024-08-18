@@ -4,7 +4,8 @@
       "condition": "fabric:tags_populated",
       "values": [
         "c:pasta_plate_slime",
-        "c:small_slimeballs"
+        "c:small_slimeballs",
+        "c:pasta_with_slimeballs"
       ]
     }
   ],

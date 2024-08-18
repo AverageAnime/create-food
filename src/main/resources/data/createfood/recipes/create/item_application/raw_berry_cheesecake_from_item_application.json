@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_cheesecake",
+        "c:raw_berry_cheesecake"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:raw_cheesecake"
+    },
+    {
+      "item":"minecraft:sweet_berries"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:raw_berry_cheesecake"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_cheesecake",
+        "c:cheesecake"
+      ]
+    }
+  ],
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "tag": "c:raw_cheesecake"
+  },
+  "result": "createfood:cheesecake",
+  "experience": 0.95,
+  "cookingtime": 550
+}

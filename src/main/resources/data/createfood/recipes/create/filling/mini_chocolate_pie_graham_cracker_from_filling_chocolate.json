@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:mini_graham_cracker_pie_crust",
+        "c:mini_chocolate_pie_graham_cracker"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:mini_graham_cracker_pie_crust"
+    },
+    {
+      "amount":20250, "fluid":"create:chocolate"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:mini_chocolate_pie_graham_cracker"
+    }
+  ]
+}

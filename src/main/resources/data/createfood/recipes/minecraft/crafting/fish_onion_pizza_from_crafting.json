@@ -3,21 +3,27 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_fish_pizza",
-        "c:raw_fish_onion_pizza"
+        "c:fish_onion_pizza_slice",
+        "c:fish_onion_pizza"
       ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:raw_fish_pizza"
+      "tag": "c:fish_onion_pizza_slice"
     },
     {
-      "tag": "c:onion"
+      "tag": "c:fish_onion_pizza_slice"
+    },
+    {
+      "tag": "c:fish_onion_pizza_slice"
+    },
+    {
+      "tag": "c:fish_onion_pizza_slice"
     }
   ],
   "result": {
-    "item": "createfood:raw_fish_onion_pizza"
+    "item": "createfood:fish_onion_pizza"
   }
 }

@@ -3,7 +3,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:ube_sugar_dough"
+        "c:ube_sugar_dough",
+        "c:crops/ube"
       ]
     }
   ],
@@ -16,7 +17,7 @@
       "tag": "c:sugar"
     },
     {
-      "item": "ubesdelight:ube"
+      "item": "c:crops/ube"
     }
   ],
   "result": {

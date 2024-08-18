@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_berry_cheesecake"
+      ]
+    }
+  ],
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "tag": "c:raw_berry_cheesecake"
+  },
+  "result": "farmersdelight:sweet_berry_cheesecake",
+  "experience": 0.95,
+  "cookingtime": 550
+}

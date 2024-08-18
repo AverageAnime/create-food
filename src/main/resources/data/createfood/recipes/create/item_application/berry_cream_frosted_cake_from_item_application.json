@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cake_base",
+        "c:berry_cream_frosting_bucket",
+        "c:berry_cream_frosted_cake"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:cake_base"
+    },
+    {
+      "tag":"c:berry_cream_frosting_bottle"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:berry_cream_frosted_cake"
+    }
+  ]
+}

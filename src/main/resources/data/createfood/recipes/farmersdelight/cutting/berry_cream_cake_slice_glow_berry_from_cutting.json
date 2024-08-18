@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:berry_cream_cake_glow_berry"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "c:berry_cream_cake_glow_berry"
+    }
+  ],
+  "tool":
+    {
+      "tag": "c:tools/knives"
+    },
+  "result":
+  [
+    {
+      "count": 7,
+      "item": "createfood:berry_cream_cake_slice_glow_berry"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_pie_crust",
+        "c:raw_chocolate_pie"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:raw_pie_crust"
+    },
+    {
+      "tag":"c:chocolate_bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:raw_chocolate_pie"
+    }
+  ]
+}

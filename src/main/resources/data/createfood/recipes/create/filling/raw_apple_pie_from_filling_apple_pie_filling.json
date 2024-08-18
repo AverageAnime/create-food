@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_pie_crust",
+        "c:apple_pie_filling_bucket",
+        "c:raw_apple_pie"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:raw_pie_crust"
+    },
+    {
+      "amount":81000, "fluid":"createfood:apple_pie_filling"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:raw_apple_pie"
+    }
+  ]
+}

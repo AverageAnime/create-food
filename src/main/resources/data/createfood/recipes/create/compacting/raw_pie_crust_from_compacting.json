@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:raw_graham_cracker_pie_crust"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "amount":20250,"fluidTag":"c:milk"
+    },
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:flour"
+    },
+    {
+      "tag":"c:butter"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:raw_pie_crust"
+    }
+  ]
+}

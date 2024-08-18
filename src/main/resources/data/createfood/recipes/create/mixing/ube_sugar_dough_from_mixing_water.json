@@ -9,14 +9,15 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:ube_sugar_dough"
+        "c:ube_sugar_dough",
+        "c:crops/ube"
       ]
     }
   ],
   "type":"create:mixing",
   "ingredients":[
     {
-      "item":"ubesdelight:ube"
+      "item":"c:crops/ube"
     },
     {
       "tag":"c:sugar"

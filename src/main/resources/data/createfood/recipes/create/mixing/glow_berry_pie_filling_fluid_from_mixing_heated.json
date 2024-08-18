@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:glow_berry_pie_filling_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:butter"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000, "fluid":"createfood:glow_berry_pie_filling"
+    }
+  ]
+}

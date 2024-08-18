@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:ube_cream_frosted_ube_cake",
+        "c:crops/ube"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ube_cream_frosted_ube_cake"
+    },
+    {
+      "tag": "c:crops/ube"
+    }
+  ],
+  "result": {
+      "item": "ubesdelight:ube_cake"
+    }
+}

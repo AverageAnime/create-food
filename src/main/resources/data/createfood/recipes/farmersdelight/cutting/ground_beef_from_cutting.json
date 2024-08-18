@@ -16,7 +16,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "farmersdelight:minced_beef"
+      "tag": "c:minced_beef"
     }
   ],
   "tool":

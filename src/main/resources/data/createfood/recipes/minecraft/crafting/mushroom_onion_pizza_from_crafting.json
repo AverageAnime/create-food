@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:mushroom_onion_pizza_slice",
+        "c:mushroom_onion_pizza"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:mushroom_onion_pizza_slice"
+    },
+    {
+      "tag": "c:mushroom_onion_pizza_slice"
+    },
+    {
+      "tag": "c:mushroom_onion_pizza_slice"
+    },
+    {
+      "tag": "c:mushroom_onion_pizza_slice"
+    }
+  ],
+  "result": {
+    "item": "createfood:mushroom_onion_pizza"
+  }
+}

@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:chocolate_filled_mini_graham_cracker_pie_crust",
+        "c:mini_chocolate_pie_graham_cracker",
         "c:marshmallow",
         "c:mini_smores_pie"
       ]
@@ -18,7 +18,7 @@
   "type":"create:deploying",
   "ingredients":[
     {
-      "tag":"c:chocolate_filled_mini_graham_cracker_pie_crust"
+      "tag":"c:mini_chocolate_pie_graham_cracker"
     },
     {
       "tag":"c:marshmallow"

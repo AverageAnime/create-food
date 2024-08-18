@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cake_glow_berry"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cake_slice_glow_berry"
+    },
+    {
+      "tag": "c:cake_slice_glow_berry"
+    },
+    {
+      "tag": "c:cake_slice_glow_berry"
+    },
+    {
+      "tag": "c:cake_slice_glow_berry"
+    },
+    {
+      "tag": "c:cake_slice_glow_berry"
+    },
+    {
+      "tag": "c:cake_slice_glow_berry"
+    },
+    {
+      "tag": "c:cake_slice_glow_berry"
+    }
+  ],
+  "result": {
+    "item": "createfood:cake_glow_berry"
+  }
+}

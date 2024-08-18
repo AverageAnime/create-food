@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:mushroom_bacon_pizza_slice",
+        "c:mushroom_bacon_pizza"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:mushroom_bacon_pizza_slice"
+    },
+    {
+      "tag": "c:mushroom_bacon_pizza_slice"
+    },
+    {
+      "tag": "c:mushroom_bacon_pizza_slice"
+    },
+    {
+      "tag": "c:mushroom_bacon_pizza_slice"
+    }
+  ],
+  "result": {
+    "item": "createfood:mushroom_bacon_pizza"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:apple_pie_filling_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:butter"
+    },
+    {
+      "tag":"c:brown_sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:apple"
+    },
+    {
+      "tag":"c:apple"
+    },
+    {
+      "tag":"c:apple"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000, "fluid":"createfood:apple_pie_filling"
+    }
+  ]
+}

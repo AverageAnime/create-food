@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:cooked_pasta"
+        "c:pasta"
       ]
     }
   ],
@@ -18,10 +18,10 @@
   "experience": 0.2,
   "ingredients": [
     {
-      "item": "minecraft:water_bucket"
+      "tag": "c:raw_pasta"
     },
     {
-      "item": "farmersdelight:raw_pasta"
+      "tag": "c:water_buckets"
     }
   ],
   "result": {

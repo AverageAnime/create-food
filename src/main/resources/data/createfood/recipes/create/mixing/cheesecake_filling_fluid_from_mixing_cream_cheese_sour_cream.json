@@ -1,0 +1,45 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese_bucket",
+        "c:sour_cream_bucket",
+        "c:salt",
+        "c:cheesecake_filling_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "amount":81000,"fluid":"createfood:cream_cheese"
+    },
+    {
+      "amount":20250,"fluid":"createfood:sour_cream"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:salt"
+    },
+    {
+      "tag":"c:eggs"
+    },
+    {
+      "tag":"c:eggs"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000,"fluid":"createfood:cheesecake_filling"
+    }
+  ]
+}

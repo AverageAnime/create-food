@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:ube_cream_frosting"
+        "c:ube_cream_frosting",
+        "c:crops/ube"
       ]
     }
   ],
@@ -31,16 +32,16 @@
       "tag":"c:sugar"
     },
     {
-      "item":"ubesdelight:ube"
+      "item":"c:crops/ube"
     },
     {
-      "item":"ubesdelight:ube"
+      "item":"c:crops/ube"
     },
     {
-      "item":"ubesdelight:ube"
+      "item":"c:crops/ube"
     },
     {
-      "item":"ubesdelight:ube"
+      "item":"c:crops/ube"
     }
   ],
   "results":[

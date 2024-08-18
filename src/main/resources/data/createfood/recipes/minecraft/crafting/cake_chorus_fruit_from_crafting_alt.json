@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cake_chorus_fruit"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    },
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    },
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    },
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    },
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    },
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    },
+    {
+      "tag": "c:cake_slice_chorus_fruit"
+    }
+  ],
+  "result": {
+    "item": "createfood:cake_chorus_fruit"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_pie_crust"
+      ]
+    }
+  ],
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "tag": "c:raw_pie_crust"
+  },
+  "result": "farmersdelight:pie_crust",
+  "experience": 0.25,
+  "cookingtime": 200
+}

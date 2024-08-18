@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:ube_cream_frosting_bottle"
+        "c:ube_cream_frosting_bottle",
+        "c:crops/ube"
       ]
     }
   ],
@@ -19,7 +20,7 @@
       "tag":"c:sugar"
     },
     {
-      "item":"ubesdelight:ube"
+      "item":"c:crops/ube"
     },
     {
       "item":"farmersdelight:milk_bottle"

@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chorus_fruit_cream_frosted_cake",
+        "c:chorus_fruit_cream_cake_chorus_fruit"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chorus_fruit_cream_frosted_cake"
+    },
+    {
+      "tag": "c:chorus_fruit"
+    }
+  ],
+  "result": {
+    "item": "createfood:chorus_fruit_cream_cake_chorus_fruit"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_pie_graham_cracker_slice",
+        "c:chocolate_pie_graham_cracker"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_pie_graham_cracker_slice"
+    },
+    {
+      "tag": "c:chocolate_pie_graham_cracker_slice"
+    },
+    {
+      "tag": "c:chocolate_pie_graham_cracker_slice"
+    },
+    {
+      "tag": "c:chocolate_pie_graham_cracker_slice"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_pie_graham_cracker"
+  }
+}

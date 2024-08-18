@@ -3,21 +3,27 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_cheese_pizza",
-        "c:raw_fish_pizza"
+        "c:fish_pizza_slice",
+        "c:fish_pizza"
       ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:raw_cheese_pizza"
+      "tag": "c:fish_pizza_slice"
     },
     {
-      "tag": "c:cooked_fishes"
+      "tag": "c:fish_pizza_slice"
+    },
+    {
+      "tag": "c:fish_pizza_slice"
+    },
+    {
+      "tag": "c:fish_pizza_slice"
     }
   ],
   "result": {
-    "item": "createfood:raw_fish_pizza"
+    "item": "createfood:fish_pizza"
   }
 }
