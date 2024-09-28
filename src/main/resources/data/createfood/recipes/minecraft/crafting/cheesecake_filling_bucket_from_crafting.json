@@ -3,7 +3,9 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:cheesecake_filling_bucket",
+        "c:cream_cheese_bucket",
+        "c:sour_cream_bottle",
+        "c:salt",
         "c:cheesecake_filling_bucket"
       ]
     }

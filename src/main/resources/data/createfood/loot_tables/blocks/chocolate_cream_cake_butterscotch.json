@@ -1,0 +1,205 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "chocolate_cream_cake_butterscotch",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "c:tools/knives"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_butterscotch_knife",
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_butterscotch1",
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_butterscotch2",
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_butterscotch3",
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_butterscotch4",
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_butterscotch5",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_butterscotch6",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_butterscotch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_butterscotch",
+          "properties": {
+            "bites": "6"
+          }
+        }
+      ]
+    }
+  ]
+}

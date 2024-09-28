@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "cream_pie_chocolate_graham_cracker",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:cream_pie_chocolate_graham_cracker"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "c:tools/knives"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:cream_pie_chocolate_graham_cracker",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cheesecake_knife",
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:cream_pie_chocolate_graham_cracker_slice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:cream_pie_chocolate_graham_cracker",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cream_pie_chocolate_graham_cracker_slice1",
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:cream_pie_chocolate_graham_cracker_slice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:cream_pie_chocolate_graham_cracker",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cream_pie_chocolate_graham_cracker_slice2",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:cream_pie_chocolate_graham_cracker_slice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:cream_pie_chocolate_graham_cracker",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cream_pie_chocolate_graham_cracker_slice2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:cream_pie_chocolate_graham_cracker_slice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:cream_pie_chocolate_graham_cracker",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

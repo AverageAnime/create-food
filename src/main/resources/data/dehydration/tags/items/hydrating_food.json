@@ -2,6 +2,38 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:chocolate_graham_cracker_neapolitan_scoop_1",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_ice_cream_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_ice_cream_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_ice_cream_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_ice_cream_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_ice_cream_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_ice_cream_stick",
+      "required": false
+    },
+    {
+      "id": "createfood:ice_cream_stick",
+      "required": false
+    },
+    {
       "id": "createfood:melon_ice_cream_bowl",
       "required": false
     },

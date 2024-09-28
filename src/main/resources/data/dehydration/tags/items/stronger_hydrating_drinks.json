@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:ice_cream_sandwich",
+      "required": false
+    },
+    {
+      "id": "createfood:ice_cream_sandwich_neapolitan",
+      "required": false
+    },
+    {
       "id": "createfood:fruit_smoothie_bottle",
       "required": false
     },

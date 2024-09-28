@@ -2,6 +2,18 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:chocolate_graham_cracker_neapolitan_scoop_3",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_graham_cracker_neapolitan_scoop_2",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_graham_cracker_ice_cream",
+      "required": false
+    },
+    {
       "id": "createfood:ube_cream_frosting_bottle",
       "required": false
     },

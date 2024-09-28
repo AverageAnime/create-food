@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cookie_cream_pie_slice",
+        "c:cookie_cream_pie"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cookie_cream_pie_slice"
+    },
+    {
+      "tag": "c:cookie_cream_pie_slice"
+    },
+    {
+      "tag": "c:cookie_cream_pie_slice"
+    },
+    {
+      "tag": "c:cookie_cream_pie_slice"
+    }
+  ],
+  "result": {
+    "item": "createfood:cookie_cream_pie"
+  }
+}

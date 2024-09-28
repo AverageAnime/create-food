@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese",
+        "c:glow_berry_cream_frosting"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "item":"minecraft:glow_berries"
+    },
+    {
+      "item":"minecraft:glass_bottle"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:glow_berry_cream_frosting_bottle"
+    }
+  ]
+}

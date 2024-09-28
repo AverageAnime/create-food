@@ -1,0 +1,64 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese",
+        "c:apple_cream_frosting_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:apple"
+    },
+    {
+      "tag":"c:apple"
+    },
+    {
+      "tag":"c:apple"
+    },
+    {
+      "tag":"c:apple"
+    },
+    {
+      "item":"minecraft:bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:apple_cream_frosting_bucket"
+    }
+  ]
+}

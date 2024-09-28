@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_cream_frosted_cake",
+        "c:chocolate_chips",
+        "c:chocolate_cream_cake_chocolate"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:chocolate_cream_frosted_cake"
+    },
+    {
+      "tag":"c:chocolate_chips"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:chocolate_cream_cake_chocolate"
+    }
+  ]
+}

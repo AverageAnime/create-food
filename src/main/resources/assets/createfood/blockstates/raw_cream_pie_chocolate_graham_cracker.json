@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "createfood:block/raw_cream_pie_chocolate_graham_cracker",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "createfood:block/raw_cream_pie_chocolate_graham_cracker"
+    },
+    "facing=south": {
+      "model": "createfood:block/raw_cream_pie_chocolate_graham_cracker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "createfood:block/raw_cream_pie_chocolate_graham_cracker",
+      "y": 270
+    }
+  }
+}

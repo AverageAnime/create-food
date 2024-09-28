@@ -1,0 +1,205 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "chocolate_cream_cake_chocolate",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "c:tools/knives"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_chocolate_knife",
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_chocolate1",
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_chocolate2",
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_chocolate3",
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_chocolate4",
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_chocolate5",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "chocolate_cream_cake_slice_chocolate6",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createfood:chocolate_cream_cake_slice_chocolate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "createfood:chocolate_cream_cake_chocolate",
+          "properties": {
+            "bites": "6"
+          }
+        }
+      ]
+    }
+  ]
+}

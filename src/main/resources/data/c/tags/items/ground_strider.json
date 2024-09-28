@@ -4,6 +4,10 @@
     {
       "id": "nethersdelight:ground_strider",
       "required": false
+    },
+    {
+      "id": "mynethersdelight:minced_strider",
+      "required": false
     }
   ]
 }

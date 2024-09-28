@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "createfood:block/raw_chocolate_graham_cracker_bottom",
+		"bottom": "createfood:block/raw_chocolate_graham_cracker_bottom",
+		"side": "createfood:block/raw_chocolate_graham_cracker_side",
+		"top": "createfood:block/raw_cream_pie_chocolate_graham_cracker_top"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 4, 13],
+			"faces": {
+				"up": {"uv": [3, 3, 13, 13], "texture": "#top"}
+			}
+		},
+		{
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"east": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"south": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"west": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [2, 0, 2],
+			"to": [3, 4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"east": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"up": {"uv": [13, 2, 14, 14], "texture": "#top"}
+			}
+		},
+		{
+			"from": [13, 0, 2],
+			"to": [14, 4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 0, 0]},
+			"faces": {
+				"west": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"up": {"uv": [2, 2, 3, 14], "texture": "#top"}
+			}
+		},
+		{
+			"from": [3, 0, 13],
+			"to": [13, 4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 0]},
+			"faces": {
+				"north": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"up": {"uv": [3, 2, 13, 3], "texture": "#top"}
+			}
+		},
+		{
+			"from": [3, 0, 2],
+			"to": [13, 4, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, -11]},
+			"faces": {
+				"south": {"uv": [2, 12, 14, 16], "texture": "#side"},
+				"up": {"uv": [3, 2, 13, 3], "texture": "#top"}
+			}
+		}
+	]
+}

@@ -4,6 +4,7 @@
 package net.averageanime.createfood.item;
 
 import net.minecraft.advancement.criterion.Criteria;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -14,16 +15,55 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
+import net.minecraft.text.MutableText;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+import vectorwing.farmersdelight.common.Configuration;
+import vectorwing.farmersdelight.common.utility.TextUtils;
+
+import java.util.List;
 
 public class BottleDrink
         extends Item {
 
+    private final boolean hasFoodEffectTooltip;
+    private final boolean hasCustomTooltip;
+
     public BottleDrink(Settings settings) {
         super(settings);
+        this.hasFoodEffectTooltip = false;
+        this.hasCustomTooltip = false;
+    }
+
+    public BottleDrink(Settings properties, boolean hasFoodEffectTooltip) {
+        super(properties);
+        this.hasFoodEffectTooltip = hasFoodEffectTooltip;
+        this.hasCustomTooltip = false;
+    }
+
+    public BottleDrink(Settings properties, boolean hasFoodEffectTooltip, boolean hasCustomTooltip) {
+        super(properties);
+        this.hasFoodEffectTooltip = hasFoodEffectTooltip;
+        this.hasCustomTooltip = hasCustomTooltip;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World level, List<Text> tooltip, TooltipContext isAdvanced) {
+        super.appendTooltip(stack, level, tooltip, isAdvanced);
+        if (Configuration.FOOD_EFFECT_TOOLTIP.get()) {
+            if (this.hasCustomTooltip) {
+                MutableText textEmpty = TextUtils.getTranslation("tooltip." + this);
+                tooltip.add(textEmpty.formatted(Formatting.BLUE));
+            }
+            if (this.hasFoodEffectTooltip) {
+                TextUtils.addFoodEffectTooltip(stack, tooltip, 1.0F);
+            }
+        }
     }
 
     @Override

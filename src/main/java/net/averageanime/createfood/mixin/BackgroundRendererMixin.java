@@ -33,6 +33,11 @@ public abstract class BackgroundRendererMixin {
     @ModifyArgs(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false))
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
+        if (ModFluids.isCreamPieFilling(state)) {
+            red = (float) 225 / 255;
+            green = (float) 217 / 255;
+            blue = (float) 207 / 255;
+        }
         if (ModFluids.isGlowBerryPieFilling(state)) {
             red = (float) 229 / 255;
             green = (float) 138 / 255;

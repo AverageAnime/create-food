@@ -15,7 +15,7 @@ import static net.averageanime.createfood.CreateFood.CONFIG;
 import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
-    public static Block UBE_CREAM_FROSTED_UBE_CAKE,UBE_CAKE_BASE,CHOCOLATE_PIE_GRAHAM_CRACKER,GLOW_BERRY_PIE,CHORUS_FRUIT_PIE,BERRY_PIE,GLOW_BERRY_CHEESECAKE,CHORUS_FRUIT_CHEESECAKE,APPLE_CHEESECAKE,CHEESECAKE,RAW_BERRY_CHEESECAKE,RAW_APPLE_PIE,RAW_GLOW_BERRY_PIE,RAW_GLOW_BERRY_CHEESECAKE,RAW_CHORUS_FRUIT_PIE,RAW_CHORUS_FRUIT_CHEESECAKE,RAW_CHEESECAKE,RAW_BERRY_PIE,RAW_APPLE_CHEESECAKE,RAW_CHOCOLATE_PIE_GRAHAM_CRACKER,RAW_CHOCOLATE_PIE,RAW_GRAHAM_CRACKER_PIE_CRUST,RAW_PIE_CRUST,CAKE_GLOW_BERRY,CAKE_CHORUS_FRUIT,GLOW_BERRY_CREAM_CAKE_SWEET_BERRY,GLOW_BERRY_CREAM_CAKE_GLOW_BERRY,GLOW_BERRY_CREAM_CAKE_CHORUS_FRUIT,CHORUS_FRUIT_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_CAKE_GLOW_BERRY,CHORUS_FRUIT_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_GLOW_BERRY,BERRY_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_FROSTED_CAKE,GLOW_BERRY_CREAM_FROSTED_CAKE,BERRY_CREAM_FROSTED_CAKE,FROSTED_CAKE,CAKE_BASE,PIZZA_DOUGH,PIZZA_DOUGH_TOMATO_SAUCE,CHEESE_PIZZA,SAUSAGE_PIZZA,BACON_PIZZA,MUSHROOM_PIZZA,ONION_PIZZA,FISH_PIZZA,SAUSAGE_ONION_PIZZA,SAUSAGE_BACON_PIZZA,SAUSAGE_MUSHROOM_PIZZA,SAUSAGE_FISH_PIZZA,MUSHROOM_ONION_PIZZA,MUSHROOM_BACON_PIZZA,MUSHROOM_FISH_PIZZA,FISH_ONION_PIZZA,FISH_BACON_PIZZA,ONION_BACON_PIZZA,RAW_CHEESE_PIZZA,RAW_SAUSAGE_PIZZA,RAW_BACON_PIZZA,RAW_MUSHROOM_PIZZA,RAW_ONION_PIZZA,RAW_FISH_PIZZA,RAW_SAUSAGE_ONION_PIZZA,RAW_SAUSAGE_BACON_PIZZA,RAW_SAUSAGE_MUSHROOM_PIZZA,RAW_SAUSAGE_FISH_PIZZA,RAW_MUSHROOM_ONION_PIZZA,RAW_MUSHROOM_BACON_PIZZA,RAW_MUSHROOM_FISH_PIZZA,RAW_FISH_ONION_PIZZA,RAW_FISH_BACON_PIZZA,RAW_ONION_BACON_PIZZA,SMORES_PIE, BLACK_GELATIN_DESSERT, BLUE_GELATIN_DESSERT, BROWN_GELATIN_DESSERT, CYAN_GELATIN_DESSERT, GELATIN_DESSERT, GRAY_GELATIN_DESSERT, GREEN_GELATIN_DESSERT, LIGHT_BLUE_GELATIN_DESSERT, LIGHT_GRAY_GELATIN_DESSERT, LIME_GELATIN_DESSERT, MAGENTA_GELATIN_DESSERT, ORANGE_GELATIN_DESSERT, PINK_GELATIN_DESSERT, PURPLE_GELATIN_DESSERT, RED_GELATIN_DESSERT, YELLOW_GELATIN_DESSERT;
+    public static Block CHOCOLATE_CREAM_CAKE_CARAMEL,CHOCOLATE_CREAM_CAKE_BUTTERSCOTCH,CHOCOLATE_CREAM_CAKE_CHOCOLATE,CHOCOLATE_CREAM_CAKE_DARK_CHOCOLATE,CHOCOLATE_CREAM_CAKE_WHITE_CHOCOLATE,CHOCOLATE_CREAM_CAKE_TOFFEE,CHOCOLATE_CREAM_FROSTED_CAKE,COOKIE_CREAM_PIE,CREAM_PIE_GRAHAM_CRACKER,CREAM_PIE_CHOCOLATE_GRAHAM_CRACKER,RAW_CREAM_PIE_CHOCOLATE_GRAHAM_CRACKER,RAW_CREAM_PIE_GRAHAM_CRACKER,RAW_CHOCOLATE_GRAHAM_CRACKER_PIE_CRUST,UBE_CREAM_FROSTED_UBE_CAKE,UBE_CAKE_BASE,CHOCOLATE_PIE_GRAHAM_CRACKER,GLOW_BERRY_PIE,CHORUS_FRUIT_PIE,BERRY_PIE,GLOW_BERRY_CHEESECAKE,CHORUS_FRUIT_CHEESECAKE,APPLE_CHEESECAKE,CHEESECAKE,RAW_BERRY_CHEESECAKE,RAW_APPLE_PIE,RAW_GLOW_BERRY_PIE,RAW_GLOW_BERRY_CHEESECAKE,RAW_CHORUS_FRUIT_PIE,RAW_CHORUS_FRUIT_CHEESECAKE,RAW_CHEESECAKE,RAW_BERRY_PIE,RAW_APPLE_CHEESECAKE,RAW_CHOCOLATE_PIE_GRAHAM_CRACKER,RAW_CHOCOLATE_PIE,RAW_GRAHAM_CRACKER_PIE_CRUST,RAW_PIE_CRUST,CAKE_GLOW_BERRY,CAKE_CHORUS_FRUIT,GLOW_BERRY_CREAM_CAKE_SWEET_BERRY,GLOW_BERRY_CREAM_CAKE_GLOW_BERRY,GLOW_BERRY_CREAM_CAKE_CHORUS_FRUIT,CHORUS_FRUIT_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_CAKE_GLOW_BERRY,CHORUS_FRUIT_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_GLOW_BERRY,BERRY_CREAM_CAKE_CHORUS_FRUIT,BERRY_CREAM_CAKE_SWEET_BERRY,CHORUS_FRUIT_CREAM_FROSTED_CAKE,GLOW_BERRY_CREAM_FROSTED_CAKE,BERRY_CREAM_FROSTED_CAKE,FROSTED_CAKE,CAKE_BASE,PIZZA_DOUGH,PIZZA_DOUGH_TOMATO_SAUCE,CHEESE_PIZZA,SAUSAGE_PIZZA,BACON_PIZZA,MUSHROOM_PIZZA,ONION_PIZZA,FISH_PIZZA,SAUSAGE_ONION_PIZZA,SAUSAGE_BACON_PIZZA,SAUSAGE_MUSHROOM_PIZZA,SAUSAGE_FISH_PIZZA,MUSHROOM_ONION_PIZZA,MUSHROOM_BACON_PIZZA,MUSHROOM_FISH_PIZZA,FISH_ONION_PIZZA,FISH_BACON_PIZZA,ONION_BACON_PIZZA,RAW_CHEESE_PIZZA,RAW_SAUSAGE_PIZZA,RAW_BACON_PIZZA,RAW_MUSHROOM_PIZZA,RAW_ONION_PIZZA,RAW_FISH_PIZZA,RAW_SAUSAGE_ONION_PIZZA,RAW_SAUSAGE_BACON_PIZZA,RAW_SAUSAGE_MUSHROOM_PIZZA,RAW_SAUSAGE_FISH_PIZZA,RAW_MUSHROOM_ONION_PIZZA,RAW_MUSHROOM_BACON_PIZZA,RAW_MUSHROOM_FISH_PIZZA,RAW_FISH_ONION_PIZZA,RAW_FISH_BACON_PIZZA,RAW_ONION_BACON_PIZZA,SMORES_PIE, BLACK_GELATIN_DESSERT, BLUE_GELATIN_DESSERT, BROWN_GELATIN_DESSERT, CYAN_GELATIN_DESSERT, GELATIN_DESSERT, GRAY_GELATIN_DESSERT, GREEN_GELATIN_DESSERT, LIGHT_BLUE_GELATIN_DESSERT, LIGHT_GRAY_GELATIN_DESSERT, LIME_GELATIN_DESSERT, MAGENTA_GELATIN_DESSERT, ORANGE_GELATIN_DESSERT, PINK_GELATIN_DESSERT, PURPLE_GELATIN_DESSERT, RED_GELATIN_DESSERT, YELLOW_GELATIN_DESSERT;
 
     public static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -40,27 +40,6 @@ public class ModBlocks {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_FROSTED_CAKE));
         }
 
-// Berry Cream Cake (Chorus Fruit)
-
-        if (CONFIG.isBerryCreamCakeChorusFruitEnabled) {
-            BERRY_CREAM_CAKE_CHORUS_FRUIT = registerBlock("berry_cream_cake_chorus_fruit", new BerryCreamCakeChorusFruitBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_CAKE_CHORUS_FRUIT));
-        }
-
-// Berry Cream Cake (Glow Berry)
-
-        if (CONFIG.isBerryCreamCakeGlowBerryEnabled) {
-            BERRY_CREAM_CAKE_GLOW_BERRY = registerBlock("berry_cream_cake_glow_berry", new BerryCreamCakeGlowBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_CAKE_GLOW_BERRY));
-        }
-
-// Berry Cream Cake (Sweet Berry)
-
-        if (CONFIG.isBerryCreamCakeSweetBerryEnabled) {
-            BERRY_CREAM_CAKE_SWEET_BERRY = registerBlock("berry_cream_cake_sweet_berry", new BerryCreamCakeSweetBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_CAKE_SWEET_BERRY));
-        }
-
 // Cake Base
 
         if (CONFIG.isCakeBaseEnabled) {
@@ -68,39 +47,11 @@ public class ModBlocks {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CAKE_BASE));
         }
 
-// Cake (Chorus Fruit)
+// Chocolate Cream Frosted Cake
 
-        if (CONFIG.isCakeChorusFruitEnabled) {
-            CAKE_CHORUS_FRUIT = registerBlock("cake_chorus_fruit", new CakeChorusFruitBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CAKE_CHORUS_FRUIT));
-        }
-
-// Cake (Glow Berry)
-
-        if (CONFIG.isCakeGlowBerryEnabled) {
-            CAKE_GLOW_BERRY = registerBlock("cake_glow_berry", new CakeGlowBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CAKE_GLOW_BERRY));
-        }
-
-// Chorus Fruit Cream Cake (Chorus Fruit)
-
-        if (CONFIG.isBerryCreamCakeChorusFruitEnabled) {
-            CHORUS_FRUIT_CREAM_CAKE_CHORUS_FRUIT = registerBlock("chorus_fruit_cream_cake_chorus_fruit", new ChorusFruitCreamCakeChorusFruitBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_CAKE_CHORUS_FRUIT));
-        }
-
-// Chorus Fruit Cream Cake (Glow Berry)
-
-        if (CONFIG.isBerryCreamCakeGlowBerryEnabled) {
-            CHORUS_FRUIT_CREAM_CAKE_GLOW_BERRY = registerBlock("chorus_fruit_cream_cake_glow_berry", new ChorusFruitCreamCakeGlowBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_CAKE_GLOW_BERRY));
-        }
-
-// Chorus Fruit Cream Cake (Sweet Berry)
-
-        if (CONFIG.isBerryCreamCakeSweetBerryEnabled) {
-            CHORUS_FRUIT_CREAM_CAKE_SWEET_BERRY = registerBlock("chorus_fruit_cream_cake_sweet_berry", new ChorusFruitCreamCakeSweetBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_CAKE_SWEET_BERRY));
+        if (CONFIG.isChocolateCreamFrostedCakeEnabled) {
+            CHOCOLATE_CREAM_FROSTED_CAKE = registerBlock("chocolate_cream_frosted_cake", new CakeBaseBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CREAM_FROSTED_CAKE));
         }
 
 // Chorus Fruit Cream Frosted Cake
@@ -115,27 +66,6 @@ public class ModBlocks {
         if (CONFIG.isFrostedCakeEnabled) {
             FROSTED_CAKE = registerBlock("frosted_cake", new CakeBaseBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTED_CAKE));
-        }
-
-// Glow Berry Cream Cake (Chorus Fruit)
-
-        if (CONFIG.isGlowBerryCreamCakeChorusFruitEnabled) {
-            GLOW_BERRY_CREAM_CAKE_CHORUS_FRUIT = registerBlock("glow_berry_cream_cake_chorus_fruit", new GlowBerryCreamCakeChorusFruitBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_CAKE_CHORUS_FRUIT));
-        }
-
-// Glow Berry Cream Cake (Glow Berry)
-
-        if (CONFIG.isGlowBerryCreamCakeGlowBerryEnabled) {
-            GLOW_BERRY_CREAM_CAKE_GLOW_BERRY = registerBlock("glow_berry_cream_cake_glow_berry", new GlowBerryCreamCakeGlowBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_CAKE_GLOW_BERRY));
-        }
-
-// Glow Berry Cream Cake (Sweet Berry)
-
-        if (CONFIG.isGlowBerryCreamCakeSweetBerryEnabled) {
-            GLOW_BERRY_CREAM_CAKE_SWEET_BERRY = registerBlock("glow_berry_cream_cake_sweet_berry", new GlowBerryCreamCakeSweetBerryBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_CAKE_SWEET_BERRY));
         }
 
 // Glow Berry Cream Frosted Cake
@@ -180,18 +110,18 @@ public class ModBlocks {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BACON_PIZZA));
         }
 
-// Raw Berry Pie
-
-        if (CONFIG.isRawBerryPieEnabled) {
-            RAW_BERRY_PIE = registerBlock("raw_berry_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
-            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BERRY_PIE));
-        }
-
 // Raw Berry Cheesecake
 
         if (CONFIG.isRawBerryCheesecakeEnabled) {
             RAW_BERRY_CHEESECAKE = registerBlock("raw_berry_cheesecake", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BERRY_CHEESECAKE));
+        }
+
+// Raw Berry Pie
+
+        if (CONFIG.isRawBerryPieEnabled) {
+            RAW_BERRY_PIE = registerBlock("raw_berry_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BERRY_PIE));
         }
 
 // Raw Cheesecake
@@ -206,6 +136,13 @@ public class ModBlocks {
         if (CONFIG.isRawCheesePizzaEnabled) {
             RAW_CHEESE_PIZZA = registerBlock("raw_cheese_pizza", new RawPizzaBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHEESE_PIZZA));
+        }
+
+// Raw Chocolate Graham Cracker Pie Crust
+
+        if (CONFIG.isRawChocolateGrahamCrackerPieCrustEnabled) {
+            RAW_CHOCOLATE_GRAHAM_CRACKER_PIE_CRUST = registerBlock("raw_chocolate_graham_cracker_pie_crust", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHOCOLATE_GRAHAM_CRACKER_PIE_CRUST));
         }
 
 // Raw Chocolate Pie
@@ -234,6 +171,20 @@ public class ModBlocks {
         if (CONFIG.isRawChorusFruitPieEnabled) {
             RAW_CHORUS_FRUIT_PIE = registerBlock("raw_chorus_fruit_pie", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHORUS_FRUIT_PIE));
+        }
+
+// Raw Cream Pie (Chocolate Graham Cracker)
+
+        if (CONFIG.isRawCreamPieChocolateGrahamCrackerEnabled) {
+            RAW_CREAM_PIE_CHOCOLATE_GRAHAM_CRACKER = registerBlock("raw_cream_pie_chocolate_graham_cracker", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CREAM_PIE_CHOCOLATE_GRAHAM_CRACKER));
+        }
+
+// Raw Cream Pie (Graham Cracker)
+
+        if (CONFIG.isRawCreamPieGrahamCrackerEnabled) {
+            RAW_CREAM_PIE_GRAHAM_CRACKER = registerBlock("raw_cream_pie_graham_cracker", new RawPieBlock(FabricBlockSettings.copyOf(WHITE_CARPET).nonOpaque()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CREAM_PIE_GRAHAM_CRACKER));
         }
 
 // Raw Fish Pizza
@@ -375,7 +326,6 @@ public class ModBlocks {
             UBE_CREAM_FROSTED_UBE_CAKE = registerBlock("ube_cream_frosted_ube_cake", new CakeBaseBlock(FabricBlockSettings.copyOf(CAKE).nonOpaque()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(UBE_CREAM_FROSTED_UBE_CAKE));
         }
-
 
 // Gelatin Dessert Block
 

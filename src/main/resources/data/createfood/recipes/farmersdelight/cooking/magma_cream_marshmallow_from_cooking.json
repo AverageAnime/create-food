@@ -18,13 +18,13 @@
   "experience": 0.5,
   "ingredients": [
     {
+      "tag": "c:sugar"
+    },
+    {
       "item": "minecraft:water_bucket"
     },
     {
-      "item": "nethersdelight:magma_gelatin"
-    },
-    {
-      "tag": "c:sugar"
+      "tag": "c:magma_gelatin"
     }
   ],
   "result": {

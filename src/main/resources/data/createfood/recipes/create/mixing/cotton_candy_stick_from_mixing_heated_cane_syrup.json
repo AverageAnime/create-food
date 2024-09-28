@@ -1,0 +1,62 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cane_syrup_bucket",
+        "c:powdered_sugar",
+        "c:salt",
+        "c:cotton_candy_stick"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":81000,"fluid":"createfood:cane_syrup"
+    },
+    {
+      "tag":"c:powdered_sugar"
+    },
+    {
+      "tag":"c:salt"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    },
+    {
+      "item":"minecraft:stick"
+    }
+  ],
+  "results":[
+    {
+      "count": 8,
+      "item":"createfood:cotton_candy_stick"
+    }
+  ]
+}

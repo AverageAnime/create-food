@@ -1,0 +1,61 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese",
+        "c:melon_cream_frosting_bucket"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "tag":"c:melon"
+    },
+    {
+      "tag":"c:melon"
+    },
+    {
+      "tag":"c:melon"
+    },
+    {
+      "tag":"c:melon"
+    }
+  ],
+  "results":[
+    {
+      "amount":81000, "fluid":"createfood:melon_cream_frosting"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cookie_cream_pie"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "c:cookie_cream_pie"
+    }
+  ],
+  "tool":
+    {
+      "tag": "c:tools/knives"
+    },
+  "result":
+  [
+    {
+      "count": 4,
+      "item": "createfood:cookie_cream_pie_slice"
+    }
+  ]
+}

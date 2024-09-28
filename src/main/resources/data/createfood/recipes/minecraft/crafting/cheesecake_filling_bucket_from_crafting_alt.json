@@ -1,0 +1,49 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese_bucket",
+        "c:sour_cream_bottle",
+        "c:salt",
+        "c:cheesecake_filling_bucket"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "tag": "c:cream_cheese"
+    },
+    {
+      "tag": "c:cream_cheese"
+    },
+    {
+      "tag": "c:cream_cheese"
+    },
+    {
+      "tag": "c:sour_cream_bottle"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:cream_cheese"
+    }
+  ],
+  "result": {
+      "item": "createfood:cheesecake_filling_bucket"
+    }
+}

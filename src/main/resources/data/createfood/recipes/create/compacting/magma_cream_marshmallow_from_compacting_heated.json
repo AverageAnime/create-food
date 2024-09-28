@@ -21,11 +21,10 @@
       "tag":"c:sugar"
     },
     {
-      "amount":6750,
-      "fluid":"minecraft:water"
+      "amount":6750, "fluid":"minecraft:water"
     },
     {
-      "item": "nethersdelight:magma_gelatin"
+      "tag": "c:magma_gelatin"
     }
   ],
   "results":[

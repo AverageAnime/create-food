@@ -59,8 +59,9 @@ Croptopia Plans
 >   * Frosting (Fluid, Bucket, Bottle)
 >   * Sweet Rolls
 >   * Donuts
->   * Filled Chocolates
->   * Pastry Bars
+>   * Filled Chocolates (Dark, Chocolate, White)
+>   * Pastry Bar
+>   * Chocolate Pastry Bar
 >   * Ice Creams (Fluid, Bucket, Bowl)
 >   * Milkshakes (Fluid, Bucket, Bottle)
 >   * Popsicles

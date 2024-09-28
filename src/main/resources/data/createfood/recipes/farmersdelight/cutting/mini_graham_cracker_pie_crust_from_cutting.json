@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:graham_cracker_pie_crust"
+        "c:graham_cracker_pie_crust",
+        "c:mini_graham_cracker_pie_crust"
       ]
     }
   ],

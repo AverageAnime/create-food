@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_chocolate_graham_cracker_pie_crust",
+        "c:cream_pie_filling_bucket",
+        "c:raw_cream_pie_chocolate_graham_cracker"
+      ]
+    }
+  ],
+  "type":"create:item_application",
+  "ingredients":[
+    {
+      "tag":"c:raw_chocolate_graham_cracker_pie_crust"
+    },
+    {
+      "tag":"c:cream_pie_filling_bucket"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:raw_cream_pie_chocolate_graham_cracker"
+    }
+  ]
+}

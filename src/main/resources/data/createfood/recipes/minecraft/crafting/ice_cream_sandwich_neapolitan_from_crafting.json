@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_graham_cracker_neapolitan_scoop_3",
+        "c:chocolate_graham_cracker",
+        "c:ice_cream_sandwich_neapolitan"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_graham_cracker_neapolitan_scoop_3"
+    },
+    {
+      "tag": "c:chocolate_graham_cracker"
+    }
+  ],
+  "result": {
+    "item": "createfood:ice_cream_sandwich_neapolitan"
+  }
+}

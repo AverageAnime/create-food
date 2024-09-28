@@ -1,3 +1,16 @@
+### ***1.1.2***
+*Note: Differences between Fabric and Forge are located [here](https://github.com/AverageAnime/create-food/wiki/Fabric-&-Forge-Differences).*
+
+![newprev112big](https://github.com/user-attachments/assets/997bf71c-9544-4de8-8979-180bfbde2c38)
+
+* 50+ new items.
+* Cakes added by this mod can now be right-clicked to remove a single slice, just like pies.
+* Frosted Cakes now have loot tables.
+* Food effects are no longer added using the tag system. Fixes [(#14)](https://github.com/AverageAnime/create-food/issues/14) / [(#25)](https://github.com/AverageAnime/create-food/issues/25) / [(#27)](https://github.com/AverageAnime/create-food/issues/27).
+* Recipe compatibility for [My Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight-refabricated) [(#28)](https://github.com/AverageAnime/create-food/issues/28).
+* Removed Farm & Charm salt recipe to address [(#29)](https://github.com/AverageAnime/create-food/issues/29).
+* Fix bottle duplication with frosting recipes [(#31)](https://github.com/AverageAnime/create-food/issues/31).
+
 ### ***1.1.1***
 
 ![111new](https://github.com/user-attachments/assets/02396822-70ce-4a71-a0e9-2943f1cf0baa)
@@ -12,7 +25,6 @@
   * Cake Base
   * Frosted Cake
   * Chocolate Pie (Graham Cracker)
-  * Graham Cracker Pie Crust
   * Ube Cake Base
   * Ube Cream Frosted Ube Cake
 * All cake, pie, cheesecake, and pizza blocks will now:

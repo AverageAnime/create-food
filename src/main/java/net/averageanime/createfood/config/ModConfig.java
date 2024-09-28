@@ -68,6 +68,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isAppleIceCreamBowlEnabled = true;
+    @Comment("Enable Scoop of Apple Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isAppleIceCreamStickEnabled = true;
     @Comment("Enable Apple Jam Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -168,6 +172,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryIceCreamBowlEnabled = true;
+    @Comment("Enable Scoop of Berry Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryIceCreamStickEnabled = true;
     @Comment("Enable Berry Jam Bottle. Recommend 'disable' with Expanded Delight installed.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -536,10 +544,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolatePastryEnabled = true;
-    @Comment("Enable Mini Chocolate Pie (Graham Cracker).")
-    @ConfigEntry.Category("CreateFood")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isMiniChocolatePieGrahamCrackerEnabled = true;
     @Comment("Enable Chocolate Frosted Chocolate Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -564,10 +568,42 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateGlazedDonutEnabled = true;
+    @Comment("Enable Chocolate Graham Cracker.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerEnabled = true;
+    @Comment("Enable Chocolate Graham Cracker Crumbs.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerCrumbsEnabled = true;
+    @Comment("Enable Chocolate Graham Cracker (Ice Cream).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerIceCreamEnabled = true;
+    @Comment("Enable Chocolate Graham Cracker (Neapolitan, Scoop #1).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerNeapolitanScoop1Enabled = true;
+    @Comment("Enable Chocolate Graham Cracker (Neapolitan, Scoop #2).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerNeapolitanScoop2Enabled = true;
+    @Comment("Enable Chocolate Graham Cracker (Neapolitan, Scoop #3).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerNeapolitanScoop3Enabled = true;
+    @Comment("Enable Chocolate Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateGrahamCrackerPieCrustEnabled = true;
     @Comment("Enable Chocolate Ice Cream Bowl.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateIceCreamBowlEnabled = true;
+    @Comment("Enable Scoop of Chocolate Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateIceCreamStickEnabled = true;
     @Comment("Enable Chocolate Milk Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -616,6 +652,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCondensedMilkBottleEnabled = true;
+    @Comment("Enable Cookie Crumbs.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCookieCrumbsEnabled = true;
+    @Comment("Enable Cotton Candy.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCottonCandyStickEnabled = true;
     @Comment("Enable Chorus Fruit Cream Filled Chocolate.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -668,6 +712,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitIceCreamBowlEnabled = true;
+    @Comment("Enable Scoop of Chorus Fruit Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitIceCreamStickEnabled = true;
     @Comment("Enable Chorus Fruit Jam Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -872,6 +920,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryIceCreamBowlEnabled = true;
+    @Comment("Enable Scoop of Glow Berry Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryIceCreamStickEnabled = true;
     @Comment("Enable Glow Berry Jam Bottle.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -896,10 +948,22 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGrahamCrackerEnabled = true;
+    @Comment("Enable Graham Cracker (Chocolate).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrahamCrackerChocolateEnabled = true;
+    @Comment("Enable Graham Cracker (Chocolate, Marshmallow).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrahamCrackerChocolateMarshmallowEnabled = true;
     @Comment("Enable Graham Cracker Crumbs.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGrahamCrackerCrumbsEnabled = true;
+    @Comment("Enable Graham Cracker (Marshmallow).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGrahamCrackerMarshmallowEnabled = true;
     @Comment("Enable Graham Cracker Pie Crust.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1012,6 +1076,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isIceCreamBowlEnabled = true;
+    @Comment("Enable Ice Cream Sandwich.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isIceCreamSandwichEnabled = true;
+    @Comment("Enable Ice Cream Sandwich (Neapolitan).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isIceCreamSandwichNeapolitanEnabled = true;
+    @Comment("Enable Scoop of Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isIceCreamStickEnabled = true;
     @Comment("Enable Light Blue Gelatin Dessert Slice.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1128,6 +1204,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMelonIceCreamBowlEnabled = true;
+    @Comment("Enable Scoop of Melon Ice Cream.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMelonIceCreamStickEnabled = true;
     @Comment("Enable Melon Jam.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1144,6 +1224,26 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMilkshakeBottleEnabled = true;
+    @Comment("Enable Mini Chocolate Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMiniChocolateGrahamCrackerPieCrustEnabled = true;
+    @Comment("Enable Mini Chocolate Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMiniChocolatePieGrahamCrackerEnabled = true;
+    @Comment("Enable Mini Cookies & Cream Pie.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMiniCookieCreamPieEnabled = true;
+    @Comment("Enable Mini Cream Pie (Chocolate Graham Cracker).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMiniCreamPieChocolateGrahamCrackerEnabled = true;
+    @Comment("Enable Mini Cream Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMiniCreamPieGrahamCrackerEnabled = true;
     @Comment("Enable Mini Graham Cracker Pie Crust.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1324,6 +1424,26 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawMeatballEnabled = true;
+    @Comment("Enable Raw Mini Chocolate Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMiniChocolatePieGrahamCrackerEnabled = true;
+    @Comment("Enable Raw Mini Cream Pie (Chocolate Graham Cracker).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMiniCreamPieChocolateGrahamCrackerEnabled = true;
+    @Comment("Enable Raw Mini Cream Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMiniCreamPieGrahamCrackerEnabled = true;
+    @Comment("Enable Raw Mini Chocolate Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMiniChocolateGrahamCrackerPieCrustEnabled = true;
+    @Comment("Enable Raw Mini Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawMiniGrahamCrackerPieCrustEnabled = true;
     @Comment("Enable Raw Pastry Bar Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1575,10 +1695,6 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryPieEnabled = true;
-    @Comment("Enable Cheese Pizza.")
-    @ConfigEntry.Category("CreateFoodBlock")
-    @ConfigEntry.Gui.RequiresRestart
-    public boolean isCheesePizzaEnabled = true;
     @Comment("Enable Cake (Chorus Fruit).")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1587,10 +1703,54 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCakeGlowBerryEnabled = true;
+    @Comment("Enable Cheese Pizza.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCheesePizzaEnabled = true;
     @Comment("Enable Cheesecake.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCheesecakeEnabled = true;
+    @Comment("Enable Cookies & Cream Pie.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCookieCreamPieEnabled = true;
+    @Comment("Enable Cream Pie (Chocolate Graham Cracker).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamPieChocolateGrahamCrackerEnabled = true;
+    @Comment("Enable Cream Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamPieGrahamCrackerEnabled = true;
+    @Comment("Enable Chocolate Cream Cake (Butterscotch).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamCakeButterscotchEnabled = true;
+    @Comment("Enable Chocolate Cream Cake (Caramel).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamCakeCaramelEnabled = true;
+    @Comment("Enable Chocolate Cream Cake (Chocolate).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamCakeChocolateEnabled = true;
+    @Comment("Enable Chocolate Cream Cake (Dark Chocolate).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamCakeDarkChocolateEnabled = true;
+    @Comment("Enable Chocolate Cream Cake (Toffee).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamCakeToffeeEnabled = true;
+    @Comment("Enable Chocolate Cream Cake (White Chocolate).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamCakeWhiteChocolateEnabled = true;
+    @Comment("Enable Chocolate Cream Frosted Cake.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamFrostedCakeEnabled = true;
     @Comment("Enable Chocolate Pie (Graham Cracker).")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1759,6 +1919,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawCheesecakeEnabled = true;
+    @Comment("Enable Raw Chocolate Graham Cracker Pie Crust.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawChocolateGrahamCrackerPieCrustEnabled = true;
     @Comment("Enable Raw Chocolate Pie.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1775,6 +1939,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isRawChorusFruitCheesecakeEnabled = true;
+    @Comment("Enable Raw Cream Pie (Chocolate Graham Cracker).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawCreamPieChocolateGrahamCrackerEnabled = true;
+    @Comment("Enable Raw Cream Pie (Graham Cracker).")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isRawCreamPieGrahamCrackerEnabled = true;
     @Comment("Enable Raw Fish Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -2034,6 +2206,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCreamFrostingFluidEnabled = true;
+    @Comment("Enable Cream Pie Filling Fluid.")
+    @ConfigEntry.Category("CreateFoodFluid")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCreamPieFillingFluidEnabled = true;
     @Comment("Enable Cyan Gelatin Mix Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

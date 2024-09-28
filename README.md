@@ -4,9 +4,11 @@
 
 Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated) based on expanding food content found in Create, Farmer's Delight, and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
 
+
 ### **Current Content:**
 
-* Hundreds of new food-related items, including dozens of new fluids. Enable/disable in the config according to preference. View item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List) and preview textures [here](https://github.com/AverageAnime/create-food/wiki/Previews).
+* Available for both Fabric & Forge. Differences between versions are listed [here](https://github.com/AverageAnime/create-food/wiki/Fabric-&-Forge-Differences).
+* Hundreds of new food-related items, including dozens of new fluids. Enable/disable in the config according to preference. Check out the full item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List) and preview textures [here](https://github.com/AverageAnime/create-food/wiki/Previews).
 * Numerous tag additions to enhance mod compatibility. Includes a tag-based system to apply Farmer's Delight food effects and vanilla status effects to any item with the appropriate tag.
 * All recipes use tags where possible. Includes additional recipe support for [satisfy’s](https://www.curseforge.com/members/satisfy/projects) [Let’s Do] mods.
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
@@ -21,7 +23,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 
 ### **Mod Recommendations:**
 
-* [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
+* [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
 * [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric) & [Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
 * [Cultural Creators](https://www.curseforge.com/minecraft/mc-mods/cultural-creators-fabric-create-and-cultural) - Create and Cultural Delights compatibility.
 * [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) - More recipes.
@@ -36,18 +38,19 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Expanded Delight](https://www.curseforge.com/minecraft/mc-mods/expanded-delight)
 * [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite-fabric)
 * [Fright's Delight](https://www.curseforge.com/minecraft/mc-mods/frights-delight)
-* [Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated) or [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric)
+* [Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated) / [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric) 
+* [My Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight-refabricated) / [My Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight)
 * [Ube's Delight](https://www.curseforge.com/minecraft/mc-mods/ubes-delight)
-  
+
 ### **Configuration:**
 
 *  [Built-in Resource Packs](https://github.com/AverageAnime/create-food/wiki/Resource-Packs)
 *  [Config Options](https://github.com/AverageAnime/create-food/wiki/Config-Options)
 *  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
 
-### **Item Preview**
-![111item](https://github.com/user-attachments/assets/18f65eb3-d2fa-4669-acd5-2d0707e5c597)
-![111bucket](https://github.com/user-attachments/assets/62d793f1-907c-4c65-965f-55a484c65a3d)
+### **Item Preview (1.1.2)**
+![fullprev112big](https://github.com/user-attachments/assets/2eae9142-c288-450c-bc20-33eff95905e1)
+![bucketprev112big](https://github.com/user-attachments/assets/d9d67fc3-dfc3-4cac-8b80-25cfaf2175c4)
 
 ### **My Other Mods**
 

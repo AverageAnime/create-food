@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:mini_cream_pie_chocolate_graham_cracker",
+        "c:cookie_crumbs",
+        "c:mini_cookie_cream_pie"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:mini_cream_pie_chocolate_graham_cracker"
+    },
+    {
+      "tag":"c:cookie_crumbs"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:mini_cookie_cream_pie"
+    }
+  ]
+}

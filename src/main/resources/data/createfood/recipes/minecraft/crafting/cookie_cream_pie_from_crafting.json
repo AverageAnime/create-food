@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_pie_chocolate_graham_cracker",
+        "c:cookie_crumbs",
+        "c:cookie_cream_pie"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:cream_pie_chocolate_graham_cracker"
+    },
+    {
+      "tag": "c:cookie_crumbs"
+    }
+  ],
+  "result": {
+    "item": "createfood:cookie_cream_pie"
+  }
+}

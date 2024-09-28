@@ -1,18 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_chorus_cookie",
-        "c:chorus_cookie"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_chorus_cookie"
-  },
-  "result": "ends_delight:chorus_cookie",
-  "experience": 0.1,
-  "cookingtime": 200
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ends_delight"
+        }
+    ],
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_chorus_cookie",
+                "c:chorus_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_chorus_cookie"
+    },
+    "result": "ends_delight:chorus_cookie",
+    "experience": 0.1,
+    "cookingtime": 200
 }

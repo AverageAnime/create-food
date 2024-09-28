@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+  "layer0": "createfood:item/chocolate_cream_frosted_cake"
+  }
+}

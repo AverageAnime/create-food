@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_cream_pie_chocolate_graham_cracker",
+        "c:cream_pie_chocolate_graham_cracker"
+      ]
+    }
+  ],
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "tag": "c:raw_cream_pie_chocolate_graham_cracker"
+  },
+  "result": "createfood:cream_pie_chocolate_graham_cracker",
+  "experience": 0.95,
+  "cookingtime": 550
+}

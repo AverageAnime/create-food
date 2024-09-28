@@ -4,6 +4,10 @@
     {
       "id": "nethersdelight:magma_gelatin",
       "required": false
+    },
+    {
+      "id": "mynethersdelight:hot_cream",
+      "required": false
     }
   ]
 }

@@ -2,27 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:fruit_smoothie_bottle",
-      "required": false
-    },
-    {
       "id": "expandeddelight:berry_sweet_roll",
-      "required": false
-    },
-    {
-      "id": "createfood:coffee_toffee_fudge",
-      "required": false
-    },
-    {
-      "id": "createfood:berry_cream_pastry_bar",
-      "required": false
-    },
-    {
-      "id": "createfood:berry_cream_frosted_chocolate_sweet_roll_sweet_berry",
-      "required": false
-    },
-    {
-      "id": "createfood:berry_cream_glazed_donut",
       "required": false
     }
   ]

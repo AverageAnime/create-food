@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cane_syrup_bucket",
+        "c:powdered_sugar",
+        "c:salt",
+        "c:cotton_candy_stick"
+      ]
+    }
+  ],
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "ingredients": [
+    {
+      "tag": "c:cane_syrup_bucket"
+    },
+    {
+      "tag": "c:powdered_sugar"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result":
+  {
+    "count": 8,
+    "item": "createfood:cotton_candy_stick"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chocolate_cream_cake_toffee",
+      "required": false
+    }
+  ]
+}

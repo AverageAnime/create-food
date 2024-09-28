@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_mini_graham_cracker_pie_crust",
+        "c:chocolate_bottle",
+        "c:raw_mini_chocolate_pie_graham_cracker"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_mini_graham_cracker_pie_crust"
+    },
+    {
+      "tag": "c:chocolate_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:raw_mini_chocolate_pie_graham_cracker"
+  }
+}

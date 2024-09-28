@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:graham_cracker_chocolate_marshmallow",
+        "c:graham_cracker",
+        "c:smore"
+      ]
+    }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+    {
+      "tag":"c:graham_cracker_chocolate_marshmallow"
+    },
+    {
+      "tag":"c:graham_cracker"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:smore"
+    }
+  ]
+}

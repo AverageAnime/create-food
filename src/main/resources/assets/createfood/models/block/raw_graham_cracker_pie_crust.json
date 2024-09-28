@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "createfood:block/raw_graham_cracker_pie_crust_bottom",
-		"bottom": "createfood:block/raw_graham_cracker_pie_crust_bottom",
-		"side": "createfood:block/raw_graham_cracker_pie_crust_side",
-		"top": "createfood:block/raw_graham_cracker_pie_crust_top"
+		"particle": "createfood:block/raw_graham_cracker_bottom",
+		"bottom": "createfood:block/raw_graham_cracker_bottom",
+		"side": "createfood:block/raw_graham_cracker_side",
+		"top": "createfood:block/raw_graham_cracker_top"
 	},
 	"elements": [
 		{
 			"from": [3, 0, 3],
-			"to": [13, 1, 13],
+						"to": [13, 1, 13],
 			"faces": {
 				"up": {"uv": [3, 3, 13, 13], "texture": "#top"}
 			}

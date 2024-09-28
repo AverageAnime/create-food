@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_graham_cracker_neapolitan_scoop_1",
+        "c:ice_cream_bucket",
+        "c:chocolate_graham_cracker_neapolitan_scoop_2"
+      ]
+    }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+    {
+      "tag":"c:chocolate_graham_cracker_neapolitan_scoop_1"
+    },
+    {
+      "amount":9000,"fluid":"createfood:ice_cream"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:chocolate_graham_cracker_neapolitan_scoop_2"
+    }
+  ]
+}

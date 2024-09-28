@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese",
+        "c:melon_cream_frosting"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 50,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "tag": "c:cream_cheese"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:melon"
+    }
+  ],
+  "result": {
+    "item": "createfood:melon_cream_frosting_bottle"
+  }
+}

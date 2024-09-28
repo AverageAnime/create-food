@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_cream_frosted_cake",
+	"c:butterscotch_chips",
+        "c:chocolate_cream_cake_butterscotch"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_cream_frosted_cake"
+    },
+    {
+      "tag": "c:butterscotch_chips"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_cream_cake_butterscotch"
+  }
+}

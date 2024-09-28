@@ -1,14 +1,14 @@
 {
 	"schemaVersion": 1,
 	"id": "createfood",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"name": "Create: Food",
 	"description": "A Fabric Food Addon for Farmer's Delight & Create",
 	"authors": [
 		"average_anime"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/create-food-fabric",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/create-food",
 		"sources": "https://github.com/AverageAnime/create-food"
 	},
 	"license": "GPLv3",

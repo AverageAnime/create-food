@@ -1,0 +1,49 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:any_mod_loaded",
+        "values": [
+          "create"
+        ]
+      }
+    },
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:butter",
+        "c:chocolate_sweet_dough",
+        "c:chocolate_graham_cracker"
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 125,
+  "experience": 0.25,
+  "ingredients": [
+    {
+      "tag": "c:milk_bottle"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:butter"
+    },
+    {
+      "tag": "c:chocolate_sweet_dough"
+    }
+  ],
+  "result":
+  {
+    "count": 8,
+    "item": "createfood:chocolate_graham_cracker"
+  }
+}

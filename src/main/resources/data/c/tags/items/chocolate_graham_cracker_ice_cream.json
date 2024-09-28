@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:chocolate_graham_cracker_ice_cream",
+      "required": false
+    }
+  ]
+}

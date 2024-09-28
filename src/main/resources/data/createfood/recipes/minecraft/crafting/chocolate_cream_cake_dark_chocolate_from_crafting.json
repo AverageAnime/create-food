@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_cream_frosted_cake",
+	"c:dark_chocolate_chips",
+        "c:chocolate_cream_cake_dark_chocolate"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_cream_frosted_cake"
+    },
+    {
+      "tag": "c:dark_chocolate_chips"
+    }
+  ],
+  "result": {
+    "item": "createfood:chocolate_cream_cake_dark_chocolate"
+  }
+}

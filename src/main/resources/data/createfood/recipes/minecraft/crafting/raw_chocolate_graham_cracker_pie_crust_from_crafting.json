@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:chocolate_graham_cracker_crumbs",
+        "c:butter",
+        "c:raw_graham_cracker_pie_crust"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:chocolate_graham_cracker_crumbs"
+    },
+    {
+      "tag": "c:chocolate_graham_cracker_crumbs"
+    },
+    {
+      "tag": "c:chocolate_graham_cracker_crumbs"
+    },
+    {
+      "tag": "c:butter"
+    },
+    {
+      "tag": "c:milk_bottle"
+    }
+  ],
+  "result": {
+    "item": "createfood:raw_chocolate_graham_cracker_pie_crust"
+  }
+}

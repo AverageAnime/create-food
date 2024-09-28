@@ -2,103 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:breakfast_bar",
-      "required": false
-    },
-    {
-      "id": "createfood:pasta_plate_strider_meatballs_tomato_sauce",
-      "required": false
-    },
-    {
-      "id": "createfood:pasta_plate_endermite_meatballs_tomato_sauce",
-      "required": false
-    },
-    {
       "id": "farmersdelight:hamburger",
       "required": false
     },
     {
       "id": "farmersdelight:bacon_sandwich",
-      "required": false
-    },
-    {
-      "id": "createfood:endermite_meatball_stick_3",
-      "required": false
-    },
-    {
-      "id": "createfood:vegetable_sandwich_beetroot_lettuce",
-      "required": false
-    },
-    {
-      "id": "createfood:vegetable_sandwich_lettuce_tomato",
-      "required": false
-    },
-    {
-      "id": "createfood:strider_meatball_stick_3",
-      "required": false
-    },
-    {
-      "id": "createfood:eggplant_cheeseburger",
-      "required": false
-    },
-    {
-      "id": "createfood:eggplant_burger_lettuce",
-      "required": false
-    },
-    {
-      "id": "createfood:dragon_burger_crimson_fungus",
-      "required": false
-    },
-    {
-      "id": "createfood:dragon_burger_warped_fungus",
-      "required": false
-    },
-    {
-      "id": "createfood:spicy_breakfast_sausages",
-      "required": false
-    },
-    {
-      "id": "createfood:hamburger_onion_bacon_lettuce",
-      "required": false
-    },
-    {
-      "id": "createfood:hamburger_bacon_lettuce_tomato",
-      "required": false
-    },
-    {
-      "id": "createfood:cheeseburger_bacon_lettuce",
-      "required": false
-    },
-    {
-      "id": "createfood:cheeseburger_onion_bacon",
-      "required": false
-    },
-    {
-      "id": "createfood:cheeseburger_onion_lettuce",
-      "required": false
-    },
-    {
-      "id": "createfood:cheeseburger_lettuce_tomato",
-      "required": false
-    },
-    {
-      "id": "createfood:chicken_cheeseburger",
-      "required": false
-    },
-    {
-      "id": "createfood:chicken_cheeseburger_lettuce",
-      "required": false
-    },
-    {
-      "id": "createfood:hot_cheese_and_sausage_biscuit_sandwich",
-      "required": false
-    },
-    {
-      "id": "createfood:meatball_stick_3",
-      "required": false
-    },
-    {
-      "id": "createfood:pasta_plate_butter",
       "required": false
     }
   ]

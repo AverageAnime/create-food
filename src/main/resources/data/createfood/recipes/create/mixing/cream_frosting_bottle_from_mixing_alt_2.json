@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:cream_cheese",
+        "c:cream_frosting_bottle"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "ingredients":[
+    {
+      "tag":"c:cream_cheese"
+    },
+    {
+      "tag":"c:sugar"
+    },
+    {
+      "item":"minecraft:glass_bottle"
+    }
+  ],
+  "results":[
+    {
+      "item":"createfood:cream_frosting_bottle"
+    }
+  ]
+}
