@@ -1,0 +1,30 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "jmc"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:frosted_cake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting",
+    "ingredients": [
+        {
+            "tag": "c:frosted_cake"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        }
+    ],
+    "results": [
+        {
+            "item": "jmc:sculk_cake"
+        }
+    ]
+}

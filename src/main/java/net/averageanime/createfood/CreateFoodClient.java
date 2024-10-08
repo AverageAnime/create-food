@@ -23,7 +23,6 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import static net.averageanime.createfood.CreateFood.CONFIG;
-
 @Environment(value= EnvType.CLIENT)
 public class CreateFoodClient implements ClientModInitializer {
 

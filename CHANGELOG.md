@@ -1,10 +1,30 @@
+### ***1.1.3***
+
+General:
+* Basic recipes compatibility for [Just More Cakes](https://www.curseforge.com/minecraft/mc-mods/just-more-cakes) ([#32](https://github.com/AverageAnime/create-food/issues/33))
+* Fix some compacting recipes.
+* Fix some mixing recipes & added some missing ones.
+* New cake textures.
+
+Fabric:
+* Added 'snack' property to various items.
+* Fix missing tooltips for some items.
+* Fix multiple items incorrectly being a stick food item.
+
+Forge:
+* Fruits tag fixed. ([#33](https://github.com/AverageAnime/create-food/issues/33))
+* Fix for bottle items not being consumable. ([#34](https://github.com/AverageAnime/create-food/issues/34))
+* Added 'fast' property to various items.
+* Added tag load conditions & other tag fixes.
+* Fix missing Cultural Delight items.
+
 ### ***1.1.2***
 *Note: Differences between Fabric and Forge are located [here](https://github.com/AverageAnime/create-food/wiki/Fabric-&-Forge-Differences).*
 
 ![newprev112big](https://github.com/user-attachments/assets/997bf71c-9544-4de8-8979-180bfbde2c38)
 
 * 50+ new items.
-* Cakes added by this mod can now be right-clicked to remove a single slice, just like pies.
+* Cakes added by this mod can now be right-clicked (with a knife) to remove a single slice, just like pies.
 * Frosted Cakes now have loot tables.
 * Food effects are no longer added using the tag system. Fixes [(#14)](https://github.com/AverageAnime/create-food/issues/14) / [(#25)](https://github.com/AverageAnime/create-food/issues/25) / [(#27)](https://github.com/AverageAnime/create-food/issues/27).
 * Recipe compatibility for [My Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight-refabricated) [(#28)](https://github.com/AverageAnime/create-food/issues/28).

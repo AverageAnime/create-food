@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "jmc"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:frosted_cake",
+                "c:cookie_crumbs"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:frosted_cake"
+        },
+        {
+            "tag": "c:cookie_crumbs"
+        }
+    ],
+    "results": [
+        {
+            "item": "jmc:cookie_cake"
+        }
+    ]
+}

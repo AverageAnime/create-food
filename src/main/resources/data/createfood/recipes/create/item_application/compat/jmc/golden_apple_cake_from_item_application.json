@@ -1,0 +1,30 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "jmc"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:frosted_cake"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:frosted_cake"
+        },
+        {
+            "item": "minecraft:golden_apple"
+        }
+    ],
+    "results": [
+        {
+            "item": "jmc:golden_apple_cake"
+        }
+    ]
+}

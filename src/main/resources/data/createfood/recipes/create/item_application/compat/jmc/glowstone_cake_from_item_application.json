@@ -1,0 +1,30 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "jmc"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:frosted_cake"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:frosted_cake"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        }
+    ],
+    "results": [
+        {
+            "item": "jmc:glowstone_cake"
+        }
+    ]
+}
