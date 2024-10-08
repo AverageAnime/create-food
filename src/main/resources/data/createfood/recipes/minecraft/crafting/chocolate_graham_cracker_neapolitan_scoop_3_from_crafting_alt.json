@@ -1,32 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_graham_cracker_neapolitan_scoop_2",
-        "c:berry_ice_cream_bowl",
-        "c:chocolate_graham_cracker_neapolitan_scoop_3"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_graham_cracker_neapolitan_scoop_2",
+                "c:berry_ice_cream_bowl",
+                "c:chocolate_graham_cracker_neapolitan_scoop_3"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_graham_cracker_neapolitan_scoop_2"
+        },
+        {
+            "tag": "c:chocolate_graham_cracker_neapolitan_scoop_2"
+        },
+        {
+            "tag": "c:chocolate_graham_cracker_neapolitan_scoop_2"
+        },
+        {
+            "tag": "c:berry_ice_cream_bowl"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:chocolate_graham_cracker_neapolitan_scoop_3"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_graham_cracker_neapolitan_scoop_2"
-    },
-    {
-      "tag": "c:chocolate_graham_cracker_neapolitan_scoop_2"
-    },
-    {
-      "tag": "c:chocolate_graham_cracker_neapolitan_scoop_2"
-    },
-    {
-      "tag": "c:berry_ice_cream_bowl"
-    }
-  ],
-  "result":
-  {
-    "count": 3,
-    "item": "createfood:chocolate_graham_cracker_neapolitan_scoop_3"
-  }
 }

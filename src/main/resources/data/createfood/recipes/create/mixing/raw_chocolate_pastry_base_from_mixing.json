@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_sweet_dough",
-        "c:butter",
-        "c:raw_chocolate_pastry_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_sweet_dough"
-    },
-    {
-      "tag":"c:butter"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:raw_chocolate_pastry_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_dough",
+                "c:butter",
+                "c:raw_chocolate_pastry_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_sweet_dough"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_chocolate_pastry_base"
+        }
+    ]
 }

@@ -1,38 +1,38 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_nibs",
+                "c:cacao_mass_bucket"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:pot_cooking",
+    "ingredients": [
+        {
+            "tag": "c:cacao_nibs"
+        },
+        {
+            "tag": "c:cacao_nibs"
+        },
+        {
+            "tag": "c:cacao_nibs"
+        },
+        {
+            "tag": "c:cacao_nibs"
+        }
+    ],
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_nibs",
-        "c:cacao_mass_bucket"
-      ]
+    "result": {
+        "item": "createfood:cacao_mass_bucket"
     }
-  ],
-  "type": "farm_and_charm:pot_cooking",
-  "ingredients": [
-    {
-      "tag": "c:cacao_nibs"
-    },
-    {
-      "tag": "c:cacao_nibs"
-    },
-    {
-      "tag": "c:cacao_nibs"
-    },
-    {
-      "tag": "c:cacao_nibs"
-    }
-  ],
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "result": {
-    "item": "createfood:cacao_mass_bucket"
-  }
 }

@@ -1,22 +1,22 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:honeyed_berries"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:honeyed_berries"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:honeyed_berries"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    }
-  ],
-  "result": {
-    "item": "createfood:honeyed_berries"
-  }
 }

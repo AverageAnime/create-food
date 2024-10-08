@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_jam_bucket"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:pot_cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_jam_bucket"
-      ]
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_jam_bucket"
     }
-  ],
-  "type": "farm_and_charm:pot_cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "ingredients": [
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:berry_jam_bucket"
-  }
 }

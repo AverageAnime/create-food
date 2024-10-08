@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_milk_bucket",
-        "c:chocolate_milk_bottle"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:glass_bottle"
-    },
-    {
-      "amount":20250,"fluid":"createfood:chocolate_milk"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_milk_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_milk_bucket",
+                "c:chocolate_milk_bottle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:chocolate_milk"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_milk_bottle"
+        }
+    ]
 }

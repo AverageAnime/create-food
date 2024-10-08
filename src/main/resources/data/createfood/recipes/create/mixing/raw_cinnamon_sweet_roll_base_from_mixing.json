@@ -1,35 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:ground_cinnamon",
-        "c:raw_cinnamon_sweet_roll_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sweet_dough"
-    },
-    {
-      "tag":"c:ground_cinnamon"
-    }
-  ],
-  "results": [
-    {
-      "item":"createfood:raw_cinnamon_sweet_roll_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:ground_cinnamon",
+                "c:raw_cinnamon_sweet_roll_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:ground_cinnamon"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_cinnamon_sweet_roll_base"
+        }
+    ]
 }

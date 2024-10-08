@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cheese_and_sausage_biscuit_sandwich",
-        "c:hot_cheese_and_sausage_biscuit_sandwich"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:cheese_and_sausage_biscuit_sandwich"
-  },
-  "result": "createfood:hot_cheese_and_sausage_biscuit_sandwich"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_and_sausage_biscuit_sandwich",
+                "c:hot_cheese_and_sausage_biscuit_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:cheese_and_sausage_biscuit_sandwich"
+    },
+    "result": "createfood:hot_cheese_and_sausage_biscuit_sandwich"
 }

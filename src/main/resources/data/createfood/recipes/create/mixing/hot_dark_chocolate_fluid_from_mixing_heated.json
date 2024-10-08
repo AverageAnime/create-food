@@ -1,32 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_mass_bucket",
-        "c:hot_dark_chocolate_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":20250, "fluid":"createfood:cacao_mass"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    }
-  ],
-  "results":[
-    {
-      "amount":20250, "fluid":"createfood:hot_dark_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_mass_bucket",
+                "c:hot_dark_chocolate_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 20250,
+            "fluid": "createfood:cacao_mass"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        }
+    ],
+    "results": [
+        {
+            "amount": 20250,
+            "fluid": "createfood:hot_dark_chocolate"
+        }
+    ]
 }

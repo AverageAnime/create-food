@@ -1,41 +1,43 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin",
-        "c:red_gelatin_mix_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":81000, "fluid":"minecraft:water"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:red_dyes"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000, "fluid":"createfood:red_gelatin_mix"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin",
+                "c:red_gelatin_mix_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "minecraft:water"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:red_dyes"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:red_gelatin_mix"
+        }
+    ]
 }

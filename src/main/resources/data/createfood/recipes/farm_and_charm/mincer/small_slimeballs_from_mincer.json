@@ -1,26 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:small_slimeballs"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "minecraft:slime_ball"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:small_slimeballs"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "item": "minecraft:slime_ball"
-    },
-  "recipe_type": "MEAT",
-  "result":
-    {
-      "item": "createfood:small_slimeballs"
+    "recipe_type": "MEAT",
+    "result": {
+        "item": "createfood:small_slimeballs"
     }
 }

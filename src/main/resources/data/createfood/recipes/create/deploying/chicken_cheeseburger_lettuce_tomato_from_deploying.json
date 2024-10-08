@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cheese_and_chicken_bun_lettuce_tomato",
-        "c:bun",
-        "c:chicken_cheeseburger_lettuce_tomato"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:cheese_and_chicken_bun_lettuce_tomato"
-    },
-    {
-      "tag":"c:bun"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chicken_cheeseburger_lettuce_tomato"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_and_chicken_bun_lettuce_tomato",
+                "c:bun",
+                "c:chicken_cheeseburger_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:cheese_and_chicken_bun_lettuce_tomato"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chicken_cheeseburger_lettuce_tomato"
+        }
+    ]
 }

@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 350,
+    "experience": 0.2,
+    "ingredients": [
+        {
+            "tag": "c:raw_pasta"
+        },
+        {
+            "tag": "c:water_buckets"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "createfood:pasta"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 350,
-  "experience": 0.2,
-  "ingredients": [
-    {
-      "tag": "c:raw_pasta"
-    },
-    {
-      "tag": "c:water_buckets"
-    }
-  ],
-  "result": {
-    "count": 1,
-    "item": "createfood:pasta"
-  }
 }

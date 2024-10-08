@@ -1,33 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:endermite_meatball",
+                "c:small_endermite_meatballs"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "tag": "c:endermite_meatball"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:endermite_meatball",
-        "c:small_endermite_meatballs"
-      ]
-    }
-  ],
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-    {
-      "tag": "c:endermite_meatball"
-    }
-  ],
-  "tool":
-    {
-      "tag": "c:tools/knives"
-    },
-  "result":
-  [
-    {
-      "item": "createfood:small_endermite_meatballs"
-    }
-  ]
+    "result": [
+        {
+            "item": "createfood:small_endermite_meatballs"
+        }
+    ]
 }

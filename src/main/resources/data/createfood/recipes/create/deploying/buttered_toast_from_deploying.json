@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:toast_slice",
-        "c:butter",
-        "c:buttered_toast"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:toast_slice"
-    },
-    {
-      "tag":"c:butter"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:buttered_toast"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast_slice",
+                "c:butter",
+                "c:buttered_toast"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:toast_slice"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:buttered_toast"
+        }
+    ]
 }

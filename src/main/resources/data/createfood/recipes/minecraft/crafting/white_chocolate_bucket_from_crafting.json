@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:white_chocolate_bottle",
-        "c:white_chocolate_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bucket"
-    },
-    {
-      "tag": "c:white_chocolate_bottle"
-    },
-    {
-      "tag": "c:white_chocolate_bottle"
-    },
-    {
-      "tag": "c:white_chocolate_bottle"
-    },
-    {
-      "tag": "c:white_chocolate_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:white_chocolate_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:white_chocolate_bottle",
+                "c:white_chocolate_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:white_chocolate_bottle"
+        },
+        {
+            "tag": "c:white_chocolate_bottle"
+        },
+        {
+            "tag": "c:white_chocolate_bottle"
+        },
+        {
+            "tag": "c:white_chocolate_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:white_chocolate_bucket"
     }
 }

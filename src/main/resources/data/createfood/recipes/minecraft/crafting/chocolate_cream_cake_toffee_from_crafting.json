@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_cream_frosted_cake",
-	"c:toffee_chips",
-        "c:chocolate_cream_cake_toffee"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_cream_frosted_cake",
+                "c:toffee_chips",
+                "c:chocolate_cream_cake_toffee"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_cream_frosted_cake"
+        },
+        {
+            "tag": "c:toffee_chips"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_cream_cake_toffee"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_cream_frosted_cake"
-    },
-    {
-      "tag": "c:toffee_chips"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_cream_cake_toffee"
-  }
 }

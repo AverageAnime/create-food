@@ -1,26 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_nibs"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:drying",
+    "ingredient": {
+        "item": "minecraft:cocoa_beans"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_nibs"
-      ]
+    "recipe_type": "MEAT",
+    "result": {
+        "item": "createfood:cacao_nibs",
+        "count": 1
     }
-  ],
-  "type": "farm_and_charm:drying",
-  "ingredient":
-    {
-      "item": "minecraft:cocoa_beans"
-    },
-  "recipe_type": "MEAT",
-  "result": {
-    "item": "createfood:cacao_nibs",
-    "count": 1
-  }
 }

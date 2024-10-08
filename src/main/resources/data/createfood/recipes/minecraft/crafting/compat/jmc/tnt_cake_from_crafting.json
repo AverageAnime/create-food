@@ -7,7 +7,7 @@
             ]
         }
     ],
-    "type": "minecraft:crafting",
+    "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
             "item": "minecraft:cake"

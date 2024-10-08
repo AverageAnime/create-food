@@ -1,38 +1,38 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_butter",
-        "c:cacao_butter_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:cacao_butter"
-    },
-    {
-      "tag":"c:cacao_butter"
-    },
-    {
-      "tag":"c:cacao_butter"
-    },
-    {
-      "item":"minecraft:bucket"
-    }
-  ],
-  "results": [
-    {
-      "item":"createfood:cacao_butter_bucket"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_butter",
+                "c:cacao_butter_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:cacao_butter"
+        },
+        {
+            "tag": "c:cacao_butter"
+        },
+        {
+            "tag": "c:cacao_butter"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:cacao_butter_bucket"
+        }
+    ]
 }

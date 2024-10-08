@@ -1,40 +1,41 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:apple_slice",
-        "c:apple_juice_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:apple_slice"
-    },
-    {
-      "tag":"c:apple_slice"
-    },
-    {
-      "tag":"c:apple_slice"
-    },
-    {
-      "tag":"c:apple_slice"
-    }
-  ],
-  "results":[
-    {
-      "amount":27000, "fluid":"createfood:apple_juice"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_slice",
+                "c:apple_juice_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:apple_slice"
+        },
+        {
+            "tag": "c:apple_slice"
+        },
+        {
+            "tag": "c:apple_slice"
+        },
+        {
+            "tag": "c:apple_slice"
+        }
+    ],
+    "results": [
+        {
+            "amount": 27000,
+            "fluid": "createfood:apple_juice"
+        }
+    ]
 }

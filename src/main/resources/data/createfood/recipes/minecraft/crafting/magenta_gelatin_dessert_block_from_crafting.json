@@ -1,26 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:magenta_gelatin_mix_bucket",
-        "c:magenta_gelatin_dessert_block"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:magenta_gelatin_mix_bucket",
+                "c:magenta_gelatin_dessert_block"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:magenta_gelatin_mix_bucket"
+        },
+        {
+            "item": "minecraft:ice"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ],
+    "result": {
+        "item": "createfood:magenta_gelatin_dessert_block"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:magenta_gelatin_mix_bucket"
-    },
-    {
-      "item": "minecraft:ice"
-    },
-    {
-      "item": "minecraft:ice"
-    }
-  ],
-  "result": {
-    "item": "createfood:magenta_gelatin_dessert_block"
-  }
 }

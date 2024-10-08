@@ -1,34 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:orange_gelatin_mix_bucket",
-        "c:orange_gelatin_dessert_block"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":81000, "fluid":"createfood:orange_gelatin_mix"
-    },
-    {
-      "item":"minecraft:ice"
-    },
-    {
-      "item":"minecraft:ice"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:orange_gelatin_dessert_block"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:orange_gelatin_mix_bucket",
+                "c:orange_gelatin_dessert_block"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:orange_gelatin_mix"
+        },
+        {
+            "item": "minecraft:ice"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:orange_gelatin_dessert_block"
+        }
+    ]
 }

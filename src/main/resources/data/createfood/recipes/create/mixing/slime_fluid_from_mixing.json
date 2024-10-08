@@ -1,38 +1,40 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin",
-        "c:slime_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:flour"
-    },
-    {
-      "tag":"c:gelatin"
-    },
-    {
-      "tag":"c:lime_dyes"
-    },
-    {
-      "amount":20250,"fluid":"minecraft:water"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000,"fluid":"createfood:slime"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin",
+                "c:slime_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:flour"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:lime_dyes"
+        },
+        {
+            "amount": 20250,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:slime"
+        }
+    ]
 }

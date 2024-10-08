@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_graham_cracker_neapolitan_scoop_3",
-        "c:chocolate_graham_cracker",
-        "c:ice_cream_sandwich_neapolitan"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_graham_cracker_neapolitan_scoop_3"
-    },
-    {
-      "tag":"c:chocolate_graham_cracker"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:ice_cream_sandwich_neapolitan"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_graham_cracker_neapolitan_scoop_3",
+                "c:chocolate_graham_cracker",
+                "c:ice_cream_sandwich_neapolitan"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_graham_cracker_neapolitan_scoop_3"
+        },
+        {
+            "tag": "c:chocolate_graham_cracker"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:ice_cream_sandwich_neapolitan"
+        }
+    ]
 }

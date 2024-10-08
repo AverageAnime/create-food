@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_cheesecake",
-        "c:raw_apple_cheesecake"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:raw_cheesecake"
-    },
-    {
-      "tag":"c:apple"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:raw_apple_cheesecake"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_cheesecake",
+                "c:raw_apple_cheesecake"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:raw_cheesecake"
+        },
+        {
+            "tag": "c:apple"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_apple_cheesecake"
+        }
+    ]
 }

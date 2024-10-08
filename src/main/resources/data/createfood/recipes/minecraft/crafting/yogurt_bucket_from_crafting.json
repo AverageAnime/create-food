@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:yogurt_bottle",
-        "c:yogurt_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bucket"
-    },
-    {
-      "tag": "c:yogurt_bottle"
-    },
-    {
-      "tag": "c:yogurt_bottle"
-    },
-    {
-      "tag": "c:yogurt_bottle"
-    },
-    {
-      "tag": "c:yogurt_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:yogurt_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:yogurt_bottle",
+                "c:yogurt_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:yogurt_bottle"
+        },
+        {
+            "tag": "c:yogurt_bottle"
+        },
+        {
+            "tag": "c:yogurt_bottle"
+        },
+        {
+            "tag": "c:yogurt_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:yogurt_bucket"
     }
 }

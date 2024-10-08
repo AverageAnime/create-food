@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:pasta_plate_fish"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate"
-    },
-    {
-      "tag":"c:cooked_fishes"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate_fish"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:pasta_plate_fish"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "tag": "c:cooked_fishes"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_fish"
+        }
+    ]
 }

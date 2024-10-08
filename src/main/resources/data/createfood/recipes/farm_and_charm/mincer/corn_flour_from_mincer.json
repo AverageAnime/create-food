@@ -1,28 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:corn_kernel",
+                "c:corn_flour"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "tag": "c:corn_kernel"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:corn_kernel",
-        "c:corn_flour"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "tag": "c:corn_kernel"
-    },
-  "recipe_type": "STONE",
-  "result":
-    {
-      "count": 2,
-      "item": "createfood:corn_flour"
+    "recipe_type": "STONE",
+    "result": {
+        "count": 2,
+        "item": "createfood:corn_flour"
     }
 }

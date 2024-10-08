@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_white_chocolate",
-        "c:melon_cream_frosting_bucket",
-        "c:melon_cream_white_chocolate"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:hollow_white_chocolate"
-    },
-    {
-      "amount":10125,"fluid":"createfood:melon_cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:melon_cream_white_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_white_chocolate",
+                "c:melon_cream_frosting_bucket",
+                "c:melon_cream_white_chocolate"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:hollow_white_chocolate"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:melon_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:melon_cream_white_chocolate"
+        }
+    ]
 }

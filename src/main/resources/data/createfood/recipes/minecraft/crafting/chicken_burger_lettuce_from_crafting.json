@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chicken_bun_lettuce",
-        "c:bun",
-        "c:chicken_burger_lettuce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chicken_bun_lettuce",
+                "c:bun",
+                "c:chicken_burger_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chicken_bun_lettuce"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "result": {
+        "item": "createfood:chicken_burger_lettuce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chicken_bun_lettuce"
-    },
-    {
-      "tag": "c:bun"
-    }
-  ],
-  "result": {
-    "item": "createfood:chicken_burger_lettuce"
-  }
 }

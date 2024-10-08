@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_graham_cracker_pie_crust",
-        "c:cheesecake_filling_bucket",
-        "c:raw_cheesecake"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_graham_cracker_pie_crust",
+                "c:cheesecake_filling_bucket",
+                "c:raw_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_graham_cracker_pie_crust"
+        },
+        {
+            "tag": "c:cheesecake_filling_bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_cheesecake"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:raw_graham_cracker_pie_crust"
-    },
-    {
-      "tag": "c:cheesecake_filling_bucket"
-    }
-  ],
-  "result": {
-    "item": "createfood:raw_cheesecake"
-  }
 }

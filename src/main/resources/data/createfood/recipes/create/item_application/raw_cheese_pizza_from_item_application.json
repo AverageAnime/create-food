@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pizza_dough_tomato_sauce",
-        "c:cheeses",
-        "c:raw_cheese_pizza"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:pizza_dough_tomato_sauce"
-    },
-    {
-      "tag":"c:cheeses"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:raw_cheese_pizza"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pizza_dough_tomato_sauce",
+                "c:cheeses",
+                "c:raw_cheese_pizza"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:pizza_dough_tomato_sauce"
+        },
+        {
+            "tag": "c:cheeses"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_cheese_pizza"
+        }
+    ]
 }

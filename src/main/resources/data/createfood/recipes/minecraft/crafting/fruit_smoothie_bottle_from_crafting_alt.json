@@ -1,26 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:yogurt_bottle",
-        "c:fruit_smoothie_bottle"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:yogurt_bottle"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:ice_blocks"
-    }
-  ],
-  "result": {
-      "item": "createfood:fruit_smoothie_bottle"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:yogurt_bottle",
+                "c:fruit_smoothie_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:yogurt_bottle"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:ice_blocks"
+        }
+    ],
+    "result": {
+        "item": "createfood:fruit_smoothie_bottle"
     }
 }

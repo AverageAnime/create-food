@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_toffee_chips_chocolate_cookie",
-        "c:toffee_chips_chocolate_cookie"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_toffee_chips_chocolate_cookie"
-  },
-  "result": "createfood:toffee_chips_chocolate_cookie"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_toffee_chips_chocolate_cookie",
+                "c:toffee_chips_chocolate_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_toffee_chips_chocolate_cookie"
+    },
+    "result": "createfood:toffee_chips_chocolate_cookie"
 }

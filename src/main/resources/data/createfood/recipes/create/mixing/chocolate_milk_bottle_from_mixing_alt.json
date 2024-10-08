@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cocoa_powder",
-        "c:chocolate_milk_bottle"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "item":"farmersdelight:milk_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_milk_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cocoa_powder",
+                "c:chocolate_milk_bottle"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_milk_bottle"
+        }
+    ]
 }

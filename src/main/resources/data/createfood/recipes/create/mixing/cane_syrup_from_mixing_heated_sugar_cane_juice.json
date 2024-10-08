@@ -1,29 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sugar_cane_juice_bucket",
-        "c:cane_syrup_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":81000,"fluid":"createfood:sugar_cane_juice"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000,"fluid":"createfood:cane_syrup"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sugar_cane_juice_bucket",
+                "c:cane_syrup_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:sugar_cane_juice"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:cane_syrup"
+        }
+    ]
 }

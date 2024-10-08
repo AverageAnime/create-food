@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:raw_ube_cookie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:raw_ube_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "item": "ubesdelight:ube"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_ube_cookie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "item": "ubesdelight:ube"
-    }
-  ],
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:raw_ube_cookie"
-  }
 }

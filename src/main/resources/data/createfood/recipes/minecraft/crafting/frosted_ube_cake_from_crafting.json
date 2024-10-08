@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_cake_base",
-        "c:ube_cream_frosting",
-        "c:frosted_ube_cake"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:ube_cake_base"
-    },
-    {
-      "tag": "c:ube_cream_frosting"
-    }
-  ],
-  "result":
-    {
-      "item": "createfood:frosted_ube_cake"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_cake_base",
+                "c:ube_cream_frosting",
+                "c:frosted_ube_cake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:ube_cake_base"
+        },
+        {
+            "tag": "c:ube_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:frosted_ube_cake"
     }
 }

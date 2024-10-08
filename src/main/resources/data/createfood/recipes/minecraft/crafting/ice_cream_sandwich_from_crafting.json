@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_graham_cracker_ice_cream",
-        "c:chocolate_graham_cracker",
-        "c:ice_cream_sandwich"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_graham_cracker_ice_cream",
+                "c:chocolate_graham_cracker",
+                "c:ice_cream_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_graham_cracker_ice_cream"
+        },
+        {
+            "tag": "c:chocolate_graham_cracker"
+        }
+    ],
+    "result": {
+        "item": "createfood:ice_cream_sandwich"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_graham_cracker_ice_cream"
-    },
-    {
-      "tag": "c:chocolate_graham_cracker"
-    }
-  ],
-  "result": {
-    "item": "createfood:ice_cream_sandwich"
-  }
 }

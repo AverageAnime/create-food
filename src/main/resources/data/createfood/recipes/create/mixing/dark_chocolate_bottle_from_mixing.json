@@ -1,35 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_mass_bucket",
-        "c:cocoa_powder",
-        "c:dark_chocolate_bottle"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":20250, "fluid":"createfood:cacao_mass"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "item":"minecraft:glass_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:dark_chocolate_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_mass_bucket",
+                "c:cocoa_powder",
+                "c:dark_chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 20250,
+            "fluid": "createfood:cacao_mass"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:dark_chocolate_bottle"
+        }
+    ]
 }

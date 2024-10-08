@@ -1,28 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chili_pepper",
+                "c:paprika"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "tag": "c:chili_pepper"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chili_pepper",
-        "c:paprika"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "tag": "c:chili_pepper"
-    },
-  "recipe_type": "STONE",
-  "result":
-    {
-      "count": 2,
-      "item": "createfood:paprika"
+    "recipe_type": "STONE",
+    "result": {
+        "count": 2,
+        "item": "createfood:paprika"
     }
 }

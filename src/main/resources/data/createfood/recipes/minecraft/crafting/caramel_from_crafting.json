@@ -1,21 +1,21 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:caramel_bucket",
-        "c:caramel"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:caramel_bucket",
+                "c:caramel"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:caramel_bucket"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:caramel"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:caramel_bucket"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "createfood:caramel"
-  }
 }

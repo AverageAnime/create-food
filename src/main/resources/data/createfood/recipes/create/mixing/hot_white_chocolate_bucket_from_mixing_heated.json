@@ -1,35 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_butter_bucket",
-        "c:hot_white_chocolate_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":40500, "fluidTag":"c:milk"
-    },
-    {
-      "amount":40500, "fluid":"createfood:cacao_butter"
-    },
-    {
-      "item":"minecraft:bucket"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:hot_white_chocolate_bucket"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_butter_bucket",
+                "c:hot_white_chocolate_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluidTag": "c:milk"
+        },
+        {
+            "amount": 40500,
+            "fluid": "createfood:cacao_butter"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:hot_white_chocolate_bucket"
+        }
+    ]
 }

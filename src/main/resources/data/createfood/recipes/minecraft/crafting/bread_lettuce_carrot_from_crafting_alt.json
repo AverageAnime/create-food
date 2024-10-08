@@ -1,25 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_lettuce_carrot"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_lettuce_carrot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread"
+        },
+        {
+            "tag": "c:carrot"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        }
+    ],
+    "result": {
+        "item": "createfood:bread_lettuce_carrot"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bread"
-    },
-    {
-      "tag": "c:carrot"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    }
-  ],
-  "result": {
-    "item": "createfood:bread_lettuce_carrot"
-  }
 }

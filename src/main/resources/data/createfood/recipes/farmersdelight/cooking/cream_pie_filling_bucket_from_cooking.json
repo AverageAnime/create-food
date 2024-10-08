@@ -1,55 +1,55 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:any_mod_loaded",
+                "values": [
+                    "create"
+                ]
+            }
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butter",
+                "c:cream_pie_filling_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butter",
-        "c:cream_pie_filling_bucket"
-      ]
+    "cookingtime": 85,
+    "experience": 0.25,
+    "ingredients": [
+        {
+            "tag": "c:milk_buckets"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:eggs"
+        }
+    ],
+    "result": {
+        "item": "createfood:cream_pie_filling_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 85,
-  "experience": 0.25,
-  "ingredients": [
-    {
-      "tag": "c:milk_buckets"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "tag": "c:butter"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:eggs"
-    }
-  ],
-  "result": {
-    "item": "createfood:cream_pie_filling_bucket"
-  }
 }

@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_slime",
-        "c:small_slimeballs",
-        "c:pasta_with_slimeballs"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_slime",
+                "c:small_slimeballs",
+                "c:pasta_with_slimeballs"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_slime"
+        },
+        {
+            "tag": "c:small_slimeballs"
+        }
+    ],
+    "result": {
+        "item": "frightsdelight:pasta_with_slimeballs"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate_slime"
-    },
-    {
-      "tag": "c:small_slimeballs"
-    }
-  ],
-  "result": {
-    "item": "frightsdelight:pasta_with_slimeballs"
-  }
 }

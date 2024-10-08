@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_cream_frosting_bucket",
-        "c:ube_cream_frosting_bottle"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:glass_bottle"
-    },
-    {
-      "amount":20250,"fluid":"createfood:ube_cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:ube_cream_frosting_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_cream_frosting_bucket",
+                "c:ube_cream_frosting_bottle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:ube_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:ube_cream_frosting_bottle"
+        }
+    ]
 }

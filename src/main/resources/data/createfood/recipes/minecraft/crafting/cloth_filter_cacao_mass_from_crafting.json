@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cloth_filter",
-        "c:cacao_mass_bucket",
-        "c:cloth_filter_cacao_mass"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cloth_filter",
+                "c:cacao_mass_bucket",
+                "c:cloth_filter_cacao_mass"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cloth_filter"
+        },
+        {
+            "tag": "c:cacao_mass_bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:cloth_filter_cacao_mass"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:cloth_filter"
-    },
-    {
-      "tag": "c:cacao_mass_bucket"
-    }
-  ],
-  "result": {
-    "item": "createfood:cloth_filter_cacao_mass"
-  }
 }

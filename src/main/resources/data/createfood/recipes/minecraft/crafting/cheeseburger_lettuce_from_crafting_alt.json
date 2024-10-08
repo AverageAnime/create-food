@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:cheeses",
-        "c:cheeseburger_lettuce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:cheeses",
+                "c:cheeseburger_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:cooked_beef"
+        },
+        {
+            "tag": "c:cheeses"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheeseburger_lettuce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:cooked_beef"
-    },
-    {
-      "tag": "c:cheeses"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    },
-    {
-      "tag": "c:bun"
-    }
-  ],
-  "result": {
-    "item": "createfood:cheeseburger_lettuce"
-  }
 }

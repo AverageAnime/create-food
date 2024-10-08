@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "item":"farmersdelight:raw_pasta"
-    },
-    {
-      "amount":10125, "fluid":"minecraft:water"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "farmersdelight:raw_pasta"
+        },
+        {
+            "amount": 10125,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta"
+        }
+    ]
 }

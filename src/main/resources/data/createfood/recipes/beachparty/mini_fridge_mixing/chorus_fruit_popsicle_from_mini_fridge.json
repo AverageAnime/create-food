@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "beachparty"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_popsicle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "beachparty"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_popsicle"
+            ]
+        }
+    ],
+    "type": "beachparty:mini_fridge_mixing",
+    "ingredients": [
+        {
+            "tag": "c:chorus_fruit"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ],
+    "result": {
+        "item": "createfood:chorus_fruit_popsicle"
     }
-  ],
-  "type": "beachparty:mini_fridge_mixing",
-  "ingredients": [
-    {
-      "tag": "c:chorus_fruit"
-    },
-    {
-      "item": "minecraft:ice"
-    }
-  ],
-  "result": {
-    "item": "createfood:chorus_fruit_popsicle"
-  }
 }

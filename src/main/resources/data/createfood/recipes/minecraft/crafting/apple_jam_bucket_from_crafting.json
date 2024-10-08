@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:apple_jam_bottle",
-        "c:apple_jam_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_jam_bottle",
+                "c:apple_jam_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:empty_buckets"
+        },
+        {
+            "tag": "c:apple_jam_bottle"
+        },
+        {
+            "tag": "c:apple_jam_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:apple_jam_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:empty_buckets"
-    },
-    {
-      "tag": "c:apple_jam_bottle"
-    },
-    {
-      "tag": "c:apple_jam_bottle"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:apple_jam_bucket"
-  }
 }

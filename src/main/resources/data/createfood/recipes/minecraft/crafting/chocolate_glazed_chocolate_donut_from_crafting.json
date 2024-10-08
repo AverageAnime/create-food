@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_donut_base",
-        "c:chocolate_cream_frosting",
-        "c:chocolate_glazed_chocolate_donut"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_donut_base"
-    },
-    {
-      "tag": "c:chocolate_cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "createfood:chocolate_glazed_chocolate_donut"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_donut_base",
+                "c:chocolate_cream_frosting",
+                "c:chocolate_glazed_chocolate_donut"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_donut_base"
+        },
+        {
+            "tag": "c:chocolate_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_glazed_chocolate_donut"
     }
 }

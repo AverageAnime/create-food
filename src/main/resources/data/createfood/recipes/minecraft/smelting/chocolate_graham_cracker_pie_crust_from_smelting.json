@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_chocolate_graham_cracker_pie_crust",
-        "c:chocolate_graham_cracker_pie_crust"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "c:raw_chocolate_graham_cracker_pie_crust"
-  },
-  "result": "createfood:chocolate_graham_cracker_pie_crust",
-  "experience": 0.30,
-  "cookingtime": 200
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_chocolate_graham_cracker_pie_crust",
+                "c:chocolate_graham_cracker_pie_crust"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "tag": "c:raw_chocolate_graham_cracker_pie_crust"
+    },
+    "result": "createfood:chocolate_graham_cracker_pie_crust",
+    "experience": 0.3,
+    "cookingtime": 200
 }

@@ -1,21 +1,21 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    }
-  ],
-  "type":"create:splashing",
-  "ingredients":[
-    {
-      "tag":"c:wheat_flour"
-    }
-  ],
-  "results":[
-    {
-      "item":"farmersdelight:wheat_dough"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        }
+    ],
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "tag": "c:wheat_flour"
+        }
+    ],
+    "results": [
+        {
+            "item": "farmersdelight:wheat_dough"
+        }
+    ]
 }

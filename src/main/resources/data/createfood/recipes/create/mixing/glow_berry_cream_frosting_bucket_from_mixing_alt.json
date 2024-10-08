@@ -1,64 +1,64 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cream_cheese",
-        "c:glow_berry_cream_frosting_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "item":"minecraft:glow_berries"
-    },
-    {
-      "item":"minecraft:glow_berries"
-    },
-    {
-      "item":"minecraft:glow_berries"
-    },
-    {
-      "item":"minecraft:glow_berries"
-    },
-    {
-      "item":"minecraft:bucket"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:glow_berry_cream_frosting_bucket"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cream_cheese",
+                "c:glow_berry_cream_frosting_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:glow_berries"
+        },
+        {
+            "item": "minecraft:glow_berries"
+        },
+        {
+            "item": "minecraft:glow_berries"
+        },
+        {
+            "item": "minecraft:glow_berries"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:glow_berry_cream_frosting_bucket"
+        }
+    ]
 }

@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:beef_bun",
-        "c:bun",
-        "c:hamburger"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun",
+                "c:bun",
+                "c:hamburger"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:beef_bun"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "result": {
+        "item": "createfood:hamburger"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:beef_bun"
-    },
-    {
-      "tag": "c:bun"
-    }
-  ],
-  "result": {
-    "item": "createfood:hamburger"
-  }
 }

@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:fish_bacon_pizza_slice",
-        "c:fish_bacon_pizza"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:fish_bacon_pizza_slice",
+                "c:fish_bacon_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:fish_bacon_pizza_slice"
+        },
+        {
+            "tag": "c:fish_bacon_pizza_slice"
+        },
+        {
+            "tag": "c:fish_bacon_pizza_slice"
+        },
+        {
+            "tag": "c:fish_bacon_pizza_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:fish_bacon_pizza"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:fish_bacon_pizza_slice"
-    },
-    {
-      "tag": "c:fish_bacon_pizza_slice"
-    },
-    {
-      "tag": "c:fish_bacon_pizza_slice"
-    },
-    {
-      "tag": "c:fish_bacon_pizza_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:fish_bacon_pizza"
-  }
 }

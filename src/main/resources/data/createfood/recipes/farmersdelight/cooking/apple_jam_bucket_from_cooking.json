@@ -1,39 +1,39 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_jam_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:apple_jam_bucket"
-      ]
+    "cookingtime": 450,
+    "experience": 0.75,
+    "ingredients": [
+        {
+            "tag": "c:apple"
+        },
+        {
+            "tag": "c:apple"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:apple_jam_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 450,
-  "experience": 0.75,
-  "ingredients": [
-    {
-      "tag": "c:apple"
-    },
-    {
-      "tag": "c:apple"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:apple_jam_bucket"
-  }
 }

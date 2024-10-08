@@ -1,22 +1,22 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_mutton_chop"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_mutton_chop"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_mutton_chop"
+        },
+        {
+            "item": "farmersdelight:tomato_sauce"
+        }
+    ],
+    "result": {
+        "item": "farmersdelight:pasta_with_mutton_chop"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate_mutton_chop"
-    },
-    {
-      "item": "farmersdelight:tomato_sauce"
-    }
-  ],
-  "result": {
-    "item": "farmersdelight:pasta_with_mutton_chop"
-  }
 }

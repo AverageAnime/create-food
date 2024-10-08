@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_mini_chocolate_graham_cracker_pie_crust",
-        "c:cream_pie_filling_bucket",
-        "c:raw_mini_cream_pie_chocolate_graham_cracker"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_mini_chocolate_graham_cracker_pie_crust",
+                "c:cream_pie_filling_bucket",
+                "c:raw_mini_cream_pie_chocolate_graham_cracker"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
+        },
+        {
+            "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
+        },
+        {
+            "tag": "c:cream_pie_filling_bucket"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:raw_mini_cream_pie_chocolate_graham_cracker"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
-    },
-    {
-      "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
-    },
-    {
-      "tag": "c:cream_pie_filling_bucket"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "createfood:raw_mini_cream_pie_chocolate_graham_cracker"
-  }
 }

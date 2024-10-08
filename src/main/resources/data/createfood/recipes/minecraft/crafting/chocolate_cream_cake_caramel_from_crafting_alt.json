@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_cream_cake_caramel"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_cream_cake_caramel"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        },
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        },
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        },
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        },
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        },
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        },
+        {
+            "tag": "c:chocolate_cream_cake_slice_caramel"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_cream_cake_caramel"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    },
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    },
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    },
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    },
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    },
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    },
-    {
-      "tag":  "c:chocolate_cream_cake_slice_caramel"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_cream_cake_caramel"
-  }
 }

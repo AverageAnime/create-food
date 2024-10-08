@@ -1,21 +1,21 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:coffee_toffee_bucket",
-        "c:coffee_toffee"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:coffee_toffee_bucket",
+                "c:coffee_toffee"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:coffee_toffee_bucket"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:coffee_toffee"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:coffee_toffee_bucket"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "createfood:coffee_toffee"
-  }
 }

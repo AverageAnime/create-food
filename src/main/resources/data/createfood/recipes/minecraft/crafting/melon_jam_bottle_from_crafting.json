@@ -1,28 +1,27 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_jam_bucket",
-        "c:melon_jam_bottle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_jam_bucket",
+                "c:melon_jam_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:melon_jam_bucket"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:melon_jam_bottle"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:melon_jam_bucket"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
-  ],
-  "result":
-  {
-    "count": 2,
-    "item": "createfood:melon_jam_bottle"
-  }
 }

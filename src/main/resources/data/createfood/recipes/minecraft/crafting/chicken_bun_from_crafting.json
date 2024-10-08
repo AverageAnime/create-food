@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:chicken_patty",
-        "c:chicken_bun"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:chicken_patty",
+                "c:chicken_bun"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:chicken_patty"
+        }
+    ],
+    "result": {
+        "item": "createfood:chicken_bun"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:chicken_patty"
-    }
-  ],
-  "result": {
-    "item": "createfood:chicken_bun"
-  }
 }

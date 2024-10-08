@@ -1,33 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_juice_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    }
-  ],
-  "results":[
-    {
-      "amount":27000, "fluid":"createfood:berry_juice"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_juice_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "results": [
+        {
+            "amount": 27000,
+            "fluid": "createfood:berry_juice"
+        }
+    ]
 }

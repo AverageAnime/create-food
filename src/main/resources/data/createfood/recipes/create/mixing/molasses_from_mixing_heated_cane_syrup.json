@@ -1,29 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cane_syrup_bucket",
-        "c:molasses_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":81000,"fluid":"createfood:cane_syrup"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000,"fluid":"createfood:molasses"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cane_syrup_bucket",
+                "c:molasses_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:cane_syrup"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:molasses"
+        }
+    ]
 }

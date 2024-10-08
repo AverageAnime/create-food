@@ -1,45 +1,45 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_pie_filling_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_pie_filling_bucket"
-      ]
+    "cookingtime": 85,
+    "experience": 0.25,
+    "ingredients": [
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        }
+    ],
+    "result": {
+        "item": "createfood:chorus_fruit_pie_filling_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 85,
-  "experience": 0.25,
-  "ingredients": [
-    {
-      "tag": "c:butter"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:chorus_fruit"
-    },
-    {
-      "tag": "c:chorus_fruit"
-    },
-    {
-      "tag": "c:chorus_fruit"
-    }
-  ],
-  "result": {
-    "item": "createfood:chorus_fruit_pie_filling_bucket"
-  }
 }

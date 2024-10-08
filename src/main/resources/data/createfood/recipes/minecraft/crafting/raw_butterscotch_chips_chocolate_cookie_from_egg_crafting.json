@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cocoa_powder",
-        "c:butterscotch_chips",
-        "c:raw_butterscotch_chips_chocolate_cookie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cocoa_powder",
+                "c:butterscotch_chips",
+                "c:raw_butterscotch_chips_chocolate_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_butterscotch_chips_chocolate_cookie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "tag": "c:eggs"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:cocoa_powder"
-    },
-    {
-      "tag": "c:butterscotch_chips"
-    }
-  ],
-  "result": {
-    "count": 8,
-    "item": "createfood:raw_butterscotch_chips_chocolate_cookie"
-  }
 }

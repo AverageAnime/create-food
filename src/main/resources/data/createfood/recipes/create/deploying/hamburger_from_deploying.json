@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:beef_bun",
-        "c:bun",
-        "c:hamburger"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:beef_bun"
-    },
-    {
-      "tag":"c:bun"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:hamburger"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun",
+                "c:bun",
+                "c:hamburger"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:beef_bun"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:hamburger"
+        }
+    ]
 }

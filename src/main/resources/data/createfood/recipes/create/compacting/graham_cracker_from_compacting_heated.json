@@ -1,40 +1,42 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butter",
-        "c:sweet_dough",
-        "c:graham_cracker"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":10125,"fluidTag":"c:milk"
-    },
-    {
-      "amount":20250,"fluid":"create:honey"
-    },
-    {
-      "tag":"c:butter"
-    },
-    {
-      "tag":"c:sweet_dough"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"createfood:graham_cracker"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butter",
+                "c:sweet_dough",
+                "c:graham_cracker"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 10125,
+            "fluidTag": "c:milk"
+        },
+        {
+            "amount": 20250,
+            "fluid": "create:honey"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:sweet_dough"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "createfood:graham_cracker"
+        }
+    ]
 }

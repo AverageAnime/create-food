@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pastry_bar_base",
-        "c:glow_berry_cream_frosting",
-        "c:glow_berry_cream_pastry_bar"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pastry_bar_base"
-    },
-    {
-      "tag": "c:glow_berry_cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "createfood:glow_berry_cream_pastry_bar"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_bar_base",
+                "c:glow_berry_cream_frosting",
+                "c:glow_berry_cream_pastry_bar"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pastry_bar_base"
+        },
+        {
+            "tag": "c:glow_berry_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:glow_berry_cream_pastry_bar"
     }
 }

@@ -1,30 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:corn",
-        "c:corn_dough"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:corn",
+                "c:corn_dough"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:water_buckets"
+        },
+        {
+            "tag": "c:corn"
+        },
+        {
+            "tag": "c:corn"
+        },
+        {
+            "tag": "c:corn"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "culturaldelights:corn_dough"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:water_buckets"
-    },
-    {
-      "tag": "c:corn"
-    },
-    {
-      "tag": "c:corn"
-    },
-    {
-      "tag": "c:corn"
-    }
-  ],
-  "result": {
-    "count": 3,
-    "item": "culturaldelights:corn_dough"
-  }
 }

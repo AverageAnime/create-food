@@ -1,36 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sugar_cane_juice_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sugar_cane_juice_bucket"
-      ]
+    "cookingtime": 50,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "item": "minecraft:sugar_cane"
+        },
+        {
+            "item": "minecraft:sugar_cane"
+        },
+        {
+            "item": "minecraft:sugar_cane"
+        }
+    ],
+    "result": {
+        "item": "createfood:sugar_cane_juice_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 50,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "item": "minecraft:sugar_cane"
-    },
-    {
-      "item": "minecraft:sugar_cane"
-    },
-    {
-      "item": "minecraft:sugar_cane"
-    }
-  ],
-  "result": {
-    "item": "createfood:sugar_cane_juice_bucket"
-  }
 }

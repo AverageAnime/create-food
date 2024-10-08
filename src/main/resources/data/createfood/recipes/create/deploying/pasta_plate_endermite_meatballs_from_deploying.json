@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:small_endermite_meatballs",
-        "c:pasta_plate_endermite_meatballs"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate"
-    },
-    {
-      "tag":"c:small_endermite_meatballs"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate_endermite_meatballs"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:small_endermite_meatballs",
+                "c:pasta_plate_endermite_meatballs"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "tag": "c:small_endermite_meatballs"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_endermite_meatballs"
+        }
+    ]
 }

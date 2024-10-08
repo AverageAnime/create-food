@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_butterscotch_chips_chocolate_cookie",
-        "c:butterscotch_chips_chocolate_cookie"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_butterscotch_chips_chocolate_cookie"
-  },
-  "result": "createfood:butterscotch_chips_chocolate_cookie"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_butterscotch_chips_chocolate_cookie",
+                "c:butterscotch_chips_chocolate_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_butterscotch_chips_chocolate_cookie"
+    },
+    "result": "createfood:butterscotch_chips_chocolate_cookie"
 }

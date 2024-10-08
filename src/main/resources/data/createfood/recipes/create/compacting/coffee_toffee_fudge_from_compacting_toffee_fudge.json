@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:coffee_toffee_fudge_bucket",
-        "c:coffee_toffee_fudge"
-      ]
-    }
-  ],
-  "type": "create:compacting",
-  "ingredients": [
-    {
-      "amount": 40500,
-      "fluid": "createfood:coffee_toffee_fudge"
-    }
-  ],
-  "results": [
-    {
-      "item": "createfood:coffee_toffee_fudge"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:coffee_toffee_fudge_bucket",
+                "c:coffee_toffee_fudge"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:coffee_toffee_fudge"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:coffee_toffee_fudge"
+        }
+    ]
 }

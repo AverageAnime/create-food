@@ -1,33 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sausage_mushroom_pizza"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "tag": "c:sausage_mushroom_pizza"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sausage_mushroom_pizza"
-      ]
-    }
-  ],
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-    {
-      "tag": "c:sausage_mushroom_pizza"
-    }
-  ],
-  "tool":
-    {
-      "tag": "c:tools/knives"
-    },
-  "result":
-  [
-    {
-      "count": 4,
-      "item": "createfood:sausage_mushroom_pizza_slice"
-    }
-  ]
+    "result": [
+        {
+            "count": 4,
+            "item": "createfood:sausage_mushroom_pizza_slice"
+        }
+    ]
 }

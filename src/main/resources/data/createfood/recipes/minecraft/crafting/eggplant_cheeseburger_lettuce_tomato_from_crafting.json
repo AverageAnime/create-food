@@ -1,27 +1,27 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cheese_and_eggplant_bun_lettuce",
-        "c:bun",
-        "c:eggplant_cheeseburger_lettuce_tomato"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_and_eggplant_bun_lettuce",
+                "c:bun",
+                "c:eggplant_cheeseburger_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cheese_and_eggplant_bun_lettuce"
+        },
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:tomato"
+        }
+    ],
+    "result": {
+        "item": "createfood:eggplant_cheeseburger_lettuce_tomato"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:cheese_and_eggplant_bun_lettuce"
-    },
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:tomato"
-    }
-  ],
-  "result": {
-    "item": "createfood:eggplant_cheeseburger_lettuce_tomato"
-  }
 }

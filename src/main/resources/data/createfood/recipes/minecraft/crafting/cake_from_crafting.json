@@ -1,22 +1,22 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:frosted_cake"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:frosted_cake"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    }
-  ],
-  "result": {
-      "item": "minecraft:cake"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:frosted_cake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:frosted_cake"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cake"
     }
 }

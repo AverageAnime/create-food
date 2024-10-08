@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:tortilla_chips",
-        "c:tortilla_chip_bowl"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:tortilla_chips",
+                "c:tortilla_chip_bowl"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bowl"
+        },
+        {
+            "tag": "c:tortilla_chips"
+        },
+        {
+            "tag": "c:tortilla_chips"
+        }
+    ],
+    "result": {
+        "item": "createfood:tortilla_chip_bowl"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bowl"
-    },
-    {
-      "tag": "c:tortilla_chips"
-    },
-    {
-      "tag": "c:tortilla_chips"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:tortilla_chip_bowl"
-  }
 }

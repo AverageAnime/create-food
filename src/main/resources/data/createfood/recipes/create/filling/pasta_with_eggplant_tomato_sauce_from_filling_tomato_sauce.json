@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "delightfulcreators"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_eggplant",
-        "c:fried_eggplant_pasta"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate_eggplant"
-    },
-    {
-      "amount":20250, "fluid":"delightfulcreators:tomato_sauce"
-    }
-  ],
-  "results":[
-    {
-      "item":"culturaldelights:fried_eggplant_pasta"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "delightfulcreators"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_eggplant",
+                "c:fried_eggplant_pasta"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_eggplant"
+        },
+        {
+            "amount": 20250,
+            "fluid": "delightfulcreators:tomato_sauce"
+        }
+    ],
+    "results": [
+        {
+            "item": "culturaldelights:fried_eggplant_pasta"
+        }
+    ]
 }

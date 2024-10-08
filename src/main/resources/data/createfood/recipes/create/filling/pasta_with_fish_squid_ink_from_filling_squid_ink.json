@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_fish",
-        "c:squid_ink_bucket"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate_fish"
-    },
-    {
-      "amount":20250,"fluid":"createfood:squid_ink"
-    }
-  ],
-  "results":[
-    {
-      "item":"farmersdelight:squid_ink_pasta"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_fish",
+                "c:squid_ink_bucket"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_fish"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:squid_ink"
+        }
+    ],
+    "results": [
+        {
+            "item": "farmersdelight:squid_ink_pasta"
+        }
+    ]
 }

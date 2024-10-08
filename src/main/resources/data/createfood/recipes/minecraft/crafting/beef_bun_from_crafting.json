@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:beef_bun"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:beef_bun"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:cooked_beef"
+        }
+    ],
+    "result": {
+        "item": "createfood:beef_bun"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:cooked_beef"
-    }
-  ],
-  "result": {
-    "item": "createfood:beef_bun"
-  }
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:tortilla_chip_bowl",
-        "c:cheeses",
-        "c:nacho_bowl"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:tortilla_chip_bowl"
-    },
-    {
-      "tag":"c:cheeses"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:nacho_bowl"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:tortilla_chip_bowl",
+                "c:cheeses",
+                "c:nacho_bowl"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:tortilla_chip_bowl"
+        },
+        {
+            "tag": "c:cheeses"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:nacho_bowl"
+        }
+    ]
 }

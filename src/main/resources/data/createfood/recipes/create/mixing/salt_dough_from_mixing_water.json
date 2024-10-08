@@ -1,35 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:salt",
-        "c:salt_dough"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:flour"
-    },
-    {
-      "tag":"c:salt"
-    },
-    {
-      "amount":81000,"fluid":"minecraft:water"
-    }
-  ],
-  "results":[
-    {
-      "count": 6,
-      "item":"createfood:salt_dough"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:salt",
+                "c:salt_dough"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:flour"
+        },
+        {
+            "tag": "c:salt"
+        },
+        {
+            "amount": 81000,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "count": 6,
+            "item": "createfood:salt_dough"
+        }
+    ]
 }

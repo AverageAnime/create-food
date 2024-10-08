@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:small_endermite_meatballs",
-        "c:endermite_meatball_sandwich"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:small_endermite_meatballs",
+                "c:endermite_meatball_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread"
+        },
+        {
+            "tag": "c:small_endermite_meatballs"
+        }
+    ],
+    "result": {
+        "item": "createfood:endermite_meatball_sandwich"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bread"
-    },
-    {
-      "tag": "c:small_endermite_meatballs"
-    }
-  ],
-  "result": {
-    "item": "createfood:endermite_meatball_sandwich"
-  }
 }

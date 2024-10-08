@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_cheesecake_slice",
-        "c:chorus_fruit_cheesecake"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_cheesecake_slice",
+                "c:chorus_fruit_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chorus_fruit_cheesecake_slice"
+        },
+        {
+            "tag": "c:chorus_fruit_cheesecake_slice"
+        },
+        {
+            "tag": "c:chorus_fruit_cheesecake_slice"
+        },
+        {
+            "tag": "c:chorus_fruit_cheesecake_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:chorus_fruit_cheesecake"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chorus_fruit_cheesecake_slice"
-    },
-    {
-      "tag": "c:chorus_fruit_cheesecake_slice"
-    },
-    {
-      "tag": "c:chorus_fruit_cheesecake_slice"
-    },
-    {
-      "tag": "c:chorus_fruit_cheesecake_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:chorus_fruit_cheesecake"
-  }
 }

@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:cheeses",
-        "c:cooked_eggplant",
-        "c:cheese_and_eggplant_bun_lettuce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:cheeses",
+                "c:cooked_eggplant",
+                "c:cheese_and_eggplant_bun_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        },
+        {
+            "tag": "c:cheeses"
+        },
+        {
+            "tag": "c:cooked_eggplant"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheese_and_eggplant_bun_lettuce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    },
-    {
-      "tag": "c:cheeses"
-    },
-    {
-      "tag": "c:cooked_eggplant"
-    }
-  ],
-  "result": {
-    "item": "createfood:cheese_and_eggplant_bun_lettuce"
-  }
 }

@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:strider_meatball",
-        "c:strider_meatball_stick"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "tag": "c:strider_meatball"
-    }
-  ],
-  "result": {
-      "item": "createfood:strider_meatball_stick_1"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:strider_meatball",
+                "c:strider_meatball_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "tag": "c:strider_meatball"
+        }
+    ],
+    "result": {
+        "item": "createfood:strider_meatball_stick_1"
     }
 }

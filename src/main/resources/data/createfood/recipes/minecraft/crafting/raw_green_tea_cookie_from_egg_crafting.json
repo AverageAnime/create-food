@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_green_tea_cookie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_green_tea_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "tag": "c:crops/green_tea_leaves"
+        },
+        {
+            "tag": "c:eggs"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_green_tea_cookie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "tag": "c:crops/green_tea_leaves"
-    },
-    {
-      "tag": "c:eggs"
-    }
-  ],
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:raw_green_tea_cookie"
-  }
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cooked_pasta",
-        "c:butter",
-        "c:pasta_plate_butter"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:cooked_pasta"
-    },
-    {
-      "tag":"c:butter"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate_butter"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cooked_pasta",
+                "c:butter",
+                "c:pasta_plate_butter"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:cooked_pasta"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_butter"
+        }
+    ]
 }

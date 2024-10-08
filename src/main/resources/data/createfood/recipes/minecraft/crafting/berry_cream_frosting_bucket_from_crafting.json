@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_cream_frosting",
-        "c:berry_cream_frosting_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bucket"
-    },
-    {
-      "tag": "c:berry_cream_frosting"
-    },
-    {
-      "tag": "c:berry_cream_frosting"
-    },
-    {
-      "tag": "c:berry_cream_frosting"
-    },
-    {
-      "tag": "c:berry_cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "createfood:berry_cream_frosting_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_cream_frosting",
+                "c:berry_cream_frosting_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:berry_cream_frosting"
+        },
+        {
+            "tag": "c:berry_cream_frosting"
+        },
+        {
+            "tag": "c:berry_cream_frosting"
+        },
+        {
+            "tag": "c:berry_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_cream_frosting_bucket"
     }
 }

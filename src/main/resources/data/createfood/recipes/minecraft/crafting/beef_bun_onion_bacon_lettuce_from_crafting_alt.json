@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:beef_bun_onion_bacon_lettuce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:beef_bun_onion_bacon_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:cooked_pork"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        },
+        {
+            "tag": "c:onion"
+        },
+        {
+            "tag": "c:cooked_beef"
+        }
+    ],
+    "result": {
+        "item": "createfood:beef_bun_onion_bacon_lettuce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:cooked_pork"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    },
-    {
-      "tag": "c:onion"
-    },
-    {
-      "tag": "c:cooked_beef"
-    }
-  ],
-  "result": {
-    "item": "createfood:beef_bun_onion_bacon_lettuce"
-  }
 }

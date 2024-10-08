@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:raw_flesh_cookie"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "item": "minecraft:rotten_flesh"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"createfood:raw_flesh_cookie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:raw_flesh_cookie"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "createfood:raw_flesh_cookie"
+        }
+    ]
 }

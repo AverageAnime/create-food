@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:mushroom_fish_pizza_slice",
-        "c:mushroom_fish_pizza"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:mushroom_fish_pizza_slice",
+                "c:mushroom_fish_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:mushroom_fish_pizza_slice"
+        },
+        {
+            "tag": "c:mushroom_fish_pizza_slice"
+        },
+        {
+            "tag": "c:mushroom_fish_pizza_slice"
+        },
+        {
+            "tag": "c:mushroom_fish_pizza_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:mushroom_fish_pizza"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:mushroom_fish_pizza_slice"
-    },
-    {
-      "tag": "c:mushroom_fish_pizza_slice"
-    },
-    {
-      "tag": "c:mushroom_fish_pizza_slice"
-    },
-    {
-      "tag": "c:mushroom_fish_pizza_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:mushroom_fish_pizza"
-  }
 }

@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cheese_and_beef_bun_onion",
-        "c:cheese_and_beef_bun_onion_lettuce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_and_beef_bun_onion",
+                "c:cheese_and_beef_bun_onion_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cheese_and_beef_bun_onion"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheese_and_beef_bun_onion_lettuce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:cheese_and_beef_bun_onion"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    }
-  ],
-  "result": {
-    "item": "createfood:cheese_and_beef_bun_onion_lettuce"
-  }
 }

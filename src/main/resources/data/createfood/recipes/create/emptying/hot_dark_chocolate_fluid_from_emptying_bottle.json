@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hot_dark_chocolate",
-        "c:hot_dark_chocolate_bucket"
-      ]
-    }
-  ],
-  "type":"create:emptying",
-  "ingredients":[
-    {
-      "tag":"c:hot_dark_chocolate"
-    }
-  ],
-  "results":[
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "amount": 20250,
-      "fluid":"createfood:hot_dark_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hot_dark_chocolate",
+                "c:hot_dark_chocolate_bucket"
+            ]
+        }
+    ],
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "tag": "c:hot_dark_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:hot_dark_chocolate"
+        }
+    ]
 }

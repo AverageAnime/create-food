@@ -1,27 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:slime_bucket"
-      ]
-    }
-  ],
-  "type": "create:compacting",
-  "ingredients": [
-    {
-      "amount": 81000, "fluid": "createfood:slime"
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:slime_block"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:slime_bucket"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:slime"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:slime_block"
+        }
+    ]
 }

@@ -1,35 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_mass_bucket",
-        "c:hot_chocolate_bottle"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":10125, "fluidTag":"c:milk"
-    },
-    {
-      "amount":10125, "fluid":"createfood:cacao_mass"
-    },
-    {
-      "item":"minecraft:glass_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:hot_chocolate_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_mass_bucket",
+                "c:hot_chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 10125,
+            "fluidTag": "c:milk"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:cacao_mass"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:hot_chocolate_bottle"
+        }
+    ]
 }

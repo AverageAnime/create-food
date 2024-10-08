@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:white_chocolate_fudge_bucket",
-        "c:marshmallow",
-        "c:marshmallow_white_chocolate_fudge"
-      ]
-    }
-  ],
-  "type": "create:compacting",
-  "ingredients": [
-    {
-      "amount": 40500,
-      "fluid": "createfood:white_chocolate_fudge"
-    },
-    {
-      "tag": "c:marshmallow"
-    }
-  ],
-  "results": [
-    {
-      "item": "createfood:marshmallow_white_chocolate_fudge"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:white_chocolate_fudge_bucket",
+                "c:marshmallow",
+                "c:marshmallow_white_chocolate_fudge"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:white_chocolate_fudge"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:marshmallow_white_chocolate_fudge"
+        }
+    ]
 }

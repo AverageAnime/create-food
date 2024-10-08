@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:toast",
-        "c:white_chocolate_bucket",
-        "c:white_chocolate_toast"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:toast"
-    },
-    {
-      "amount":10125,"fluid":"createfood:white_chocolate"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:white_chocolate_toast"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast",
+                "c:white_chocolate_bucket",
+                "c:white_chocolate_toast"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:toast"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:white_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:white_chocolate_toast"
+        }
+    ]
 }

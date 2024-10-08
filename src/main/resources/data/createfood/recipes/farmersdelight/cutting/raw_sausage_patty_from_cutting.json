@@ -1,34 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sausage_meat",
+                "c:raw_sausage_patty"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "tag": "c:sausage_meat"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sausage_meat",
-        "c:raw_sausage_patty"
-      ]
-    }
-  ],
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-    {
-      "tag": "c:sausage_meat"
-    }
-  ],
-  "tool":
-    {
-      "tag": "c:tools/knives"
-    },
-  "result":
-  [
-    {
-      "count": 2,
-      "item": "createfood:raw_sausage_patty"
-    }
-  ]
+    "result": [
+        {
+            "count": 2,
+            "item": "createfood:raw_sausage_patty"
+        }
+    ]
 }

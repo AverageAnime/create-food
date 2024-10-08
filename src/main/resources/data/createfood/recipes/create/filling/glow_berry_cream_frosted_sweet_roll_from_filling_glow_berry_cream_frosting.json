@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_roll_base",
-        "c:glow_berry_cream_frosting_bucket",
-        "c:glow_berry_cream_frosted_sweet_roll"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"createfood:sweet_roll_base"
-    },
-    {
-      "amount":27000,"fluid":"createfood:glow_berry_cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:glow_berry_cream_frosted_sweet_roll"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:glow_berry_cream_frosting_bucket",
+                "c:glow_berry_cream_frosted_sweet_roll"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "createfood:sweet_roll_base"
+        },
+        {
+            "amount": 27000,
+            "fluid": "createfood:glow_berry_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:glow_berry_cream_frosted_sweet_roll"
+        }
+    ]
 }

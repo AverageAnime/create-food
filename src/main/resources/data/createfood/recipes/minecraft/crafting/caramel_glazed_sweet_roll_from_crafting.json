@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_roll_base",
-        "c:caramel",
-        "c:caramel_glazed_sweet_roll"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_roll_base"
-    },
-    {
-      "tag": "c:caramel"
-    }
-  ],
-  "result": {
-      "item": "createfood:caramel_glazed_sweet_roll"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:caramel",
+                "c:caramel_glazed_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_roll_base"
+        },
+        {
+            "tag": "c:caramel"
+        }
+    ],
+    "result": {
+        "item": "createfood:caramel_glazed_sweet_roll"
     }
 }

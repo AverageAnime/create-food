@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:powdered_sugar"
-      ]
-    }
-  ],
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "item": "minecraft:sugar"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "item": "createfood:powdered_sugar"
-    },
-    {
-      "chance": 0.25,
-      "item": "createfood:powdered_sugar"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:powdered_sugar"
+            ]
+        }
+    ],
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "processingTime": 100,
+    "results": [
+        {
+            "item": "createfood:powdered_sugar"
+        },
+        {
+            "chance": 0.25,
+            "item": "createfood:powdered_sugar"
+        }
+    ]
 }

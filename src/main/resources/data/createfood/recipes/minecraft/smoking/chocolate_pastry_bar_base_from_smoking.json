@@ -1,19 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_chocolate_pastry_bar_base",
-        "c:chocolate_pastry_bar_base"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.55,
-  "ingredient": {
-    "tag": "c:raw_chocolate_pastry_bar_base"
-  },
-  "result": "createfood:chocolate_pastry_bar_base"
-
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_chocolate_pastry_bar_base",
+                "c:chocolate_pastry_bar_base"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.55,
+    "ingredient": {
+        "tag": "c:raw_chocolate_pastry_bar_base"
+    },
+    "result": "createfood:chocolate_pastry_bar_base"
 }

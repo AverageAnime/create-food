@@ -1,40 +1,40 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin",
-        "c:gray_gelatin_mix_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin",
+                "c:gray_gelatin_mix_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 150,
+    "experience": 0.1,
+    "ingredients": [
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "tag": "c:gray_dyes"
+        }
+    ],
+    "result": {
+        "item": "createfood:gray_gelatin_mix_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 150,
-  "experience": 0.1,
-  "ingredients": [
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "tag": "c:gray_dyes"
-    }
-  ],
-  "result": {
-    "item": "createfood:gray_gelatin_mix_bucket"
-  }
 }

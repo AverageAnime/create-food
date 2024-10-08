@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:donut_base",
-        "c:cream_frosting_bucket",
-        "c:cream_glazed_donut"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:donut_base"
-    },
-    {
-      "amount":20250,"fluid":"createfood:cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:cream_glazed_donut"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:donut_base",
+                "c:cream_frosting_bucket",
+                "c:cream_glazed_donut"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:donut_base"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:cream_glazed_donut"
+        }
+    ]
 }

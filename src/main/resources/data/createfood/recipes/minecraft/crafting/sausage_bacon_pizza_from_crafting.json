@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sausage_bacon_pizza_slice",
-        "c:sausage_bacon_pizza"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sausage_bacon_pizza_slice",
+                "c:sausage_bacon_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sausage_bacon_pizza_slice"
+        },
+        {
+            "tag": "c:sausage_bacon_pizza_slice"
+        },
+        {
+            "tag": "c:sausage_bacon_pizza_slice"
+        },
+        {
+            "tag": "c:sausage_bacon_pizza_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:sausage_bacon_pizza"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sausage_bacon_pizza_slice"
-    },
-    {
-      "tag": "c:sausage_bacon_pizza_slice"
-    },
-    {
-      "tag": "c:sausage_bacon_pizza_slice"
-    },
-    {
-      "tag": "c:sausage_bacon_pizza_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:sausage_bacon_pizza"
-  }
 }

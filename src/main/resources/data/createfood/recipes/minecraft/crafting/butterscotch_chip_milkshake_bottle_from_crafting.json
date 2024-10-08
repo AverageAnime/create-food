@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:milkshake",
-        "c:butterscotch_chips",
-        "c:butterscotch_chip_milkshake_bottle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:milkshake",
+                "c:butterscotch_chips",
+                "c:butterscotch_chip_milkshake_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:milkshake"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        }
+    ],
+    "result": {
+        "item": "createfood:butterscotch_chip_milkshake_bottle"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:milkshake"
-    },
-    {
-      "tag": "c:butterscotch_chips"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:butterscotch_chip_milkshake_bottle"
-  }
 }

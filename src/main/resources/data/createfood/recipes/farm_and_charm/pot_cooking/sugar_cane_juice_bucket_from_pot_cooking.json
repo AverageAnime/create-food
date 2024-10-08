@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sugar_cane_juice_bucket"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:pot_cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sugar_cane_juice_bucket"
-      ]
+    "ingredients": [
+        {
+            "item": "minecraft:sugar_cane"
+        },
+        {
+            "item": "minecraft:sugar_cane"
+        },
+        {
+            "item": "minecraft:sugar_cane"
+        }
+    ],
+    "result": {
+        "item": "createfood:sugar_cane_juice_bucket"
     }
-  ],
-  "type": "farm_and_charm:pot_cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "ingredients": [
-    {
-      "item": "minecraft:sugar_cane"
-    },
-    {
-      "item": "minecraft:sugar_cane"
-    },
-    {
-      "item": "minecraft:sugar_cane"
-    }
-  ],
-  "result": {
-    "item": "createfood:sugar_cane_juice_bucket"
-  }
 }

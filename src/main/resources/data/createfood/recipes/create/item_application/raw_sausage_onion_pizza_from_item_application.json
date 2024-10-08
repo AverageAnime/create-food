@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_sausage_pizza",
-        "c:raw_sausage_onion_pizza"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:raw_sausage_pizza"
-    },
-    {
-      "tag":"c:onion"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:raw_sausage_onion_pizza"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_sausage_pizza",
+                "c:raw_sausage_onion_pizza"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:raw_sausage_pizza"
+        },
+        {
+            "tag": "c:onion"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_sausage_onion_pizza"
+        }
+    ]
 }

@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:butter",
-        "c:raw_pastry_base"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "tag": "c:butter"
-    }
-  ],
-  "result": {
-      "item": "createfood:raw_pastry_base"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:butter",
+                "c:raw_pastry_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_pastry_base"
     }
 }

@@ -1,33 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_juice_bottle",
-        "c:berry_juice_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_juice_bottle",
+                "c:berry_juice_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:empty_buckets"
+        },
+        {
+            "tag": "c:berry_juice_bottle"
+        },
+        {
+            "tag": "c:berry_juice_bottle"
+        },
+        {
+            "tag": "c:berry_juice_bottle"
+        },
+        {
+            "tag": "c:berry_juice_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_juice_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:empty_buckets"
-    },
-    {
-      "tag": "c:berry_juice_bottle"
-    },
-    {
-      "tag": "c:berry_juice_bottle"
-    },
-    {
-      "tag": "c:berry_juice_bottle"
-    },
-    {
-      "tag": "c:berry_juice_bottle"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:berry_juice_bucket"
-  }
 }

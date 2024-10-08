@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:small_meatballs",
-        "c:meatball_sandwich"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:small_meatballs",
+                "c:meatball_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bread"
+        },
+        {
+            "tag": "c:small_meatballs"
+        }
+    ],
+    "result": {
+        "item": "createfood:meatball_sandwich"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bread"
-    },
-    {
-      "tag": "c:small_meatballs"
-    }
-  ],
-  "result": {
-    "item": "createfood:meatball_sandwich"
-  }
 }

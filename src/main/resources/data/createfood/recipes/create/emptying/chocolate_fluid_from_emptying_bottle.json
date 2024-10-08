@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_bottle"
-      ]
-    }
-  ],
-  "type":"create:emptying",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "amount": 20250,
-      "fluid":"create:chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "create:chocolate"
+        }
+    ]
 }

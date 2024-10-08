@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:breakfast_sausages",
-        "c:paprika",
-        "c:spicy_breakfast_sausages"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:breakfast_sausages"
-    },
-    {
-      "tag": "c:paprika"
-    }
-  ],
-  "result": {
-      "item": "createfood:spicy_breakfast_sausages"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:breakfast_sausages",
+                "c:paprika",
+                "c:spicy_breakfast_sausages"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:breakfast_sausages"
+        },
+        {
+            "tag": "c:paprika"
+        }
+    ],
+    "result": {
+        "item": "createfood:spicy_breakfast_sausages"
     }
 }

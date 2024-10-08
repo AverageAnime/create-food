@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_chocolate",
-        "c:apple_cream_frosting_bucket",
-        "c:apple_cream_chocolate"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:hollow_chocolate"
-    },
-    {
-      "amount":10125,"fluid":"createfood:apple_cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:apple_cream_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_chocolate",
+                "c:apple_cream_frosting_bucket",
+                "c:apple_cream_chocolate"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:hollow_chocolate"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:apple_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:apple_cream_chocolate"
+        }
+    ]
 }

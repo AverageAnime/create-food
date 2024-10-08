@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "beachparty"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cocoa_powder",
-        "c:chocolate_milk"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "beachparty"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cocoa_powder",
+                "c:chocolate_milk"
+            ]
+        }
+    ],
+    "type": "beachparty:tiki_bar_mixing",
+    "ingredients": [
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "tag": "c:milk"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_milk_bottle"
     }
-  ],
-  "type": "beachparty:tiki_bar_mixing",
-  "ingredients": [
-    {
-      "tag": "c:cocoa_powder"
-    },
-    {
-      "tag": "c:milk"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_milk_bottle"
-  }
 }

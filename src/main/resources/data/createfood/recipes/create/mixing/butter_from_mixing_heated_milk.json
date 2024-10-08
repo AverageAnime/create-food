@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:salt",
-        "c:butter_compat"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":20250,"fluidTag":"c:milk"
-    },
-    {
-      "tag":"c:salt"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:butter"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:salt",
+                "c:butter_compat"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 20250,
+            "fluidTag": "c:milk"
+        },
+        {
+            "tag": "c:salt"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:butter"
+        }
+    ]
 }

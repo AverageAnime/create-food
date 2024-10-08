@@ -1,42 +1,43 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create_bic_bit"
-        ]
-      }
-    },
-      {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "create"
-        ]
-      },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_pastry_base",
-        "c:vegetable_oil_bucket",
-        "c:chocolate_donut_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag": "c:chocolate_pastry_base"
-    },
-    {
-      "amount": 10125, "fluid": "createfood:vegetable_oil"
-    }
-  ],
-  "results":[
-    {
-      "item": "createfood:chocolate_donut_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:any_mod_loaded",
+                "values": [
+                    "create_bic_bit"
+                ]
+            }
+        },
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_pastry_base",
+                "c:vegetable_oil_bucket",
+                "c:chocolate_donut_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_pastry_base"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:vegetable_oil"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_donut_base"
+        }
+    ]
 }

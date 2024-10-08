@@ -1,33 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:cooked_eggplant"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:cooked_eggplant"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:cooked_eggplant"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        },
+        {
+            "tag": "c:tomato"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "result": {
+        "item": "culturaldelights:eggplant_burger"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-
-    {
-      "tag": "c:cooked_eggplant"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    },
-    {
-      "tag": "c:tomato"
-    },
-    {
-      "tag": "c:bun"
-    }
-  ],
-  "result": {
-    "item": "culturaldelights:eggplant_burger"
-  }
 }

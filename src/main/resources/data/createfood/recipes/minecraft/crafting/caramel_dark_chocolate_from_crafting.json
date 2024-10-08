@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_dark_chocolate",
-        "c:caramel",
-        "c:caramel_dark_chocolate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_dark_chocolate",
+                "c:caramel",
+                "c:caramel_dark_chocolate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:hollow_dark_chocolate"
+        },
+        {
+            "tag": "c:caramel"
+        }
+    ],
+    "result": {
+        "item": "createfood:caramel_dark_chocolate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:hollow_dark_chocolate"
-    },
-    {
-      "tag": "c:caramel"
-    }
-  ],
-  "result": {
-    "item": "createfood:caramel_dark_chocolate"
-  }
 }

@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sausage_meat",
-        "c:raw_sausage_patty"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "tag":"c:sausage_meat"
-    }
-  ],
-  "results":[
-    {
-      "count": 2,
-      "item":"createfood:raw_sausage_patty"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sausage_meat",
+                "c:raw_sausage_patty"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:sausage_meat"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:raw_sausage_patty"
+        }
+    ]
 }

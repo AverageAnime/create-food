@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice",
-        "c:bread_slice_beetroot"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice",
+                "c:bread_slice_beetroot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice"
+        },
+        {
+            "tag": "c:beetroot"
+        }
+    ],
+    "result": {
+        "item": "createfood:bread_slice_beetroot"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bread_slice"
-    },
-    {
-      "tag": "c:beetroot"
-    }
-  ],
-  "result": {
-    "item": "createfood:bread_slice_beetroot"
-  }
 }

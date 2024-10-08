@@ -1,34 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:glow_berry_juice_bucket",
-        "c:glow_berry_juice_bottle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:glow_berry_juice_bucket",
+                "c:glow_berry_juice_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:glow_berry_juice_bucket"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "createfood:glow_berry_juice_bottle"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:glow_berry_juice_bucket"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
-  ],
-  "result":
-  {
-    "count": 4,
-    "item": "createfood:glow_berry_juice_bottle"
-  }
 }

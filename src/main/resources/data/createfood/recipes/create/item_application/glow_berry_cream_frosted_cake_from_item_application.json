@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cake_base",
-        "c:glow_berry_cream_frosting_bucket",
-        "c:glow_berry_cream_frosted_cake"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:cake_base"
-    },
-    {
-      "tag":"c:glow_berry_cream_frosting_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:glow_berry_cream_frosted_cake"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cake_base",
+                "c:glow_berry_cream_frosting_bucket",
+                "c:glow_berry_cream_frosted_cake"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:cake_base"
+        },
+        {
+            "tag": "c:glow_berry_cream_frosting_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:glow_berry_cream_frosted_cake"
+        }
+    ]
 }

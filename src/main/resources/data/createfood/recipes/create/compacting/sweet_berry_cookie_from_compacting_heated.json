@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "tag":"c:sweet_dough"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"farmersdelight:sweet_berry_cookie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "tag": "c:sweet_dough"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "farmersdelight:sweet_berry_cookie"
+        }
+    ]
 }

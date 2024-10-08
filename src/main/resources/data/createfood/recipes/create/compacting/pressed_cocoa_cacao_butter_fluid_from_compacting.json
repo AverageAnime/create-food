@@ -1,36 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cloth_filter_cacao_mass",
-        "c:pressed_cocoa",
-        "c:cacao_butter_bucket"
-      ]
-    }
-  ],
-  "type": "create:compacting",
-  "ingredients": [
-    {
-      "tag": "c:cloth_filter_cacao_mass"
-    }
-  ],
-  "results": [
-    {
-      "item": "createfood:cloth_filter"
-    },
-    {
-      "item": "createfood:pressed_cocoa"
-    },
-    {
-      "amount": 81000,
-      "fluid": "createfood:cacao_butter"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cloth_filter_cacao_mass",
+                "c:pressed_cocoa",
+                "c:cacao_butter_bucket"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:cloth_filter_cacao_mass"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:cloth_filter"
+        },
+        {
+            "item": "createfood:pressed_cocoa"
+        },
+        {
+            "amount": 81000,
+            "fluid": "createfood:cacao_butter"
+        }
+    ]
 }

@@ -1,35 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:magma_gelatin",
-        "c:magma_cream_marshmallow"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "amount":6750, "fluid":"minecraft:water"
-    },
-    {
-      "tag": "c:magma_gelatin"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:magma_cream_marshmallow"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:magma_gelatin",
+                "c:magma_cream_marshmallow"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "amount": 6750,
+            "fluid": "minecraft:water"
+        },
+        {
+            "tag": "c:magma_gelatin"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:magma_cream_marshmallow"
+        }
+    ]
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:chicken_patty",
-        "c:chicken_bun"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:bun"
-    },
-    {
-      "tag":"c:chicken_patty"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chicken_bun"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:chicken_patty",
+                "c:chicken_bun"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:chicken_patty"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chicken_bun"
+        }
+    ]
 }

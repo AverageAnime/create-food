@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:breakfast_sausages",
-        "c:paprika",
-        "c:spicy_breakfast_sausages"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:breakfast_sausages"
-    },
-    {
-      "tag":"c:paprika"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:spicy_breakfast_sausages"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:breakfast_sausages",
+                "c:paprika",
+                "c:spicy_breakfast_sausages"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:breakfast_sausages"
+        },
+        {
+            "tag": "c:paprika"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:spicy_breakfast_sausages"
+        }
+    ]
 }

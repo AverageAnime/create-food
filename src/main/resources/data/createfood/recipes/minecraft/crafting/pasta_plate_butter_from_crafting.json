@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:butter",
-        "c:pasta_plate_butter"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:butter",
+                "c:pasta_plate_butter"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "result": {
+        "item": "createfood:pasta_plate_butter"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate"
-    },
-    {
-      "tag": "c:butter"
-    }
-  ],
-  "result": {
-    "item": "createfood:pasta_plate_butter"
-  }
 }

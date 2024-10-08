@@ -1,44 +1,44 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:yogurt_bucket",
-        "c:fruit_smoothie_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:yogurt_bucket"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:ice_blocks"
-    },
-    {
-      "tag": "c:ice_blocks"
-    },
-    {
-      "tag": "c:ice_blocks"
-    },
-    {
-      "tag": "c:ice_blocks"
-    }
-  ],
-  "result": {
-      "item": "createfood:fruit_smoothie_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:yogurt_bucket",
+                "c:fruit_smoothie_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:yogurt_bucket"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:ice_blocks"
+        },
+        {
+            "tag": "c:ice_blocks"
+        },
+        {
+            "tag": "c:ice_blocks"
+        },
+        {
+            "tag": "c:ice_blocks"
+        }
+    ],
+    "result": {
+        "item": "createfood:fruit_smoothie_bucket"
     }
 }

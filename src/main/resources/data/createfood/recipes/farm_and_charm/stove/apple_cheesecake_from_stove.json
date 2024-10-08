@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_apple_cheesecake",
-        "c:apple_cheesecake"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:stove",
-  "ingredients": [
-    {
-      "tag": "c:raw_apple_cheesecake"
-    },
-    {
-      "tag": "c:raw_apple_cheesecake"
-    },
-    {
-      "tag": "c:raw_apple_cheesecake"
-    }
-  ],
-  "item": "createfood:apple_cheesecake",
-  "count": 3,
-  "experience": 1.5
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_apple_cheesecake",
+                "c:apple_cheesecake"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:stove",
+    "ingredients": [
+        {
+            "tag": "c:raw_apple_cheesecake"
+        },
+        {
+            "tag": "c:raw_apple_cheesecake"
+        },
+        {
+            "tag": "c:raw_apple_cheesecake"
+        }
+    ],
+    "item": "createfood:apple_cheesecake",
+    "count": 3,
+    "experience": 1.5
 }

@@ -1,35 +1,38 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_ice_cream_bucket",
-        "c:milk_powder",
-        "c:melon_milkshake_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":20250,"fluidTag":"c:milk"
-    },
-    {
-      "amount":60750,"fluid":"createfood:melon_ice_cream"
-    },
-    {
-      "tag":"c:ice_blocks"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000,"fluid":"createfood:melon_milkshake"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_ice_cream_bucket",
+                "c:milk_powder",
+                "c:melon_milkshake_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 20250,
+            "fluidTag": "c:milk"
+        },
+        {
+            "amount": 60750,
+            "fluid": "createfood:melon_ice_cream"
+        },
+        {
+            "tag": "c:ice_blocks"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:melon_milkshake"
+        }
+    ]
 }

@@ -1,65 +1,65 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cream_cheese",
-        "c:cocoa_powder",
-        "c:chocolate_cream_frosting_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "item":"minecraft:bucket"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_cream_frosting_bucket"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cream_cheese",
+                "c:cocoa_powder",
+                "c:chocolate_cream_frosting_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_cream_frosting_bucket"
+        }
+    ]
 }

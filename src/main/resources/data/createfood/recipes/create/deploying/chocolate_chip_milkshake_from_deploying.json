@@ -1,30 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:milkshake",
-        "c:chocolate_chips",
-        "c:chocolate_chip_milkshake_bottle"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:milkshake"
-    },
-    {
-      "tag":"c:chocolate_chips"
-    }
-  ],
-  "results":[
-    {"item":"createfood:chocolate_chip_milkshake_bottle"}
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:milkshake",
+                "c:chocolate_chips",
+                "c:chocolate_chip_milkshake_bottle"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:milkshake"
+        },
+        {
+            "tag": "c:chocolate_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_chip_milkshake_bottle"
+        }
+    ]
 }

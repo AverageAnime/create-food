@@ -1,27 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:mini_chocolate_graham_cracker_pie_crust",
+                "c:chocolate_graham_cracker_crumbs"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "tag": "c:mini_chocolate_graham_cracker_pie_crust"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:mini_chocolate_graham_cracker_pie_crust",
-        "c:chocolate_graham_cracker_crumbs"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "tag": "c:mini_chocolate_graham_cracker_pie_crust"
-    },
-  "recipe_type": "STONE",
-  "result":
-    {
-      "item": "createfood:chocolate_graham_cracker_crumbs"
+    "recipe_type": "STONE",
+    "result": {
+        "item": "createfood:chocolate_graham_cracker_crumbs"
     }
 }

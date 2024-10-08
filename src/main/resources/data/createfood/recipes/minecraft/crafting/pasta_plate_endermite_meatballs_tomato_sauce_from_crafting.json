@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_endermite_meatballs",
-        "c:pasta_plate_endermite_meatballs_tomato_sauce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_endermite_meatballs",
+                "c:pasta_plate_endermite_meatballs_tomato_sauce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_endermite_meatballs"
+        },
+        {
+            "item": "farmersdelight:tomato_sauce"
+        }
+    ],
+    "result": {
+        "item": "createfood:pasta_plate_endermite_meatballs_tomato_sauce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate_endermite_meatballs"
-    },
-    {
-      "item": "farmersdelight:tomato_sauce"
-    }
-  ],
-  "result": {
-    "item": "createfood:pasta_plate_endermite_meatballs_tomato_sauce"
-  }
 }

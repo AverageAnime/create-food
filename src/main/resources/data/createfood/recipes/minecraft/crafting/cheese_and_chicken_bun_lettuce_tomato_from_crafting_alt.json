@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:cheeses",
-        "c:chicken_patty",
-        "c:cheese_and_chicken_bun_lettuce_tomato"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:cheeses",
+                "c:chicken_patty",
+                "c:cheese_and_chicken_bun_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:tomato"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        },
+        {
+            "tag": "c:cheeses"
+        },
+        {
+            "tag": "c:chicken_patty"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheese_and_chicken_bun_lettuce_tomato"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:tomato"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    },
-    {
-      "tag": "c:cheeses"
-    },
-    {
-      "tag": "c:chicken_patty"
-    }
-  ],
-  "result": {
-    "item": "createfood:cheese_and_chicken_bun_lettuce_tomato"
-  }
 }

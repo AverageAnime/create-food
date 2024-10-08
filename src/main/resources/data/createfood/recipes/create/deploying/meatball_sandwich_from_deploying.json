@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:small_meatballs",
-        "c:meatball_sandwich"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "item":"minecraft:bread"
-    },
-    {
-      "tag":"c:small_meatballs"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:meatball_sandwich"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:small_meatballs",
+                "c:meatball_sandwich"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:bread"
+        },
+        {
+            "tag": "c:small_meatballs"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:meatball_sandwich"
+        }
+    ]
 }

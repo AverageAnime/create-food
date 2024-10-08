@@ -1,26 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:shredded_chicken"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "farmersdelight:chicken_cuts"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:shredded_chicken"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "item": "farmersdelight:chicken_cuts"
-    },
-  "recipe_type": "MEAT",
-  "result":
-    {
-      "item": "createfood:shredded_chicken"
+    "recipe_type": "MEAT",
+    "result": {
+        "item": "createfood:shredded_chicken"
     }
 }

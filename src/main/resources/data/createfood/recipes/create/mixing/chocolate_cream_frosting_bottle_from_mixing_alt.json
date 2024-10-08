@@ -1,35 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cocoa_powder",
-        "c:chocolate_cream_frosting_bottle"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "item":"farmersdelight:milk_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_cream_frosting_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cocoa_powder",
+                "c:chocolate_cream_frosting_bottle"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_cream_frosting_bottle"
+        }
+    ]
 }

@@ -1,27 +1,27 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butter",
-        "c:powdered_sugar",
-        "c:heavy_cream_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:milk_buckets"
-    },
-    {
-      "tag": "c:butter"
-    },
-    {
-      "tag": "c:powdered_sugar"
-    }
-  ],
-  "result": {
-      "item": "createfood:heavy_cream_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butter",
+                "c:powdered_sugar",
+                "c:heavy_cream_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:milk_buckets"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:powdered_sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:heavy_cream_bucket"
     }
 }

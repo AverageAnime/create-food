@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:heavy_cream_bucket",
-        "c:sour_cream_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:heavy_cream_bucket",
+                "c:sour_cream_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 500,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:heavy_cream_bucket"
+        },
+        {
+            "tag": "c:milks"
+        }
+    ],
+    "result": {
+        "item": "createfood:sour_cream_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 500,
-  "experience": 1.0,
-  "ingredients": [
-    {
-      "tag": "c:heavy_cream_bucket"
-    },
-    {
-      "tag": "c:milks"
-    }
-  ],
-  "result": {
-    "item": "createfood:sour_cream_bucket"
-  }
 }

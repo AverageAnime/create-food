@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hot_white_chocolate",
-        "c:hot_white_chocolate_bucket"
-      ]
-    }
-  ],
-  "type":"create:emptying",
-  "ingredients":[
-    {
-      "tag":"c:hot_white_chocolate"
-    }
-  ],
-  "results":[
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "amount": 20250,
-      "fluid":"createfood:hot_white_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hot_white_chocolate",
+                "c:hot_white_chocolate_bucket"
+            ]
+        }
+    ],
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "tag": "c:hot_white_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:hot_white_chocolate"
+        }
+    ]
 }

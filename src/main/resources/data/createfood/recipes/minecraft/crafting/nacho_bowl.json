@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:tortilla_chip_bowl",
-        "c:cheeses",
-        "c:nacho_bowl"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:tortilla_chip_bowl",
+                "c:cheeses",
+                "c:nacho_bowl"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:tortilla_chip_bowl"
+        },
+        {
+            "tag": "c:cheeses"
+        }
+    ],
+    "result": {
+        "item": "createfood:nacho_bowl"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:tortilla_chip_bowl"
-    },
-    {
-      "tag": "c:cheeses"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:nacho_bowl"
-  }
 }

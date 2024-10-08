@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:beef_bun_onion_lettuce",
-        "c:beef_bun_onion_lettuce_tomato"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun_onion_lettuce",
+                "c:beef_bun_onion_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:beef_bun_onion_lettuce"
+        },
+        {
+            "tag": "c:tomato"
+        }
+    ],
+    "result": {
+        "item": "createfood:beef_bun_onion_lettuce_tomato"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:beef_bun_onion_lettuce"
-    },
-    {
-      "tag": "c:tomato"
-    }
-  ],
-  "result": {
-    "item": "createfood:beef_bun_onion_lettuce_tomato"
-  }
 }

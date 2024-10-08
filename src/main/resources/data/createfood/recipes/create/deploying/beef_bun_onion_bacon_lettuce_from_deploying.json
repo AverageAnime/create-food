@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:beef_bun_onion_bacon",
-        "c:beef_bun_onion_bacon_lettuce"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:beef_bun_onion_bacon"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:beef_bun_onion_bacon_lettuce"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun_onion_bacon",
+                "c:beef_bun_onion_bacon_lettuce"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:beef_bun_onion_bacon"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:beef_bun_onion_bacon_lettuce"
+        }
+    ]
 }

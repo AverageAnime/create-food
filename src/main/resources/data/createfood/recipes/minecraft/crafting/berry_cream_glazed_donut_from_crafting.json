@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:donut_base",
-        "c:berry_cream_frosting",
-        "c:berry_cream_glazed_donut"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:donut_base"
-    },
-    {
-      "tag": "c:berry_cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "createfood:berry_cream_glazed_donut"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:donut_base",
+                "c:berry_cream_frosting",
+                "c:berry_cream_glazed_donut"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:donut_base"
+        },
+        {
+            "tag": "c:berry_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_cream_glazed_donut"
     }
 }

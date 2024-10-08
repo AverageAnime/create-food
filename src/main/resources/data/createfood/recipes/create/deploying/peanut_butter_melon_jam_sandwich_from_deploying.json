@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice_peanut_butter",
-        "c:bread_slice_melon_jam",
-        "c:peanut_butter_melon_jam_sandwich"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:bread_slice_peanut_butter"
-    },
-    {
-      "tag":"c:bread_slice_melon_jam"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:peanut_butter_melon_jam_sandwich"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_peanut_butter",
+                "c:bread_slice_melon_jam",
+                "c:peanut_butter_melon_jam_sandwich"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice_peanut_butter"
+        },
+        {
+            "tag": "c:bread_slice_melon_jam"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:peanut_butter_melon_jam_sandwich"
+        }
+    ]
 }

@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:vegetable_oil_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:vegetable_oil_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:empty_buckets"
+        },
+        {
+            "tag": "c:carrot"
+        },
+        {
+            "tag": "c:carrot"
+        },
+        {
+            "tag": "c:potato"
+        },
+        {
+            "tag": "c:potato"
+        },
+        {
+            "tag": "c:vegetables"
+        },
+        {
+            "tag": "c:vegetables"
+        }
+    ],
+    "result": {
+        "item": "createfood:vegetable_oil_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:empty_buckets"
-    },
-    {
-      "tag": "c:carrot"
-    },
-    {
-      "tag": "c:carrot"
-    },
-    {
-      "tag": "c:potato"
-    },
-    {
-      "tag": "c:potato"
-    },
-    {
-      "tag": "c:vegetables"
-    },
-    {
-      "tag": "c:vegetables"
-    }
-  ],
-  "result": {
-    "item": "createfood:vegetable_oil_bucket"
-  }
 }

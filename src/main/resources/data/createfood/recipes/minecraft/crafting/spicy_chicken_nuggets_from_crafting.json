@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chicken_nuggets",
-        "c:paprika",
-        "c:spicy_chicken_nuggets"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chicken_nuggets"
-    },
-    {
-      "tag": "c:paprika"
-    }
-  ],
-  "result": {
-      "item": "createfood:spicy_chicken_nuggets"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chicken_nuggets",
+                "c:paprika",
+                "c:spicy_chicken_nuggets"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chicken_nuggets"
+        },
+        {
+            "tag": "c:paprika"
+        }
+    ],
+    "result": {
+        "item": "createfood:spicy_chicken_nuggets"
     }
 }

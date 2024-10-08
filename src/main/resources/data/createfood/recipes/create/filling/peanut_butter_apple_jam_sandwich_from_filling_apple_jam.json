@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:peanut_butter_sandwich",
-        "c:apple_jam_bucket",
-        "c:peanut_butter_apple_jam_sandwich"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:peanut_butter_sandwich"
-    },
-    {
-      "amount":10125,"fluid":"createfood:apple_jam"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:peanut_butter_apple_jam_sandwich"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:peanut_butter_sandwich",
+                "c:apple_jam_bucket",
+                "c:peanut_butter_apple_jam_sandwich"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:peanut_butter_sandwich"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:apple_jam"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:peanut_butter_apple_jam_sandwich"
+        }
+    ]
 }

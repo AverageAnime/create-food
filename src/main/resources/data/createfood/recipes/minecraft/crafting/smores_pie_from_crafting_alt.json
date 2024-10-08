@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:smores_pie_slice",
-        "c:smores_pie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:smores_pie_slice",
+                "c:smores_pie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:smores_pie_slice"
+        },
+        {
+            "tag": "c:smores_pie_slice"
+        },
+        {
+            "tag": "c:smores_pie_slice"
+        },
+        {
+            "tag": "c:smores_pie_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:smores_pie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:smores_pie_slice"
-    },
-    {
-      "tag": "c:smores_pie_slice"
-    },
-    {
-      "tag": "c:smores_pie_slice"
-    },
-    {
-      "tag": "c:smores_pie_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:smores_pie"
-  }
 }

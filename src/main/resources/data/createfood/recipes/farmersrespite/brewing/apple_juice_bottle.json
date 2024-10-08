@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersrespite"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersrespite"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_juice_bottle_compat"
+            ]
+        }
+    ],
+    "type": "farmersrespite:brewing",
+    "ingredients": [
+        {
+            "tag": "c:apple"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:apple_juice_bottle"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:apple_juice_bottle_compat"
-      ]
-    }
-  ],
-  "type": "farmersrespite:brewing",
-  "ingredients": [
-    {
-      "tag": "c:apple"
+    "container": {
+        "item": "minecraft:glass_bottle"
     },
-    {
-      "tag": "c:sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:apple_juice_bottle"
-  },
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
-  "experience": 0.35,
-  "brewingtime": 2400,
-  "needWater": true
+    "experience": 0.35,
+    "brewingtime": 2400,
+    "needWater": true
 }

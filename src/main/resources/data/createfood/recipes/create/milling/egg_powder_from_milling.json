@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:egg_powder"
-      ]
-    }
-  ],
-  "type": "create:milling",
-  "ingredients": [
-    {
-      "tag": "c:cooked_eggs"
-    }
-  ],
-  "processingTime": 50,
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:egg_powder"
-    },
-    {
-      "chance": 0.25,
-      "item": "createfood:egg_powder"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:egg_powder"
+            ]
+        }
+    ],
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "c:cooked_eggs"
+        }
+    ],
+    "processingTime": 50,
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:egg_powder"
+        },
+        {
+            "chance": 0.25,
+            "item": "createfood:egg_powder"
+        }
+    ]
 }

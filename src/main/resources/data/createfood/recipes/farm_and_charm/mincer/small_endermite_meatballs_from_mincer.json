@@ -1,27 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:endermite_meatball",
+                "c:small_endermite_meatballs"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "tag": "c:endermite_meatball"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:endermite_meatball",
-        "c:small_endermite_meatballs"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "tag": "c:endermite_meatball"
-    },
-  "recipe_type": "MEAT",
-  "result":
-    {
-      "item": "createfood:small_endermite_meatballs"
+    "recipe_type": "MEAT",
+    "result": {
+        "item": "createfood:small_endermite_meatballs"
     }
 }

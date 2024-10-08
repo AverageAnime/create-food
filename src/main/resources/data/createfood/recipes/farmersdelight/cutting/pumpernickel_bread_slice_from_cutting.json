@@ -1,34 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pumpernickel_bread",
+                "c:pumpernickel_bread_slice"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "tag": "c:pumpernickel_bread"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pumpernickel_bread",
-        "c:pumpernickel_bread_slice"
-      ]
-    }
-  ],
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-    {
-      "tag": "c:pumpernickel_bread"
-    }
-  ],
-  "tool":
-    {
-      "tag": "c:tools/knives"
-    },
-  "result":
-  [
-    {
-      "count": 3,
-      "item": "createfood:pumpernickel_bread_slice"
-    }
-  ]
+    "result": [
+        {
+            "count": 3,
+            "item": "createfood:pumpernickel_bread_slice"
+        }
+    ]
 }

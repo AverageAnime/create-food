@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "expandeddelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_juice_bottle_compat"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "expandeddelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_juice_bottle_compat"
+            ]
+        }
+    ],
+    "type": "expandeddelight:juicing",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "output": {
+        "item": "createfood:berry_juice_bottle"
     }
-  ],
-  "type": "expandeddelight:juicing",
-  "ingredients": [
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "tag": "c:sugar"
-    }
-  ],
-  "output": {
-    "item": "createfood:berry_juice_bottle"
-  }
 }

@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:marshmallow_stick",
-        "c:chocolate_covered_marshmallow_stick"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:marshmallow_stick"
-    },
-    {
-      "amount":10125,"fluid":"create:chocolate"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_covered_marshmallow_stick"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:marshmallow_stick",
+                "c:chocolate_covered_marshmallow_stick"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:marshmallow_stick"
+        },
+        {
+            "amount": 10125,
+            "fluid": "create:chocolate"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_covered_marshmallow_stick"
+        }
+    ]
 }

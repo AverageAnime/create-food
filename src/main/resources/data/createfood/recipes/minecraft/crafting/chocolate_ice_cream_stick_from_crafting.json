@@ -1,31 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_ice_cream_bowl",
-        "c:chocolate_ice_cream_stick"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_ice_cream_bowl",
+                "c:chocolate_ice_cream_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_ice_cream_bowl"
+        },
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:chocolate_ice_cream_stick"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_ice_cream_bowl"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    }
-  ],
-  "result":
-  {
-    "count": 3,
-    "item": "createfood:chocolate_ice_cream_stick"
-  }
 }

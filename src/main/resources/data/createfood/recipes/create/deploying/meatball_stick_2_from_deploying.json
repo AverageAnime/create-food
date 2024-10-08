@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:meatball",
-        "c:meatball_stick"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "item":"createfood:meatball_stick_1"
-    },
-    {
-      "tag":"c:meatball"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:meatball_stick_2"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:meatball",
+                "c:meatball_stick"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "createfood:meatball_stick_1"
+        },
+        {
+            "tag": "c:meatball"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:meatball_stick_2"
+        }
+    ]
 }

@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pastry_base",
-        "c:dark_chocolate_bucket",
-        "c:dark_chocolate_pastry"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:pastry_base"
-    },
-    {
-      "amount":20250,"fluid":"createfood:dark_chocolate"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:dark_chocolate_pastry"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_base",
+                "c:dark_chocolate_bucket",
+                "c:dark_chocolate_pastry"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:pastry_base"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:dark_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:dark_chocolate_pastry"
+        }
+    ]
 }

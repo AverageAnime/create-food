@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:white_chocolate_bottle",
-        "c:hot_white_chocolate_bottle"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:white_chocolate_bottle"
-  },
-  "result": "createfood:hot_white_chocolate_bottle"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:white_chocolate_bottle",
+                "c:hot_white_chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:white_chocolate_bottle"
+    },
+    "result": "createfood:hot_white_chocolate_bottle"
 }

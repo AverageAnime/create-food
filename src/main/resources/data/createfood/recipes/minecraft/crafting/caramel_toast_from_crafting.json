@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:toast",
-        "c:caramel",
-        "c:caramel_toast"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast",
+                "c:caramel",
+                "c:caramel_toast"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:toast"
+        },
+        {
+            "tag": "c:caramel"
+        }
+    ],
+    "result": {
+        "item": "createfood:caramel_toast"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:toast"
-    },
-    {
-      "tag": "c:caramel"
-    }
-  ],
-  "result": {
-    "item": "createfood:caramel_toast"
-  }
 }

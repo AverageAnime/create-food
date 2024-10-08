@@ -1,30 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:peanut_butter",
-        "c:beef_bun_peanut_butter_bacon"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:peanut_butter",
+                "c:beef_bun_peanut_butter_bacon"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:cooked_pork"
+        },
+        {
+            "tag": "c:peanut_butter"
+        },
+        {
+            "tag": "c:cooked_beef"
+        }
+    ],
+    "result": {
+        "item": "createfood:beef_bun_peanut_butter_bacon"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bun"
-    },
-    {
-      "tag": "c:cooked_pork"
-    },
-    {
-      "tag": "c:peanut_butter"
-    },
-    {
-      "tag": "c:cooked_beef"
-    }
-  ],
-  "result": {
-    "item": "createfood:beef_bun_peanut_butter_bacon"
-  }
 }

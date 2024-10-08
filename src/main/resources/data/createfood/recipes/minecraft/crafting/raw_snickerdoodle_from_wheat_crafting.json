@@ -1,31 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ground_cinnamon",
-        "c:raw_snickerdoodle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ground_cinnamon",
+                "c:raw_snickerdoodle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "tag": "c:ground_cinnamon"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_snickerdoodle"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "tag": "c:ground_cinnamon"
-    }
-  ],
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:raw_snickerdoodle"
-  }
 }

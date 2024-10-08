@@ -1,30 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:apple_popsicle"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "-": {
-      "item": "minecraft:stick"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_popsicle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "-": {
+            "item": "minecraft:stick"
+        },
+        "i": {
+            "item": "minecraft:ice"
+        },
+        "a": {
+            "tag": "c:apple"
+        }
     },
-    "i": {
-      "item": "minecraft:ice"
-    },
-    "a": {
-      "tag": "c:apple"
+    "pattern": [
+        "   ",
+        "ia ",
+        "-i "
+    ],
+    "result": {
+        "item": "createfood:apple_popsicle"
     }
-  },
-  "pattern": [
-    "   ",
-    "ia ",
-    "-i "
-  ],
-  "result": {
-    "item": "createfood:apple_popsicle"
-  }
 }

@@ -1,27 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:diced_onion"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "tag": "c:crops/onion"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:diced_onion"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "tag": "c:crops/onion"
-    },
-  "recipe_type": "WOOD",
-  "result":
-    {
-      "count": 2,
-      "item": "createfood:diced_onion"
+    "recipe_type": "WOOD",
+    "result": {
+        "count": 2,
+        "item": "createfood:diced_onion"
     }
 }

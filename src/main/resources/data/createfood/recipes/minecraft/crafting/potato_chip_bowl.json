@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:potato_chips",
-        "c:potato_chip_bowl"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:potato_chips",
+                "c:potato_chip_bowl"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bowl"
+        },
+        {
+            "tag": "c:potato_chips"
+        },
+        {
+            "tag": "c:potato_chips"
+        }
+    ],
+    "result": {
+        "item": "createfood:potato_chip_bowl"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bowl"
-    },
-    {
-      "tag": "c:potato_chips"
-    },
-    {
-      "tag": "c:potato_chips"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:potato_chip_bowl"
-  }
 }

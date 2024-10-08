@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pizza_dough",
-        "c:cheeses",
-        "c:raw_mushroom_onion_pizza"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pizza_dough",
+                "c:cheeses",
+                "c:raw_mushroom_onion_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pizza_dough"
+        },
+        {
+            "tag": "c:tomato_sauce"
+        },
+        {
+            "tag": "c:cheeses"
+        },
+        {
+            "tag": "c:mushrooms"
+        },
+        {
+            "tag": "c:onion"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_mushroom_onion_pizza"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pizza_dough"
-    },
-    {
-      "tag": "c:tomato_sauce"
-    },
-    {
-      "tag": "c:cheeses"
-    },
-    {
-      "tag": "c:mushrooms"
-    },
-    {
-      "tag": "c:onion"
-    }
-  ],
-  "result": {
-    "item": "createfood:raw_mushroom_onion_pizza"
-  }
 }

@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:raw_sweet_roll_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sweet_dough"
-    },
-    {
-      "tag":"c:sugar"
-    }
-  ],
-  "results": [
-    {
-      "item":"createfood:raw_sweet_roll_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:raw_sweet_roll_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_sweet_roll_base"
+        }
+    ]
 }

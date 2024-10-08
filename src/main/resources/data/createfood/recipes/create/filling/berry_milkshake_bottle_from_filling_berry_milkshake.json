@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_milkshake_bucket",
-        "c:berry_milkshake_bottle"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:glass_bottle"
-    },
-    {
-      "amount":40500,"fluid":"createfood:berry_milkshake"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:berry_milkshake_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_milkshake_bucket",
+                "c:berry_milkshake_bottle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 40500,
+            "fluid": "createfood:berry_milkshake"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:berry_milkshake_bottle"
+        }
+    ]
 }

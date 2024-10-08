@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:eggplant_bun_lettuce",
-        "c:bun",
-        "c:eggplant_burger_lettuce"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:eggplant_bun_lettuce"
-    },
-    {
-      "tag":"c:bun"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:eggplant_burger_lettuce"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:eggplant_bun_lettuce",
+                "c:bun",
+                "c:eggplant_burger_lettuce"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:eggplant_bun_lettuce"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:eggplant_burger_lettuce"
+        }
+    ]
 }

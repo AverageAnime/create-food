@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:glow_berry_cheesecake_slice",
-        "c:glow_berry_cheesecake"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:glow_berry_cheesecake_slice",
+                "c:glow_berry_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:glow_berry_cheesecake_slice"
+        },
+        {
+            "tag": "c:glow_berry_cheesecake_slice"
+        },
+        {
+            "tag": "c:glow_berry_cheesecake_slice"
+        },
+        {
+            "tag": "c:glow_berry_cheesecake_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:glow_berry_cheesecake"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:glow_berry_cheesecake_slice"
-    },
-    {
-      "tag": "c:glow_berry_cheesecake_slice"
-    },
-    {
-      "tag": "c:glow_berry_cheesecake_slice"
-    },
-    {
-      "tag": "c:glow_berry_cheesecake_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:glow_berry_cheesecake"
-  }
 }

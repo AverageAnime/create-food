@@ -1,26 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_ice_cream_bucket",
-        "c:melon_milkshake_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:milk_buckets"
-    },
-    {
-      "tag": "c:melon_ice_cream_bucket"
-    },
-    {
-      "tag": "c:ice_blocks"
-    }
-  ],
-  "result": {
-      "item": "createfood:melon_milkshake_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_ice_cream_bucket",
+                "c:melon_milkshake_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:milk_buckets"
+        },
+        {
+            "tag": "c:melon_ice_cream_bucket"
+        },
+        {
+            "tag": "c:ice_blocks"
+        }
+    ],
+    "result": {
+        "item": "createfood:melon_milkshake_bucket"
     }
 }

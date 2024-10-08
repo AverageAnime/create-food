@@ -1,30 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ground_beef",
-        "c:meatball"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:ground_beef"
-    }
-  ],
-  "results":[
-    {
-      "count": 2,
-      "item":"createfood:meatball"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ground_beef",
+                "c:meatball"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:ground_beef"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:meatball"
+        }
+    ]
 }

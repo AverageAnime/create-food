@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_graham_cracker_neapolitan_scoop_1",
-        "c:ice_cream_stick",
-        "c:chocolate_graham_cracker_neapolitan_scoop_2"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_graham_cracker_neapolitan_scoop_1",
+                "c:ice_cream_stick",
+                "c:chocolate_graham_cracker_neapolitan_scoop_2"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_graham_cracker_neapolitan_scoop_1"
+        },
+        {
+            "tag": "c:ice_cream_stick"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_graham_cracker_neapolitan_scoop_2"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_graham_cracker_neapolitan_scoop_1"
-    },
-    {
-      "tag": "c:ice_cream_stick"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_graham_cracker_neapolitan_scoop_2"
-  }
 }

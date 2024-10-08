@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice",
-        "c:glow_berry_jam_bottle",
-        "c:bread_slice_glow_berry_jam"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice",
+                "c:glow_berry_jam_bottle",
+                "c:bread_slice_glow_berry_jam"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice"
+        },
+        {
+            "tag": "c:glow_berry_jam_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:bread_slice_glow_berry_jam"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bread_slice"
-    },
-    {
-      "tag": "c:glow_berry_jam_bottle"
-    }
-  ],
-  "result": {
-    "item": "createfood:bread_slice_glow_berry_jam"
-  }
 }

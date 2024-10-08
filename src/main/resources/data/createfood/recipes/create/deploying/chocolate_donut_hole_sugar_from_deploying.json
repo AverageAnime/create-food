@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_donut_hole",
-        "c:powdered_sugar",
-        "c:chocolate_donut_hole_sugar"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_donut_hole"
-    },
-    {
-      "tag":"c:powdered_sugar"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_donut_hole_sugar"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_donut_hole",
+                "c:powdered_sugar",
+                "c:chocolate_donut_hole_sugar"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_donut_hole"
+        },
+        {
+            "tag": "c:powdered_sugar"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_donut_hole_sugar"
+        }
+    ]
 }

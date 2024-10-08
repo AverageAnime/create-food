@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cocoa_powder",
-        "c:molasses_bottle",
-        "c:pumpernickel_dough"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cocoa_powder",
+                "c:molasses_bottle",
+                "c:pumpernickel_dough"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "tag": "c:molasses_bottle"
+        },
+        {
+            "tag": "c:eggs"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:pumpernickel_dough"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "tag": "c:cocoa_powder"
-    },
-    {
-      "tag": "c:molasses_bottle"
-    },
-    {
-      "tag": "c:eggs"
-    }
-  ],
-  "result": {
-    "count": 3,
-    "item": "createfood:pumpernickel_dough"
-  }
 }

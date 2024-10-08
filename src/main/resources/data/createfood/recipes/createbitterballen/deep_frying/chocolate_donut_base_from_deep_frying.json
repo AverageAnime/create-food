@@ -1,36 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create_bic_bit"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_pastry_base",
-        "c:chocolate_donut_base"
-      ]
-    }
-  ],
-  "type": "create_bic_bit:deep_frying",
-  "heatRequirement": "heated",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_pastry_base"
-    },
-    {
-      "amount": 10125, "fluid": "create_bic_bit:frying_oil"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "item": "createfood:chocolate_donut_base"
-    },
-    {
-      "item": "createfood:chocolate_donut_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create_bic_bit"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_pastry_base",
+                "c:chocolate_donut_base"
+            ]
+        }
+    ],
+    "type": "create_bic_bit:deep_frying",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_pastry_base"
+        },
+        {
+            "amount": 10125,
+            "fluid": "create_bic_bit:frying_oil"
+        }
+    ],
+    "processingTime": 100,
+    "results": [
+        {
+            "item": "createfood:chocolate_donut_base"
+        },
+        {
+            "item": "createfood:chocolate_donut_base"
+        }
+    ]
 }

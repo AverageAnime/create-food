@@ -1,26 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_sugar_dough",
-        "c:raw_ube_cake_base"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "tag": "c:ube_sugar_dough"
-    },
-    {
-      "tag": "c:milk_buckets"
-    }
-  ],
-  "result": {
-      "item": "createfood:raw_ube_cake_base"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_sugar_dough",
+                "c:raw_ube_cake_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "tag": "c:ube_sugar_dough"
+        },
+        {
+            "tag": "c:milk_buckets"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_ube_cake_base"
     }
 }

@@ -1,34 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:raw_cake_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sweet_dough"
-    },
-    {
-      "tag":"c:eggs"
-    },
-    {
-      "amount":81000,"fluidTag":"c:milk"
-    }
-  ],
-  "results": [
-    {
-      "item":"createfood:raw_cake_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:raw_cake_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "amount": 81000,
+            "fluidTag": "c:milk"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_cake_base"
+        }
+    ]
 }

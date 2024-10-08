@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butter_dough",
-        "c:biscuit"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:butter_dough"
-  },
-  "result": "createfood:biscuit"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butter_dough",
+                "c:biscuit"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:butter_dough"
+    },
+    "result": "createfood:biscuit"
 }

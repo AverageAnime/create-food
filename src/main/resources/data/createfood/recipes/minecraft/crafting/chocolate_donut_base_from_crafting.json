@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_pastry_base",
-        "c:vegetable_oil_bucket",
-        "c:chocolate_donut_base"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_pastry_base"
-    },
-    {
-      "tag": "c:vegetable_oil_bucket"
-    }
-  ],
-  "result": {
-      "item": "createfood:chocolate_donut_base"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:any_mod_loaded",
+                "values": [
+                    "create"
+                ]
+            }
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_pastry_base",
+                "c:vegetable_oil_bucket",
+                "c:chocolate_donut_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_pastry_base"
+        },
+        {
+            "tag": "c:vegetable_oil_bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_donut_base"
     }
 }

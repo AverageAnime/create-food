@@ -1,20 +1,19 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ground_beef"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ground_beef"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:beef"
+        }
+    ],
+    "result": {
+        "item": "createfood:ground_beef"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:beef"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:ground_beef"
-  }
 }

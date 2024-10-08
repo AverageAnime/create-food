@@ -1,35 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "expandeddelight",
-          "farmersrespite"
-        ]
-      }
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_juice_bottle"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    }
-  ],
-  "result": {
-      "item": "createfood:berry_juice_bottle"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:any_mod_loaded",
+                "values": [
+                    "expandeddelight",
+                    "farmersrespite"
+                ]
+            }
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_juice_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_juice_bottle"
     }
 }

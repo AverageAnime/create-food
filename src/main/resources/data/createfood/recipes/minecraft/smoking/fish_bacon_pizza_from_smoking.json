@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_fish_bacon_pizza",
-        "c:fish_bacon_pizza"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "tag": "c:raw_fish_bacon_pizza"
-  },
-  "result": "createfood:fish_bacon_pizza",
-  "experience": 0.25,
-  "cookingtime": 400
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_fish_bacon_pizza",
+                "c:fish_bacon_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "tag": "c:raw_fish_bacon_pizza"
+    },
+    "result": "createfood:fish_bacon_pizza",
+    "experience": 0.25,
+    "cookingtime": 400
 }

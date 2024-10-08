@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_pasta",
+                "c:cooked_eggplant",
+                "c:pasta_plate_eggplant"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:roaster",
+    "ingredients": [
+        {
+            "tag": "c:raw_pasta"
+        },
+        {
+            "tag": "c:cooked_eggplant"
+        }
+    ],
+    "container": {
+        "item": "minecraft:bowl"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_pasta",
-        "c:cooked_eggplant",
-        "c:pasta_plate_eggplant"
-      ]
+    "result": {
+        "item": "createfood:pasta_plate_eggplant"
     }
-  ],
-  "type": "farm_and_charm:roaster",
-  "ingredients": [
-    {
-      "tag": "c:raw_pasta"
-    },
-    {
-      "tag": "c:cooked_eggplant"
-    }
-  ],
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "result": {
-    "item": "createfood:pasta_plate_eggplant"
-  }
 }

@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:molasses_bottle",
-        "c:molasses_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:molasses_bottle",
+                "c:molasses_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:empty_bucket"
+        },
+        {
+            "tag": "c:molasses_bottle"
+        },
+        {
+            "tag": "c:molasses_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:molasses_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:empty_bucket"
-    },
-    {
-      "tag": "c:molasses_bottle"
-    },
-    {
-      "tag": "c:molasses_bottle"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:molasses_bucket"
-  }
 }

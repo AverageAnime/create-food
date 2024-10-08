@@ -1,39 +1,41 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cocoa_powder",
-        "c:molasses_bucket",
-        "c:pumpernickel_dough"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:flour"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    },
-    {
-      "amount":40500,"fluid":"createfood:molasses"
-    },
-    {
-      "amount":81000,"fluid":"minecraft:water"
-    }
-  ],
-  "results":[
-    {
-      "count": 3,
-      "item":"createfood:pumpernickel_dough"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cocoa_powder",
+                "c:molasses_bucket",
+                "c:pumpernickel_dough"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:flour"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        },
+        {
+            "amount": 40500,
+            "fluid": "createfood:molasses"
+        },
+        {
+            "amount": 81000,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "count": 3,
+            "item": "createfood:pumpernickel_dough"
+        }
+    ]
 }

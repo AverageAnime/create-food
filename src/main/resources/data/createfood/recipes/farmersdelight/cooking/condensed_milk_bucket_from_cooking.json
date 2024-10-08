@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:condensed_milk_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:condensed_milk_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 150,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:milk_buckets"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:condensed_milk_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 150,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:milk_buckets"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:condensed_milk_bucket"
-  }
 }

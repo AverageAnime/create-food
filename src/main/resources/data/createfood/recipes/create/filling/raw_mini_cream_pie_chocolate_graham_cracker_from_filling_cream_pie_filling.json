@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_mini_chocolate_graham_cracker_pie_crust",
-        "c:raw_mini_cream_pie_chocolate_graham_cracker"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:raw_mini_chocolate_graham_cracker_pie_crust"
-    },
-    {
-      "amount":20250, "fluid":"createfood:cream_pie_filling"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:raw_mini_cream_pie_chocolate_graham_cracker"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_mini_chocolate_graham_cracker_pie_crust",
+                "c:raw_mini_cream_pie_chocolate_graham_cracker"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:cream_pie_filling"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_mini_cream_pie_chocolate_graham_cracker"
+        }
+    ]
 }

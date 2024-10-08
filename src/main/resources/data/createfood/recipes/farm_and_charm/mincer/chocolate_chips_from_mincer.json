@@ -1,36 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:any_mod_loaded",
+                "values": [
+                    "create"
+                ]
+            }
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_chips"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "minecraft:cocoa_beans"
     },
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:any_mod_loaded",
-        "values": [
-          "create"
-        ]
-      }
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_chips"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "item": "minecraft:cocoa_beans"
-    },
-  "recipe_type": "STONE",
-  "result":
-    {
-      "count": 8,
-      "item": "createfood:chocolate_chips"
+    "recipe_type": "STONE",
+    "result": {
+        "count": 8,
+        "item": "createfood:chocolate_chips"
     }
 }

@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_graham_cracker_pie_crust",
-        "c:graham_cracker_pie_crust"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_graham_cracker_pie_crust"
-  },
-  "result": "createfood:graham_cracker_pie_crust",
-  "experience": 0.25,
-  "cookingtime": 200
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_graham_cracker_pie_crust",
+                "c:graham_cracker_pie_crust"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_graham_cracker_pie_crust"
+    },
+    "result": "createfood:graham_cracker_pie_crust",
+    "experience": 0.25,
+    "cookingtime": 200
 }

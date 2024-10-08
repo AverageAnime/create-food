@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_glow_berry_pie",
-        "c:glow_berry_pie"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_glow_berry_pie"
-  },
-  "result": "createfood:glow_berry_pie",
-  "experience": 0.95,
-  "cookingtime": 550
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_glow_berry_pie",
+                "c:glow_berry_pie"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_glow_berry_pie"
+    },
+    "result": "createfood:glow_berry_pie",
+    "experience": 0.95,
+    "cookingtime": 550
 }

@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice_beetroot",
-        "c:bread_slice_mutton_beetroot"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_beetroot",
+                "c:bread_slice_mutton_beetroot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice_beetroot"
+        },
+        {
+            "tag": "c:cooked_mutton"
+        }
+    ],
+    "result": {
+        "item": "createfood:bread_slice_mutton_beetroot"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bread_slice_beetroot"
-    },
-    {
-      "tag": "c:cooked_mutton"
-    }
-  ],
-  "result": {
-    "item": "createfood:bread_slice_mutton_beetroot"
-  }
 }

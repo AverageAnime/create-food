@@ -1,26 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:meatball",
-        "c:meatball_stick"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "tag": "c:meatball"
-    },
-    {
-      "tag": "c:meatball"
-    }
-  ],
-  "result": {
-      "item": "createfood:meatball_stick_2"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:meatball",
+                "c:meatball_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "tag": "c:meatball"
+        },
+        {
+            "tag": "c:meatball"
+        }
+    ],
+    "result": {
+        "item": "createfood:meatball_stick_2"
     }
 }

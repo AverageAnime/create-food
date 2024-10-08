@@ -1,42 +1,41 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:milk_bottle",
+                "c:butter",
+                "c:chocolate_sweet_dough",
+                "c:chocolate_graham_cracker"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:pot_cooking",
+    "ingredients": [
+        {
+            "tag": "c:milk_bottle"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:chocolate_sweet_dough"
+        }
+    ],
+    "container": {
+        "item": "minecraft:bowl"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:milk_bottle",
-        "c:butter",
-        "c:chocolate_sweet_dough",
-        "c:chocolate_graham_cracker"
-      ]
+    "result": {
+        "count": 8,
+        "item": "createfood:chocolate_graham_cracker"
     }
-  ],
-  "type": "farm_and_charm:pot_cooking",
-  "ingredients": [
-    {
-      "tag": "c:milk_bottle"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    },
-    {
-      "tag": "c:butter"
-    },
-    {
-      "tag": "c:chocolate_sweet_dough"
-    }
-  ],
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:chocolate_graham_cracker"
-  }
 }

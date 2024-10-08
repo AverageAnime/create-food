@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:toast",
-        "c:honeyed_toast"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:toast"
-    },
-    {
-      "amount":10125,"fluid":"create:honey"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:honeyed_toast"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast",
+                "c:honeyed_toast"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:toast"
+        },
+        {
+            "amount": 10125,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:honeyed_toast"
+        }
+    ]
 }

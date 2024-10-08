@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:mini_chocolate_pie_graham_cracker",
-        "c:marshmallow",
-        "c:mini_smores_pie"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:mini_chocolate_pie_graham_cracker"
-    },
-    {
-      "tag":"c:marshmallow"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:mini_smores_pie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:mini_chocolate_pie_graham_cracker",
+                "c:marshmallow",
+                "c:mini_smores_pie"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:mini_chocolate_pie_graham_cracker"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:mini_smores_pie"
+        }
+    ]
 }

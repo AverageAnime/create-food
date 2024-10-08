@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ground_strider",
-        "c:raw_strider_meatball"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "tag":"c:ground_strider"
-    }
-  ],
-  "results":[
-    {
-      "count": 2,
-      "item":"createfood:raw_strider_meatball"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ground_strider",
+                "c:raw_strider_meatball"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:ground_strider"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:raw_strider_meatball"
+        }
+    ]
 }

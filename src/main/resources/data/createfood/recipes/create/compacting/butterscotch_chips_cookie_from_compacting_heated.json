@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butterscotch_chips",
-        "c:sweet_dough",
-        "c:butterscotch_chips_cookie"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:butterscotch_chips"
-    },
-    {
-      "tag":"c:sweet_dough"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"createfood:butterscotch_chips_cookie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butterscotch_chips",
+                "c:sweet_dough",
+                "c:butterscotch_chips_cookie"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:butterscotch_chips"
+        },
+        {
+            "tag": "c:sweet_dough"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "createfood:butterscotch_chips_cookie"
+        }
+    ]
 }

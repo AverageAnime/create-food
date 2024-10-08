@@ -14,7 +14,7 @@
             ]
         }
     ],
-    "type": "minecraft:crafting",
+    "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
             "tag": "c:frosted_cake"

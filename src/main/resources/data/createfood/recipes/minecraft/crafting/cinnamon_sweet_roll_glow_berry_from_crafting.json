@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cinnamon_sweet_roll",
-        "c:cinnamon_sweet_roll_glow_berry"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cinnamon_sweet_roll",
+                "c:cinnamon_sweet_roll_glow_berry"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cinnamon_sweet_roll"
+        },
+        {
+            "item": "minecraft:glow_berries"
+        }
+    ],
+    "result": {
+        "item": "expandeddelight:glow_berry_sweet_roll"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:cinnamon_sweet_roll"
-    },
-    {
-      "item": "minecraft:glow_berries"
-    }
-  ],
-  "result": {
-    "item": "expandeddelight:glow_berry_sweet_roll"
-  }
 }

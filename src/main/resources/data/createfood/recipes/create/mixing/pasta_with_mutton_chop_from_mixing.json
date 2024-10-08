@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cooked_pasta"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:cooked_pasta"
-    },
-    {
-      "item":"farmersdelight:tomato_sauce"
-    },
-    {
-      "tag":"c:cooked_mutton"
-    }
-  ],
-  "results":[
-    {
-      "item":"farmersdelight:pasta_with_mutton_chop"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cooked_pasta"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:cooked_pasta"
+        },
+        {
+            "item": "farmersdelight:tomato_sauce"
+        },
+        {
+            "tag": "c:cooked_mutton"
+        }
+    ],
+    "results": [
+        {
+            "item": "farmersdelight:pasta_with_mutton_chop"
+        }
+    ]
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:dragon_patty",
-        "c:dragon_bun"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:bun"
-    },
-    {
-      "tag":"c:dragon_patty"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:dragon_bun"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:dragon_patty",
+                "c:dragon_bun"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:dragon_patty"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:dragon_bun"
+        }
+    ]
 }

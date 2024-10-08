@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:eggplant_bun",
-        "c:bun",
-        "c:eggplant_burger"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:eggplant_bun"
-    },
-    {
-      "tag":"c:bun"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:eggplant_burger"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:eggplant_bun",
+                "c:bun",
+                "c:eggplant_burger"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:eggplant_bun"
+        },
+        {
+            "tag": "c:bun"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:eggplant_burger"
+        }
+    ]
 }

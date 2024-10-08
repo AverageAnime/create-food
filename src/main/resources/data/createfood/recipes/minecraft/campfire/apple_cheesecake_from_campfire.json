@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_apple_cheesecake",
-        "c:apple_cheesecake"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_apple_cheesecake"
-  },
-  "result": "createfood:apple_cheesecake",
-  "experience": 0.95,
-  "cookingtime": 550
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_apple_cheesecake",
+                "c:apple_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_apple_cheesecake"
+    },
+    "result": "createfood:apple_cheesecake",
+    "experience": 0.95,
+    "cookingtime": 550
 }

@@ -1,35 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:flour",
-        "c:butter",
-        "c:water_buckets",
-        "c:butter_dough"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:flour",
+                "c:butter",
+                "c:water_buckets",
+                "c:butter_dough"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:crafting_bowl",
+    "ingredients": [
+        {
+            "tag": "c:flour"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:water_buckets"
+        }
+    ],
+    "result": {
+        "item": "createfood:butter_dough",
+        "count": 3
     }
-  ],
-  "type": "farm_and_charm:crafting_bowl",
-  "ingredients": [
-    {
-      "tag": "c:flour"
-    },
-    {
-      "tag": "c:butter"
-    },
-    {
-      "tag": "c:water_buckets"
-    }
-  ],
-  "result": {
-    "item": "createfood:butter_dough",
-    "count": 3
-  }
 }

@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:donut_base",
-        "c:honeyed_donut"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:donut_base"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:honeyed_donut"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:donut_base",
+                "c:honeyed_donut"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:donut_base"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:honeyed_donut"
     }
 }

@@ -1,34 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:espresso_powder",
-        "c:butter",
-        "c:coffee_toffee_fudge_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:espresso_powder"
-    },
-    {
-      "tag":"c:butter"
-    }
-  ],
-  "results":[
-    {"amount":40500,"fluid":"createfood:coffee_toffee"}
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:espresso_powder",
+                "c:butter",
+                "c:coffee_toffee_fudge_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:espresso_powder"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "results": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:coffee_toffee"
+        }
+    ]
 }

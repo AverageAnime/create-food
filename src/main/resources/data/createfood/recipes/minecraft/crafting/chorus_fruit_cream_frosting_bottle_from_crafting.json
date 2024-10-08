@@ -1,34 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_cream_frosting_bucket",
-        "c:chorus_fruit_cream_frosting_bottle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_cream_frosting_bucket",
+                "c:chorus_fruit_cream_frosting_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chorus_fruit_cream_frosting_bucket"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "createfood:chorus_fruit_cream_frosting_bottle"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chorus_fruit_cream_frosting_bucket"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
-  ],
-  "result":
-  {
-    "count": 4,
-    "item": "createfood:chorus_fruit_cream_frosting_bottle"
-  }
 }

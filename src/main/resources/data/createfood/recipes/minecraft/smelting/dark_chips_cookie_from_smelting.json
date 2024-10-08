@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_dark_chips_cookie",
-        "c:dark_chips_cookie"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_dark_chips_cookie"
-  },
-  "result": "createfood:dark_chips_cookie"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_dark_chips_cookie",
+                "c:dark_chips_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_dark_chips_cookie"
+    },
+    "result": "createfood:dark_chips_cookie"
 }

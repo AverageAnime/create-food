@@ -1,27 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ground_endermite"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "ends_delight:raw_ender_mite_meat"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ground_endermite"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "item": "ends_delight:raw_ender_mite_meat"
-    },
-  "recipe_type": "MEAT",
-  "result":
-    {
-      "count": 2,
-      "item": "createfood:ground_endermite"
+    "recipe_type": "MEAT",
+    "result": {
+        "count": 2,
+        "item": "createfood:ground_endermite"
     }
 }

@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_mushroom_bacon_pizza",
-        "c:mushroom_bacon_pizza"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_mushroom_bacon_pizza"
-  },
-  "result": "createfood:mushroom_bacon_pizza",
-  "experience": 0.25,
-  "cookingtime": 400
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_mushroom_bacon_pizza",
+                "c:mushroom_bacon_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_mushroom_bacon_pizza"
+    },
+    "result": "createfood:mushroom_bacon_pizza",
+    "experience": 0.25,
+    "cookingtime": 400
 }

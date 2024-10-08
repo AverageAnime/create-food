@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:toast_plate",
-        "c:hash_browns"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:toast_plate"
-    },
-    {
-      "tag":"c:hash_browns"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:hash_brown_toast_plate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast_plate",
+                "c:hash_browns"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:toast_plate"
+        },
+        {
+            "tag": "c:hash_browns"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:hash_brown_toast_plate"
+        }
+    ]
 }

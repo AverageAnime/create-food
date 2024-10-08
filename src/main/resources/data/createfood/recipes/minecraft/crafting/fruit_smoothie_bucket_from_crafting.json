@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:fruit_smoothie_bottle",
-        "c:fruit_smoothie_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bucket"
-    },
-    {
-      "tag": "c:fruit_smoothie_bottle"
-    },
-    {
-      "tag": "c:fruit_smoothie_bottle"
-    },
-    {
-      "tag": "c:fruit_smoothie_bottle"
-    },
-    {
-      "tag": "c:fruit_smoothie_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:fruit_smoothie_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:fruit_smoothie_bottle",
+                "c:fruit_smoothie_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:fruit_smoothie_bottle"
+        },
+        {
+            "tag": "c:fruit_smoothie_bottle"
+        },
+        {
+            "tag": "c:fruit_smoothie_bottle"
+        },
+        {
+            "tag": "c:fruit_smoothie_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:fruit_smoothie_bucket"
     }
 }

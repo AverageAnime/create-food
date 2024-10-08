@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cheese_pizza_slice",
-        "c:cheese_pizza"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_pizza_slice",
+                "c:cheese_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cheese_pizza_slice"
+        },
+        {
+            "tag": "c:cheese_pizza_slice"
+        },
+        {
+            "tag": "c:cheese_pizza_slice"
+        },
+        {
+            "tag": "c:cheese_pizza_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheese_pizza"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:cheese_pizza_slice"
-    },
-    {
-      "tag": "c:cheese_pizza_slice"
-    },
-    {
-      "tag": "c:cheese_pizza_slice"
-    },
-    {
-      "tag": "c:cheese_pizza_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:cheese_pizza"
-  }
 }

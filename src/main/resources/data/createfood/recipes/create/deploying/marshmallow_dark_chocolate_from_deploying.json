@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_dark_chocolate",
-        "c:marshmallow",
-        "c:marshmallow_dark_chocolate"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:hollow_dark_chocolate"
-    },
-    {
-      "tag":"c:marshmallow"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:marshmallow_dark_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_dark_chocolate",
+                "c:marshmallow",
+                "c:marshmallow_dark_chocolate"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:hollow_dark_chocolate"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:marshmallow_dark_chocolate"
+        }
+    ]
 }

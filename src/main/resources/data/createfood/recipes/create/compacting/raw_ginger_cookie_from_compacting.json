@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:foods/vegetables/ginger",
-        "c:raw_ginger_cookie"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "tag": "c:foods/vegetables/ginger"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"createfood:raw_ginger_cookie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:foods/vegetables/ginger",
+                "c:raw_ginger_cookie"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:foods/vegetables/ginger"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "createfood:raw_ginger_cookie"
+        }
+    ]
 }

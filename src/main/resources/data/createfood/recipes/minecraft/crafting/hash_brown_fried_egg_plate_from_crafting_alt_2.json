@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:fried_egg_plate",
-        "c:hash_browns",
-        "c:hash_brown_fried_egg_plate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:fried_egg_plate",
+                "c:hash_browns",
+                "c:hash_brown_fried_egg_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:fried_egg_plate"
+        },
+        {
+            "tag": "c:hash_browns"
+        }
+    ],
+    "result": {
+        "item": "createfood:hash_brown_fried_egg_plate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:fried_egg_plate"
-    },
-    {
-      "tag": "c:hash_browns"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:hash_brown_fried_egg_plate"
-  }
 }

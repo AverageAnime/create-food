@@ -1,20 +1,20 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:salt_dough",
-        "c:pizza_dough"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:salt_dough",
+                "c:pizza_dough"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:salt_dough"
+        }
+    ],
+    "result": {
+        "item": "createfood:pizza_dough"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:salt_dough"
-    }
-  ],
-  "result": {
-    "item": "createfood:pizza_dough"
-  }
 }

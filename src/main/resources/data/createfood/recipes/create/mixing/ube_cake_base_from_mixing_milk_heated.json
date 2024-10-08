@@ -1,35 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_sugar_dough",
-        "c:raw_ube_cake_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:ube_sugar_dough"
-    },
-    {
-      "tag":"c:eggs"
-    },
-    {
-      "amount":81000,"fluidTag":"c:milk"
-    }
-  ],
-  "results": [
-    {
-      "item":"createfood:ube_cake_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_sugar_dough",
+                "c:raw_ube_cake_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:ube_sugar_dough"
+        },
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "amount": 81000,
+            "fluidTag": "c:milk"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:ube_cake_base"
+        }
+    ]
 }

@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin_dessert_block",
-        "c:lime_gelatin_dessert_block"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:gelatin_dessert_block"
-    },
-    {
-      "tag":"c:lime_dyes"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:lime_gelatin_dessert_block"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin_dessert_block",
+                "c:lime_gelatin_dessert_block"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:gelatin_dessert_block"
+        },
+        {
+            "tag": "c:lime_dyes"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:lime_gelatin_dessert_block"
+        }
+    ]
 }

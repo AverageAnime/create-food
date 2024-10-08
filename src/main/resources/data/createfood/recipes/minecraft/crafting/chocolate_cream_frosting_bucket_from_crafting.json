@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_cream_frosting",
-        "c:chocolate_cream_frosting_bucket"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bucket"
-    },
-    {
-      "tag": "c:chocolate_cream_frosting"
-    },
-    {
-      "tag": "c:chocolate_cream_frosting"
-    },
-    {
-      "tag": "c:chocolate_cream_frosting"
-    },
-    {
-      "tag": "c:chocolate_cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "createfood:chocolate_cream_frosting_bucket"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_cream_frosting",
+                "c:chocolate_cream_frosting_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:chocolate_cream_frosting"
+        },
+        {
+            "tag": "c:chocolate_cream_frosting"
+        },
+        {
+            "tag": "c:chocolate_cream_frosting"
+        },
+        {
+            "tag": "c:chocolate_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_cream_frosting_bucket"
     }
 }

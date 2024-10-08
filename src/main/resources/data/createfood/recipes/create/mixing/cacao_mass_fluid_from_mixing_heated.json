@@ -1,38 +1,39 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_nibs",
-        "c:cacao_mass_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated","ingredients":
-[
-  {
-    "item":"createfood:cacao_nibs"
-  },
-  {
-    "item":"createfood:cacao_nibs"
-  },
-  {
-    "item":"createfood:cacao_nibs"
-  },
-  {
-    "item":"createfood:cacao_nibs"
-  }
-],
-  "results":[
-    {
-      "amount":81000,"fluid":"createfood:cacao_mass"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_nibs",
+                "c:cacao_mass_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "createfood:cacao_nibs"
+        },
+        {
+            "item": "createfood:cacao_nibs"
+        },
+        {
+            "item": "createfood:cacao_nibs"
+        },
+        {
+            "item": "createfood:cacao_nibs"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:cacao_mass"
+        }
+    ]
 }

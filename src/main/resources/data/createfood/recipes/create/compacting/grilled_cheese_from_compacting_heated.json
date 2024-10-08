@@ -1,36 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice",
-        "c:cheeses",
-        "c:grilled_cheese_sandwich"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:bread_slice"
-    },
-    {
-      "tag":"c:cheeses"
-    },
-    {
-      "tag":"c:bread_slice"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:grilled_cheese_sandwich"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice",
+                "c:cheeses",
+                "c:grilled_cheese_sandwich"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice"
+        },
+        {
+            "tag": "c:cheeses"
+        },
+        {
+            "tag": "c:bread_slice"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:grilled_cheese_sandwich"
+        }
+    ]
 }

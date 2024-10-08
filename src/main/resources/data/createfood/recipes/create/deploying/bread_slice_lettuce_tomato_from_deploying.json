@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice_lettuce",
-        "c:bread_slice_lettuce_tomato"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:bread_slice_lettuce"
-    },
-    {
-      "tag": "c:tomato"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:bread_slice_lettuce_tomato"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_lettuce",
+                "c:bread_slice_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice_lettuce"
+        },
+        {
+            "tag": "c:tomato"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:bread_slice_lettuce_tomato"
+        }
+    ]
 }

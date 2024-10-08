@@ -1,19 +1,19 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:shredded_chicken"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:shredded_chicken"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chicken"
+        }
+    ],
+    "result": {
+        "item": "createfood:shredded_chicken"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:chicken"
-    }
-  ],
-  "result": {
-    "item": "createfood:shredded_chicken"
-  }
 }

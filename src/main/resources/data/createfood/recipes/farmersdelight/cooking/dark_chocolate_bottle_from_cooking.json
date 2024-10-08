@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_dark_chocolate",
+                "c:dark_chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:glass_bottle"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_dark_chocolate",
-        "c:dark_chocolate_bottle"
-      ]
+    "cookingtime": 100,
+    "experience": 0.25,
+    "ingredients": [
+        {
+            "tag": "c:hollow_dark_chocolate"
+        }
+    ],
+    "result": {
+        "item": "createfood:dark_chocolate_bottle"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
-  "cookingtime": 100,
-  "experience": 0.25,
-  "ingredients": [
-    {
-      "tag": "c:hollow_dark_chocolate"
-    }
-  ],
-  "result": {
-    "item": "createfood:dark_chocolate_bottle"
-  }
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_milk",
-        "c:chocolate_milk_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_milk",
+                "c:chocolate_milk_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:chocolate_milk"
+        },
+        {
+            "tag": "c:chocolate_milk"
+        },
+        {
+            "tag": "c:chocolate_milk"
+        },
+        {
+            "tag": "c:chocolate_milk"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_milk_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bucket"
-    },
-    {
-      "tag": "c:chocolate_milk"
-    },
-    {
-      "tag": "c:chocolate_milk"
-    },
-    {
-      "tag": "c:chocolate_milk"
-    },
-    {
-      "tag": "c:chocolate_milk"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_milk_bucket"
-  }
 }

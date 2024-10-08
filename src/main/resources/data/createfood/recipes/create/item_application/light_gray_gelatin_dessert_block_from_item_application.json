@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin_dessert_block",
-        "c:light_gray_gelatin_dessert_block"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:gelatin_dessert_block"
-    },
-    {
-      "tag":"c:light_gray_dyes"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:light_gray_gelatin_dessert_block"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin_dessert_block",
+                "c:light_gray_gelatin_dessert_block"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:gelatin_dessert_block"
+        },
+        {
+            "tag": "c:light_gray_dyes"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:light_gray_gelatin_dessert_block"
+        }
+    ]
 }

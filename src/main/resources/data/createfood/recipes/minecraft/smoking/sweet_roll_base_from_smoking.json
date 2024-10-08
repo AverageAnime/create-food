@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_sweet_roll_base",
-        "c:sweet_roll_base"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_sweet_roll_base"
-  },
-  "result": "createfood:sweet_roll_base"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_sweet_roll_base",
+                "c:sweet_roll_base"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_sweet_roll_base"
+    },
+    "result": "createfood:sweet_roll_base"
 }

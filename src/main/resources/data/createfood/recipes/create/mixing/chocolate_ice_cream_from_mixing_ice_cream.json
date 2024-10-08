@@ -1,32 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ice_cream_bucket",
-        "c:cocoa_powder",
-        "c:chocolate_ice_cream_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":81000,"fluid":"createfood:ice_cream"
-    },
-    {
-      "tag":"c:cocoa_powder"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000,"fluid":"createfood:chocolate_ice_cream"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_bucket",
+                "c:cocoa_powder",
+                "c:chocolate_ice_cream_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:ice_cream"
+        },
+        {
+            "tag": "c:cocoa_powder"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:chocolate_ice_cream"
+        }
+    ]
 }

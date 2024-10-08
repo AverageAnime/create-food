@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bun",
-        "c:cooked_eggplant",
-        "c:eggplant_bun"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:bun"
-    },
-    {
-      "tag":"c:cooked_eggplant"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:eggplant_bun"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:cooked_eggplant",
+                "c:eggplant_bun"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:bun"
+        },
+        {
+            "tag": "c:cooked_eggplant"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:eggplant_bun"
+        }
+    ]
 }

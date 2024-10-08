@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ground_beef"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "item": "minecraft:beef"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:ground_beef"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ground_beef"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:beef"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:ground_beef"
+        }
+    ]
 }

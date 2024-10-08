@@ -1,27 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_chocolate"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:hollow_chocolate"
-    }
-  ],
-  "results":[
-    {
-      "amount":20250, "fluid":"create:chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_chocolate"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:hollow_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "amount": 20250,
+            "fluid": "create:chocolate"
+        }
+    ]
 }

@@ -1,21 +1,21 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butterscotch_bucket",
-        "c:butterscotch"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butterscotch_bucket",
+                "c:butterscotch"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:butterscotch_bucket"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:butterscotch"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:butterscotch_bucket"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "createfood:butterscotch"
-  }
 }

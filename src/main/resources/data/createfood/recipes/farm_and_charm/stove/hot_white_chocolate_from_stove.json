@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:white_chocolate_bottle",
-        "c:hot_white_chocolate_bottle"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:stove",
-  "ingredients": [
-    {
-      "tag": "c:white_chocolate_bottle"
-    },
-    {
-      "tag": "c:white_chocolate_bottle"
-    },
-    {
-      "tag": "c:white_chocolate_bottle"
-    }
-  ],
-  "item": "createfood:hot_white_chocolate_bottle",
-  "count": 3,
-  "experience": 0.15
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:white_chocolate_bottle",
+                "c:hot_white_chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:stove",
+    "ingredients": [
+        {
+            "tag": "c:white_chocolate_bottle"
+        },
+        {
+            "tag": "c:white_chocolate_bottle"
+        },
+        {
+            "tag": "c:white_chocolate_bottle"
+        }
+    ],
+    "item": "createfood:hot_white_chocolate_bottle",
+    "count": 3,
+    "experience": 0.15
 }

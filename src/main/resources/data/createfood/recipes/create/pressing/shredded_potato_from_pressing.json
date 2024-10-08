@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:shredded_potato"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "item": "minecraft:potato"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:shredded_potato"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:shredded_potato"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:potato"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:shredded_potato"
+        }
+    ]
 }

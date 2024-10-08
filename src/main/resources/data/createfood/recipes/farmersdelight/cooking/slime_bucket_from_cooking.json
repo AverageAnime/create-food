@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin",
-        "c:slime_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin",
+                "c:slime_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 50,
+    "experience": 0.1,
+    "ingredients": [
+        {
+            "tag": "c:grains"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:lime_dyes"
+        },
+        {
+            "tag": "c:water_buckets"
+        }
+    ],
+    "result": {
+        "item": "createfood:slime_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 50,
-  "experience": 0.1,
-  "ingredients": [
-    {
-      "tag": "c:grains"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag":"c:lime_dyes"
-    },
-    {
-      "tag":"c:water_buckets"
-    }
-  ],
-  "result": {
-    "item": "createfood:slime_bucket"
-  }
 }

@@ -1,38 +1,40 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin",
-        "c:gelatin_mix_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":81000, "fluid":"minecraft:water"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000, "fluid":"createfood:gelatin_mix"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin",
+                "c:gelatin_mix_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "minecraft:water"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:gelatin_mix"
+        }
+    ]
 }

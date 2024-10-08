@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_cream_frosted_cake",
-        "c:berry_cream_cake_sweet_berry"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_cream_frosted_cake",
+                "c:berry_cream_cake_sweet_berry"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:berry_cream_frosted_cake"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_cream_cake_sweet_berry"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:berry_cream_frosted_cake"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    }
-  ],
-  "result": {
-    "item": "createfood:berry_cream_cake_sweet_berry"
-  }
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_cream_frosted_cake",
-        "c:white_chocolate_chips",
-        "c:chocolate_cream_cake_white_chocolate"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_cream_frosted_cake"
-    },
-    {
-      "tag":"c:white_chocolate_chips"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_cream_cake_white_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_cream_frosted_cake",
+                "c:white_chocolate_chips",
+                "c:chocolate_cream_cake_white_chocolate"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_cream_frosted_cake"
+        },
+        {
+            "tag": "c:white_chocolate_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_cream_cake_white_chocolate"
+        }
+    ]
 }

@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sausage_biscuit_sandwich",
-        "c:hot_sausage_biscuit_sandwich"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:sausage_biscuit_sandwich"
-  },
-  "result": "createfood:hot_sausage_biscuit_sandwich"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sausage_biscuit_sandwich",
+                "c:hot_sausage_biscuit_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:sausage_biscuit_sandwich"
+    },
+    "result": "createfood:hot_sausage_biscuit_sandwich"
 }

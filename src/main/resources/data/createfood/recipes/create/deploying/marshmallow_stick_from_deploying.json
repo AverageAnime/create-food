@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:marshmallow",
-        "c:marshmallow_stick"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "item":"minecraft:stick"
-    },
-    {
-      "tag":"c:marshmallow"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:marshmallow_stick"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:marshmallow",
+                "c:marshmallow_stick"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:marshmallow_stick"
+        }
+    ]
 }

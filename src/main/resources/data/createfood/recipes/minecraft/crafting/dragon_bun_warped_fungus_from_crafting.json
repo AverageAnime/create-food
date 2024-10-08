@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:dragon_bun",
-        "c:dragon_bun_warped_fungus"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dragon_bun",
+                "c:dragon_bun_warped_fungus"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:dragon_bun"
+        },
+        {
+            "item": "minecraft:warped_fungus"
+        }
+    ],
+    "result": {
+        "item": "createfood:dragon_bun_warped_fungus"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:dragon_bun"
-    },
-    {
-      "item": "minecraft:warped_fungus"
-    }
-  ],
-  "result": {
-    "item": "createfood:dragon_bun_warped_fungus"
-  }
 }

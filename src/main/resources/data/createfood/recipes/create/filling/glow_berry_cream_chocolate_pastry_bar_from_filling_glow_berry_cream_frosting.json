@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_pastry_bar_base",
-        "c:glow_berry_cream_frosting_bucket",
-        "c:glow_berry_cream_chocolate_pastry_bar"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_pastry_bar_base"
-    },
-    {
-      "amount":20250,"fluid":"createfood:glow_berry_cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:glow_berry_cream_chocolate_pastry_bar"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_pastry_bar_base",
+                "c:glow_berry_cream_frosting_bucket",
+                "c:glow_berry_cream_chocolate_pastry_bar"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_pastry_bar_base"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:glow_berry_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:glow_berry_cream_chocolate_pastry_bar"
+        }
+    ]
 }

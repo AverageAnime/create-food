@@ -1,30 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cream_cheese",
-        "c:cream_cheese_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cream_cheese",
+                "c:cream_cheese_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:empty_buckets"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        }
+    ],
+    "result": {
+        "item": "createfood:cream_cheese_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:empty_buckets"
-    },
-    {
-      "tag": "c:cream_cheese"
-    },
-    {
-      "tag": "c:cream_cheese"
-    },
-    {
-      "tag": "c:cream_cheese"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:cream_cheese_bucket"
-  }
 }

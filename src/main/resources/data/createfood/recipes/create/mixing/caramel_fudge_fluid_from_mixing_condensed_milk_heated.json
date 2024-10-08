@@ -1,37 +1,39 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:caramel_chips",
-        "c:butter",
-        "c:condensed_milk_bucket",
-        "c:caramel_fudge_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:caramel_chips"
-    },
-    {
-      "tag":"c:butter"
-    },
-    {
-      "amount":20250,"fluid":"createfood:condensed_milk"
-    }
-  ],
-  "results": [
-    {
-      "amount":40500,"fluid":"createfood:caramel_fudge"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:caramel_chips",
+                "c:butter",
+                "c:condensed_milk_bucket",
+                "c:caramel_fudge_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:caramel_chips"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:condensed_milk"
+        }
+    ],
+    "results": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:caramel_fudge"
+        }
+    ]
 }

@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:toast_fried_egg_plate",
-        "c:hash_browns",
-        "c:breakfast_plate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast_fried_egg_plate",
+                "c:hash_browns",
+                "c:breakfast_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:toast_fried_egg_plate"
+        },
+        {
+            "tag": "c:hash_browns"
+        }
+    ],
+    "result": {
+        "item": "createfood:breakfast_plate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:toast_fried_egg_plate"
-    },
-    {
-      "tag": "c:hash_browns"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:breakfast_plate"
-  }
 }

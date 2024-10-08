@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pastry_bar_base",
-        "c:melon_cream_frosting",
-        "c:melon_cream_pastry_bar"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pastry_bar_base"
-    },
-    {
-      "tag": "c:melon_cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "createfood:melon_cream_pastry_bar"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_bar_base",
+                "c:melon_cream_frosting",
+                "c:melon_cream_pastry_bar"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pastry_bar_base"
+        },
+        {
+            "tag": "c:melon_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:melon_cream_pastry_bar"
     }
 }

@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_tomato_sauce",
-        "c:small_meatballs"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate_tomato_sauce"
-    },
-    {
-      "tag":"c:small_meatballs"
-    }
-  ],
-  "results":[
-    {
-      "item":"farmersdelight:pasta_with_meatballs"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_tomato_sauce",
+                "c:small_meatballs"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_tomato_sauce"
+        },
+        {
+            "tag": "c:small_meatballs"
+        }
+    ],
+    "results": [
+        {
+            "item": "farmersdelight:pasta_with_meatballs"
+        }
+    ]
 }

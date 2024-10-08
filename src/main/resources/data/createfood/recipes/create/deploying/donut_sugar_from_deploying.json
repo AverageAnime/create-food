@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:donut_base",
-        "c:powdered_sugar",
-        "c:donut_sugar"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:donut_base"
-    },
-    {
-      "tag":"c:powdered_sugar"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:donut_sugar"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:donut_base",
+                "c:powdered_sugar",
+                "c:donut_sugar"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:donut_base"
+        },
+        {
+            "tag": "c:powdered_sugar"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:donut_sugar"
+        }
+    ]
 }

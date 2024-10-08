@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:biscuit",
-        "c:honeyed_biscuit"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:biscuit",
+                "c:honeyed_biscuit"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:biscuit"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:honeyed_biscuit"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:biscuit"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    }
-  ],
-  "result": {
-    "item": "createfood:honeyed_biscuit"
-  }
 }

@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:dark_chocolate_bucket",
-        "c:dark_chocolate_glazed_berries"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "amount":27000,"fluid":"createfood:dark_chocolate"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:dark_chocolate_glazed_berries"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dark_chocolate_bucket",
+                "c:dark_chocolate_glazed_berries"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "amount": 27000,
+            "fluid": "createfood:dark_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:dark_chocolate_glazed_berries"
+        }
+    ]
 }

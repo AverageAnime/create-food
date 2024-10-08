@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_donut_base",
-        "c:powdered_sugar",
-        "c:chocolate_donut_sugar"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_donut_base",
+                "c:powdered_sugar",
+                "c:chocolate_donut_sugar"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_donut_base"
+        },
+        {
+            "tag": "c:powdered_sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_donut_sugar"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_donut_base"
-    },
-    {
-      "tag": "c:powdered_sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_donut_sugar"
-  }
 }

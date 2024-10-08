@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_pie_filling_bucket",
-        "c:raw_chorus_fruit_pie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_pie_filling_bucket",
+                "c:raw_chorus_fruit_pie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_pie_crust"
+        },
+        {
+            "tag": "c:chorus_fruit_pie_filling_bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_chorus_fruit_pie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:raw_pie_crust"
-    },
-    {
-      "tag": "c:chorus_fruit_pie_filling_bucket"
-    }
-  ],
-  "result": {
-    "item": "createfood:raw_chorus_fruit_pie"
-  }
 }

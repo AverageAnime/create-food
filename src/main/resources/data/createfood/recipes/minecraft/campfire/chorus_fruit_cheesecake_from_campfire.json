@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_chorus_fruit_cheesecake",
-        "c:chorus_fruit_cheesecake"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_chorus_fruit_cheesecake"
-  },
-  "result": "createfood:chorus_fruit_cheesecake",
-  "experience": 0.95,
-  "cookingtime": 550
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_chorus_fruit_cheesecake",
+                "c:chorus_fruit_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_chorus_fruit_cheesecake"
+    },
+    "result": "createfood:chorus_fruit_cheesecake",
+    "experience": 0.95,
+    "cookingtime": 550
 }

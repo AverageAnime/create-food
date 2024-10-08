@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_strider_meatball",
-        "c:strider_meatball"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:stove",
-  "ingredients": [
-    {
-      "tag": "c:raw_strider_meatball"
-    },
-    {
-      "tag": "c:raw_strider_meatball"
-    },
-    {
-      "tag": "c:raw_strider_meatball"
-    }
-  ],
-  "item": "createfood:strider_meatball",
-  "count": 3,
-  "experience": 0.15
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_strider_meatball",
+                "c:strider_meatball"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:stove",
+    "ingredients": [
+        {
+            "tag": "c:raw_strider_meatball"
+        },
+        {
+            "tag": "c:raw_strider_meatball"
+        },
+        {
+            "tag": "c:raw_strider_meatball"
+        }
+    ],
+    "item": "createfood:strider_meatball",
+    "count": 3,
+    "experience": 0.15
 }

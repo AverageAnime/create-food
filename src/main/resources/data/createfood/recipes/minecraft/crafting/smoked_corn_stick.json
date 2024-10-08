@@ -1,24 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:smoked_corn",
-        "c:smoked_corn_stick"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:smoked_corn",
+                "c:smoked_corn_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "tag": "c:smoked_corn"
+        }
+    ],
+    "result": {
+        "item": "createfood:smoked_corn_stick"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "tag": "c:smoked_corn"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:smoked_corn_stick"
-  }
 }

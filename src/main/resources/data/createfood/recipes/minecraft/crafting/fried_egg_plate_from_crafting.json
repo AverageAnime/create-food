@@ -1,23 +1,22 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:fried_egg_plate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:fried_egg_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "tag": "c:cooked_eggs"
+        }
+    ],
+    "result": {
+        "item": "createfood:fried_egg_plate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:cooked_eggs"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:fried_egg_plate"
-  }
 }

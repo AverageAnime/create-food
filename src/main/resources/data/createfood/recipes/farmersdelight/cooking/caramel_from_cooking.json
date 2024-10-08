@@ -1,30 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:caramel"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:caramel"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 50,
+    "experience": 0.25,
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:caramel"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 50,
-  "experience": 0.25,
-  "ingredients": [
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:caramel"
-  }
 }

@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bar_of_dark_chocolate",
-        "c:dark_chocolate_chips"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "tag": "c:bar_of_dark_chocolate"
-    }
-  ],
-  "results": [
-    {
-      "count": 8,
-      "item": "createfood:dark_chocolate_chips"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bar_of_dark_chocolate",
+                "c:dark_chocolate_chips"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:bar_of_dark_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "createfood:dark_chocolate_chips"
+        }
+    ]
 }

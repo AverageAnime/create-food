@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:salt_compat"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:salt_compat"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 350,
+    "experience": 0.2,
+    "ingredients": [
+        {
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "createfood:salt"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 350,
-  "experience": 0.2,
-  "ingredients": [
-    {
-      "item": "minecraft:water_bucket"
-    }
-  ],
-  "result": {
-    "count": 4,
-    "item": "createfood:salt"
-  }
 }

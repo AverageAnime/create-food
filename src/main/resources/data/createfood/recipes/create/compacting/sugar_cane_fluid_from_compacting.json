@@ -1,27 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sugar_cane_juice_bucket"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "tag":"c:sugar_cane"
-    }
-  ],
-  "results":[
-    {
-    "amount":27000,"fluid":"createfood:sugar_cane_juice"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sugar_cane_juice_bucket"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:sugar_cane"
+        }
+    ],
+    "results": [
+        {
+            "amount": 27000,
+            "fluid": "createfood:sugar_cane_juice"
+        }
+    ]
 }

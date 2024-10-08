@@ -1,27 +1,27 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cloth_filter"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "STS",
-    "STS",
-    "STS"
-  ],
-  "key": {
-    "S": {
-      "item": "minecraft:stick"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cloth_filter"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "STS",
+        "STS",
+        "STS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "T": {
+            "item": "minecraft:string"
+        }
     },
-    "T": {
-      "item": "minecraft:string"
+    "result": {
+        "item": "createfood:cloth_filter"
     }
-  },
-  "result": {
-    "item": "createfood:cloth_filter"
-  }
 }

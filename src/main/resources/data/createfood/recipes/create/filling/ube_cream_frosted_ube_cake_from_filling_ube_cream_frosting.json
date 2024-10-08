@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_cake_base",
-        "c:ube_cream_frosting_bucket",
-        "c:ube_cream_frosted_ube_cake"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:ube_cake_base"
-    },
-    {
-      "amount":81000,"fluid":"createfood:ube_cream_frosting"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:ube_cream_frosted_ube_cake"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_cake_base",
+                "c:ube_cream_frosting_bucket",
+                "c:ube_cream_frosted_ube_cake"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:ube_cake_base"
+        },
+        {
+            "amount": 81000,
+            "fluid": "createfood:ube_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:ube_cream_frosted_ube_cake"
+        }
+    ]
 }

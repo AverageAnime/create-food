@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_endermite_meatball",
-        "c:endermite_meatball"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_endermite_meatball"
-  },
-  "result": "createfood:endermite_meatball"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_endermite_meatball",
+                "c:endermite_meatball"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_endermite_meatball"
+    },
+    "result": "createfood:endermite_meatball"
 }

@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_white_chocolate",
-        "c:apple_cream_frosting",
-        "c:apple_cream_white_chocolate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_white_chocolate",
+                "c:apple_cream_frosting",
+                "c:apple_cream_white_chocolate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:hollow_white_chocolate"
+        },
+        {
+            "tag": "c:apple_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:apple_cream_white_chocolate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:hollow_white_chocolate"
-    },
-    {
-      "tag": "c:apple_cream_frosting"
-    }
-  ],
-  "result": {
-    "item": "createfood:apple_cream_white_chocolate"
-  }
 }

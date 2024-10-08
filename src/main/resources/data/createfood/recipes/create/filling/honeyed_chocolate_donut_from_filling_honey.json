@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_donut_base",
-        "c:honeyed_chocolate_donut"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_donut_base"
-    },
-    {
-      "amount":20250,"fluid":"create:honey"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:honeyed_chocolate_donut"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_donut_base",
+                "c:honeyed_chocolate_donut"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_donut_base"
+        },
+        {
+            "amount": 20250,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:honeyed_chocolate_donut"
+        }
+    ]
 }

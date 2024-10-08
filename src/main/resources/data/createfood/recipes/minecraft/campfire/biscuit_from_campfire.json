@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butter_dough",
-        "c:biscuit"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:butter_dough"
-  },
-  "result": "createfood:biscuit",
-  "experience": 0.1,
-  "cookingtime": 200
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butter_dough",
+                "c:biscuit"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:butter_dough"
+    },
+    "result": "createfood:biscuit",
+    "experience": 0.1,
+    "cookingtime": 200
 }

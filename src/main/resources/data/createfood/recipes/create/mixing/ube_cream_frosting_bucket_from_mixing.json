@@ -1,55 +1,56 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_cream_frosting_bucket",
-        "c:crops/ube"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":81000, "fluidTag":"c:milk"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "item":"c:crops/ube"
-    },
-    {
-      "item":"c:crops/ube"
-    },
-    {
-      "item":"c:crops/ube"
-    },
-    {
-      "item":"c:crops/ube"
-    },
-    {
-      "item":"minecraft:bucket"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:ube_cream_frosting_bucket"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_cream_frosting_bucket",
+                "c:vegetables/ube"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluidTag": "c:milk"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:vegetables/ube"
+        },
+        {
+            "tag": "c:vegetables/ube"
+        },
+        {
+            "tag": "c:vegetables/ube"
+        },
+        {
+            "tag": "c:vegetables/ube"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:ube_cream_frosting_bucket"
+        }
+    ]
 }

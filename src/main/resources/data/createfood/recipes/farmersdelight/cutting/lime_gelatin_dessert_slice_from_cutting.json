@@ -1,34 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:lime_gelatin_dessert_block",
+                "c:lime_gelatin_dessert_slice"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "tag": "c:lime_gelatin_dessert_block"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:lime_gelatin_dessert_block",
-        "c:lime_gelatin_dessert_slice"
-      ]
-    }
-  ],
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-    {
-      "tag": "c:lime_gelatin_dessert_block"
-    }
-  ],
-  "tool":
-    {
-      "tag": "c:tools/knives"
-    },
-  "result":
-  [
-    {
-      "count": 8,
-      "item": "createfood:lime_gelatin_dessert_slice"
-    }
-  ]
+    "result": [
+        {
+            "count": 8,
+            "item": "createfood:lime_gelatin_dessert_slice"
+        }
+    ]
 }

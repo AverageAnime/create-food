@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:vinegar_bottle",
-        "c:vinegar_bucket"
-      ]
-    }
-  ],
-  "type":"create:emptying",
-  "ingredients":[
-    {
-      "tag":"c:vinegar_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "amount": 20250, "fluid":"createfood:vinegar"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:vinegar_bottle",
+                "c:vinegar_bucket"
+            ]
+        }
+    ],
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "tag": "c:vinegar_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:vinegar"
+        }
+    ]
 }

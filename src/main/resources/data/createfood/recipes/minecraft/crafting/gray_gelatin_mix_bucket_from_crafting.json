@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin_mix_bucket",
-        "c:gray_gelatin_mix_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin_mix_bucket",
+                "c:gray_gelatin_mix_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:gelatin_mix_bucket"
+        },
+        {
+            "tag": "c:gray_dyes"
+        }
+    ],
+    "result": {
+        "item": "createfood:gray_gelatin_mix_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:gelatin_mix_bucket"
-    },
-    {
-      "tag": "c:gray_dyes"
-    }
-  ],
-  "result": {
-    "item": "createfood:gray_gelatin_mix_bucket"
-  }
 }

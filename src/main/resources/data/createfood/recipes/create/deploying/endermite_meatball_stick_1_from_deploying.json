@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:endermite_meatball",
-        "c:endermite_meatball_stick"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "item":"minecraft:stick"
-    },
-    {
-      "tag":"c:endermite_meatball"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:endermite_meatball_stick_1"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:endermite_meatball",
+                "c:endermite_meatball_stick"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "tag": "c:endermite_meatball"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:endermite_meatball_stick_1"
+        }
+    ]
 }

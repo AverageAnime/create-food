@@ -1,36 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:condensed_milk",
-        "c:dark_chocolate_chips",
-        "c:butter",
-        "c:dark_chocolate_fudge"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:condensed_milk",
+                "c:dark_chocolate_chips",
+                "c:butter",
+                "c:dark_chocolate_fudge"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 150,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:condensed_milk"
+        },
+        {
+            "tag": "c:dark_chocolate_chips"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "result": {
+        "item": "createfood:dark_chocolate_fudge"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 150,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:condensed_milk"
-    },
-    {
-      "tag": "c:dark_chocolate_chips"
-    },
-    {
-      "tag": "c:butter"
-    }
-  ],
-  "result": {
-    "item": "createfood:dark_chocolate_fudge"
-  }
 }

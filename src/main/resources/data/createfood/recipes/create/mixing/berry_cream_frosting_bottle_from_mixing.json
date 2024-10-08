@@ -1,36 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_cream_frosting_bottle"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":20250, "fluidTag":"c:milk"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "item":"minecraft:glass_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:berry_cream_frosting_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_cream_frosting_bottle"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 20250,
+            "fluidTag": "c:milk"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:berry_cream_frosting_bottle"
+        }
+    ]
 }

@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sugar_dough"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:flour"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:eggs"
-    }
-  ],
-  "results":[
-    {
-      "count": 3,
-      "item":"createfood:sugar_dough"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sugar_dough"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:flour"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:eggs"
+        }
+    ],
+    "results": [
+        {
+            "count": 3,
+            "item": "createfood:sugar_dough"
+        }
+    ]
 }

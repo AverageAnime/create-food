@@ -1,31 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_ice_cream_bowl",
-        "c:berry_ice_cream_stick"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_ice_cream_bowl",
+                "c:berry_ice_cream_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:berry_ice_cream_bowl"
+        },
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:berry_ice_cream_stick"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:berry_ice_cream_bowl"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    }
-  ],
-  "result":
-  {
-    "count": 3,
-    "item": "createfood:berry_ice_cream_stick"
-  }
 }

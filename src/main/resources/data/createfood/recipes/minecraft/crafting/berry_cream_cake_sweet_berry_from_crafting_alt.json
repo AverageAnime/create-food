@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:berry_cream_cake_sweet_berry"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_cream_cake_sweet_berry"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        },
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        },
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        },
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        },
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        },
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        },
+        {
+            "tag": "c:berry_cream_cake_slice_sweet_berry"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_cream_cake_sweet_berry"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    },
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    },
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    },
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    },
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    },
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    },
-    {
-      "tag": "c:berry_cream_cake_slice_sweet_berry"
-    }
-  ],
-  "result": {
-    "item": "createfood:berry_cream_cake_sweet_berry"
-  }
 }

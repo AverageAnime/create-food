@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_roll_base",
-        "c:cream_frosting",
-        "c:sweet_roll"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_roll_base"
-    },
-    {
-      "tag": "c:cream_frosting"
-    }
-  ],
-  "result": {
-      "item": "create:sweet_roll"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:cream_frosting",
+                "c:sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_roll_base"
+        },
+        {
+            "tag": "c:cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "create:sweet_roll"
     }
 }

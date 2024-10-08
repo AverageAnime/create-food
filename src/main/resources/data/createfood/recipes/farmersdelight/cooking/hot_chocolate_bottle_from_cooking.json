@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_bottle",
-        "c:hot_chocolate_bottle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_bottle",
+                "c:hot_chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 25,
+    "experience": 0.25,
+    "ingredients": [
+        {
+            "tag": "c:chocolate_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:hot_chocolate_bottle"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 25,
-  "experience": 0.25,
-  "ingredients": [
-    {
-      "tag": "c:chocolate_bottle"
-    }
-  ],
-  "result": {
-    "item": "createfood:hot_chocolate_bottle"
-  }
 }

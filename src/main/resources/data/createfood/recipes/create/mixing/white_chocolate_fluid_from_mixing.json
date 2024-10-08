@@ -1,31 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_butter_bucket",
-        "c:white_chocolate_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":10125, "fluidTag":"c:milk"
-    },
-    {
-      "amount":10125, "fluid":"createfood:cacao_butter"
-    }
-  ],
-  "results":[
-    {
-      "amount":20250, "fluid":"createfood:white_chocolate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_butter_bucket",
+                "c:white_chocolate_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 10125,
+            "fluidTag": "c:milk"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:cacao_butter"
+        }
+    ],
+    "results": [
+        {
+            "amount": 20250,
+            "fluid": "createfood:white_chocolate"
+        }
+    ]
 }

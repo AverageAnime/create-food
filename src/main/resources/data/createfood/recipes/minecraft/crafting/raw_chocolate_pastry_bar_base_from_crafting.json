@@ -1,20 +1,20 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_chocolate_pastry_base",
-        "c:raw_chocolate_pastry_bar_base"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:raw_chocolate_pastry_base"
-    }
-  ],
-  "result": {
-      "item": "createfood:raw_chocolate_pastry_bar_base"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_chocolate_pastry_base",
+                "c:raw_chocolate_pastry_bar_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_chocolate_pastry_base"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_chocolate_pastry_bar_base"
     }
 }

@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:raw_spider_eye_cookie",
-        "c:pider_eye_cookie"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "item": "minecraft:spider_eye"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"createfood:raw_spider_eye_cookie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:raw_spider_eye_cookie",
+                "c:pider_eye_cookie"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "item": "minecraft:spider_eye"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "createfood:raw_spider_eye_cookie"
+        }
+    ]
 }

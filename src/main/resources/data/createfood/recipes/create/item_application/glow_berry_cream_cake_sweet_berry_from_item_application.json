@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:glow_berry_cream_frosted_cake",
-        "c:glow_berry_cream_cake_sweet_berry"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:glow_berry_cream_frosted_cake"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:glow_berry_cream_cake_sweet_berry"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:glow_berry_cream_frosted_cake",
+                "c:glow_berry_cream_cake_sweet_berry"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:glow_berry_cream_frosted_cake"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:glow_berry_cream_cake_sweet_berry"
+        }
+    ]
 }

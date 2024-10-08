@@ -1,21 +1,21 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_butter_bucket",
-        "c:cacao_butter"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_butter_bucket",
+                "c:cacao_butter"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cacao_butter_bucket"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:cacao_butter"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:cacao_butter_bucket"
-    }
-  ],
-  "result": {
-    "count":3,
-    "item": "createfood:cacao_butter"
-  }
 }

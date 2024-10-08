@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_green_tea_cookie",
-        "c:green_tea_cookie"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_green_tea_cookie"
-  },
-  "result": "farmersrespite:green_tea_cookie"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_green_tea_cookie",
+                "c:green_tea_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_green_tea_cookie"
+    },
+    "result": "farmersrespite:green_tea_cookie"
 }

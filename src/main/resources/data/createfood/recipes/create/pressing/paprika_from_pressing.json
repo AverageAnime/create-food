@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chili_pepper",
-        "c:paprika"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "tag": "c:chili_pepper"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:paprika"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chili_pepper",
+                "c:paprika"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:chili_pepper"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:paprika"
+        }
+    ]
 }

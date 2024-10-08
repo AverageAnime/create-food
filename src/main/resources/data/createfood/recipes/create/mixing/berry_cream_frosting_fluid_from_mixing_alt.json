@@ -1,61 +1,62 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cream_cheese",
-        "c:berry_cream_frosting_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:cream_cheese"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "item":"minecraft:sweet_berries"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000, "fluid":"createfood:berry_cream_frosting"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cream_cheese",
+                "c:berry_cream_frosting_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:cream_cheese"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:berry_cream_frosting"
+        }
+    ]
 }

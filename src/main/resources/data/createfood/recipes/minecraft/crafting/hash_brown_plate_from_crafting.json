@@ -1,24 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hash_browns",
-        "c:hash_brown_plate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hash_browns",
+                "c:hash_brown_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "tag": "c:hash_browns"
+        }
+    ],
+    "result": {
+        "item": "createfood:hash_brown_plate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:hash_browns"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:hash_brown_plate"
-  }
 }

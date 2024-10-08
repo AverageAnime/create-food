@@ -55,6 +55,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 ### **My Other Mods**
 
 * [Create: Metalwork](https://www.curseforge.com/minecraft/mc-mods/create-metalwork-fabric)
+* [Delightful Chefs](https://www.curseforge.com/minecraft/mc-mods/delightful-chefs)
 * [Rune Essence](https://www.curseforge.com/minecraft/mc-mods/rune-essence)
 * [Stack Size Edit](https://www.curseforge.com/minecraft/mc-mods/stack-size-edit-fabric)
 

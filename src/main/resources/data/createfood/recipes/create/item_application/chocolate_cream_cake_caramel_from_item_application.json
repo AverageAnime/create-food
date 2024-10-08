@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_cream_frosted_cake",
-        "c:caramel_chips",
-        "c:chocolate_cream_cake_caramel"
-      ]
-    }
-  ],
-  "type":"create:item_application",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_cream_frosted_cake"
-    },
-    {
-      "tag":"c:caramel_chips"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_cream_cake_caramel"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_cream_frosted_cake",
+                "c:caramel_chips",
+                "c:chocolate_cream_cake_caramel"
+            ]
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_cream_frosted_cake"
+        },
+        {
+            "tag": "c:caramel_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_cream_cake_caramel"
+        }
+    ]
 }

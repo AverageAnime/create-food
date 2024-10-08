@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_cream_frosting_bottle"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:chorus_fruit"
-    },
-    {
-      "item":"farmersdelight:milk_bottle"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chorus_fruit_cream_frosting_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_cream_frosting_bottle"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chorus_fruit_cream_frosting_bottle"
+        }
+    ]
 }

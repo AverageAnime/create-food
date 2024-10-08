@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice_bacon",
-        "c:bread_slice_bacon_lettuce"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_bacon",
+                "c:bread_slice_bacon_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice_bacon"
+        },
+        {
+            "tag": "c:salad_ingredients"
+        }
+    ],
+    "result": {
+        "item": "createfood:bread_slice_bacon_lettuce"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bread_slice_bacon"
-    },
-    {
-      "tag": "c:salad_ingredients"
-    }
-  ],
-  "result": {
-    "item": "createfood:bread_slice_bacon_lettuce"
-  }
 }

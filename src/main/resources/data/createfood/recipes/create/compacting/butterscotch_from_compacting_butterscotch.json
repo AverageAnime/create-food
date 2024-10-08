@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:butterscotch_bucket",
-        "c:butterscotch"
-      ]
-    }
-  ],
-  "type": "create:compacting",
-  "ingredients": [
-    {
-      "amount": 40500,
-      "fluid": "createfood:butterscotch"
-    }
-  ],
-  "results": [
-    {
-      "item": "createfood:butterscotch"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:butterscotch_bucket",
+                "c:butterscotch"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:butterscotch"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:butterscotch"
+        }
+    ]
 }

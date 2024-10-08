@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_sweet_dough",
-        "c:raw_chocolate_sweet_roll_base"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_dough",
+                "c:raw_chocolate_sweet_roll_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_sweet_dough"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_chocolate_sweet_roll_base"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_sweet_dough"
-    },
-    {
-      "tag": "c:sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:raw_chocolate_sweet_roll_base"
-  }
 }

@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_flesh_cookie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_flesh_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "tag": "c:eggs"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_flesh_cookie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:rotten_flesh"
-    },
-    {
-      "tag": "c:eggs"
-    }
-  ],
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:raw_flesh_cookie"
-  }
 }

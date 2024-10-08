@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:apple_cheesecake_slice",
-        "c:apple_cheesecake"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_cheesecake_slice",
+                "c:apple_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:apple_cheesecake_slice"
+        },
+        {
+            "tag": "c:apple_cheesecake_slice"
+        },
+        {
+            "tag": "c:apple_cheesecake_slice"
+        },
+        {
+            "tag": "c:apple_cheesecake_slice"
+        }
+    ],
+    "result": {
+        "item": "createfood:apple_cheesecake"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:apple_cheesecake_slice"
-    },
-    {
-      "tag": "c:apple_cheesecake_slice"
-    },
-    {
-      "tag": "c:apple_cheesecake_slice"
-    },
-    {
-      "tag": "c:apple_cheesecake_slice"
-    }
-  ],
-  "result": {
-    "item": "createfood:apple_cheesecake"
-  }
 }

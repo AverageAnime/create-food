@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:molasses_bucket",
-        "c:brown_sugar"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":10125,"fluid":"createfood:molasses"
-    },
-    {
-      "tag":"c:sugar"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:brown_sugar"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:molasses_bucket",
+                "c:brown_sugar"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 10125,
+            "fluid": "createfood:molasses"
+        },
+        {
+            "tag": "c:sugar"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:brown_sugar"
+        }
+    ]
 }

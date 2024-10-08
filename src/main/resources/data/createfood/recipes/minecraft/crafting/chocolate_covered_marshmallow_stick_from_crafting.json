@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:marshmallow_stick",
-        "c:chocolate_bottle",
-        "c:chocolate_covered_marshmallow_stick"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:marshmallow_stick"
-    },
-    {
-      "tag": "c:chocolate_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:chocolate_covered_marshmallow_stick"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:marshmallow_stick",
+                "c:chocolate_bottle",
+                "c:chocolate_covered_marshmallow_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:marshmallow_stick"
+        },
+        {
+            "tag": "c:chocolate_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_covered_marshmallow_stick"
     }
 }

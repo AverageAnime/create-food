@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_mini_chocolate_graham_cracker_pie_crust",
-        "c:mini_chocolate_graham_cracker_pie_crust"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
-  },
-  "result": "createfood:mini_chocolate_graham_cracker_pie_crust",
-  "experience": 0.20,
-  "cookingtime": 150
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_mini_chocolate_graham_cracker_pie_crust",
+                "c:mini_chocolate_graham_cracker_pie_crust"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_mini_chocolate_graham_cracker_pie_crust"
+    },
+    "result": "createfood:mini_chocolate_graham_cracker_pie_crust",
+    "experience": 0.2,
+    "cookingtime": 150
 }

@@ -1,37 +1,39 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:white_chocolate_chips",
-        "c:butter",
-        "c:condensed_milk_bucket",
-        "c:white_chocolate_fudge_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:white_chocolate_chips"
-    },
-    {
-      "tag":"c:butter"
-    },
-    {
-      "amount":20250,"fluid":"createfood:condensed_milk"
-    }
-  ],
-  "results": [
-    {
-      "amount":40500,"fluid":"createfood:white_chocolate_fudge"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:white_chocolate_chips",
+                "c:butter",
+                "c:condensed_milk_bucket",
+                "c:white_chocolate_fudge_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:white_chocolate_chips"
+        },
+        {
+            "tag": "c:butter"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:condensed_milk"
+        }
+    ],
+    "results": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:white_chocolate_fudge"
+        }
+    ]
 }

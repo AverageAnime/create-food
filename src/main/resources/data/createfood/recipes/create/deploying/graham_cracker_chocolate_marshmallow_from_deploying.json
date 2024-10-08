@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:graham_cracker_chocolate",
-        "c:marshmallow",
-        "c:graham_cracker_chocolate_marshmallow"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:graham_cracker_chocolate"
-    },
-    {
-      "tag":"c:marshmallow"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:graham_cracker_chocolate_marshmallow"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:graham_cracker_chocolate",
+                "c:marshmallow",
+                "c:graham_cracker_chocolate_marshmallow"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:graham_cracker_chocolate"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:graham_cracker_chocolate_marshmallow"
+        }
+    ]
 }

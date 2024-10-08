@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_graham_cracker",
-        "c:ice_cream_bucket"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:chocolate_graham_cracker"
-    },
-    {
-      "amount":27000,"fluid":"createfood:ice_cream"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:chocolate_graham_cracker_ice_cream"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_graham_cracker",
+                "c:ice_cream_bucket"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_graham_cracker"
+        },
+        {
+            "amount": 27000,
+            "fluid": "createfood:ice_cream"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_graham_cracker_ice_cream"
+        }
+    ]
 }

@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:blackstrap_molasses_bucket",
-        "c:blackstrap_molasses_bottle"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:glass_bottle"
-    },
-    {
-      "amount":40500,"fluid":"createfood:blackstrap_molasses"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:blackstrap_molasses_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:blackstrap_molasses_bucket",
+                "c:blackstrap_molasses_bottle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 40500,
+            "fluid": "createfood:blackstrap_molasses"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:blackstrap_molasses_bottle"
+        }
+    ]
 }

@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:cooked_eggplant",
-        "c:pasta_plate_eggplant"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:cooked_eggplant",
+                "c:pasta_plate_eggplant"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "tag": "c:cooked_eggplant"
+        }
+    ],
+    "result": {
+        "item": "createfood:pasta_plate_eggplant"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate"
-    },
-    {
-      "tag": "c:cooked_eggplant"
-    }
-  ],
-  "result": {
-    "item": "createfood:pasta_plate_eggplant"
-  }
 }

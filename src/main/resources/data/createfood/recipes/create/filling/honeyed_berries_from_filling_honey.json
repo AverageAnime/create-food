@@ -1,30 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:honeyed_berries"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:sweet_berries"
-    },
-    {
-      "amount":27000,"fluid":"create:honey"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:honeyed_berries"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:honeyed_berries"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "amount": 27000,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:honeyed_berries"
+        }
+    ]
 }

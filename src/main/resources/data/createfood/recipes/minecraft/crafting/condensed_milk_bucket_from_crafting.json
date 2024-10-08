@@ -1,33 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:condensed_milk",
-        "c:condensed_milk_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:condensed_milk",
+                "c:condensed_milk_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:empty_buckets"
+        },
+        {
+            "tag": "c:condensed_milk_bottle"
+        },
+        {
+            "tag": "c:condensed_milk_bottle"
+        },
+        {
+            "tag": "c:condensed_milk_bottle"
+        },
+        {
+            "tag": "c:condensed_milk_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:condensed_milk_bucket"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:empty_buckets"
-    },
-    {
-      "tag": "c:condensed_milk_bottle"
-    },
-    {
-      "tag": "c:condensed_milk_bottle"
-    },
-    {
-      "tag": "c:condensed_milk_bottle"
-    },
-    {
-      "tag": "c:condensed_milk_bottle"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:condensed_milk_bucket"
-  }
 }

@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice",
-        "c:toast_slice"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:stove",
-  "ingredients": [
-    {
-      "tag": "c:bread_slice"
-    },
-    {
-      "tag": "c:bread_slice"
-    },
-    {
-      "tag": "c:bread_slice"
-    }
-  ],
-  "item": "createfood:toast_slice",
-  "count": 3,
-  "experience": 0.15
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice",
+                "c:toast_slice"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:stove",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice"
+        },
+        {
+            "tag": "c:bread_slice"
+        },
+        {
+            "tag": "c:bread_slice"
+        }
+    ],
+    "item": "createfood:toast_slice",
+    "count": 3,
+    "experience": 0.15
 }

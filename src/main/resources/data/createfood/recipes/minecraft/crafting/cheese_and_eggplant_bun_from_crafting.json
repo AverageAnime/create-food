@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:eggplant_bun",
-        "c:cheeses",
-        "c:cheese_and_eggplant_bun"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:eggplant_bun",
+                "c:cheeses",
+                "c:cheese_and_eggplant_bun"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:eggplant_bun"
+        },
+        {
+            "tag": "c:cheeses"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheese_and_eggplant_bun"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:eggplant_bun"
-    },
-    {
-      "tag": "c:cheeses"
-    }
-  ],
-  "result": {
-    "item": "createfood:cheese_and_eggplant_bun"
-  }
 }

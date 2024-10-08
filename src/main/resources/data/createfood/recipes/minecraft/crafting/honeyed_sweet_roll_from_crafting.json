@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_roll_base",
-        "c:honeyed_sweet_roll"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_roll_base"
-    },
-    {
-      "item": "minecraft:honey_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:honeyed_sweet_roll"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:honeyed_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_roll_base"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:honeyed_sweet_roll"
     }
 }

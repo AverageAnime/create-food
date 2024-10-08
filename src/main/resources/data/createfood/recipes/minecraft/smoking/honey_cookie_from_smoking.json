@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-      {
-        "condition": "fabric:tags_populated",
-        "values": [
-          "c:raw_honey_cookie",
-          "c:honey_cookie"
-        ]
-      }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "tag": "c:raw_honey_cookie"
-  },
-  "result": "farmersdelight:honey_cookie"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_honey_cookie",
+                "c:honey_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:raw_honey_cookie"
+    },
+    "result": "farmersdelight:honey_cookie"
 }

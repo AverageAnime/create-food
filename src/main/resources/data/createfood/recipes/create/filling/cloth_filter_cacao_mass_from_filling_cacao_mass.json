@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cloth_filter",
-        "c:cacao_mass_bucket",
-        "c:cloth_filter_cacao_mass"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:cloth_filter"
-    },
-    {
-      "amount":81000,"fluid":"createfood:cacao_mass"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:cloth_filter_cacao_mass"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cloth_filter",
+                "c:cacao_mass_bucket",
+                "c:cloth_filter_cacao_mass"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:cloth_filter"
+        },
+        {
+            "amount": 81000,
+            "fluid": "createfood:cacao_mass"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:cloth_filter_cacao_mass"
+        }
+    ]
 }

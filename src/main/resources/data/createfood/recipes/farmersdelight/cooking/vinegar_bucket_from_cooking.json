@@ -1,42 +1,42 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:vinegar_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:vinegar_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 600,
+    "experience": 0.95,
+    "ingredients": [
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:fruits"
+        },
+        {
+            "tag": "c:fruits"
+        }
+    ],
+    "result": {
+        "item": "createfood:vinegar_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 600,
-  "experience": 0.95,
-  "ingredients": [
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:fruits"
-    },
-    {
-      "tag": "c:fruits"
-    }
-  ],
-  "result": {
-    "item": "createfood:vinegar_bucket"
-  }
 }

@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_tomato_sauce",
-        "c:small_meatballs"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_tomato_sauce",
+                "c:small_meatballs"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_tomato_sauce"
+        },
+        {
+            "tag": "c:small_meatballs"
+        }
+    ],
+    "result": {
+        "item": "farmersdelight:pasta_with_meatballs"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate_tomato_sauce"
-    },
-    {
-      "tag": "c:small_meatballs"
-    }
-  ],
-  "result": {
-    "item": "farmersdelight:pasta_with_meatballs"
-  }
 }

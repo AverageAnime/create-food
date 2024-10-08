@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:glow_berry_jam_bucket",
-        "c:glow_berry_jam_bottle"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "item":"minecraft:glass_bottle"
-    },
-    {
-      "amount":40500,"fluid":"createfood:glow_berry_jam"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:glow_berry_jam_bottle"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:glow_berry_jam_bucket",
+                "c:glow_berry_jam_bottle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 40500,
+            "fluid": "createfood:glow_berry_jam"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:glow_berry_jam_bottle"
+        }
+    ]
 }

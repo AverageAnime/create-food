@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cooked_pasta",
-        "c:pasta_plate"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "item":"minecraft:bowl"
-    },
-    {
-      "tag":"c:cooked_pasta"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cooked_pasta",
+                "c:pasta_plate"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "tag": "c:cooked_pasta"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate"
+        }
+    ]
 }

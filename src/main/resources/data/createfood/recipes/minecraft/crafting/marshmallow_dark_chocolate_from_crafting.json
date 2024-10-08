@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_dark_chocolate",
-        "c:marshmallow",
-        "c:marshmallow_dark_chocolate"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_dark_chocolate",
+                "c:marshmallow",
+                "c:marshmallow_dark_chocolate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:hollow_dark_chocolate"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "result": {
+        "item": "createfood:marshmallow_dark_chocolate"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:hollow_dark_chocolate"
-    },
-    {
-      "tag": "c:marshmallow"
-    }
-  ],
-  "result": {
-    "item": "createfood:marshmallow_dark_chocolate"
-  }
 }

@@ -1,41 +1,43 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin",
-        "c:light_blue_gelatin_mix_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":81000, "fluid":"minecraft:water"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:gelatin"
-    },
-    {
-      "tag": "c:light_blue_dyes"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000, "fluid":"createfood:light_blue_gelatin_mix"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin",
+                "c:light_blue_gelatin_mix_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluid": "minecraft:water"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:gelatin"
+        },
+        {
+            "tag": "c:light_blue_dyes"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:light_blue_gelatin_mix"
+        }
+    ]
 }

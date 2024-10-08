@@ -1,27 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_soul_berry_cookie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_soul_berry_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "frightsdelight:soul_berry"
+        },
+        {
+            "tag": "c:eggs"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_soul_berry_cookie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "frightsdelight:soul_berry"
-    },
-    {
-      "tag": "c:eggs"
-    }
-  ],
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:raw_soul_berry_cookie"
-  }
 }

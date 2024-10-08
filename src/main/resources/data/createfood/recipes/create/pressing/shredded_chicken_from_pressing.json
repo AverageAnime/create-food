@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:shredded_chicken"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "item": "minecraft:chicken"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:shredded_chicken"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:shredded_chicken"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:chicken"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:shredded_chicken"
+        }
+    ]
 }

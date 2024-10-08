@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:caramel",
+                "c:caramel_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:caramel",
-        "c:caramel_bucket"
-      ]
+    "cookingtime": 50,
+    "experience": 0.1,
+    "ingredients": [
+        {
+            "tag": "c:caramel"
+        },
+        {
+            "tag": "c:caramel"
+        }
+    ],
+    "result": {
+        "item": "createfood:caramel_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 50,
-  "experience": 0.1,
-  "ingredients": [
-    {
-      "tag": "c:caramel"
-    },
-    {
-      "tag": "c:caramel"
-    }
-  ],
-  "result": {
-    "item": "createfood:caramel_bucket"
-  }
 }

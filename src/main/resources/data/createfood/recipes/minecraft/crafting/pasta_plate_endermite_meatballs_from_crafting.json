@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:small_endermite_meatballs",
-        "c:pasta_plate_endermite_meatballs"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:small_endermite_meatballs",
+                "c:pasta_plate_endermite_meatballs"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "tag": "c:small_endermite_meatballs"
+        }
+    ],
+    "result": {
+        "item": "createfood:pasta_plate_endermite_meatballs"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate"
-    },
-    {
-      "tag": "c:small_endermite_meatballs"
-    }
-  ],
-  "result": {
-    "item": "createfood:pasta_plate_endermite_meatballs"
-  }
 }

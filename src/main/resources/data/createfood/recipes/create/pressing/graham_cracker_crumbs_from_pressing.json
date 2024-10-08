@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:graham_cracker",
-        "c:graham_cracker_crumbs"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "tag": "c:graham_cracker"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:graham_cracker_crumbs"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:graham_cracker",
+                "c:graham_cracker_crumbs"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:graham_cracker"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:graham_cracker_crumbs"
+        }
+    ]
 }

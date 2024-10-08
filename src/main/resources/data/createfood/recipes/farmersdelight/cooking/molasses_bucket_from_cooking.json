@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cane_syrup_bucket",
-        "c:molasses_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cane_syrup_bucket",
+                "c:molasses_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 50,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:cane_syrup_bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:molasses_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 50,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:cane_syrup_bucket"
-    }
-  ],
-  "result": {
-    "item": "createfood:molasses_bucket"
-  }
 }

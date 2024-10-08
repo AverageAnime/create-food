@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:slime_bucket",
-        "c:pasta_plate_slime"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate"
-    },
-    {
-      "amount":20250,"fluid":"createfood:slime"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate_slime"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:slime_bucket",
+                "c:pasta_plate_slime"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:slime"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_slime"
+        }
+    ]
 }

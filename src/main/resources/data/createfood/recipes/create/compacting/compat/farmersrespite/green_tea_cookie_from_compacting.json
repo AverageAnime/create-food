@@ -1,34 +1,34 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:crops/green_tea_leaves",
-        "c:green_tea_cookie"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "tag": "c:crops/green_tea_leaves"
-    }
-  ],
-  "results":[
-    {
-      "count": 8,
-      "item":"farmersrespite:green_tea_cookie"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:crops/green_tea_leaves",
+                "c:green_tea_cookie"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:crops/green_tea_leaves"
+        }
+    ],
+    "results": [
+        {
+            "count": 8,
+            "item": "farmersrespite:green_tea_cookie"
+        }
+    ]
 }

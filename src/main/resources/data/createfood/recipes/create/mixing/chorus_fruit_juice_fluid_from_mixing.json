@@ -1,39 +1,40 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_juice_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:chorus_fruit_slice"
-    },
-    {
-      "tag":"c:chorus_fruit_slice"
-    },
-    {
-      "tag":"c:chorus_fruit_slice"
-    },
-    {
-      "tag":"c:chorus_fruit_slice"
-    }
-  ],
-  "results":[
-    {
-      "amount":27000, "fluid":"createfood:chorus_fruit_juice"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_juice_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:chorus_fruit_slice"
+        },
+        {
+            "tag": "c:chorus_fruit_slice"
+        },
+        {
+            "tag": "c:chorus_fruit_slice"
+        },
+        {
+            "tag": "c:chorus_fruit_slice"
+        }
+    ],
+    "results": [
+        {
+            "amount": 27000,
+            "fluid": "createfood:chorus_fruit_juice"
+        }
+    ]
 }

@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sausage_biscuit",
-        "c:biscuit",
-        "c:sausage_biscuit_sandwich"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sausage_biscuit",
+                "c:biscuit",
+                "c:sausage_biscuit_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sausage_biscuit"
+        },
+        {
+            "tag": "c:biscuit"
+        }
+    ],
+    "result": {
+        "item": "createfood:sausage_biscuit_sandwich"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sausage_biscuit"
-    },
-    {
-      "tag": "c:biscuit"
-    }
-  ],
-  "result": {
-    "item": "createfood:sausage_biscuit_sandwich"
-  }
 }

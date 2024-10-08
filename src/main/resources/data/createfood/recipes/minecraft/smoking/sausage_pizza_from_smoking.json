@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_sausage_pizza",
-        "c:sausage_pizza"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "tag": "c:raw_sausage_pizza"
-  },
-  "result": "createfood:sausage_pizza",
-  "experience": 0.2,
-  "cookingtime": 350
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_sausage_pizza",
+                "c:sausage_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "tag": "c:raw_sausage_pizza"
+    },
+    "result": "createfood:sausage_pizza",
+    "experience": 0.2,
+    "cookingtime": 350
 }

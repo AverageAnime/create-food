@@ -1,43 +1,44 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_pie_filling_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:butter"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:chorus_fruit"
-    },
-    {
-      "tag":"c:chorus_fruit"
-    },
-    {
-      "tag":"c:chorus_fruit"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000, "fluid":"createfood:chorus_fruit_pie_filling"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_pie_filling_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:butter"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createfood:chorus_fruit_pie_filling"
+        }
+    ]
 }

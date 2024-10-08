@@ -1,27 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_dragon_meat_cuts",
+                "c:minced_dragon"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "tag": "c:raw_dragon_meat_cuts"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_dragon_meat_cuts",
-        "c:minced_dragon"
-      ]
-    }
-  ],
-  "type": "farm_and_charm:mincer",
-  "ingredient":
-    {
-      "tag": "c:raw_dragon_meat_cuts"
-    },
-  "recipe_type": "MEAT",
-  "result":
-    {
-      "item": "createfood:minced_dragon"
+    "recipe_type": "MEAT",
+    "result": {
+        "item": "createfood:minced_dragon"
     }
 }

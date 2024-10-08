@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cane_syrup_bucket",
+                "c:molasses_bucket"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:pot_cooking",
+    "ingredients": [
+        {
+            "tag": "c:cane_syrup_bucket"
+        }
+    ],
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cane_syrup_bucket",
-        "c:molasses_bucket"
-      ]
+    "result": {
+        "item": "createfood:molasses_bucket"
     }
-  ],
-  "type": "farm_and_charm:pot_cooking",
-  "ingredients": [
-    {
-      "tag": "c:cane_syrup_bucket"
-    }
-  ],
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "result": {
-    "item": "createfood:molasses_bucket"
-  }
 }

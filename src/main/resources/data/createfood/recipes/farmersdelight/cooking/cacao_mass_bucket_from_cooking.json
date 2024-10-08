@@ -1,40 +1,40 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_nibs",
+                "c:cacao_mass_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_nibs",
-        "c:cacao_mass_bucket"
-      ]
+    "cookingtime": 100,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:cacao_nibs"
+        },
+        {
+            "tag": "c:cacao_nibs"
+        },
+        {
+            "tag": "c:cacao_nibs"
+        },
+        {
+            "tag": "c:cacao_nibs"
+        }
+    ],
+    "result": {
+        "item": "createfood:cacao_mass_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 100,
-  "experience": 1.0,
-  "ingredients": [
-    {
-      "tag": "c:cacao_nibs"
-    },
-    {
-      "tag": "c:cacao_nibs"
-    },
-    {
-      "tag": "c:cacao_nibs"
-    },
-    {
-      "tag": "c:cacao_nibs"
-    }
-  ],
-  "result": {
-    "item": "createfood:cacao_mass_bucket"
-  }
 }

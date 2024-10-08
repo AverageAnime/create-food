@@ -1,25 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_roll_base",
-        "c:glow_berry_cream_frosting",
-        "c:glow_berry_cream_frosted_sweet_roll"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:glow_berry_cream_frosting",
+                "c:glow_berry_cream_frosted_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_roll_base"
+        },
+        {
+            "tag": "c:glow_berry_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:glow_berry_cream_frosted_sweet_roll"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_roll_base"
-    },
-    {
-      "tag": "c:glow_berry_cream_frosting"
-    }
-  ],
-  "result":
-  {
-    "item": "createfood:glow_berry_cream_frosted_sweet_roll"
-  }
 }

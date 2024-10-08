@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:dark_chocolate_fudge_bucket",
-        "c:dark_chocolate_fudge"
-      ]
-    }
-  ],
-  "type": "create:compacting",
-  "ingredients": [
-    {
-      "amount": 40500,
-      "fluid": "createfood:dark_chocolate_fudge"
-    }
-  ],
-  "results": [
-    {
-      "item": "createfood:dark_chocolate_fudge"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dark_chocolate_fudge_bucket",
+                "c:dark_chocolate_fudge"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:dark_chocolate_fudge"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:dark_chocolate_fudge"
+        }
+    ]
 }

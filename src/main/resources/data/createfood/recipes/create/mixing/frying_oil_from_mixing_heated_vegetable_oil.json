@@ -1,28 +1,30 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create_bic_bit"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:vegetable_oil_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount": 40500, "fluid": "createfood:vegetable_oil"
-    }
-  ],
-  "results":[
-    {
-      "amount": 40500, "fluid": "create_bic_bit:frying_oil"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create_bic_bit"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:vegetable_oil_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:vegetable_oil"
+        }
+    ],
+    "results": [
+        {
+            "amount": 40500,
+            "fluid": "create_bic_bit:frying_oil"
+        }
+    ]
 }

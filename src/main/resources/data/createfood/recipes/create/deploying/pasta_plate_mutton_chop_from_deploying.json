@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:pasta_plate_mutton_chop"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate"
-    },
-    {
-      "tag":"c:cooked_mutton"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate_mutton_chop"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:pasta_plate_mutton_chop"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "tag": "c:cooked_mutton"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_mutton_chop"
+        }
+    ]
 }

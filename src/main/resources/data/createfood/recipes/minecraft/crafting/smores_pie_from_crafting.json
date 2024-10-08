@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chocolate_pie_graham_cracker",
-        "c:marshmallow",
-        "c:smores_pie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_pie_graham_cracker",
+                "c:marshmallow",
+                "c:smores_pie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chocolate_pie_graham_cracker"
+        },
+        {
+            "tag": "c:marshmallow"
+        }
+    ],
+    "result": {
+        "item": "createfood:smores_pie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:chocolate_pie_graham_cracker"
-    },
-    {
-      "tag": "c:marshmallow"
-    }
-  ],
-  "result": {
-    "item": "createfood:smores_pie"
-  }
 }

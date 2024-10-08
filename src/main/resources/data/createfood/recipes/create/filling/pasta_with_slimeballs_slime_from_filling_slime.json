@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_slimeballs",
-        "c:slime_bucket"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate_slimeballs"
-    },
-    {
-      "amount":20250,"fluid":"createfood:slime"
-    }
-  ],
-  "results":[
-    {
-      "item":"frightsdelight:pasta_with_slimeballs"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_slimeballs",
+                "c:slime_bucket"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_slimeballs"
+        },
+        {
+            "amount": 20250,
+            "fluid": "createfood:slime"
+        }
+    ],
+    "results": [
+        {
+            "item": "frightsdelight:pasta_with_slimeballs"
+        }
+    ]
 }

@@ -1,42 +1,42 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farm_and_charm"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:water_buckets",
+                "c:gelatin"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:pot_cooking",
+    "ingredients": [
+        {
+            "tag": "c:water_buckets"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:bone"
+        }
+    ],
+    "container": {
+        "item": "minecraft:bowl"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:water_buckets",
-        "c:gelatin"
-      ]
+    "result": {
+        "item": "createfood:gelatin",
+        "count": 4
     }
-  ],
-  "type": "farm_and_charm:pot_cooking",
-  "ingredients": [
-    {
-      "tag": "c:water_buckets"
-    },
-    {
-      "item": "minecraft:bone"
-    },
-    {
-      "item": "minecraft:bone"
-    },
-    {
-      "item": "minecraft:bone"
-    },
-    {
-      "item": "minecraft:bone"
-    }
-  ],
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "result": {
-    "item": "createfood:gelatin",
-    "count": 4
-  }
 }

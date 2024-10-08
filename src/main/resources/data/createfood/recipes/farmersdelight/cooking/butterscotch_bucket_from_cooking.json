@@ -1,40 +1,40 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:brown_sugar",
+                "c:butterscotch_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:brown_sugar",
-        "c:butterscotch_bucket"
-      ]
+    "cookingtime": 50,
+    "experience": 0.25,
+    "ingredients": [
+        {
+            "tag": "c:brown_sugar"
+        },
+        {
+            "tag": "c:brown_sugar"
+        },
+        {
+            "tag": "c:brown_sugar"
+        },
+        {
+            "tag": "c:brown_sugar"
+        }
+    ],
+    "result": {
+        "item": "createfood:butterscotch_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 50,
-  "experience": 0.25,
-  "ingredients": [
-    {
-      "tag": "c:brown_sugar"
-    },
-    {
-      "tag": "c:brown_sugar"
-    },
-    {
-      "tag": "c:brown_sugar"
-    },
-    {
-      "tag": "c:brown_sugar"
-    }
-  ],
-  "result": {
-    "item": "createfood:butterscotch_bucket"
-  }
 }

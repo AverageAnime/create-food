@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:caramel",
-        "c:caramel_glazed_apple"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:caramel",
+                "c:caramel_glazed_apple"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:apple"
+        },
+        {
+            "tag": "c:caramel"
+        }
+    ],
+    "result": {
+        "item": "createfood:caramel_glazed_apple"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:apple"
-    },
-    {
-      "tag": "c:caramel"
-    }
-  ],
-  "result": {
-    "item": "createfood:caramel_glazed_apple"
-  }
 }

@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:raw_sausage_patty",
-        "c:sausage_patty"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:raw_sausage_patty"
-  },
-  "result": "createfood:sausage_patty",
-  "experience": 0.1,
-  "cookingtime": 200
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_sausage_patty",
+                "c:sausage_patty"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_sausage_patty"
+    },
+    "result": "createfood:sausage_patty",
+    "experience": 0.1,
+    "cookingtime": 200
 }

@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:brown_sugar",
-        "c:butterscotch_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:brown_sugar"
-    },
-    {
-      "tag":"c:brown_sugar"
-    }
-  ],
-  "results":[
-    {
-      "amount":40500,"fluid":"createfood:butterscotch"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:brown_sugar",
+                "c:butterscotch_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:brown_sugar"
+        },
+        {
+            "tag": "c:brown_sugar"
+        }
+    ],
+    "results": [
+        {
+            "amount": 40500,
+            "fluid": "createfood:butterscotch"
+        }
+    ]
 }

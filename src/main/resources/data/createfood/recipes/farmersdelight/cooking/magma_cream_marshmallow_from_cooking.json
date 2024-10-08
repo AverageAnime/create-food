@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:magma_cream_marshmallow"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:magma_cream_marshmallow"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 50,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "tag": "c:magma_gelatin"
+        }
+    ],
+    "result": {
+        "item": "createfood:magma_cream_marshmallow"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 50,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "tag": "c:magma_gelatin"
-    }
-  ],
-  "result": {
-    "item": "createfood:magma_cream_marshmallow"
-  }
 }

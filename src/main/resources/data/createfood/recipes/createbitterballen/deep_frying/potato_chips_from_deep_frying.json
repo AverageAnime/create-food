@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create_bic_bit"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sliced_potato",
-        "c:potato_chips"
-      ]
-    }
-  ],
-  "type": "create_bic_bit:deep_frying",
-  "heatRequirement": "heated",
-  "ingredients": [
-    {
-      "tag": "c:sliced_potato"
-    },
-    {
-      "amount": 10125,
-      "fluid": "create_bic_bit:frying_oil"
-    }
-  ],
-  "processingTime": 100,
-  "results": [
-    {
-      "item": "createfood:potato_chips"
-    },
-    {
-      "item": "createfood:potato_chips"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create_bic_bit"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sliced_potato",
+                "c:potato_chips"
+            ]
+        }
+    ],
+    "type": "create_bic_bit:deep_frying",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:sliced_potato"
+        },
+        {
+            "amount": 10125,
+            "fluid": "create_bic_bit:frying_oil"
+        }
+    ],
+    "processingTime": 100,
+    "results": [
+        {
+            "item": "createfood:potato_chips"
+        },
+        {
+            "item": "createfood:potato_chips"
+        }
+    ]
 }

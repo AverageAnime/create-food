@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:salt",
-        "c:butter_compat"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:salt",
+                "c:butter_compat"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 150,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:milk_bottle"
+        },
+        {
+            "tag": "c:salt"
+        }
+    ],
+    "result": {
+        "item": "createfood:butter"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 150,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:milk_bottle"
-    },
-    {
-      "tag": "c:salt"
-    }
-  ],
-  "result": {
-    "item": "createfood:butter"
-  }
 }

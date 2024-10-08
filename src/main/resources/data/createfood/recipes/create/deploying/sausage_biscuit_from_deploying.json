@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:biscuit",
-        "c:sausage_patty",
-        "c:sausage_biscuit"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:biscuit"
-    },
-    {
-      "tag":"c:sausage_patty"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:sausage_biscuit"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:biscuit",
+                "c:sausage_patty",
+                "c:sausage_biscuit"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:biscuit"
+        },
+        {
+            "tag": "c:sausage_patty"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:sausage_biscuit"
+        }
+    ]
 }

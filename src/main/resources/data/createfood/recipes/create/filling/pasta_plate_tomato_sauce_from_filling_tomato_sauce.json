@@ -1,32 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "delightfulcreators"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate",
-        "c:pasta_plate_tomato_sauce"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:pasta_plate"
-    },
-    {
-      "amount":20250,"fluid":"delightfulcreators:tomato_sauce"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:pasta_plate_tomato_sauce"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "delightfulcreators"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:pasta_plate_tomato_sauce"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate"
+        },
+        {
+            "amount": 20250,
+            "fluid": "delightfulcreators:tomato_sauce"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_tomato_sauce"
+        }
+    ]
 }

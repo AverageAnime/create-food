@@ -1,19 +1,19 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:slime_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:slime_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:slime_bucket"
+        }
+    ],
+    "result": {
+        "item": "minecraft:slime_block"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:slime_bucket"
-    }
-  ],
-  "result": {
-    "item": "minecraft:slime_block"
-  }
 }

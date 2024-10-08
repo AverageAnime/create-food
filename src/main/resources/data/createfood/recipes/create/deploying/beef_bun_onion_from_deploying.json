@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:beef_bun",
-        "c:beef_bun_onion"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:beef_bun"
-    },
-    {
-      "tag": "c:onion"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:beef_bun_onion"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun",
+                "c:beef_bun_onion"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:beef_bun"
+        },
+        {
+            "tag": "c:onion"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:beef_bun_onion"
+        }
+    ]
 }

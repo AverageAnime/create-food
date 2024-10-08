@@ -1,39 +1,39 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:unbreaded_chicken_patty",
+                "c:toast",
+                "c:chicken_patty"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "createfood:unbreaded_chicken_patty"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:unbreaded_chicken_patty",
-        "c:toast",
-        "c:chicken_patty"
-      ]
+    "cookingtime": 350,
+    "experience": 0.2,
+    "ingredients": [
+        {
+            "tag": "c:milk_bottle"
+        },
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "tag": "c:toast"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:chicken_patty"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "createfood:unbreaded_chicken_patty"
-  },
-  "cookingtime": 350,
-  "experience": 0.2,
-  "ingredients": [
-    {
-      "tag": "c:milk_bottle"
-    },
-    {
-      "tag": "c:eggs"
-    },
-    {
-      "tag": "c:toast"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "createfood:chicken_patty"
-  }
 }

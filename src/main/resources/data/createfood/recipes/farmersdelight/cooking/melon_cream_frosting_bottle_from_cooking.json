@@ -1,36 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_cream_frosting"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:glass_bottle"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_cream_frosting"
-      ]
+    "cookingtime": 50,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:milk_bottle"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:melon"
+        }
+    ],
+    "result": {
+        "item": "createfood:melon_cream_frosting_bottle"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
-  "cookingtime": 50,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:milk_bottle"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "tag": "c:melon"
-    }
-  ],
-  "result": {
-    "item": "createfood:melon_cream_frosting_bottle"
-  }
 }

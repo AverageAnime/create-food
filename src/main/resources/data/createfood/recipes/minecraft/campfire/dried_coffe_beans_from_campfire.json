@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:coffee_beans",
-        "c:dried_coffee_beans"
-      ]
-    }
-  ],
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "c:coffee_beans"
-  },
-  "result": "createfood:dried_coffee_beans",
-  "experience": 0.1,
-  "cookingtime": 25
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:coffee_beans",
+                "c:dried_coffee_beans"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:coffee_beans"
+    },
+    "result": "createfood:dried_coffee_beans",
+    "experience": 0.1,
+    "cookingtime": 25
 }

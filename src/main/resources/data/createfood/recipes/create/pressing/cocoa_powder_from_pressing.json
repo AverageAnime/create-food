@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pressed_cocoa",
-        "c:cocoa_powder"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "item": "createfood:pressed_cocoa"
-    }
-  ],
-  "results": [
-    {
-      "count": 3,
-      "item": "createfood:cocoa_powder"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pressed_cocoa",
+                "c:cocoa_powder"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "createfood:pressed_cocoa"
+        }
+    ],
+    "results": [
+        {
+            "count": 3,
+            "item": "createfood:cocoa_powder"
+        }
+    ]
 }

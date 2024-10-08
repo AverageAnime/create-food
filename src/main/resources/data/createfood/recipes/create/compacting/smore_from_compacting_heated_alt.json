@@ -1,36 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:graham_cracker",
-        "c:marshmallow_chocolate",
-        "c:smore"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:graham_cracker"
-    },
-    {
-      "tag":"c:marshmallow_chocolate"
-    },
-    {
-      "tag":"c:graham_cracker"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:smore"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:graham_cracker",
+                "c:marshmallow_chocolate",
+                "c:smore"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:graham_cracker"
+        },
+        {
+            "tag": "c:marshmallow_chocolate"
+        },
+        {
+            "tag": "c:graham_cracker"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:smore"
+        }
+    ]
 }

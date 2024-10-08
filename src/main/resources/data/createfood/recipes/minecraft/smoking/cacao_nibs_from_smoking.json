@@ -1,17 +1,17 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_nibs"
-      ]
-    }
-  ],
-  "type": "minecraft:smoking",
-  "cookingtime": 100,
-  "experience": 0.2,
-  "ingredient": {
-    "item": "minecraft:cocoa_beans"
-  },
-  "result": "createfood:cacao_nibs"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_nibs"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.2,
+    "ingredient": {
+        "item": "minecraft:cocoa_beans"
+    },
+    "result": "createfood:cacao_nibs"
 }

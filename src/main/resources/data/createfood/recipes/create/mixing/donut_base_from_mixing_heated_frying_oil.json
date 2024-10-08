@@ -1,33 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create_bic_bit"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pastry_base",
-        "c:donut_base"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag": "c:pastry_base"
-    },
-    {
-      "amount": 10125,
-      "fluid": "create_bic_bit:frying_oil"
-    }
-  ],
-  "results":[
-    {
-      "item": "createfood:donut_base"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create_bic_bit"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_base",
+                "c:donut_base"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:pastry_base"
+        },
+        {
+            "amount": 10125,
+            "fluid": "create_bic_bit:frying_oil"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:donut_base"
+        }
+    ]
 }

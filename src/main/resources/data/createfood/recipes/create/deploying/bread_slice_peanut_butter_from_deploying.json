@@ -1,32 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice",
-        "c:peanut_butter",
-        "c:bread_slice_peanut_butter"
-      ]
-    }
-  ],
-  "type":"create:deploying",
-  "ingredients":[
-    {
-      "tag":"c:bread_slice"
-    },
-    {
-      "tag":"c:peanut_butter"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:bread_slice_peanut_butter"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice",
+                "c:peanut_butter",
+                "c:bread_slice_peanut_butter"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice"
+        },
+        {
+            "tag": "c:peanut_butter"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:bread_slice_peanut_butter"
+        }
+    ]
 }

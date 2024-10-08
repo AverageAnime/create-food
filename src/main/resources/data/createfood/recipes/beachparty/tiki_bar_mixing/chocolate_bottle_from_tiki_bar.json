@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "beachparty"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:hollow_chocolate",
-        "c:chocolate_bottle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "beachparty"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_chocolate",
+                "c:chocolate_bottle"
+            ]
+        }
+    ],
+    "type": "beachparty:tiki_bar_mixing",
+    "ingredients": [
+        {
+            "tag": "c:hollow_chocolate"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_bottle"
     }
-  ],
-  "type": "beachparty:tiki_bar_mixing",
-  "ingredients": [
-    {
-      "tag": "c:hollow_chocolate"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
-  ],
-  "result": {
-    "item": "createfood:chocolate_bottle"
-  }
 }

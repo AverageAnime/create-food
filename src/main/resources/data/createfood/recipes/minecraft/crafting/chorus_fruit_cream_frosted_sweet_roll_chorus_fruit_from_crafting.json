@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:chorus_fruit_cream_frosted_sweet_roll",
-        "c:chorus_fruit",
-        "c:chorus_fruit_cream_frosted_sweet_roll_chorus_fruit"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_cream_frosted_sweet_roll",
+                "c:chorus_fruit",
+                "c:chorus_fruit_cream_frosted_sweet_roll_chorus_fruit"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:chorus_fruit_cream_frosted_sweet_roll"
+        },
+        {
+            "tag": "c:chorus_fruit"
+        }
+    ],
+    "result": {
+        "item": "createfood:chorus_fruit_cream_frosted_sweet_roll_chorus_fruit"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag":"c:chorus_fruit_cream_frosted_sweet_roll"
-    },
-    {
-      "tag":"c:chorus_fruit"
-    }
-  ],
-  "result": {
-    "item": "createfood:chorus_fruit_cream_frosted_sweet_roll_chorus_fruit"
-  }
 }

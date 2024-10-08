@@ -1,26 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:sweet_dough",
-        "c:butterscotch_chips",
-        "c:raw_butterscotch_chips_cookie"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:butterscotch_chips",
+                "c:raw_butterscotch_chips_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:sweet_dough"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_butterscotch_chips_cookie"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:sweet_dough"
-    },
-    {
-      "tag": "c:butterscotch_chips"
-    }
-  ],
-  "result":
-  {
-    "count": 8,
-    "item": "createfood:raw_butterscotch_chips_cookie"
-  }
 }

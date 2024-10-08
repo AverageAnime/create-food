@@ -1,27 +1,27 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:ube_sugar_dough",
-        "c:crops/ube"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_sugar_dough",
+                "c:vegetables/ube"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:vegetables/ube"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:ube_sugar_dough"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "tag": "c:sugar"
-    },
-    {
-      "item": "c:crops/ube"
-    }
-  ],
-  "result": {
-    "count": 3,
-    "item": "createfood:ube_sugar_dough"
-  }
 }

@@ -1,18 +1,18 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:shredded_potato",
-        "c:hash_browns"
-      ]
-    }
-  ],
-  "type": "minecraft:smelting",
-  "cookingtime": 75,
-  "experience": 0.55,
-  "ingredient": {
-    "tag": "c:shredded_potato"
-  },
-  "result": "createfood:hash_browns"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:shredded_potato",
+                "c:hash_browns"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "cookingtime": 75,
+    "experience": 0.55,
+    "ingredient": {
+        "tag": "c:shredded_potato"
+    },
+    "result": "createfood:hash_browns"
 }

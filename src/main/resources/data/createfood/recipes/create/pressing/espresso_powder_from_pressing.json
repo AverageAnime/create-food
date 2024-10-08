@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:dried_coffee_beans",
-        "c:espresso_powder"
-      ]
-    }
-  ],
-  "type": "create:pressing",
-  "ingredients": [
-    {
-      "tag": "c:dried_coffee_beans"
-    }
-  ],
-  "results": [
-    {
-      "count": 2,
-      "item": "createfood:espresso_powder"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dried_coffee_beans",
+                "c:espresso_powder"
+            ]
+        }
+    ],
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:dried_coffee_beans"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:espresso_powder"
+        }
+    ]
 }

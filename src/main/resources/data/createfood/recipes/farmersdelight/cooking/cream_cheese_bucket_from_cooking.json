@@ -1,35 +1,35 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:vinegar_bucket",
-        "c:salt",
-        "c:cream_cheese_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:vinegar_bucket",
+                "c:salt",
+                "c:cream_cheese_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 350,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:milks"
+        },
+        {
+            "item": "createfood:vinegar_bottle"
+        },
+        {
+            "tag": "c:salt"
+        }
+    ],
+    "result": {
+        "item": "createfood:cream_cheese_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "cookingtime": 350,
-  "experience": 1.0,
-  "ingredients": [
-    {
-      "tag": "c:milks"
-    },
-    {
-      "item": "createfood:vinegar_bottle"
-    },
-    {
-      "tag": "c:salt"
-    }
-  ],
-  "result": {
-    "item": "createfood:cream_cheese_bucket"
-  }
 }

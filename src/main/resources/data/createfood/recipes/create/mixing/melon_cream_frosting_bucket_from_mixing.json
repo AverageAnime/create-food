@@ -1,54 +1,55 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_cream_frosting_bucket"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "ingredients":[
-    {
-      "amount":81000, "fluidTag":"c:milk"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:sugar"
-    },
-    {
-      "tag":"c:melon"
-    },
-    {
-      "tag":"c:melon"
-    },
-    {
-      "tag":"c:melon"
-    },
-    {
-      "tag":"c:melon"
-    },
-    {
-      "item":"minecraft:bucket"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:melon_cream_frosting_bucket"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_cream_frosting_bucket"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 81000,
+            "fluidTag": "c:milk"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:melon"
+        },
+        {
+            "tag": "c:melon"
+        },
+        {
+            "tag": "c:melon"
+        },
+        {
+            "tag": "c:melon"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:melon_cream_frosting_bucket"
+        }
+    ]
 }

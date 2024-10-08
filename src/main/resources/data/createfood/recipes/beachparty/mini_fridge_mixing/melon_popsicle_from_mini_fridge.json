@@ -1,28 +1,28 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "beachparty"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_popsicle"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "beachparty"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_popsicle"
+            ]
+        }
+    ],
+    "type": "beachparty:mini_fridge_mixing",
+    "ingredients": [
+        {
+            "tag": "c:melon"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ],
+    "result": {
+        "item": "farmersdelight:melon_popsicle"
     }
-  ],
-  "type": "beachparty:mini_fridge_mixing",
-  "ingredients": [
-    {
-      "tag": "c:melon"
-    },
-    {
-      "item": "minecraft:ice"
-    }
-  ],
-  "result": {
-    "item": "farmersdelight:melon_popsicle"
-  }
 }

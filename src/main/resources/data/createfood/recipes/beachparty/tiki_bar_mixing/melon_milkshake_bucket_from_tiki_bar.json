@@ -1,29 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "beachparty"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:melon_ice_cream_bowl",
-        "c:melon_milkshake_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "beachparty"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:melon_ice_cream_bowl",
+                "c:melon_milkshake_bucket"
+            ]
+        }
+    ],
+    "type": "beachparty:tiki_bar_mixing",
+    "ingredients": [
+        {
+            "tag": "c:melon_ice_cream_bowl"
+        },
+        {
+            "tag": "c:milk_buckets"
+        }
+    ],
+    "result": {
+        "item": "createfood:melon_milkshake_bucket"
     }
-  ],
-  "type": "beachparty:tiki_bar_mixing",
-  "ingredients": [
-    {
-      "tag": "c:melon_ice_cream_bowl"
-    },
-    {
-      "tag": "c:milk_buckets"
-    }
-  ],
-  "result": {
-    "item": "createfood:melon_milkshake_bucket"
-  }
 }

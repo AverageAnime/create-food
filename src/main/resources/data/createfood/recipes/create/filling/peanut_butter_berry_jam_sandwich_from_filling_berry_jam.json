@@ -1,31 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:peanut_butter_sandwich",
-        "c:berry_jam_bucket"
-      ]
-    }
-  ],
-  "type":"create:filling",
-  "ingredients":[
-    {
-      "tag":"c:peanut_butter_sandwich"
-    },
-    {
-      "amount":10125,"fluid":"createfood:berry_jam"
-    }
-  ],
-  "results":[
-    {
-      "item":"expandeddelight:sweet_berry_jelly_sandwich"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:peanut_butter_sandwich",
+                "c:berry_jam_bucket"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:peanut_butter_sandwich"
+        },
+        {
+            "amount": 10125,
+            "fluid": "createfood:berry_jam"
+        }
+    ],
+    "results": [
+        {
+            "item": "expandeddelight:sweet_berry_jelly_sandwich"
+        }
+    ]
 }

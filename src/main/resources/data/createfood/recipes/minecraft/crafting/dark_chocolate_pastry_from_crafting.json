@@ -1,24 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pastry_base",
-        "c:dark_chocolate_bottle",
-        "c:dark_chocolate_pastry"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pastry_base"
-    },
-    {
-      "tag": "c:dark_chocolate_bottle"
-    }
-  ],
-  "result": {
-      "item": "createfood:dark_chocolate_pastry"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_base",
+                "c:dark_chocolate_bottle",
+                "c:dark_chocolate_pastry"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pastry_base"
+        },
+        {
+            "tag": "c:dark_chocolate_bottle"
+        }
+    ],
+    "result": {
+        "item": "createfood:dark_chocolate_pastry"
     }
 }

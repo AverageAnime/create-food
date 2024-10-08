@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:pasta_plate_fish",
-        "c:squid_ink_bucket"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_fish",
+                "c:squid_ink_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:pasta_plate_fish"
+        },
+        {
+            "tag": "c:squid_ink_bucket"
+        }
+    ],
+    "result": {
+        "item": "farmersdelight:squid_ink_pasta"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:pasta_plate_fish"
-    },
-    {
-      "tag": "c:squid_ink_bucket"
-    }
-  ],
-  "result": {
-    "item": "farmersdelight:squid_ink_pasta"
-  }
 }

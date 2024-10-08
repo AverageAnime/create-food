@@ -1,43 +1,44 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:gelatin"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":6750, "fluid":"minecraft:water"
-    },
-    {
-      "item":"minecraft:bone"
-    },
-    {
-      "item":"minecraft:bone"
-    }
-  ],
-  "results":[
-    {
-      "item":"createfood:gelatin"
-    },
-    {
-      "item":"createfood:gelatin"
-    },
-    {
-      "item":"createfood:gelatin"
-    },
-    {
-      "item":"createfood:gelatin"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 6750,
+            "fluid": "minecraft:water"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:bone"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:gelatin"
+        },
+        {
+            "item": "createfood:gelatin"
+        },
+        {
+            "item": "createfood:gelatin"
+        },
+        {
+            "item": "createfood:gelatin"
+        }
+    ]
 }

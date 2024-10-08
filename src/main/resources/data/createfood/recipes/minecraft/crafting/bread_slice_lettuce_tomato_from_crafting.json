@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:bread_slice_lettuce",
-        "c:bread_slice_lettuce_tomato"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_lettuce",
+                "c:bread_slice_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:bread_slice_lettuce"
+        },
+        {
+            "tag": "c:tomato"
+        }
+    ],
+    "result": {
+        "item": "createfood:bread_slice_lettuce_tomato"
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "c:bread_slice_lettuce"
-    },
-    {
-      "tag": "c:tomato"
-    }
-  ],
-  "result": {
-    "item": "createfood:bread_slice_lettuce_tomato"
-  }
 }

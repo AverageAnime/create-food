@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "farmersdelight"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cacao_butter",
+                "c:cacao_butter_bucket"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bucket"
     },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:cacao_butter",
-        "c:cacao_butter_bucket"
-      ]
+    "cookingtime": 50,
+    "experience": 0.5,
+    "ingredients": [
+        {
+            "tag": "c:cacao_butter"
+        },
+        {
+            "tag": "c:cacao_butter"
+        },
+        {
+            "tag": "c:cacao_butter"
+        }
+    ],
+    "result": {
+        "item": "createfood:cacao_butter_bucket"
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bucket"
-  },
-  "cookingtime": 50,
-  "experience": 0.5,
-  "ingredients": [
-    {
-      "tag": "c:cacao_butter"
-    },
-    {
-      "tag": "c:cacao_butter"
-    },
-    {
-      "tag": "c:cacao_butter"
-    }
-  ],
-  "result": {
-    "item": "createfood:cacao_butter_bucket"
-  }
 }
