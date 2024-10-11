@@ -1,5 +1,4 @@
-![cflogofixed](https://github.com/AverageAnime/create-food/assets/150550990/e2b1eb71-d719-4323-b4c7-e1601533ced4)
-
+![cflogobanner](https://github.com/user-attachments/assets/459fad44-da37-49a6-99e9-83085f49c48d)
 ### **About:**
 
 Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated) based on expanding food content found in Create, Farmer's Delight, and vanilla MC. This mod is designed with compatibility in mind, with various features to help integration with other mods.
@@ -21,29 +20,9 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 * [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated)
 
 
-### **Mod Recommendations:**
+### **Read More:**
 
-* [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
-* [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue-fabric) & [Menulogue](https://www.curseforge.com/minecraft/mc-mods/menulogue) - Configure mod options.
-* [Cultural Creators](https://www.curseforge.com/minecraft/mc-mods/cultural-creators-fabric-create-and-cultural) - Create and Cultural Delights compatibility.
-* [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) - More recipes.
-* [Dehydration](https://www.curseforge.com/minecraft/mc-mods/dehydration) - Appropriate items give hydration.
-* [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) - Create and Farmer's Delight compatibility.
-* [Roughly Enough Items](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) - View recipes and items.
-
-### **Optional items available for:**
-
-* [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights-fabric)
-* [End's Delight](https://www.curseforge.com/minecraft/mc-mods/ends-delight)
-* [Expanded Delight](https://www.curseforge.com/minecraft/mc-mods/expanded-delight)
-* [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite-fabric)
-* [Fright's Delight](https://www.curseforge.com/minecraft/mc-mods/frights-delight)
-* [Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated) / [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric) 
-* [My Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight-refabricated) / [My Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight)
-* [Ube's Delight](https://www.curseforge.com/minecraft/mc-mods/ubes-delight)
-
-### **Configuration:**
-
+*  [Mod Compatibility](https://github.com/AverageAnime/create-food/wiki/Compatibility)
 *  [Built-in Resource Packs](https://github.com/AverageAnime/create-food/wiki/Resource-Packs)
 *  [Config Options](https://github.com/AverageAnime/create-food/wiki/Config-Options)
 *  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
