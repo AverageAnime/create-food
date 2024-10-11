@@ -1,0 +1,8 @@
+{
+  "providers": [
+    {
+      "type": "bitmap", "file": "createfood:font/logo.png",
+      "ascent": 9, "height": 96, "chars": ["\uE001"]
+    }
+  ]
+}
