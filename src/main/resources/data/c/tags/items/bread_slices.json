@@ -4,10 +4,6 @@
     {
       "id": "createfood:bread_slice",
       "required": false
-    },
-    {
-      "id": "moredelight:bread_slice",
-      "required": false
     }
   ]
 }

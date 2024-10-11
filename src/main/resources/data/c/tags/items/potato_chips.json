@@ -4,6 +4,10 @@
     {
       "id": "createfood:potato_chips",
       "required": false
+    },
+    {
+      "id": "casualnessdelight:potato_chip",
+      "required": false
     }
   ]
 }

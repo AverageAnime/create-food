@@ -8,6 +8,10 @@
     {
       "id": "meadow:cheese_block",
       "required": false
+    },
+    {
+      "id": "casualnessdelight:cheese_wheel",
+      "required": false
     }
   ]
 }
