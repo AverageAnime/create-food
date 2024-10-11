@@ -1,3 +1,17 @@
+### ***1.1.4***
+
+General:
+* Fix JMC crafting recipes.
+* Tag compatibility for More Delight & Casualness Delight [(#37)](https://github.com/AverageAnime/create-food/issues/37).
+* New load conditions for Ube's Delight related loot tables to remove some log spam [(#38)](https://github.com/AverageAnime/create-food/issues/38). 
+* Updated Ube Cake texture added to Ube's Delight resource pack.
+
+Fabric:
+* Fix icon texture size to prevent mip map quality issues. [(#36)](https://github.com/AverageAnime/create-food/issues/36).
+
+Forge: 
+* Fix shaped recipes [(#35)](https://github.com/AverageAnime/create-food/issues/35).
+
 ### ***1.1.3***
 
 General:
