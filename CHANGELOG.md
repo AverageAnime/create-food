@@ -5,12 +5,15 @@ General:
 * Tag compatibility for More Delight & Casualness Delight [(#37)](https://github.com/AverageAnime/create-food/issues/37).
 * New load conditions for Ube's Delight related loot tables to remove some log spam [(#38)](https://github.com/AverageAnime/create-food/issues/38). 
 * Updated Ube Cake texture added to Ube's Delight resource pack.
+* Fix default cake texture [(#39)](https://github.com/AverageAnime/create-food/issues/39).
 
 Fabric:
-* Fix icon texture size to prevent mip map quality issues. [(#36)](https://github.com/AverageAnime/create-food/issues/36).
+* Change icon texture size to prevent mip map quality issues. [(#36)](https://github.com/AverageAnime/create-food/issues/36).
 
 Forge: 
 * Fix shaped recipes [(#35)](https://github.com/AverageAnime/create-food/issues/35).
+* Added missing load conditions.
+* Added missing item.
 
 ### ***1.1.3***
 
