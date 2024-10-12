@@ -22,9 +22,8 @@
             "item": "minecraft:pumpkin"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:pumpkin_cake"
         }
-    ]
 }

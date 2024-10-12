@@ -22,9 +22,8 @@
             "item": "minecraft:warped_fungus"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:warped_fungus_cake"
         }
-    ]
 }

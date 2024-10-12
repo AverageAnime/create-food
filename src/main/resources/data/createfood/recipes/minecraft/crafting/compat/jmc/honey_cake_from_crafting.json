@@ -22,9 +22,8 @@
             "item": "minecraft:honey_bottle"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:honey_cake"
         }
-    ]
 }

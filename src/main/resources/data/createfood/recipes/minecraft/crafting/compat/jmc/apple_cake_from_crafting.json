@@ -22,9 +22,8 @@
             "tag": "c:apple"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:apple_cake"
         }
-    ]
 }

@@ -22,9 +22,8 @@
             "item": "minecraft:crimson_fungus"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:crimson_fungus_cake"
         }
-    ]
 }

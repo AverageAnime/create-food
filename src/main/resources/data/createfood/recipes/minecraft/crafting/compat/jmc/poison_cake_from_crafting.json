@@ -16,9 +16,8 @@
             "item": "minecraft:spider_eye"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:poison_cake"
         }
-    ]
 }

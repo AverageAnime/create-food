@@ -22,9 +22,8 @@
             "tag": "c:seeds"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:seed_cake"
         }
-    ]
 }

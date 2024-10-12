@@ -22,9 +22,8 @@
             "item": "minecraft:golden_apple"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:golden_apple_cake"
         }
-    ]
 }

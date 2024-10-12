@@ -22,9 +22,8 @@
             "item": "minecraft:carrot"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:carrot_cake"
         }
-    ]
 }

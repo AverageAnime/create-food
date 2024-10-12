@@ -22,9 +22,8 @@
             "tag": "c:melon"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:melon_cake"
         }
-    ]
 }

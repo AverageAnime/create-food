@@ -16,9 +16,8 @@
             "item": "minecraft:tnt"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:tnt_cake"
         }
-    ]
 }

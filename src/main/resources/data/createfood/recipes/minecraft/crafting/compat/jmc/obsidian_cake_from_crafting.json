@@ -22,9 +22,8 @@
             "item": "minecraft:obsidian"
         }
     ],
-    "result": [
+    "result":
         {
             "item": "jmc:obsidian_cake"
         }
-    ]
 }
