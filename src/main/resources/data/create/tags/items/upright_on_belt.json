@@ -1160,6 +1160,26 @@
     {
       "id": "createfood:white_chocolate_toast",
       "required": false
+    },
+    {
+      "id": "createfood:apple_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_jam_bottle",
+      "required": false
     }
   ]
 }
